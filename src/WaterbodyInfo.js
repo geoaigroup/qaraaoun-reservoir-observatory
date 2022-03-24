@@ -43,7 +43,7 @@ export default class WaterbodyInfo extends React.Component {
         />
         {measurementInfo && [
           <Info key={1} value={measurementInfo.date.format('YYYY-MM-DD')} label="Observation Date" />,
-          <Info key={2} value={thousands_separators(`${measurementInfo.volume}`)}  label="Estimated Water Volume" />,
+          <Info key={2} value={thousands_separators(`${measurementInfo.volume}`)}  label="Water Volume" />,
         ]}
 
       </div>
