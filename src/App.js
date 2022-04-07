@@ -207,10 +207,20 @@ class App extends React.Component {
           />
         </div>
 
-        <div id="footer">
-          Powered by&nbsp;
-          <a href="https://www.sentinel-hub.com/">Sentinel Hub</a>
+        <div id="footer2">
+	    This project was kindly supported by <a href="https://eo4society.esa.int/network-of-resources/nor-sponsorship/" target="_blank">NoR Sponsorship.</a>
         </div>
+
+          <div id="footer2">
+	    We relied on both water-observatory <a href="https://github.com/sentinel-hub/water-observatory-frontend" target="_blank">front-end</a> and <a href="https://github.com/sentinel-hub/water-observatory-backend" target="_blank">back-end</a> while building this project.
+        </div>
+
+
+        <div id="footer2">
+            © 2022, <a href="https://geogroup.ai" target="_blank">Geospatial Earth Observation group</a>, National Center for Remote Sensing, CNRS, Lebanon
+        </div>
+
+
       </div>
     );
   }

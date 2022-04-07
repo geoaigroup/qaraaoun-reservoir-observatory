@@ -4,7 +4,6 @@ import Logo from './imgs/logo.png';
 
 const Header = props => (
   <div id="header">
-    <img src={Logo} alt="Bluedot water observatory" />
     {props.loading && props.waterbody && <Loading />}
   </div>
 );

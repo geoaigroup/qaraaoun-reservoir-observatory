@@ -184,7 +184,7 @@ export default class Chart extends React.PureComponent {
           axes={[
             {
               orient: 'left',
-              label: 'Estimated Water Volume [%]',
+              label: 'Water Volume [%]',
             },
             {
               orient: 'bottom',
