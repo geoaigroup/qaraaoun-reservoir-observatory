@@ -208,9 +208,8 @@ class App extends React.Component {
         </div>
 
         <div id="footer2">
-	        <p>This project was kindly supported by <a href="https://eo4society.esa.int/network-of-resources/nor-sponsorship/" target="_blank">NoR Sponsorship.</a><br/> <br/>
-          
-          We relied on both water-observatory <a href="https://github.com/sentinel-hub/water-observatory-frontend" target="_blank">front-end</a> and <a href="https://github.com/sentinel-hub/water-observatory-backend" target="_blank">back-end</a> while building this project.<br/><br/>
+	        <p>This project was kindly supported by <a href="https://eo4society.esa.int/network-of-resources/nor-sponsorship/" target="_blank">NoR Sponsorship.</a><br/>
+	    We relied on both water-observatory <a href="https://github.com/sentinel-hub/water-observatory-frontend" target="_blank">front-end</a> and <a href="https://github.com/sentinel-hub/water-observatory-backend" target="_blank">back-end</a> while building this project.<br/>
           
           © 2022, <a href="https://geogroup.ai" target="_blank">Geospatial Earth Observation group</a>, National Center for Remote Sensing, CNRS, Lebanon</p>
           
