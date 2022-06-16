@@ -121,7 +121,7 @@ class App extends React.Component {
       loading: true,
     });
     return axios
-      .get("http://geo.cnrs.edu.lb:80/38784/38784.json")
+      .get("http://geo.cnrs.edu.lb/static/38784/38784.json")
       .then(res => {
         const validMeasurements = this.onlyValidMeasurements(
           res.data.measurements,
@@ -156,7 +156,7 @@ class App extends React.Component {
 
   fetchMeasurementOutline = (waterbodyId, date) => {
     axios
-      .get(`http://geo.cnrs.edu.lb:80/38784/${date.format('YYYY-MM-DD',)}.json`,)
+      .get(`http://geo.cnrs.edu.lb/static/38784/${date.format('YYYY-MM-DD',)}.json`,)
       .then(res => {
         this.setState({
           measurementOutline: res.data,
