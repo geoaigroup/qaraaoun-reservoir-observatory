@@ -1,9 +1,5 @@
 # qaraaoun-reservoir-frontend
 
-CONFIG
----
-
-Edit `.env` file to setup the backend endpoint (optional - if you want to point it to localhost or elsewhere). Note that `.env` is in `.gitignore` so your local changes won't be added to git repository unless you explicitly add them.
 
 RUN
 ---
