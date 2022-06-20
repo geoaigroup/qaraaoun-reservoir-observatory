@@ -16,7 +16,7 @@
     "react-mapbox-gl": "^4.0.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.5",
+    "react-scripts": "^5.0.1",
     "react-sizeme": "^2.5.2",
     "semiotic": "^1.16.0"
   },
@@ -40,7 +40,7 @@
   "devDependencies": {
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-prettier": "^3.0.0",
-    "node-sass": "^4.9.4",
-    "prettier": "^1.14.3"
+    "prettier": "^1.14.3",
+    "sass": "^1.52.3"
   }
 }
