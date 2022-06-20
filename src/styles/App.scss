@@ -1,4 +1,4 @@
-@import 'vars';
+@use './vars' as v;
 
 html,
 body,
@@ -50,12 +50,12 @@ div.loading {
           top: 14px;
           right: 8px;
 
-          @media (min-width: $medium) {
+          @media (min-width: v.$medium) {
             top: 24px;
             right: 14px;
           }
 
-          @media (min-width: $large) {
+          @media (min-width: v.$large) {
             top: 40px;
             right: 14px;
           }
@@ -77,7 +77,7 @@ div.loading {
       color: #fff;
       padding: 14px 0;
 
-      background-color: rgba($dark-blue, 0.7);
+      background-color: rgba(v.$dark-blue, 0.7);
       width: 100%;
 
       a {
@@ -105,7 +105,7 @@ div.loading {
       text-align:center;
 
 
-      background-color: rgba($dark-blue, 0.7);
+      background-color: rgba(v.$dark-blue, 0.7);
       width: 100%;
 
       a {
@@ -122,7 +122,7 @@ div.loading {
 }
 
 .panel {
-  background-color: rgba($dark-blue, 0.7);
+  background-color: rgba(v.$dark-blue, 0.7);
   backdrop-filter: blur(22px);
   -webkit-backdrop-filter: blur(22px);
   margin: 0px;
@@ -137,7 +137,7 @@ div.loading {
   flex-flow: wrap;
 
   // #content query
-  @media (min-width: $large) {
+  @media (min-width: v.$large) {
     padding: 15px 15px 0 15px;
   }
 
@@ -164,7 +164,7 @@ div.loading {
       order: 3;
     }
 
-    @media (min-width: $medium) {
+    @media (min-width: v.$medium) {
       &.info {
         width: 50%;
         order: 1;
@@ -186,7 +186,7 @@ div.loading {
     }
 
     // .panel query
-    @media (min-width: $large) {
+    @media (min-width: v.$large) {
       margin: 5px 5px 10px 5px;
 
       &.info {
@@ -218,7 +218,7 @@ div.loading {
           width: 50px;
           height: 45px;
           bottom: 10px;
-          background-color: $gray;
+          background-color: v.$gray;
 
           display: flex;
           justify-content: center;

@@ -1,7 +1,7 @@
-@import 'vars';
+@use './vars';
 
 .search-box {
-  background-color: $light-blue;
+  background-color: v.$light-blue;
   padding: 15px;
 
   input {
@@ -10,8 +10,8 @@
     flex-direction: column;
     box-sizing: border-box;
     font-size: 14px;
-    background-color: rgba($dark-blue, 0.7);
-    border: 1px dotted $yellow;
+    background-color: rgba(v.$dark-blue, 0.7);
+    border: 1px dotted v.$yellow;
     border-radius: 0;
     box-shadow: none;
     color: #fff;

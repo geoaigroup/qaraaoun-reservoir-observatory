@@ -1,4 +1,4 @@
-@import 'vars';
+@use './vars' as v;
 
 #chart-container {
   position: relative;
@@ -29,7 +29,7 @@
     line {
       stroke-width: 2.5;
       stroke-linecap: butt;
-      stroke: $white-blue;
+      stroke: v.$white-blue;
       shape-rendering: crispEdges;
     }
   }
@@ -42,7 +42,7 @@
 
   &.background-graphics {
     path.tick-line {
-      stroke: rgba($white-blue, 0.2);
+      stroke: rgba(v.$white-blue, 0.2);
     }
   }
 }
@@ -56,12 +56,12 @@
   order: unset !important;
   padding: 0;
 
-  @media (min-width: $large) {
+  @media (min-width: v.$large) {
     margin: 0 20px 20px 20px;
     padding-bottom: 0px;
   }
 
-  @media (min-width: $small) {
+  @media (min-width: v.$small) {
     order: 3;
   }
 }
@@ -81,9 +81,9 @@
     position: absolute;
     bottom: 13px;
     left: -45px;
-    color: $gray;
+    color: v.$gray;
     padding: 4px 8px;
-    background-color: $yellow;
+    background-color: v.$yellow;
     border-radius: 4px;
   }
   &.far-right > div {
@@ -96,7 +96,7 @@
   g,
   path {
     stroke-width: 2px;
-    stroke: $white-blue !important;
+    stroke: v.$white-blue !important;
   }
 
   .axis-baseline {
@@ -109,14 +109,14 @@
   }
 }
 
-@media (max-width: $xxlarge) {
+@media (max-width: v.$xxlarge) {
   .axis-label {
     font-size: 10px !important;
   }
 }
 
 .axis.x.bottom {
-  @media (max-width: $medium) {
+  @media (max-width: v.$medium) {
     .axis-label {
       display: none;
     }
