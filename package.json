@@ -1,7 +1,7 @@
 {
   "name": "qaraaoun-reservoir",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "/qaraaoun",
   "private": true,
   "dependencies": {
     "@turf/bbox": "^6.0.1",

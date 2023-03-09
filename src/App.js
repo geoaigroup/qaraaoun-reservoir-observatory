@@ -121,7 +121,7 @@ class App extends React.Component {
       loading: true,
     });
     return axios
-      .get("http://geoai.cnrs.edu.lb/static/38784/38784.json")
+      .get(`${process.env.PUBLIC_URL}/static/38784/38784.json`)
       .then(res => {
         const validMeasurements = this.onlyValidMeasurements(
           res.data.measurements,
@@ -156,7 +156,7 @@ class App extends React.Component {
 
   fetchMeasurementOutline = (waterbodyId, date) => {
     axios
-      .get(`http://geoai.cnrs.edu.lb/static/38784/${date.format('YYYY-MM-DD',)}.json`,)
+      .get(`${process.env.PUBLIC_URL}/static/38784/${date.format('YYYY-MM-DD',)}.json`,)
       .then(res => {
         this.setState({
           measurementOutline: res.data,
@@ -211,7 +211,7 @@ class App extends React.Component {
 	        <p>This project was kindly supported by <a href="https://eo4society.esa.int/network-of-resources/nor-sponsorship/" target="_blank">NoR Sponsorship.</a><br/>
 	    We relied on both water-observatory <a href="https://github.com/sentinel-hub/water-observatory-frontend" target="_blank">front-end</a> and <a href="https://github.com/sentinel-hub/water-observatory-backend" target="_blank">back-end</a> while building this project.<br/>
           
-          © 2022, <a href="https://geogroup.ai" target="_blank">Geospatial Earth Observation group</a>, National Center for Remote Sensing, CNRS, Lebanon</p>
+          © 2023, <a href="https://geogroup.ai" target="_blank">GEOspatial Artificial Intelligence (GEOAI) group</a>, National Center for Remote Sensing, CNRS, Lebanon</p>
           
           
         </div>
