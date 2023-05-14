@@ -30,6 +30,7 @@ export default class Chart extends React.PureComponent {
 
   render() {
     const { waterbody } = this.props;
+    const { onDateSelect } = this.props;
     if (!waterbody) {
       return (
         <div className="chart-loader">
@@ -40,10 +41,10 @@ export default class Chart extends React.PureComponent {
     const { zoom } = this.state;
     const validMeasurements = waterbody?.measurements ?? [];
     console.log(validMeasurements);
-    const data = validMeasurements.map((measurement) => [
-      measurement.date.valueOf(),
-     measurement.level * 100,
-    ]);
+    const data = validMeasurements.map((measurement) => ({
+      x: measurement.date.valueOf(),
+      y: measurement.level * 100,
+    }));
     
 
     const options = {
@@ -51,9 +52,12 @@ export default class Chart extends React.PureComponent {
         zoomType: 'x',
         backgroundColor: '#356b90',
       },
-      title: {
+      /*title: {
         text: "TITLE",
-      },
+        style: {
+          color: "white", 
+        },
+      },*/
       global: {
         timezoneOffset: 0
       },
@@ -84,6 +88,7 @@ export default class Chart extends React.PureComponent {
       maskFill: 'rgba(230, 242, 250, 0.3)'
     },
       yAxis: {
+opposite: false,
         title: {
           text: 'Water level %',
           style: {
@@ -112,8 +117,11 @@ export default class Chart extends React.PureComponent {
           color: '#3f484e',
           point: {
             events: {
-              click: () => {
-                console.log('Clicked on point:', this.x, this.y);
+              click: (event) => {
+                const date = moment.utc(event.point.series.options.data[event.point.index].x);
+                
+                //console.log(this.props.waterbody.properties.id);     
+      onDateSelect(this.props.waterbody.properties.id, date);
               },
             },
           },
@@ -123,11 +131,10 @@ export default class Chart extends React.PureComponent {
         labelStyle: {
           color: 'white'
         },
+        inputStyle: {
+          color: '#9fa0a1'
+        },
         buttons: [{
-          type: 'week',
-          count: 1,
-          text: '1w',
-        }, {
           type: 'month',
           count: 1,
           text: '1m',
@@ -159,6 +166,14 @@ export default class Chart extends React.PureComponent {
           },
         },
       },
+      credits: {
+        enabled: true,
+        text: 'Highcharts.com',
+        href: 'https://www.highcharts.com/?credits',
+        style: {
+            color: '#ffffff',
+        }
+    },
     };
 
     return (
@@ -168,5 +183,3 @@ export default class Chart extends React.PureComponent {
     );
   }
 }
-
-

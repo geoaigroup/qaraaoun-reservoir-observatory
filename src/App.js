@@ -203,6 +203,7 @@ class App extends React.Component {
         <div className="panel chart">
           <Chart
             waterbody={waterbody}
+            onDateSelect = {this.setMeasurementDate}
           />
         </div>
 
