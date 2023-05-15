@@ -158,7 +158,7 @@ class App extends React.Component {
 
   fetchMeasurementOutline = (waterbodyId, date) => {
     axios
-      .get(`${process.env.PUBLIC_URL}/static/38784/${date.format('YYYY-MM-DD',)}.json`,)
+      .get(`${process.env.PUBLIC_URL}/static/38784/maps/${date.format('YYYY-MM-DD',)}.json`,)
       .then(res => {
         this.setState({
           measurementOutline: res.data,
