@@ -118,10 +118,14 @@ opposite: false,
           point: {
             events: {
               click: (event) => {
-                const date = moment.utc(event.point.series.options.data[event.point.index].x);
-                
+                //const date = moment.utc(event.point.series.options.data[event.point.index].x);
+                const waterbody = this.props.waterbody;
                 //console.log(this.props.waterbody.properties.id);     
-      onDateSelect(this.props.waterbody.properties.id, date);
+                const { x, index } = event.point;
+                const measurement = waterbody.measurements[index];
+                const date = moment.utc(x);
+                onDateSelect(waterbody.properties.id, date);
+                //console.log(measurement.sensor_type);
               },
             },
           },
