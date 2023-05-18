@@ -9,7 +9,7 @@
     "dotenv": "^6.1.0",
     "highcharts": "^11.0.1",
     "highcharts-react-official": "^3.2.0",
-    "highstock-release": "github:highcharts/highstock-release",
+    "highstock-release": "https://github.com/highcharts/highstock-release",
     "lodash": "^4.17.11",
     "mapbox-gl": "^1.13.3",
     "moment": "^2.22.2",
