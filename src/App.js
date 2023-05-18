@@ -111,24 +111,26 @@ class App extends React.Component {
 
   onlyValidMeasurements(measurements, maxLevelTotal) {
     const validMeasurements = measurements.filter(
-      m => m.cc <= 0.02, // && m.level <= maxLevelTotal && m.level <= m.max_level && m.level >= m.min_level,
+      //taking values from measurments where cc <= 0.02 and add them to validMeasurments
+      m => m.cc <= 0.02, // && m.level <= maxLevelTotal && m.level <= m.max_level && m.level >= m.min_level, 
     );
     return validMeasurements;
   }
 
+  //getting data from JSON file
   fetchWaterbody = waterbodyId => {
     this.setState({
       loading: true,
     });
     return axios
-      .get(`${process.env.PUBLIC_URL}/static/38784/38784.json`)
+      .get(`${process.env.PUBLIC_URL}/static/38784/All.json`)
       .then(res => {
         const validMeasurements = this.onlyValidMeasurements(
           res.data.measurements,
           res.data.max_level_total,
         ).map(m => ({
           ...m,
-          date: moment(m.date), // internal representation of dates is always moment.js object
+          date: moment.utc(m.date), // internal representation of dates is always moment.js object
         }));
         const waterbody = {
           ...res.data,
@@ -156,7 +158,7 @@ class App extends React.Component {
 
   fetchMeasurementOutline = (waterbodyId, date) => {
     axios
-      .get(`${process.env.PUBLIC_URL}/static/38784/${date.format('YYYY-MM-DD',)}.json`,)
+      .get(`${process.env.PUBLIC_URL}/static/38784/maps/${date.format('YYYY-MM-DD',)}.json`,)
       .then(res => {
         this.setState({
           measurementOutline: res.data,
@@ -201,9 +203,7 @@ class App extends React.Component {
         <div className="panel chart">
           <Chart
             waterbody={waterbody}
-            contentWidth={width}
-            onDateSelect={this.setMeasurementDate}
-            selectedMeasurementDate={measurementDate}
+            onDateSelect = {this.setMeasurementDate}
           />
         </div>
 

@@ -1,0 +1,6885 @@
+{
+  "max_level_total": 0.0,
+  "measurements": [
+    {
+      "cc": "0.0",
+      "date": "1972-10-04",
+      "level": 0.5098410610530578,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1972-10-22",
+      "level": 0.4441128613121233,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1972-12-14",
+      "level": 0.24422069562958476,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1973-1-2",
+      "level": 0.20297753211348,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1973-6-30",
+      "level": 0.5136460464766419,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1975-06-29",
+      "level": 0.8494562493954861,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1975-08-04",
+      "level": 0.6205274573596179,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1975-08-23",
+      "level": 0.6564544355674766,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1975-09-09",
+      "level": 0.5968340020266432,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1975-09-10",
+      "level": 0.5848613410365128,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1975-10-24",
+      "level": 0.41857538231055574,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1976-01-22",
+      "level": 0.32477304661899165,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1976-10-18",
+      "level": 0.5025639139899298,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1977-03-20",
+      "level": 0.921939872429838,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1977-04-07",
+      "level": 0.889952808206638,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1977-05-31",
+      "level": 0.9060093069801333,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1977-06-18",
+      "level": 0.9041203071243958,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1977-11-09",
+      "level": 0.38811750844681114,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1978-07-02",
+      "level": 0.8799231184966105,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1978-07-20",
+      "level": 0.7947382202420421,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1978-09-11",
+      "level": 0.6405058796429145,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1978-09-12",
+      "level": 0.6286411615017178,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1978-09-29",
+      "level": 0.511046422865644,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1978-11-13",
+      "level": 0.4438519994273075,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },
+    {
+      "cc": "0.0",
+      "date": "1978-11-23",
+      "level": 0.3955925507328782,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-1"
+    },{
+      "cc": "0.0",
+      "date": "1979-02-12",
+      "level": 0.4133761350886945,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1979-03-02",
+      "level": 0.4444097041465884,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1979-04-16",
+      "level": 0.5363590209321173,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1979-05-21",
+      "level": 0.5159218415408893,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1979-07-14",
+      "level": 0.42436831520136387,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1979-07-15",
+      "level": 0.41692025862747717,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1979-08-01",
+      "level": 0.37138636686770715,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1979-08-02",
+      "level": 0.3757670474854768,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1979-08-20",
+      "level": 0.34280849762222976,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1979-09-06",
+      "level": 0.2869480733180149,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1979-09-07",
+      "level": 0.2835478735777437,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1979-09-25",
+      "level": 0.24018183403334872,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1979-10-12",
+      "level": 0.2115859743130359,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1979-10-13",
+      "level": 0.20164623697708786,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1979-10-30",
+      "level": 0.1824593955856611,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1980-07-26",
+      "level": 0.8018354625570434,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1980-08-13",
+      "level": 0.7206624401864306,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1980-08-31",
+      "level": 0.6592789401136095,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1980-10-06",
+      "level": 0.498749933328849,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "1980-11-12",
+      "level": 0.36214825804961503,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "LandSat-2"
+  },{
+    "cc": "0.0",
+    "date": "1981-02-10",
+    "level": 0.708617817297011,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1981-05-11",
+    "level": 0.870451133505941,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1981-05-28",
+    "level": 0.8931551127239793,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1981-05-29",
+    "level": 0.9135383206906941,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1981-06-15",
+    "level": 0.8837550896324744,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1981-07-03",
+    "level": 0.8038503957365092,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1981-07-04",
+    "level": 0.8649370529747245,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1981-07-21",
+    "level": 0.776918654936638,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1981-08-08",
+    "level": 0.6990288942199375,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1981-08-09",
+    "level": 0.7004951179175242,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1981-08-26",
+    "level": 0.643699188922797,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1981-08-27",
+    "level": 0.6396243463769969,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1981-09-13",
+    "level": 0.5705499183202356,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1982-01-17",
+    "level": 0.18085824332699524,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1982-01-18",
+    "level": 0.16598012065404444,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1983-04-21",
+    "level": 0.9290101290325432,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1983-06-24",
+    "level": 0.9170284728049662,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1983-07-10",
+    "level": 0.8772155520367397,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1983-09-12",
+    "level": 0.7098951410089306,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1983-09-28",
+    "level": 0.6820818669431186,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1984-02-19",
+    "level": 0.6289469995735519,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1984-03-22",
+    "level": 0.6843216810577496,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1984-04-07",
+    "level": 0.8426468546775104,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1984-07-20",
+    "level": 0.8772875139361171,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1984-08-05",
+    "level": 0.8309710365218236,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+    "cc": "0.0",
+    "date": "1984-08-21",
+    "level": 0.7704510792401935,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-3"
+},
+{
+  "cc": "0.0",
+  "date": "1984-09-06",
+  "level": 0.7658725033994183,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1984-09-22",
+  "level": 0.7143657740006695,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1984-10-24",
+  "level": 0.6037603348307756,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1985-06-05",
+  "level": 0.7965462629609913,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1985-06-21",
+  "level": 0.7396423911174278,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1985-07-07",
+  "level": 0.6722590676933643,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1985-07-23",
+  "level": 0.6095892486712199,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1985-08-24",
+  "level": 0.500620942709692,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1985-09-09",
+  "level": 0.464828893062913,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1985-09-25",
+  "level": 0.4320862288974699,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1985-11-12",
+  "level": 0.3525953159222296,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1985-11-28",
+  "level": 0.3405057168457398,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1986-04-05",
+  "level": 0.6770445339944895,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1986-05-07",
+  "level": 0.6776472149008401,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1986-07-26",
+  "level": 0.5614557333005578,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1986-08-11",
+  "level": 0.5273367978117138,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1986-08-27",
+  "level": 0.5049656423777985,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1986-09-12",
+  "level": 0.4693894784288141,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1986-09-28",
+  "level": 0.4336963763935099,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1986-10-30",
+  "level": 0.4163355681959207,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1988-05-12",
+  "level": 0.984258877192997,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1988-06-13",
+  "level": 0.9409558043104669,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1988-06-29",
+  "level": 0.909787306691424,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1988-07-15",
+  "level": 0.8611950342129246,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1988-07-31",
+  "level": 0.8081771049296508,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1988-09-01",
+  "level": 0.6776652053756377,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1988-09-17",
+  "level": 0.5985790780837213,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1988-11-04",
+  "level": 0.4563373889496778,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1988-12-22",
+  "level": 0.3894667940579823,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1989-02-08",
+  "level": 0.4866333485401281,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1989-04-13",
+  "level": 0.5487094818933087,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1989-05-15",
+  "level": 0.5158049034545485,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1989-05-31",
+  "level": 0.49768849531466236,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1989-07-02",
+  "level": 0.4696413450762329,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1989-07-18",
+  "level": 0.4505804370084953,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1989-08-03",
+  "level": 0.43173541463854814,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1989-08-19",
+  "level": 0.4118109637796556,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1989-09-20",
+  "level": 0.37145832876698276,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1989-10-22",
+  "level": 0.33291373647333267,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1989-11-07",
+  "level": 0.323684622892644,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1989-11-23",
+  "level": 0.31924997085045326,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1989-12-25",
+  "level": 0.3209500707205876,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1990-03-15",
+  "level": 0.4938115479917782,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1990-05-18",
+  "level": 0.5033554948817598,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1990-05-26",
+  "level": 0.4925252290424138,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1990-07-05",
+  "level": 0.4464696135129981,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1990-07-21",
+  "level": 0.4237296533453699,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1990-08-06",
+  "level": 0.40176328359482283,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1990-08-22",
+  "level": 0.37286158580264767,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1990-09-07",
+  "level": 0.34853846385117354,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1990-10-09",
+  "level": 0.29684283446692666,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1991-05-05",
+  "level": 0.7381671721824933,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1991-06-06",
+  "level": 0.7479270047702952,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1991-07-24",
+  "level": 0.6506794931513735,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1991-08-09",
+  "level": 0.6097691534193809,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1991-09-10",
+  "level": 0.5369796923131717,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1991-09-26",
+  "level": 0.5004500331989465,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1991-10-28",
+  "level": 0.4340202049402091,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1992-04-05",
+  "level": 1.004893951807147,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1992-05-23",
+  "level": 1.0070977849721428,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1992-06-08",
+  "level": 0.9908703766879529,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1992-06-24",
+  "level": 0.9888014720840933,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1992-07-10",
+  "level": 0.9624184407661595,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1992-08-27",
+  "level": 0.8057663813042784,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1992-09-12",
+  "level": 0.7464607810727679,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1992-09-28",
+  "level": 0.6828734478349411,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1992-10-14",
+  "level": 0.6170193147702994,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1993-05-26",
+  "level": 0.9680764450958376,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1993-06-11",
+  "level": 0.9321674573627511,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1993-06-27",
+  "level": 0.9045071023328798,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-4"
+},
+{
+  "cc": "0.0",
+  "date": "1993-06-27",
+  "level": 0.9045071023328798,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1994-03-26",
+  "level": 0.8521908015674411,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1994-04-11",
+  "level": 0.8434564260441876,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1994-05-29",
+  "level": 0.8718004191170702,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1994-06-14",
+  "level": 0.828686246220113,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1994-06-30",
+  "level": 0.7804357927631287,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1994-08-17",
+  "level": 0.5927501642432902,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1994-09-02",
+  "level": 0.5195918984033518,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1994-10-04",
+  "level": 0.43102479088331,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1995-03-29",
+  "level": 0.8041472385708295,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1995-06-01",
+  "level": 0.8312498888814122,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1995-06-17",
+  "level": 0.7898897872790305,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1995-07-19",
+  "level": 0.6929571089693972,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1995-08-04",
+  "level": 0.6329228945078074,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1995-08-20",
+  "level": 0.5681571851695878,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1995-09-21",
+  "level": 0.4488083752391012,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1995-10-07",
+  "level": 0.28087628806756293,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1995-10-23",
+  "level": 0.29505278222270664,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1999-04-25",
+  "level": 0.6333096897163533,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1999-05-27",
+  "level": 0.41217976851340393,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1999-08-15",
+  "level": 0.5008458236449052,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1999-08-31",
+  "level": 0.4688137832346987,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1999-10-18",
+  "level": 0.35451130149015736,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "1999-11-03",
+  "level": 0.32736367499254365,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2000-05-13",
+  "level": 0.6982463085653807,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2000-05-29",
+  "level": 0.6880367141071793,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2000-06-14",
+  "level": 0.6524875358703977,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2000-06-30",
+  "level": 0.625195985574255,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2000-07-16",
+  "level": 0.5692995803204074,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2000-10-04",
+  "level": 0.38678621331037366,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2000-11-21",
+  "level": 0.3051004624075445,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2001-01-08",
+  "level": 0.3083297526370454,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2001-02-25",
+  "level": 0.47887945389433884,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2001-06-01",
+  "level": 0.5373215113346741,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2001-07-03",
+  "level": 0.47329341146392806,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2001-07-19",
+  "level": 0.4500317275266086,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2001-08-04",
+  "level": 0.4196008393750559,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2001-08-20",
+  "level": 0.3944141746324123,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2001-09-21",
+  "level": 0.3354324029475973,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2001-12-10",
+  "level": 0.3173699662321739,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2002-02-28",
+  "level": 0.6023390873203063,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2002-03-16",
+  "level": 0.31233263328358024,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2002-06-20",
+  "level": 0.8386259835560494,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2003-10-13",
+  "level": 0.5506974293604942,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2005-07-14",
+  "level": 0.7229022543009507,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2005-07-30",
+  "level": 0.6508863836117604,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2005-08-15",
+  "level": 0.6087886725419015,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2005-10-18",
+  "level": 0.45577068899296436,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2006-08-18",
+  "level": 0.6323022231267469,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2006-09-03",
+  "level": 0.5611139142790565,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2006-09-19",
+  "level": 0.5108035514556588,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2006-11-22",
+  "level": 0.38672324664851704,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2006-12-08",
+  "level": 0.3839527135268405,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2007-01-25",
+  "level": 0.409715073463572,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2007-07-20",
+  "level": 0.7413065100379205,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2007-08-21",
+  "level": 0.6209682239924409,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2008-03-16",
+  "level": 0.6072504869451303,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2008-04-17",
+  "level": 0.6589011401423689,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2009-06-23",
+  "level": 0.8689039526716724,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2009-09-11",
+  "level": 0.6025819587303204,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2009-09-27",
+  "level": 0.553431981532641,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2009-10-13",
+  "level": 0.5200686459859829,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2010-02-02",
+  "level": 0.8816591993163366,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2010-07-12",
+  "level": 0.8065849479084236,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2010-10-16",
+  "level": 0.5058651661186101,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2010-11-01",
+  "level": 0.4725468067590574,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2010-12-03",
+  "level": 0.3475579829736893,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2011-01-20",
+  "level": 0.3491771257071422,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2011-10-03",
+  "level": 0.5447155964841195,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-5"
+},
+{
+  "cc": "0.0",
+  "date": "2013-06-18",
+  "level": 0.9084470163176014,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 22.051545328631384
+},
+{
+  "cc": "0.0",
+  "date": "2013-07-04",
+  "level": 0.8776293329575114,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 28.63957489755846
+},
+{
+  "cc": "0.0",
+  "date": "2013-07-20",
+  "level": 0.837735455052647,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 24.61589197771053
+},
+{
+  "cc": "0.0",
+  "date": "2013-08-05",
+  "level": 0.7937127631774584,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 27.244807264852913
+},
+{
+  "cc": "0.0",
+  "date": "2013-08-21",
+  "level": 0.7468026000942679,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 26.264096055941774
+},
+{
+  "cc": "0.0",
+  "date": "2013-09-06",
+  "level": 0.6899167187254758,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 24.341843504905302
+},
+{
+  "cc": "0.0",
+  "date": "2013-10-08",
+  "level": 0.5857968457268349,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 19.542020400275426
+},
+{
+  "cc": "0.0",
+  "date": "2013-10-24",
+  "level": 0.5452373202537903,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 18.94923548833978
+},
+{
+  "cc": "0.0",
+  "date": "2013-12-27",
+  "level": 0.4242153961654104,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 7.532005238508929
+},
+{
+  "cc": "0.0",
+  "date": "2014-02-13",
+  "level": 0.36738348622113987,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 10.2240412888036
+},
+{
+  "cc": "0.0",
+  "date": "2014-04-02",
+  "level": 0.44274558522606805,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 14.123730369926204
+},
+{
+  "cc": "0.0",
+  "date": "2014-04-18",
+  "level": 0.4520376654686128,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 17.71157976790935
+},
+{
+  "cc": "0.0",
+  "date": "2014-06-21",
+  "level": 0.4215887868422317,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 22.98146674018287
+},
+{
+  "cc": "0.0",
+  "date": "2014-07-07",
+  "level": 0.402096107378917,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 26.42931279657545
+},
+{
+  "cc": "0.0",
+  "date": "2014-07-23",
+  "level": 0.37326637148602215,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 26.027709658395512
+},
+{
+  "cc": "0.0",
+  "date": "2014-08-08",
+  "level": 0.345228216484997,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 26.259650353873475
+},
+{
+  "cc": "0.0",
+  "date": "2014-08-24",
+  "level": 0.3151121616427353,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 28.42779995743112
+},
+{
+  "cc": "0.0",
+  "date": "2014-09-09",
+  "level": 0.2901323873604882,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 24.36118748447699
+},
+{
+  "cc": "0.0",
+  "date": "2014-11-12",
+  "level": 0.23864364843659724,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 14.69268762846453
+},
+{
+  "cc": "0.0",
+  "date": "2014-12-30",
+  "level": 0.3375282932636758,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 9.346216626463365
+},
+{
+  "cc": "0.0",
+  "date": "2015-04-05",
+  "level": 0.7995236865430791,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 14.584443009604968
+},
+{
+  "cc": "0.0",
+  "date": "2015-04-21",
+  "level": 0.8486646685034647,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 14.801585646542332
+},
+{
+  "cc": "0.0",
+  "date": "2015-05-07",
+  "level": 0.8599626866880293,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 19.497954997774073
+},
+{
+  "cc": "0.0",
+  "date": "2015-06-08",
+  "level": 0.8558698536673593,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 22.972401373966697
+},
+{
+  "cc": "0.0",
+  "date": "2015-07-10",
+  "level": 0.7801659356408785,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 25.527633379159088
+},
+{
+  "cc": "0.0",
+  "date": "2015-07-26",
+  "level": 0.7216609115386482,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 25.954686025452123
+},
+{
+  "cc": "0.0",
+  "date": "2015-08-11",
+  "level": 0.6592609496386945,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 25.418135718715803
+},
+{
+  "cc": "0.0",
+  "date": "2015-08-20",
+  "level": 0.6444008174406379,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2015-08-27",
+  "level": 0.5924173404591903,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 25.77707648721476
+},
+{
+  "cc": "0.0",
+  "date": "2015-08-30",
+  "level": 0.8588877558178416,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2015-09-19",
+  "level": 0.49424331938738814,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2015-09-28",
+  "level": 0.4432313280460898,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 23.171250130714945
+},
+{
+  "cc": "0.0",
+  "date": "2015-09-29",
+  "level": 0.4577496412227601,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2015-10-14",
+  "level": 0.4395342854713686,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 20.831811658566235
+},
+{
+  "cc": "0.0",
+  "date": "2015-11-28",
+  "level": 0.47625284457119066,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2015-12-08",
+  "level": 0.48135314418159103,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2015-12-28",
+  "level": 0.4951608336030183,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-01-17",
+  "level": 0.5533600196333647,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-02-03",
+  "level": 0.5765947178583696,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 7.4797166623080225
+},
+{
+  "cc": "0.0",
+  "date": "2016-02-16",
+  "level": 0.6327070088101243,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-02-19",
+  "level": 0.607502353592541,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 12.95719419360793
+},
+{
+  "cc": "0.0",
+  "date": "2016-03-06",
+  "level": 0.6253399093727857,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 11.918516387284287
+},
+{
+  "cc": "0.0",
+  "date": "2016-03-07",
+  "level": 0.6749936198655517,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-03-22",
+  "level": 0.6409016700888488,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 12.523809993980384
+},
+{
+  "cc": "0.0",
+  "date": "2016-03-27",
+  "level": 0.7337415153777974,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-04-06",
+  "level": 0.7688049507945274,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-04-07",
+  "level": 0.737654443650238,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 18.33631611509968
+},
+{
+  "cc": "0.0",
+  "date": "2016-04-16",
+  "level": 0.7716294553406771,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-04-23",
+  "level": 0.7190972688773651,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 21.44051856871456
+},
+{
+  "cc": "0.0",
+  "date": "2016-04-26",
+  "level": 0.7576328659336757,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-05-16",
+  "level": 0.7380952102833147,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-05-26",
+  "level": 0.6649774230116091,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-06-05",
+  "level": 0.7011877511979006,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-06-15",
+  "level": 0.6950799849977961,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-06-25",
+  "level": 0.6754523769733556,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-07-12",
+  "level": 0.6229201905100072,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 26.921797778750065
+},
+{
+  "cc": "0.0",
+  "date": "2016-07-15",
+  "level": 0.6472343172241952,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-07-25",
+  "level": 0.6277686234730951,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-07-28",
+  "level": 0.5995595589612118,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 27.51465758947768
+},
+{
+  "cc": "0.0",
+  "date": "2016-08-04",
+  "level": 0.6115142294766686,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-08-13",
+  "level": 0.5697583374282242,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 27.580243212373865
+},
+{
+  "cc": "0.0",
+  "date": "2016-08-14",
+  "level": 0.5925702594952058,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-08-24",
+  "level": 0.5756232322183894,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-08-29",
+  "level": 0.5486195295192287,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 25.002001433693415
+},
+{
+  "cc": "0.0",
+  "date": "2016-09-13",
+  "level": 0.540083049219045,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-09-14",
+  "level": 0.5227402314961825,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 23.87051275823113
+},
+{
+  "cc": "0.0",
+  "date": "2016-09-30",
+  "level": 0.49631222399121766,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 22.685959526271645
+},
+{
+  "cc": "0.0",
+  "date": "2016-10-03",
+  "level": 0.5066837327227963,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-10-13",
+  "level": 0.4903483815897001,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-10-16",
+  "level": 0.46363252648763703,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 20.80460459709511
+},
+{
+  "cc": "0.0",
+  "date": "2016-10-23",
+  "level": 0.4686788546735975,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-11-22",
+  "level": 0.4160926967858959,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2016-12-12",
+  "level": 0.35701197748958446,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-01-01",
+  "level": 0.47942816337626276,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-01-11",
+  "level": 0.5037063091407258,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-02-05",
+  "level": 0.5550421290286065,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 6.723612699277833
+},
+{
+  "cc": "0.0",
+  "date": "2017-02-10",
+  "level": 0.5941804069912638,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-02-21",
+  "level": 0.5886303455103856,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 8.05992100019346
+},
+{
+  "cc": "0.0",
+  "date": "2017-03-25",
+  "level": 0.7023661272982803,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 12.562484675337366
+},
+{
+  "cc": "0.0",
+  "date": "2017-04-21",
+  "level": 0.7854056614311523,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-04-26",
+  "level": 0.7236218732936505,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 16.462073162472848
+},
+{
+  "cc": "0.0",
+  "date": "2017-05-11",
+  "level": 0.7777282263033702,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-05-12",
+  "level": 0.7416753147716638,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 21.466282021543556
+},
+{
+  "cc": "0.0",
+  "date": "2017-05-28",
+  "level": 0.7422420147283717,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 21.198159337489027
+},
+{
+  "cc": "0.0",
+  "date": "2017-05-31",
+  "level": 0.7733565409230404,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-06-10",
+  "level": 0.7578667421062908,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-06-13",
+  "level": 0.7333457249317569,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 24.361844846802793
+},
+{
+  "cc": "0.0",
+  "date": "2017-06-29",
+  "level": 0.7092564791528816,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 26.971728802967338
+},
+{
+  "cc": "0.0",
+  "date": "2017-06-30",
+  "level": 0.7359813294923885,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-07-05",
+  "level": 0.7298285871052522,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-07-10",
+  "level": 0.7170193690361405,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-07-15",
+  "level": 0.685931828553688,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 28.33592737381525
+},
+{
+  "cc": "0.0",
+  "date": "2017-07-20",
+  "level": 0.7061891031967974,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-07-25",
+  "level": 0.6934428517895198,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-07-30",
+  "level": 0.6815961241230741,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-07-31",
+  "level": 0.6545204595246227,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 28.567413206450066
+},
+{
+  "cc": "0.0",
+  "date": "2017-08-04",
+  "level": 0.6681752299102101,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-08-09",
+  "level": 0.6613748304297112,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-08-14",
+  "level": 0.6500048503458828,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-08-16",
+  "level": 0.6275257520629438,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 25.57538345763137
+},
+{
+  "cc": "0.0",
+  "date": "2017-08-19",
+  "level": 0.640047122535117,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-08-24",
+  "level": 0.6259695759914642,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-08-29",
+  "level": 0.6100929819661896,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-09-01",
+  "level": 0.5870921599135913,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 25.64016210526069
+},
+{
+  "cc": "0.0",
+  "date": "2017-09-08",
+  "level": 0.5871101503885152,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-09-17",
+  "level": 0.5420080300242873,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 23.643395012751007
+},
+{
+  "cc": "0.0",
+  "date": "2017-09-18",
+  "level": 0.551201162655436,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-09-23",
+  "level": 0.5311687689476217,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-09-28",
+  "level": 0.5107225943190276,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-10-03",
+  "level": 0.47642375408193854,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 22.767430411292978
+},
+{
+  "cc": "0.0",
+  "date": "2017-10-08",
+  "level": 0.4767205969164109,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-10-13",
+  "level": 0.4559595889785464,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-10-18",
+  "level": 0.4454891326355326,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-10-19",
+  "level": 0.429225743401708,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 19.6801459028626
+},
+{
+  "cc": "0.0",
+  "date": "2017-10-23",
+  "level": 0.4378791617882922,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-11-07",
+  "level": 0.4181526061523531,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-11-17",
+  "level": 0.40407505960868234,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-11-27",
+  "level": 0.39474699841651223,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-12-02",
+  "level": 0.38203672795888566,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2017-12-12",
+  "level": 0.37393201905420886,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-02-24",
+  "level": 0.5188003175114485,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 10.617337963358578
+},
+{
+  "cc": "0.0",
+  "date": "2018-03-02",
+  "level": 0.5590180239630587,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-03-07",
+  "level": 0.5684990041911826,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-03-12",
+  "level": 0.5798150128505728,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-03-17",
+  "level": 0.5845465077272057,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-03-22",
+  "level": 0.5952058640557959,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-03-27",
+  "level": 0.5985655852277164,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-04-06",
+  "level": 0.5965281639547861,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-04-13",
+  "level": 0.5793202747930196,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 17.062421192884607
+},
+{
+  "cc": "0.0",
+  "date": "2018-04-16",
+  "level": 0.5980933352637968,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-05-01",
+  "level": 0.5828059292887817,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-05-11",
+  "level": 0.6065398631899984,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-05-15",
+  "level": 0.5751105036860296,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 20.099257777363807
+},
+{
+  "cc": "0.0",
+  "date": "2018-05-16",
+  "level": 0.5961593592210547,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-05-21",
+  "level": 0.5980123781271223,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-05-26",
+  "level": 0.610767624771796,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-06-05",
+  "level": 0.597985392414899,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-06-10",
+  "level": 0.601349611205527,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-06-15",
+  "level": 0.5996135303857655,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-06-16",
+  "level": 0.5754343322327268,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 25.414068628082426
+},
+{
+  "cc": "0.0",
+  "date": "2018-06-20",
+  "level": 0.5899256596972475,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-06-25",
+  "level": 0.5911759976969673,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-06-30",
+  "level": 0.5838268887345757,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-07-02",
+  "level": 0.5551950480645325,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 28.045486456551114
+},
+{
+  "cc": "0.0",
+  "date": "2018-07-05",
+  "level": 0.5725468610248089,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-07-10",
+  "level": 0.5659173710550668,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-07-15",
+  "level": 0.5551140909279636,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-07-18",
+  "level": 0.5283982358258638,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 26.319667090957314
+},
+{
+  "cc": "0.0",
+  "date": "2018-07-20",
+  "level": 0.5466495725269477,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-07-25",
+  "level": 0.5448685155201457,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-07-30",
+  "level": 0.53330963545075,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-08-04",
+  "level": 0.528740054847432,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-08-09",
+  "level": 0.51428470833263,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-08-14",
+  "level": 0.5084647897296074,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-08-19",
+  "level": 0.48442052013772685,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 25.017560172382293
+},
+{
+  "cc": "0.0",
+  "date": "2018-08-24",
+  "level": 0.48787469130247374,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-08-29",
+  "level": 0.4809573537356354,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-09-03",
+  "level": 0.4723579067735048,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-09-04",
+  "level": 0.4550420747629131,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 26.400847231205972
+},
+{
+  "cc": "0.0",
+  "date": "2018-09-08",
+  "level": 0.46315577890502696,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-09-18",
+  "level": 0.4388146664787349,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-09-20",
+  "level": 0.41714513956264637,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 23.697016365664922
+},
+{
+  "cc": "0.0",
+  "date": "2018-09-23",
+  "level": 0.4185483965983155,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-09-28",
+  "level": 0.405028554773943,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-10-03",
+  "level": 0.3974545648763489,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-10-06",
+  "level": 0.35309904921707386,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "LandSat-8",
+  "Average_Temperature": 17.18712246440825
+},
+{
+  "cc": "0.0",
+  "date": "2018-10-13",
+  "level": 0.3671496100485172,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-10-23",
+  "level": 0.34820564006706933,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-10-28",
+  "level": 0.33530646962388083,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-11-02",
+  "level": 0.327219751194019,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-11-07",
+  "level": 0.3223803134684506,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-11-12",
+  "level": 0.3207341850227805,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-11-22",
+  "level": 0.21119018386706934,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-12-17",
+  "level": 0.2911398539501833,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+{
+  "cc": "0.0",
+  "date": "2018-12-22",
+  "level": 0.30257280069584014,
+  "volume": "0.0",
+  "max_level": "0.0",
+  "min_level": "0.0",
+  "sensor_type": "Sentinel-2"
+},
+    {
+      "cc": "0.0",
+      "date": "2019-01-21",
+      "level": 0.6642263206880783,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2",
+      "Average_Temperature": 7.83
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-01-26",
+      "level": 0.6945762517029394,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2",
+      "Average_Temperature": 7.84
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-02-05",
+      "level": 0.7475671952740163,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-02-25",
+      "level": 0.9373127331602189,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-03-22",
+      "level": 1.0088968324537895,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-04-11",
+      "level": 1.0089687943530599,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-05-01",
+      "level": 1.0263925692125202,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-05-11",
+      "level": 1.003499690008926,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-05-16",
+      "level": 1.009868318093861,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2019-05-18",
+    "level": 0.9392467092029161,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 20.70
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-05-21",
+      "level": 1.0120181798343786,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-05-26",
+      "level": 1.0194662364082625,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-05-31",
+      "level": 1.009688413345696,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2019-06-03",
+    "level": 0.9828376296825148,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 24.82
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-06-10",
+      "level": 1.009103722914163,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-06-15",
+      "level": 0.9958087620250089,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-06-25",
+      "level": 0.9802380060716027,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-06-30",
+      "level": 0.980876667927578,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-07-05",
+      "level": 0.9763070873242549,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2",
+      "Average_Temperature": 26.03
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-07-15",
+      "level": 0.9569403411846448,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-07-20",
+      "level": 0.941288628094587,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2019-07-21",
+    "level": 0.9246834198392341,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 24.61
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-07-25",
+      "level": 0.9294419004281467,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-07-30",
+      "level": 0.9224526009620663,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-08-04",
+      "level": 0.9191333583584675,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2019-08-06",
+    "level": 0.8855901180636682,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 25.34
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-08-09",
+      "level": 0.8992628789239998,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-08-14",
+      "level": 0.8965553124641437,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-08-19",
+      "level": 0.8722142000378591,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2019-08-22",
+    "level": 0.842026183296307,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 26.76
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-08-24",
+      "level": 0.8596748390909977,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-08-29",
+      "level": 0.848682658978312,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-09-03",
+      "level": 0.8275168653570725,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-09-08",
+      "level": 0.8187644993590056,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-09-13",
+      "level": 0.8008279959673064,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-09-18",
+      "level": 0.7906184015091342,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-09-23",
+      "level": 0.7744269741745792,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2",
+      "Average_Temperature": 24.78
+  },
+  {
+    "cc": "0.0",
+    "date": "2019-09-28",
+    "level": 0.76548570819094,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "Sentinel-2"
+},
+  {
+      "cc": "0.0",
+      "date": "2019-10-08",
+      "level": 0.7424938813758478,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2019-10-09",
+    "level": 0.7064499650815695,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 22.25
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-10-13",
+      "level": 0.7281914538969918,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-10-18",
+      "level": 0.7180268356258562,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-11-07",
+      "level": 0.6721331343697735,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2019-11-10",
+    "level": 0.6422689461747981,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 17.15
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-11-12",
+      "level": 0.6566703212652927,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-11-17",
+      "level": 0.652010788287888,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-12-07",
+      "level": 0.6071155583841046,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-12-17",
+      "level": 0.5927141832937516,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2019-12-22",
+      "level": 0.5702530754857603,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+    {
+      "cc": "0.0",
+      "date": "2020-01-11",
+      "level": 0.6289200138613175,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-01-26",
+      "level": 0.7404609577216176,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-02-05",
+      "level": 0.7789965547779023,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-03-11",
+      "level": 0.9709998972534977,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-03-16",
+      "level": 0.9941716288167036,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2020-04-18",
+    "level": 0.9894311387026536,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 15.47
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-04-30",
+      "level": 1.0052357708286914,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-05-10",
+      "level": 0.9958717286868641,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-05-15",
+      "level": 0.9886935292351985,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-05-20",
+      "level": 0.9774135015254545,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2",
+      "Average_Temperature": 24.10
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-06-09",
+      "level": 0.9498880750567213,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-06-14",
+      "level": 0.9420532232742597,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-06-24",
+      "level": 0.923756910386228,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2020-06-21",
+    "level": 0.9086359163032014,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 21.35
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-06-29",
+      "level": 0.91889048694846,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-07-04",
+      "level": 0.9019074787219769,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-07-09",
+      "level": 0.8814343183811502,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-07-14",
+      "level": 0.8580017249330839,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-07-19",
+      "level": 0.8377444502900913,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-07-24",
+      "level": 0.8264644225803227,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-07-29",
+      "level": 0.8109566332888088,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-08-03",
+      "level": 0.7914099824010407,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-08-08",
+      "level": 0.7751196074550074,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-08-13",
+      "level": 0.7567333421928616,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-08-18",
+      "level": 0.7417472766709826,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-08-23",
+      "level": 0.728830115752969,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2020-08-24",
+    "level": 0.7059552270241146,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 25.87
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-08-28",
+      "level": 0.7173431975828285,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-09-02",
+      "level": 0.7098141838722628,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-09-07",
+      "level": 0.6958355849400856,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2020-09-09",
+    "level": 0.6673656585433816,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 26.20
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-09-12",
+      "level": 0.6820009098064433,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-09-17",
+      "level": 0.6692906393488226,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-09-22",
+      "level": 0.6525954787194205,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2020-09-25",
+    "level": 0.6258976140920764,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 24.18
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-09-27",
+      "level": 0.6378432893701524,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-10-02",
+      "level": 0.6209592287551617,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-10-07",
+      "level": 0.6053884728017537,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2020-10-11",
+    "level": 0.5709996801905373,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 25.16
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-10-12",
+      "level": 0.5905193453661831,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-10-17",
+      "level": 0.5703790088094699,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-10-22",
+      "level": 0.5548712195179405,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-10-27",
+      "level": 0.5304581451923867,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2",
+      "Average_Temperature": 20.28
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-12-11",
+      "level": 0.3489882257215884,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-12-21",
+      "level": 0.36593525299843477,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-12-26",
+      "level": 0.36964129081054636,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2020-12-30",
+    "level": 0.35168679694399774,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 9.81
+  },
+  {
+      "cc": "0.0",
+      "date": "2020-12-31",
+      "level": 0.3711255049828887,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+    {
+      "cc": "0.0",
+      "date": "2021-01-10",
+      "level": 0.37318541434933394,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-01-25",
+      "level": 0.4978504095880429,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-02-09",
+      "level": 0.5759650512399036,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-02-14",
+      "level": 0.5859227790506563,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-02-24",
+      "level": 0.649141307554713,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-03-06",
+      "level": 0.6817490431590155,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-03-21",
+      "level": 0.7232710590347605,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-04-15",
+      "level": 0.7983093294930208,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-04-20",
+      "level": 0.8145682211081278,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2021-04-21",
+    "level": 0.7500678712734155,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 15.42
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-04-25",
+      "level": 0.8149325282231746,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-05-05",
+      "level": 0.8132234331156345,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-05-10",
+      "level": 0.8048038909016535,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-05-15",
+      "level": 0.8026360386863195,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-05-20",
+      "level": 0.7975447343133417,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2021-05-23",
+    "level": 0.7685800698592532,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 22.06
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-05-25",
+      "level": 0.7954938201843196,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-05-30",
+      "level": 0.7931100822711643,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-06-04",
+      "level": 0.7893950492216456,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2021-06-08",
+    "level": 0.7646401558745108,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 23.82
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-06-09",
+      "level": 0.7888283492649367,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-06-14",
+      "level": 0.7828195306763425,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-06-19",
+      "level": 0.7705500268516949,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-06-24",
+      "level": 0.7648740320471682,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2",
+      "Average_Temperature": 25.28
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-06-29",
+      "level": 0.7556629089412861,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-07-04",
+      "level": 0.7521457711147294,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-07-09",
+      "level": 0.7343531915215333,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-07-14",
+      "level": 0.7204645449634399,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-07-19",
+      "level": 0.707898198304344,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-07-24",
+      "level": 0.7006210512411838,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-07-29",
+      "level": 0.6925613185235354,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-08-03",
+      "level": 0.6762079769156362,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-08-08",
+      "level": 0.6646221111340168,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-10-02",
+      "level": 0.526590193106902,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-08-13",
+      "level": 0.6177029528134408,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-08-18",
+      "level": 0.6326620326230866,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-08-23",
+      "level": 0.6255467998332839,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-08-28",
+      "level": 0.6158499339073654,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-09-02",
+      "level": 0.5913199214955016,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-09-07",
+      "level": 0.5838538744467955,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-09-12",
+      "level": 0.5672576614288661,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-09-17",
+      "level": 0.5563284479780346,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-09-22",
+      "level": 0.5467035439513976,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2021-09-28",
+    "level": 0.510785560980839,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 22.09
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-10-07",
+      "level": 0.5149503559008338,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2021-10-14",
+    "level": 0.4758750446000434,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 19.44
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-10-22",
+      "level": 0.4875958389428202,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-10-27",
+      "level": 0.48036366806670244,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-11-06",
+      "level": 0.4611678314378367,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-11-11",
+      "level": 0.4529551796842569,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-11-16",
+      "level": 0.4454171707362663,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-11-26",
+      "level": 0.4388686379031819,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-12-11",
+      "level": 0.4207702202381183,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2021-12-26",
+      "level": 0.4465775563619345,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-01-25",
+      "level": 0.48441152490033407,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-02-09",
+      "level": 0.6104977676495672,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-02-24",
+      "level": 0.7185935355825597,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-03-16",
+      "level": 0.8877219893294098,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-03-26",
+      "level": 0.9406409710012094,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-03-31",
+      "level": 0.9634528930681138,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2",
+      "Average_Temperature": 3.58
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-04-10",
+      "level": 0.9998746093334415,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-04-15",
+      "level": 0.9936319145722594,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2022-04-16",
+    "level": 0.9641095453988725,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 7.62
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-04-20",
+      "level": 0.9982284808877807,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-04-25",
+      "level": 1.0015207377791473,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-04-30",
+      "level": 1.015733212883915,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-05-10",
+      "level": 1.0003783426283146,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2",
+      "Average_Temperature": 18.79
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-05-15",
+      "level": 1.008752908655216,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2022-05-18",
+    "level": 0.9522268367827892,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 17.15
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-05-20",
+      "level": 0.9843488295670918,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-05-25",
+      "level": 0.9745889969793252,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-05-30",
+      "level": 0.9738244017996461,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2022-06-03",
+    "level": 0.9238738484725084,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 15.56
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-06-09",
+      "level": 0.9565535459761213,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2022-06-11",
+    "level": 0.9261586387741478,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 25.11
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-06-19",
+      "level": 0.9570123030839184,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2",
+      "Average_Temperature": 16.91
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-06-24",
+      "level": 0.9481789799491861,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2022-06-27",
+    "level": 0.9152833967477678,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 23.15
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-06-29",
+      "level": 0.9376365617069015,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-07-04",
+      "level": 0.9388509187570006,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2022-07-05",
+    "level": 0.9156072252944568,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 16.62
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-07-09",
+      "level": 0.9272650529753927,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-07-14",
+      "level": 0.9240357627458907,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-07-19",
+      "level": 0.9098232876411004,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-07-24",
+      "level": 0.9065400259871402,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-07-29",
+      "level": 0.892552431817569,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2",
+      "Average_Temperature": 28.38
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-08-03",
+      "level": 0.8845556657617664,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2022-08-06",
+    "level": 0.857273110703012,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 17.08
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-08-08",
+      "level": 0.8759832045118675,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-08-13",
+      "level": 0.862931115032716,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-08-18",
+      "level": 0.8442480069361292,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2022-08-22",
+    "level": 0.8174691851722137,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 16.18
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-08-23",
+      "level": 0.8392916311242642,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-08-28",
+      "level": 0.8232801085378662,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2022-08-30",
+    "level": 0.7939646298248898,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 26.57
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-09-02",
+      "level": 0.8092565334186559,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-09-07",
+      "level": 0.7783039214974561,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-09-12",
+      "level": 0.766754036665473,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2022-09-15",
+    "level": 0.7344161581833278,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 25.48
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-09-17",
+      "level": 0.7486016475759355,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+      "cc": "0.0",
+      "date": "2022-09-22",
+      "level": 0.7136326621520007,
+      "volume": "0.0",
+      "max_level": "0.0",
+      "min_level": "0.0",
+      "sensor_type": "Sentinel-2"
+  },
+  {
+    "cc": "0.0",
+    "date": "2022-10-01",
+    "level": 0.6771884577930013,
+    "volume": "0.0",
+    "max_level": "0.0",
+    "min_level": "0.0",
+    "sensor_type": "LandSat-8",
+    "Average_Temperature": 25.08
+  }
+  ],
+  "nominal_outline": {
+    "geometry": {
+      "coordinates": [
+        [
+          [
+            35.6800032,
+            33.5537862
+          ],
+          [
+            35.6804288,
+            33.5547772
+          ],
+          [
+            35.6806327,
+            33.5554057
+          ],
+          [
+            35.68105,
+            33.5564343
+          ],
+          [
+            35.6810695,
+            33.5566451
+          ],
+          [
+            35.681207,
+            33.5566744
+          ],
+          [
+            35.6814713,
+            33.5572318
+          ],
+          [
+            35.6815554,
+            33.5574726
+          ],
+          [
+            35.6811438,
+            33.5579662
+          ],
+          [
+            35.6812262,
+            33.5585137
+          ],
+          [
+            35.6812196,
+            33.5589005
+          ],
+          [
+            35.6813947,
+            33.5592512
+          ],
+          [
+            35.6822509,
+            33.559457
+          ],
+          [
+            35.6825966,
+            33.560047
+          ],
+          [
+            35.683601,
+            33.560143
+          ],
+          [
+            35.6842596,
+            33.5604861
+          ],
+          [
+            35.68625,
+            33.56175
+          ],
+          [
+            35.6867261,
+            33.5632378
+          ],
+          [
+            35.6866449,
+            33.5642353
+          ],
+          [
+            35.686658,
+            33.5644796
+          ],
+          [
+            35.6868503,
+            33.5647297
+          ],
+          [
+            35.6868297,
+            33.5649583
+          ],
+          [
+            35.6867621,
+            33.5653894
+          ],
+          [
+            35.686628,
+            33.5657354
+          ],
+          [
+            35.6868179,
+            33.5661793
+          ],
+          [
+            35.6867355,
+            33.5663808
+          ],
+          [
+            35.6864743,
+            33.5665668
+          ],
+          [
+            35.6861961,
+            33.5666761
+          ],
+          [
+            35.6858987,
+            33.5669273
+          ],
+          [
+            35.685709,
+            33.5669435
+          ],
+          [
+            35.6853845,
+            33.5669668
+          ],
+          [
+            35.6851171,
+            33.5670893
+          ],
+          [
+            35.6840901,
+            33.5672488
+          ],
+          [
+            35.6838251,
+            33.5674227
+          ],
+          [
+            35.6835241,
+            33.5674848
+          ],
+          [
+            35.6832468,
+            33.5674889
+          ],
+          [
+            35.6829024,
+            33.5674491
+          ],
+          [
+            35.6825253,
+            33.5674969
+          ],
+          [
+            35.6822152,
+            33.5676426
+          ],
+          [
+            35.6820001,
+            33.5678773
+          ],
+          [
+            35.6818992,
+            33.5682673
+          ],
+          [
+            35.6822707,
+            33.5690471
+          ],
+          [
+            35.6828104,
+            33.5703703
+          ],
+          [
+            35.6830512,
+            33.5708193
+          ],
+          [
+            35.6833439,
+            33.5709536
+          ],
+          [
+            35.6833503,
+            33.5710752
+          ],
+          [
+            35.6834356,
+            33.5711499
+          ],
+          [
+            35.6835802,
+            33.5711257
+          ],
+          [
+            35.6834686,
+            33.5713787
+          ],
+          [
+            35.6835201,
+            33.5717615
+          ],
+          [
+            35.683765,
+            33.5720947
+          ],
+          [
+            35.6836523,
+            33.5723853
+          ],
+          [
+            35.683872,
+            33.5728798
+          ],
+          [
+            35.683939,
+            33.5729772
+          ],
+          [
+            35.6838323,
+            33.573106
+          ],
+          [
+            35.6844505,
+            33.5736841
+          ],
+          [
+            35.6847539,
+            33.5739655
+          ],
+          [
+            35.6852367,
+            33.5741829
+          ],
+          [
+            35.6856075,
+            33.5747382
+          ],
+          [
+            35.6858523,
+            33.575342
+          ],
+          [
+            35.6861436,
+            33.5757246
+          ],
+          [
+            35.6863396,
+            33.5766507
+          ],
+          [
+            35.6866062,
+            33.5771823
+          ],
+          [
+            35.6871322,
+            33.5779159
+          ],
+          [
+            35.688247,
+            33.5790041
+          ],
+          [
+            35.6887158,
+            33.5794622
+          ],
+          [
+            35.6889974,
+            33.5800008
+          ],
+          [
+            35.6891847,
+            33.581476
+          ],
+          [
+            35.6892726,
+            33.5825571
+          ],
+          [
+            35.6893719,
+            33.5834764
+          ],
+          [
+            35.6894175,
+            33.5844023
+          ],
+          [
+            35.6897291,
+            33.5854347
+          ],
+          [
+            35.6900425,
+            33.5859999
+          ],
+          [
+            35.6902136,
+            33.5861886
+          ],
+          [
+            35.6906783,
+            33.5865356
+          ],
+          [
+            35.6910708,
+            33.586673
+          ],
+          [
+            35.6912741,
+            33.586908
+          ],
+          [
+            35.6914136,
+            33.5871873
+          ],
+          [
+            35.6914967,
+            33.5874354
+          ],
+          [
+            35.6917054,
+            33.588044
+          ],
+          [
+            35.6920004,
+            33.5882674
+          ],
+          [
+            35.6924264,
+            33.5885186
+          ],
+          [
+            35.6932788,
+            33.5889118
+          ],
+          [
+            35.6943597,
+            33.5892671
+          ],
+          [
+            35.6948506,
+            33.5894968
+          ],
+          [
+            35.695181,
+            33.589785
+          ],
+          [
+            35.6953355,
+            33.5900129
+          ],
+          [
+            35.6954278,
+            33.5905854
+          ],
+          [
+            35.695446,
+            33.5910023
+          ],
+          [
+            35.6954192,
+            33.5913061
+          ],
+          [
+            35.6954342,
+            33.5916542
+          ],
+          [
+            35.6951616,
+            33.5919877
+          ],
+          [
+            35.6947498,
+            33.5922868
+          ],
+          [
+            35.6952427,
+            33.5929273
+          ],
+          [
+            35.6957355,
+            33.5930744
+          ],
+          [
+            35.6963018,
+            33.5932153
+          ],
+          [
+            35.6966249,
+            33.5935613
+          ],
+          [
+            35.6968461,
+            33.5942323
+          ],
+          [
+            35.6961397,
+            33.5940294
+          ],
+          [
+            35.6955881,
+            33.5937526
+          ],
+          [
+            35.6948088,
+            33.594122
+          ],
+          [
+            35.6946154,
+            33.5949603
+          ],
+          [
+            35.6952868,
+            33.5958313
+          ],
+          [
+            35.6955958,
+            33.5967992
+          ],
+          [
+            35.6962352,
+            33.5978051
+          ],
+          [
+            35.6969412,
+            33.5992623
+          ],
+          [
+            35.6973904,
+            33.5999114
+          ],
+          [
+            35.6978234,
+            33.6007156
+          ],
+          [
+            35.6988466,
+            33.6012591
+          ],
+          [
+            35.6992438,
+            33.6011672
+          ],
+          [
+            35.6995527,
+            33.6013694
+          ],
+          [
+            35.6999131,
+            33.601204
+          ],
+          [
+            35.7002941,
+            33.6012045
+          ],
+          [
+            35.7007574,
+            33.6017313
+          ],
+          [
+            35.7014703,
+            33.6023258
+          ],
+          [
+            35.7021616,
+            33.6029495
+          ],
+          [
+            35.7026248,
+            33.6042929
+          ],
+          [
+            35.7032008,
+            33.6053144
+          ],
+          [
+            35.7043455,
+            33.6062255
+          ],
+          [
+            35.7040709,
+            33.6067042
+          ],
+          [
+            35.703728,
+            33.6066761
+          ],
+          [
+            35.703537,
+            33.606887
+          ],
+          [
+            35.7035137,
+            33.6070769
+          ],
+          [
+            35.7036491,
+            33.6072484
+          ],
+          [
+            35.7042132,
+            33.6071926
+          ],
+          [
+            35.7044114,
+            33.6072426
+          ],
+          [
+            35.7045973,
+            33.6076052
+          ],
+          [
+            35.7044685,
+            33.6083696
+          ],
+          [
+            35.7047931,
+            33.6089882
+          ],
+          [
+            35.7050366,
+            33.609506
+          ],
+          [
+            35.7052394,
+            33.6098252
+          ],
+          [
+            35.7055283,
+            33.610871
+          ],
+          [
+            35.7055617,
+            33.6112868
+          ],
+          [
+            35.7057407,
+            33.6116989
+          ],
+          [
+            35.7054955,
+            33.6119912
+          ],
+          [
+            35.7055111,
+            33.6123013
+          ],
+          [
+            35.7056573,
+            33.6127262
+          ],
+          [
+            35.7060762,
+            33.6129893
+          ],
+          [
+            35.7062016,
+            33.6134122
+          ],
+          [
+            35.7068361,
+            33.6137919
+          ],
+          [
+            35.7074675,
+            33.6139574
+          ],
+          [
+            35.7083674,
+            33.6140211
+          ],
+          [
+            35.7094569,
+            33.6138422
+          ],
+          [
+            35.7097676,
+            33.6138419
+          ],
+          [
+            35.7099526,
+            33.6141411
+          ],
+          [
+            35.7105142,
+            33.6143298
+          ],
+          [
+            35.7108581,
+            33.6142797
+          ],
+          [
+            35.7111478,
+            33.6143568
+          ],
+          [
+            35.7114501,
+            33.6143845
+          ],
+          [
+            35.7117373,
+            33.6143298
+          ],
+          [
+            35.7124189,
+            33.6141131
+          ],
+          [
+            35.7129521,
+            33.6138853
+          ],
+          [
+            35.7129975,
+            33.6145576
+          ],
+          [
+            35.7134926,
+            33.6151665
+          ],
+          [
+            35.7146598,
+            33.6158132
+          ],
+          [
+            35.7159283,
+            33.6161355
+          ],
+          [
+            35.7162898,
+            33.6163573
+          ],
+          [
+            35.7174759,
+            33.616667
+          ],
+          [
+            35.7183446,
+            33.6167381
+          ],
+          [
+            35.7189035,
+            33.6164406
+          ],
+          [
+            35.7191463,
+            33.6160031
+          ],
+          [
+            35.7191683,
+            33.615605
+          ],
+          [
+            35.7190286,
+            33.615262
+          ],
+          [
+            35.7187684,
+            33.6145105
+          ],
+          [
+            35.7187608,
+            33.6141346
+          ],
+          [
+            35.7189919,
+            33.6137904
+          ],
+          [
+            35.7192121,
+            33.613621
+          ],
+          [
+            35.7196935,
+            33.6135395
+          ],
+          [
+            35.7204031,
+            33.613747
+          ],
+          [
+            35.7208982,
+            33.6138961
+          ],
+          [
+            35.7213363,
+            33.6139402
+          ],
+          [
+            35.7214646,
+            33.6136777
+          ],
+          [
+            35.7215818,
+            33.613419
+          ],
+          [
+            35.7205809,
+            33.6128665
+          ],
+          [
+            35.7197723,
+            33.6125689
+          ],
+          [
+            35.7189556,
+            33.6126037
+          ],
+          [
+            35.7183566,
+            33.6126593
+          ],
+          [
+            35.7178598,
+            33.612778
+          ],
+          [
+            35.7174863,
+            33.6131276
+          ],
+          [
+            35.7173515,
+            33.6136311
+          ],
+          [
+            35.7170973,
+            33.6144489
+          ],
+          [
+            35.7171589,
+            33.6148498
+          ],
+          [
+            35.7173559,
+            33.6152546
+          ],
+          [
+            35.7164513,
+            33.6153296
+          ],
+          [
+            35.7153144,
+            33.6137981
+          ],
+          [
+            35.7147995,
+            33.613008
+          ],
+          [
+            35.7139707,
+            33.6123407
+          ],
+          [
+            35.7130711,
+            33.6122117
+          ],
+          [
+            35.7124018,
+            33.6120218
+          ],
+          [
+            35.7118281,
+            33.6115992
+          ],
+          [
+            35.7112353,
+            33.6116642
+          ],
+          [
+            35.7103939,
+            33.6118687
+          ],
+          [
+            35.7094707,
+            33.6119204
+          ],
+          [
+            35.7087268,
+            33.6115068
+          ],
+          [
+            35.7083604,
+            33.6113205
+          ],
+          [
+            35.7079232,
+            33.6112515
+          ],
+          [
+            35.7077411,
+            33.6110652
+          ],
+          [
+            35.7073195,
+            33.6101413
+          ],
+          [
+            35.7070548,
+            33.609247
+          ],
+          [
+            35.706915,
+            33.608806
+          ],
+          [
+            35.7063604,
+            33.6083162
+          ],
+          [
+            35.7062898,
+            33.6070235
+          ],
+          [
+            35.7062395,
+            33.6067508
+          ],
+          [
+            35.7063875,
+            33.606372
+          ],
+          [
+            35.7068691,
+            33.6060875
+          ],
+          [
+            35.7072395,
+            33.6056427
+          ],
+          [
+            35.710032,
+            33.6052495
+          ],
+          [
+            35.7103792,
+            33.6052409
+          ],
+          [
+            35.7099231,
+            33.6046839
+          ],
+          [
+            35.7097099,
+            33.6041138
+          ],
+          [
+            35.7091302,
+            33.6037597
+          ],
+          [
+            35.7089425,
+            33.6036339
+          ],
+          [
+            35.708799,
+            33.6031121
+          ],
+          [
+            35.7073677,
+            33.603224
+          ],
+          [
+            35.7062132,
+            33.6031508
+          ],
+          [
+            35.7055957,
+            33.6030222
+          ],
+          [
+            35.7051866,
+            33.6027722
+          ],
+          [
+            35.7048016,
+            33.6023101
+          ],
+          [
+            35.7043677,
+            33.6021152
+          ],
+          [
+            35.7041643,
+            33.6014858
+          ],
+          [
+            35.7042354,
+            33.6009877
+          ],
+          [
+            35.7042283,
+            33.6003308
+          ],
+          [
+            35.7049145,
+            33.5998807
+          ],
+          [
+            35.7047968,
+            33.5991027
+          ],
+          [
+            35.7046129,
+            33.5982757
+          ],
+          [
+            35.7035538,
+            33.5978468
+          ],
+          [
+            35.7025903,
+            33.5977059
+          ],
+          [
+            35.7023476,
+            33.5982757
+          ],
+          [
+            35.7024358,
+            33.5991088
+          ],
+          [
+            35.7014356,
+            33.599458
+          ],
+          [
+            35.6999192,
+            33.5990172
+          ],
+          [
+            35.6993163,
+            33.5987806
+          ],
+          [
+            35.6991914,
+            33.5985686
+          ],
+          [
+            35.6996851,
+            33.5983553
+          ],
+          [
+            35.6995895,
+            33.5978285
+          ],
+          [
+            35.6992953,
+            33.5973139
+          ],
+          [
+            35.6988981,
+            33.59664
+          ],
+          [
+            35.6982722,
+            33.5956887
+          ],
+          [
+            35.6981185,
+            33.595237
+          ],
+          [
+            35.6982068,
+            33.5947959
+          ],
+          [
+            35.698523,
+            33.5943548
+          ],
+          [
+            35.698706,
+            33.593848
+          ],
+          [
+            35.6986692,
+            33.5931581
+          ],
+          [
+            35.6977574,
+            33.5918591
+          ],
+          [
+            35.6994497,
+            33.593736
+          ],
+          [
+            35.7006045,
+            33.5952615
+          ],
+          [
+            35.7010954,
+            33.5955966
+          ],
+          [
+            35.7022005,
+            33.5965542
+          ],
+          [
+            35.7037144,
+            33.5974261
+          ],
+          [
+            35.7040834,
+            33.5971607
+          ],
+          [
+            35.7042157,
+            33.5965726
+          ],
+          [
+            35.7042452,
+            33.5958987
+          ],
+          [
+            35.7041929,
+            33.5947253
+          ],
+          [
+            35.7044342,
+            33.5927634
+          ],
+          [
+            35.7048093,
+            33.5921715
+          ],
+          [
+            35.7055445,
+            33.5911874
+          ],
+          [
+            35.7060077,
+            33.5904533
+          ],
+          [
+            35.7064635,
+            33.590044
+          ],
+          [
+            35.707037,
+            33.5901015
+          ],
+          [
+            35.7080663,
+            33.5901335
+          ],
+          [
+            35.708353,
+            33.5896997
+          ],
+          [
+            35.7093201,
+            33.5904399
+          ],
+          [
+            35.7105704,
+            33.5912854
+          ],
+          [
+            35.7112176,
+            33.592039
+          ],
+          [
+            35.7119826,
+            33.5919716
+          ],
+          [
+            35.7134069,
+            33.5919917
+          ],
+          [
+            35.7132403,
+            33.5910893
+          ],
+          [
+            35.7136227,
+            33.5907462
+          ],
+          [
+            35.7138577,
+            33.5900045
+          ],
+          [
+            35.7137698,
+            33.5895025
+          ],
+          [
+            35.7127548,
+            33.5891471
+          ],
+          [
+            35.7118774,
+            33.5883943
+          ],
+          [
+            35.7111991,
+            33.586784
+          ],
+          [
+            35.711154,
+            33.5855358
+          ],
+          [
+            35.7105846,
+            33.5848213
+          ],
+          [
+            35.7101941,
+            33.5843564
+          ],
+          [
+            35.7094414,
+            33.5814313
+          ],
+          [
+            35.7094695,
+            33.5809164
+          ],
+          [
+            35.711127,
+            33.5810919
+          ],
+          [
+            35.7093076,
+            33.5785739
+          ],
+          [
+            35.7118541,
+            33.5791581
+          ],
+          [
+            35.7129804,
+            33.5793183
+          ],
+          [
+            35.7136283,
+            33.5784137
+          ],
+          [
+            35.7136414,
+            33.5775577
+          ],
+          [
+            35.7128407,
+            33.5766566
+          ],
+          [
+            35.710622,
+            33.5748797
+          ],
+          [
+            35.7099978,
+            33.573536
+          ],
+          [
+            35.7096221,
+            33.5723101
+          ],
+          [
+            35.7095404,
+            33.5715449
+          ],
+          [
+            35.7093228,
+            33.571166
+          ],
+          [
+            35.7090693,
+            33.5706556
+          ],
+          [
+            35.7090067,
+            33.5703259
+          ],
+          [
+            35.7087802,
+            33.5702654
+          ],
+          [
+            35.7087298,
+            33.5701061
+          ],
+          [
+            35.7084483,
+            33.5697663
+          ],
+          [
+            35.7084014,
+            33.5694231
+          ],
+          [
+            35.7082792,
+            33.5690659
+          ],
+          [
+            35.7081438,
+            33.5686233
+          ],
+          [
+            35.7083117,
+            33.5677753
+          ],
+          [
+            35.707984,
+            33.5665492
+          ],
+          [
+            35.7077904,
+            33.5664436
+          ],
+          [
+            35.7075853,
+            33.5656919
+          ],
+          [
+            35.7074665,
+            33.5652995
+          ],
+          [
+            35.7073065,
+            33.5649225
+          ],
+          [
+            35.7075259,
+            33.5644889
+          ],
+          [
+            35.7075822,
+            33.5640635
+          ],
+          [
+            35.7077512,
+            33.5638875
+          ],
+          [
+            35.7076843,
+            33.563597
+          ],
+          [
+            35.7075641,
+            33.5631402
+          ],
+          [
+            35.7071682,
+            33.5622314
+          ],
+          [
+            35.7070292,
+            33.5616828
+          ],
+          [
+            35.707026,
+            33.5608532
+          ],
+          [
+            35.7068036,
+            33.560696
+          ],
+          [
+            35.706622,
+            33.5603853
+          ],
+          [
+            35.7063656,
+            33.5601
+          ],
+          [
+            35.7055756,
+            33.559866
+          ],
+          [
+            35.7059114,
+            33.5594487
+          ],
+          [
+            35.7063973,
+            33.5590644
+          ],
+          [
+            35.7054099,
+            33.5589369
+          ],
+          [
+            35.7054993,
+            33.5589061
+          ],
+          [
+            35.705707,
+            33.5588268
+          ],
+          [
+            35.7058866,
+            33.5585628
+          ],
+          [
+            35.705984,
+            33.5581021
+          ],
+          [
+            35.7059711,
+            33.5579848
+          ],
+          [
+            35.705832,
+            33.5577259
+          ],
+          [
+            35.7055591,
+            33.5573848
+          ],
+          [
+            35.7051956,
+            33.5566658
+          ],
+          [
+            35.7053171,
+            33.5564276
+          ],
+          [
+            35.7052511,
+            33.5561892
+          ],
+          [
+            35.7052203,
+            33.5560462
+          ],
+          [
+            35.7049694,
+            33.5557124
+          ],
+          [
+            35.7046657,
+            33.5551916
+          ],
+          [
+            35.7044457,
+            33.5549716
+          ],
+          [
+            35.7041936,
+            33.5547907
+          ],
+          [
+            35.7035391,
+            33.5544214
+          ],
+          [
+            35.7027337,
+            33.5542161
+          ],
+          [
+            35.7022628,
+            33.5537833
+          ],
+          [
+            35.7018833,
+            33.5533085
+          ],
+          [
+            35.7003297,
+            33.5531613
+          ],
+          [
+            35.6997462,
+            33.5529539
+          ],
+          [
+            35.699355,
+            33.5528029
+          ],
+          [
+            35.6991362,
+            33.5525183
+          ],
+          [
+            35.698671,
+            33.552221
+          ],
+          [
+            35.6981304,
+            33.5519312
+          ],
+          [
+            35.6973052,
+            33.5514358
+          ],
+          [
+            35.6972498,
+            33.5512591
+          ],
+          [
+            35.6973103,
+            33.5510205
+          ],
+          [
+            35.69758,
+            33.5501008
+          ],
+          [
+            35.6977324,
+            33.549796
+          ],
+          [
+            35.6977828,
+            33.5495036
+          ],
+          [
+            35.6977282,
+            33.5492378
+          ],
+          [
+            35.6973381,
+            33.549118
+          ],
+          [
+            35.6973506,
+            33.5488432
+          ],
+          [
+            35.6971704,
+            33.5487965
+          ],
+          [
+            35.6972254,
+            33.5484321
+          ],
+          [
+            35.697479,
+            33.5481666
+          ],
+          [
+            35.6967915,
+            33.547746
+          ],
+          [
+            35.6963285,
+            33.5476518
+          ],
+          [
+            35.6959873,
+            33.5473157
+          ],
+          [
+            35.6954209,
+            33.5473364
+          ],
+          [
+            35.6952449,
+            33.5472141
+          ],
+          [
+            35.6934518,
+            33.5475694
+          ],
+          [
+            35.6914498,
+            33.5479569
+          ],
+          [
+            35.6905046,
+            33.5481539
+          ],
+          [
+            35.6893421,
+            33.5483993
+          ],
+          [
+            35.6887579,
+            33.5485495
+          ],
+          [
+            35.6881273,
+            33.5486564
+          ],
+          [
+            35.6856295,
+            33.5488727
+          ],
+          [
+            35.6841067,
+            33.5490507
+          ],
+          [
+            35.6833997,
+            33.5506124
+          ],
+          [
+            35.6818021,
+            33.5521449
+          ],
+          [
+            35.6814876,
+            33.5525936
+          ],
+          [
+            35.6815375,
+            33.5531534
+          ],
+          [
+            35.6813004,
+            33.5536943
+          ],
+          [
+            35.6800032,
+            33.5537862
+          ]
+        ]
+      ],
+      "type": "Polygon"
+    },
+    "type": "Feature"
+  },
+  "properties": {
+    "country": "Lebanon",
+    "id": 38784,
+    "lat": 33.574245370273864,
+    "long": 35.697950593910825,
+    "name": "Qaraaoun Reservoir"
+  }
+}
