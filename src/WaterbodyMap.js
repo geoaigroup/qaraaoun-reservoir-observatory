@@ -10,7 +10,6 @@ import Loading from './Loading';
 import IconAngleLeft from './imgs/angle-left.svg';
 import IconAngleRight from './imgs/angle-right.svg';
 
-
 class WaterbodyMap extends React.PureComponent {
   SH_INSTANCE_ID = '085f5b94-26c7-4d88-b472-910df06e62f1';
   LINE_LAYOUT = {
