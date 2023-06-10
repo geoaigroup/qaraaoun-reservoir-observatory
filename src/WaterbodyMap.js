@@ -11,7 +11,7 @@ import IconAngleLeft from './imgs/angle-left.svg';
 import IconAngleRight from './imgs/angle-right.svg';
 
 class WaterbodyMap extends React.PureComponent {
-  SH_INSTANCE_ID = '085f5b94-26c7-4d88-b472-910df06e62f1';
+  SH_INSTANCE_ID = '1f0a401d-1a53-466a-9618-5a45ecee09e5';
   LINE_LAYOUT = {
     'line-cap': 'round',
     'line-join': 'round',
@@ -99,9 +99,9 @@ class WaterbodyMap extends React.PureComponent {
               'sentinel-hub-tiles': {
                 type: 'raster',
                 tiles: [
-                  `https://services.sentinel-hub.com/ogc/wms/${
+                  `https://sh.dataspace.copernicus.eu/ogc/wms/${
                     this.SH_INSTANCE_ID
-                  }?showLogo=false&service=WMS&request=GetMap&layers=TRUE-COLOR-S2-L1C&styles=&format=image%2Fjpeg&transparent=false&version=1.1.1&maxcc=100&time=${timeInterval}&height=512&width=512&srs=EPSG%3A3857&bbox={bbox-epsg-3857}`,
+                  }?showLogo=false&service=WMS&request=GetMap&layers=TRUE-COLOR-S2L2A&styles=&format=image/jpeg&version=1.1.1&time=${timeInterval}&height=512&width=512&srs=EPSG:3857&bbox={bbox-epsg-3857}`,
                 ],
                 tileSize: 512,
               },

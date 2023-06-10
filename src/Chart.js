@@ -18,7 +18,6 @@ import './styles/Chart.scss';
 export default class Chart extends React.PureComponent {
   constructor(props) {
     super(props);
-    console.log(props);
     this.state = {
       zoom: 'all', // default zoom option
     };
@@ -40,7 +39,6 @@ export default class Chart extends React.PureComponent {
     }
     const { zoom } = this.state;
     const validMeasurements = waterbody?.measurements ?? [];
-    console.log(validMeasurements);
     const data = validMeasurements.map((measurement) => ({
       x: measurement.date.valueOf(),
       y: measurement.level * 100,
