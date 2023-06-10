@@ -82,7 +82,7 @@ class App extends React.Component {
 
   setMeasurementDate = (waterbodyId, measurementDate, sensor_type) => {
     console.log("in setMeasurementDate"+ sensor_type);
-    this.fetchMap(date.format('YYYY-MM-DD'), sensor_type);
+    this.fetchMap(measurementDate.format('YYYY-MM-DD'), sensor_type);
     //this.fetchMeasurementOutline(waterbodyId, measurementDate, sensor_type);
     this.setState({ measurementDate });
 
