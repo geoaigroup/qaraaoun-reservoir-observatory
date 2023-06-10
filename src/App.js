@@ -2,8 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import moment from 'moment';
 import { SizeMe } from 'react-sizeme';
-import { Switch, Route } from 'react-router';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter,Switch, Route } from 'react-router-dom';
 
 /** Components */
 import WaterbodyMap from './WaterbodyMap';
@@ -16,7 +15,6 @@ import './styles/App.scss';
 
 class App extends React.Component {
   DEFAULT_WATERBODY_ID = 2307;
-
   state = {
     width: window.innerWidth,
     // waterbodies: [],
@@ -24,11 +22,14 @@ class App extends React.Component {
     waterbody: undefined, // used for centered map
     measurementOutline: undefined,
     measurementDate: undefined,
+    htmlMap: undefined,
+    sensor_type: undefined,
   };
 
   componentDidMount() {
     window.addEventListener('resize', this.handleWindowSizeChange);
     //this.fetchWaterbodies();
+  
     this.initWaterbody();
   }
 
@@ -38,16 +39,16 @@ class App extends React.Component {
 
   componentDidUpdate(prevProps) {
     const { id, date } = this.props.match.params;
-
     if (this.props.history.action === 'POP') {
       if (prevProps.match.params.id !== id) {
         this.initWaterbody();
       } else if (date && prevProps.match.params.date !== date) {
+        
         this.setMeasurementDate(id, moment(date));
       }
     }
   }
-
+  
   initWaterbody = () => {
     /*  
      * Get id from url pathname param and fetch, if error, fetch default
@@ -79,8 +80,10 @@ class App extends React.Component {
     this.setState({ searchString });
   }; */
 
-  setMeasurementDate = (waterbodyId, measurementDate) => {
-    this.fetchMeasurementOutline(waterbodyId, measurementDate);
+  setMeasurementDate = (waterbodyId, measurementDate, sensor_type) => {
+    console.log("in setMeasurementDate"+ sensor_type);
+    this.fetchMap(date.format('YYYY-MM-DD'), sensor_type);
+    //this.fetchMeasurementOutline(waterbodyId, measurementDate, sensor_type);
     this.setState({ measurementDate });
 
     let pathname = "";
@@ -132,6 +135,7 @@ class App extends React.Component {
           ...m,
           date: moment.utc(m.date), // internal representation of dates is always moment.js object
         }));
+        console.log(res.data.properties.lat);
         const waterbody = {
           ...res.data,
           measurements: validMeasurements,
@@ -143,12 +147,19 @@ class App extends React.Component {
             ? moment(this.props.match.params.date)
             : validMeasurements[validMeasurements.length - 1].date; // or last measurement date
 
+            const sensor =
+            this.props.match.params.sensor_type &&
+            validMeasurements.some(item => item.sensor_type.isSame(moment(this.props.match.params.sensor_type)))
+              ? moment(this.props.match.params.sensor_type)
+              : validMeasurements[validMeasurements.length - 1].sensor_type;
+          console.log("Try: "+sensor);
+
         this.setState({
           waterbody: waterbody,
           measurementDate: measurementDate,
           loading: false,
         });
-        this.setMeasurementDate(waterbodyId, measurementDate);
+        this.setMeasurementDate(waterbodyId, measurementDate, sensor);
       })
       .catch(e => {
         console.error('fetchWaterbody: ', e);
@@ -156,16 +167,42 @@ class App extends React.Component {
       });
   };
 
-  fetchMeasurementOutline = (waterbodyId, date) => {
+  fetchMeasurementOutline = (waterbodyId, date, sensor_type) => {
     axios
       .get(`${process.env.PUBLIC_URL}/static/38784/maps/${date.format('YYYY-MM-DD',)}.json`,)
       .then(res => {
         this.setState({
           measurementOutline: res.data,
         });
+        console.log("in fetchMeasurementOutline "+ sensor_type);
+        
       })
-      .catch(e => console.error(e));
+      .catch(e =>console.error(e));
   };
+
+  fetchMap = (date, sensor_type) => {
+    console.log("in fetchMap"+ sensor_type);
+    axios
+    .get(`http://localhost:5000/data`, {
+      params: {
+        measurementDate: `${date}`,
+        sensor_type: `${sensor_type}`,
+      },
+      'method':'GET',
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
+    .then(res =>{
+        this.setState({
+          htmlMap: res.data
+        })
+        console.log("Response: "+ res.data)
+    })
+    .catch(error => {
+      console.error('Error fetching map:', error);
+    });
+  }
 
   render() {
     const {
@@ -176,37 +213,37 @@ class App extends React.Component {
       measurementDate,
       //searchString,
       loading,
+      htmlMap,
     } = this.state;
-
+    
+  /*<WaterbodyMap
+                  size={size}
+                  waterbody={waterbody}
+                  measurementOutline={measurementOutline}
+                  measurementDate={measurementDate}
+                  onDateSelect={this.setMeasurementDate}
+                />*/
     return (
       <div id="app">
         <Header waterbody={waterbody} loading={loading} />
         <SizeMe monitorHeight>
           {({ size }) => (
             <div id="content">
-              <div className="panel info">
+              <div className="panel info" >
                 <WaterbodyInfo waterbody={waterbody} measurementDate={measurementDate} />
               </div>
-              <div className="panel waterbody">
-                <WaterbodyMap
-                  size={size}
-                  waterbody={waterbody}
-                  measurementOutline={measurementOutline}
-                  measurementDate={measurementDate}
-                  onDateSelect={this.setMeasurementDate}
-                />
+              <div className="panel waterbody" dangerouslySetInnerHTML={{ __html: htmlMap }}>
               </div>
             </div>
           )}
         </SizeMe>
-
         <div className="panel chart">
           <Chart
             waterbody={waterbody}
             onDateSelect = {this.setMeasurementDate}
           />
         </div>
-
+            
         <div id="footer2">
 	        <p>This project was kindly supported by <a href="https://eo4society.esa.int/network-of-resources/nor-sponsorship/" target="_blank">NoR Sponsorship.</a><br/>
 	    We relied on both water-observatory <a href="https://github.com/sentinel-hub/water-observatory-frontend" target="_blank">front-end</a> and <a href="https://github.com/sentinel-hub/water-observatory-backend" target="_blank">back-end</a> while building this project.<br/>

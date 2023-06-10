@@ -124,6 +124,7 @@ class WaterbodyMap extends React.PureComponent {
             lineLayout={this.LINE_LAYOUT}
             linePaint={this.NOMINAL_OUTLINE_LINE_PAINT}
           />
+         
           {measurementOutline && (
             <GeoJSONLayer
               key={`yellow-${waterbody.properties.id}`}
