@@ -1,4 +1,3 @@
-# Import flask and datetime module for showing date and time
 from flask import Flask, request
 import datetime
 import ee
@@ -14,8 +13,9 @@ sentinel = "Sentinel-2"
 landsat4 = "LandSat-4"
 landsat5 = "LandSat-5"
 landsat8 = "LandSat-8"
-# Route for seeing a data
+
 '''
+#function to mask/remove clouds of S2 images
 def maskS2clouds(image):
     qa = image.select('QA60')
 
@@ -37,6 +37,7 @@ def applyScaleFactors(image):
   thermalBand = image.select('ST_B6').multiply(0.00341802).add(149.0)
   return image.addBands(opticalBands, None, True).addBands(thermalBand, None, True)
 
+#for Landsat-8 images
 def applyScaleFactors8(image):
   opticalBands = image.select('SR_B.').multiply(0.0000275).add(-0.2)
   thermalBands = image.select('ST_B.*').multiply(0.00341802).add(149.0)
@@ -68,12 +69,10 @@ def retrieveImage(setcollection, measurement_date):
         33.574245370273864, 
         ]
   collection, sensor = setcollection
-  print("retrieveImage: "+collection)
   region = ee.Geometry.Point(coords)
   dataset = ee.ImageCollection(collection).filterDate(measurement_date, get_day_ahead(measurement_date)).filter(ee.Filter.bounds(region))
   if (sensor == sentinel):
-      dataset = dataset.filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE', 20)) \
-    .filter(ee.Filter.bounds(region))
+      dataset = dataset.filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE', 20))
   elif (sensor == landsat5 or sensor == landsat4):
       dataset = dataset.map(applyScaleFactors)
   elif (sensor == landsat8):
@@ -81,7 +80,7 @@ def retrieveImage(setcollection, measurement_date):
   return dataset.first()
 
 
-    # Define a method for displaying Earth Engine image tiles on a folium map.
+# Define a method for displaying Earth Engine image tiles on a folium map.
 def add_ee_layer(self, vis_params, name, sensor, measurement_date):
     ee_object = retrieveImage(setCollection('1', sensor), measurement_date)
     map_id_dict = None
@@ -98,7 +97,7 @@ def add_ee_layer(self, vis_params, name, sensor, measurement_date):
     control = True
     ).add_to(self)
                 
-        # Add EE drawing method to folium.
+      
 
 
 @app.route('/data', methods=['GET'])
@@ -108,8 +107,6 @@ def re():
     ee.Initialize(credentials)
     try:
         measurement_date = request.args.get('measurementDate')
-        print(measurement_date)
-        print(get_day_ahead(measurement_date))
         sensor = request.args.get('sensor_type')
         outline = request.args.get('measurementOutline')
         visualization = {}
@@ -148,14 +145,11 @@ def re():
         except:
             print("error")
         display(Map)
-        height_css = ".folium-map { height: 400px !important; }"
         html = Map._repr_html_()
-        print(type(html))
-        # Regular expression pattern to match the height value
+        #the height of the map can be modified by modifying the height of id indicator #map_.. , apply some string methods on html
         return html
         
-        # Rest of your code
-        # Return a valid response
+        
 
     except Exception as e:
         print('An error occurred:', str(e))
