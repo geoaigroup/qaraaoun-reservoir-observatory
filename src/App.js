@@ -24,6 +24,7 @@ class App extends React.Component {
     waterbody: undefined, // used for centered map
     measurementOutline: undefined,
     measurementDate: undefined,
+    sensor_type: undefined,
   };
 
   componentDidMount() {
@@ -79,10 +80,10 @@ class App extends React.Component {
     this.setState({ searchString });
   }; */
 
-  setMeasurementDate = (waterbodyId, measurementDate) => {
+  setMeasurementDate = (waterbodyId, measurementDate, sensor_type) => {
     this.fetchMeasurementOutline(waterbodyId, measurementDate);
-    this.setState({ measurementDate });
-
+    this.setState({ measurementDate: measurementDate,
+     sensor_type: sensor_type});
     let pathname = "";
     if (this.props.location.pathname !== pathname) {
       this.props.history.push(pathname);
@@ -142,13 +143,20 @@ class App extends React.Component {
           validMeasurements.some(item => moment(item.date).isSame(moment(this.props.match.params.date)))
             ? moment(this.props.match.params.date)
             : validMeasurements[validMeasurements.length - 1].date; // or last measurement date
-
+        
+            const sensor =
+            this.props.match.params.sensor_type &&
+            validMeasurements.some(item => item.sensor_type.isSame(moment(this.props.match.params.sensor_type)))
+              ? moment(this.props.match.params.sensor_type)
+              : validMeasurements[validMeasurements.length - 1].sensor_type;
+          console.log("fetch: "+sensor);
         this.setState({
           waterbody: waterbody,
           measurementDate: measurementDate,
           loading: false,
+          sensor_type: sensor,
         });
-        this.setMeasurementDate(waterbodyId, measurementDate);
+        this.setMeasurementDate(waterbodyId, measurementDate, sensor);
       })
       .catch(e => {
         console.error('fetchWaterbody: ', e);
@@ -176,6 +184,7 @@ class App extends React.Component {
       measurementDate,
       //searchString,
       loading,
+      sensor_type
     } = this.state;
 
     return (
@@ -194,6 +203,7 @@ class App extends React.Component {
                   measurementOutline={measurementOutline}
                   measurementDate={measurementDate}
                   onDateSelect={this.setMeasurementDate}
+                  sensor={sensor_type}
                 />
               </div>
             </div>
