@@ -64,7 +64,7 @@ class WaterbodyMap extends React.PureComponent {
     if (!goToMeasurement) {
       return;
     }
-    this.props.onDateSelect(this.props.waterbody.properties.id, moment(goToMeasurement.date));
+    this.props.onDateSelect(this.props.waterbody.properties.id, moment(goToMeasurement.date), goToMeasurement.sensor_type);
   };
 
   goNext = () => {
@@ -72,18 +72,21 @@ class WaterbodyMap extends React.PureComponent {
     if (!goToMeasurement) {
       return;
     }
-    this.props.onDateSelect(this.props.waterbody.properties.id, moment(goToMeasurement.date));
+    this.props.onDateSelect(this.props.waterbody.properties.id, moment(goToMeasurement.date), goToMeasurement.sensor_type);
   };
 
   render() {
-    const { waterbody, measurementOutline, measurementDate } = this.props;
+    const { waterbody, measurementOutline, measurementDate, sensor} = this.props;
+    console.log("waterbodymap: "+sensor);
     if (!waterbody) {
       return <Loading />;
     }
     const hasPrev = !!this.getPrevMeasurement(measurementDate);
     const hasNext = !!this.getNextMeasurement(measurementDate);
     const timeInterval = `${measurementDate.format('YYYY-MM-DD')}/${measurementDate.format('YYYY-MM-DD')}`;
-
+    var tileID = null;
+    if(sensor == "Sentinel-2")
+      tileID = "TRUE-COLOR-S2L1C"
     return (
       <div className="waterbody-map">
         <Map
@@ -101,7 +104,7 @@ class WaterbodyMap extends React.PureComponent {
                 tiles: [
                   `https://sh.dataspace.copernicus.eu/ogc/wms/${
                     this.SH_INSTANCE_ID
-                  }?showLogo=false&service=WMS&request=GetMap&layers=TRUE-COLOR-S2L2A&styles=&format=image/jpeg&version=1.1.1&time=${timeInterval}&height=512&width=512&srs=EPSG:3857&bbox={bbox-epsg-3857}`,
+                  }?showLogo=false&service=WMS&request=GetMap&layers=${tileID}&styles=&format=image/jpeg&version=1.1.1&time=${timeInterval}&height=512&width=512&srs=EPSG:3857&bbox={bbox-epsg-3857}`,
                 ],
                 tileSize: 512,
               },
