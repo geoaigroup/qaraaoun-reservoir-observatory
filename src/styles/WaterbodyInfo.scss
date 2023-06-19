@@ -1,54 +1,73 @@
 @use './vars' as v;
 
-.infobox {
-  margin: 15px 15px 0;
-  border-bottom: 1px dotted v.$yellow;
+.info-above-grid {
+  color: v.$yellow;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  text-align: center; 
+}
+.column-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 0 20px; /* Add margin on the left and right */
 
-  .value {
-    color: v.$yellow;
-    font-weight: bold;
-    margin-bottom: 10px;
-    padding: 10px 0 0 0;
+  .infobox {
+    margin-bottom: 20px;
+    border-bottom: 1px dotted v.$yellow;
 
-    @media (min-width: v.$small) {
+    .value {
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 5px;
+      padding-top: 10px;
+
+      @media (min-width: v.$small) {
+        font-size: 12px;
+      }
+
+      @media (min-width: v.$medium) {
+        font-size: 14px;
+      }
+
+      @media (min-width: v.$large) {
+        font-size: 16px;
+      }
+
+      @media (min-width: v.$xlarge) {
+        font-size: 18px;
+      }
+
+      // max-height query
+      @media (max-height: v.$medium) {
+        padding: 0;
+        font-size: 14px;
+        margin: 0;
+      }
+    }
+
+    label {
+      color: v.$yellow;
       font-size: 14px;
+      margin: 0 0 5px 0;
+      display: block;
+      text-align: left;
+
+      @media (max-height: v.$large) {
+        padding: 0;
+        font-size: 14px;
+      }
+
+      @media (max-height: v.$medium) {
+        padding: 0;
+        font-size: 12px;
+        margin: 0;
+      }
     }
 
-    @media (min-width: v.$medium) {
-      font-size: 16px;
-    }
-
-    @media (min-width: v.$large) {
-      font-size: 18px;
-    }
-
-    @media (min-width: v.$xlarge) {
-      font-size: 22px;
-    }
-
-    // max-height query
-    @media (max-height: v.$medium) {
-      padding: 0;
-      font-size: 14px;
-      margin: 0;
-    }
-  }
-  label {
-    color: #fff;
-    font-size: 14px;
-    margin: 0 0 2px 0;
-    display: block;
-    text-align: right;
-
-    @media (max-height: v.$large) {
-      padding: 0;
-      font-size: 12px;
-    }
-
-    @media (max-height: v.$medium) {
-      padding: 0;
-      font-size: 10px;
-      margin: 0;
+    &:not(:last-child) {
+      margin-right: 20px; /* Adjust the margin value as needed */
     }
   }
 }
