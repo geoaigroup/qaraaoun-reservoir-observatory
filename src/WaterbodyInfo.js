@@ -18,7 +18,7 @@ export default class WaterbodyInfo extends React.Component {
   };
 
   render() {
-    const { waterbody, measurementDate } = this.props;
+    const { waterbody, measurementDate, sensor, outline } = this.props;
 
     if (!waterbody) {
       return <Loading />;
@@ -34,19 +34,31 @@ export default class WaterbodyInfo extends React.Component {
     const measurementInfo = measurementDate
       ? waterbody.measurements.find(m => m.date.isSame(measurementDate))
       : undefined;
+      
     return (
-      <div>
-        <Info
-          key={0}
-          value={`${waterbody.properties.name} - ${waterbody.properties.country}`}
-          label=""
-        />
-        {measurementInfo && [
-          <Info key={1} value={measurementInfo.date.format('YYYY-MM-DD')} label="Observation Date" />,
-          <Info key={2} value={thousands_separators(`${measurementInfo.volume}`)}  label="Water Volume" />,
-        ]}
+      <div className="info-container">
+    <div className="info-above-grid">
+  <Info
+    key={0}
+    value={`${waterbody.properties.name} - ${waterbody.properties.country}`}
+    label=""
+  />
+  </div>
+  {measurementInfo && (
+    <div className="column-container">
+      <Info key={1} label="Observation Date" value={measurementInfo.date.format('MMMM D, YYYY') } />
+      
+      <Info key={3} label="Mission name" value={thousands_separators(`${measurementInfo.sensor_type}`)}   />
+      
+      {measurementInfo.Average_Temperature && (
+      <Info key={5} label="Temperature in °C" value={thousands_separators(`${measurementInfo.Average_Temperature}`)}   />,
+      <Info key={2} label="Water Volume" value={thousands_separators(`${measurementInfo.volume}`)}   />
+      )}
+      {!outline && (<Info key={6} label="Water Detection" value="Not available"   />)}
+    </div>
+  )}
+</div>
 
-      </div>
     );
   }
-}
+}//<Info key={4} label="Water Quality" value="0.0"   />

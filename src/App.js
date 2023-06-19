@@ -172,7 +172,11 @@ class App extends React.Component {
           measurementOutline: res.data,
         });
       })
-      .catch(e => console.error(e));
+      .catch(e => {console.error(e);
+        this.setState({
+          measurementOutline: null,
+        });
+      });
   };
 
   render() {
@@ -194,7 +198,7 @@ class App extends React.Component {
           {({ size }) => (
             <div id="content">
               <div className="panel info">
-                <WaterbodyInfo waterbody={waterbody} measurementDate={measurementDate} />
+                <WaterbodyInfo waterbody={waterbody} measurementDate={measurementDate} sensor={sensor_type} outline = {measurementOutline}/>
               </div>
               <div className="panel waterbody">
                 <WaterbodyMap
