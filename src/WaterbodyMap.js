@@ -77,7 +77,6 @@ class WaterbodyMap extends React.PureComponent {
 
   render() {
     const { waterbody, measurementOutline, measurementDate, sensor} = this.props;
-    console.log("waterbodymap: "+sensor);
     if (!waterbody) {
       return <Loading />;
     }
@@ -85,7 +84,7 @@ class WaterbodyMap extends React.PureComponent {
     const hasNext = !!this.getNextMeasurement(measurementDate);
     const timeInterval = `${measurementDate.format('YYYY-MM-DD')}/${measurementDate.format('YYYY-MM-DD')}`;
     var tileID = null;
-    if(sensor == "Sentinel-2")
+    if(sensor === "Sentinel-2")
       tileID = "TRUE-COLOR-S2L1C"
     return (
       <div className="waterbody-map">

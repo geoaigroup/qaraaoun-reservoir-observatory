@@ -6,11 +6,12 @@
   font-size: 22px;
   margin-bottom: 10px;
   padding-top: 10px;
-  text-align: center; 
+  text-align: center;  
 }
 .column-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, auto);
+  grid-template-columns: repeat(3, auto);
   margin: 0 20px; /* Add margin on the left and right */
 
   .infobox {
