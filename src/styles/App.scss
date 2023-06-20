@@ -166,7 +166,7 @@ div.loading {
 
     @media (min-width: v.$medium) {
       &.info {
-        width: 50%;
+        width: 60%;
         order: 1;
         height: auto;
         padding-bottom: 20px;
@@ -174,7 +174,7 @@ div.loading {
 
       &.map {
         order: 2;
-        width: 50%;
+        width: 40%;
         height: auto;
       }
 
