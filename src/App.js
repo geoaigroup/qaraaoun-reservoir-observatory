@@ -2,8 +2,8 @@ import React from 'react';
 import axios from 'axios';
 import moment from 'moment';
 import { SizeMe } from 'react-sizeme';
-import { Switch, Route } from 'react-router';
-import { BrowserRouter } from 'react-router-dom';
+//import {  } from 'react-router';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 /** Components */
 import WaterbodyMap from './WaterbodyMap';
