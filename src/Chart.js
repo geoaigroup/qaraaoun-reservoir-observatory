@@ -4,8 +4,8 @@ import HighchartsReact from 'highcharts-react-official';
 import React from 'react';
 import Highcharts from 'highcharts/highstock';
 
-/** Sass variables, needed for the graph size which is a js prop */
-import sassVariables from './styles/_vars.scss';
+/** Sass variables, needed for the graph size which is a js prop 
+import sassVariables from './styles/_vars.scss';*/
 import './styles/Chart.scss';
 
 
@@ -122,7 +122,8 @@ opposite: false,
                 const { x, index } = event.point;
                 const measurement = waterbody.measurements[index];
                 const date = moment.utc(x);
-                onDateSelect(waterbody.properties.id, date);
+                const sensor = measurement.sensor_type;
+                onDateSelect(waterbody.properties.id, date, sensor);
                 //console.log(measurement.sensor_type);
               },
             },
