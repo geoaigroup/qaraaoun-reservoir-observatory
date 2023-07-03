@@ -48,12 +48,14 @@ export default class WaterbodyInfo extends React.Component {
   {measurementInfo && (
     <div className="column-container">
       <Info key={1} label="Observation Date" value={measurementInfo.date.format('MMMM D, YYYY') } />
-      <Info key={2} label="Mission name" value={thousands_separators(`${measurementInfo.sensor_type}`)}   />
+      <Info key={2} label="Mission name" value={`${measurementInfo.sensor_type}`}   />
       {measurementInfo.Average_Temperature && ( //measurementInfo.Average_Temperature.toFixed(2) to round
-      <Info key={3} label="Temperature (°C)" value={thousands_separators(`${measurementInfo.Average_Temperature}`)}   />
+      <Info key={3} label="Temperature (°C)" value={`${measurementInfo.Average_Temperature.toFixed(2)}`}   />
       )}
-      {!outline && (<Info key={4} label="Water Detection" value="Not available"/>)}
-      {outline && (<Info key={5} label="Water Volume" value={thousands_separators(`${measurementInfo.volume}`)}   />)}
+      {!outline && (<Info key={4} label="Water Surface Area" value="Not available"/>)}
+      {!outline && (<Info key={5} label="Water Volume" value="Not available"/>)}
+      {outline && (<Info key={6} label="Water Surface Area" value={`${measurementInfo.level.toFixed(4)*100+'%'}`}   />)}
+      {outline && (<Info key={7} label="Water Volume (in Cubic meter)" value={thousands_separators(`${measurementInfo.volume}`)}   />)}
     </div>
   )}
 </div>
