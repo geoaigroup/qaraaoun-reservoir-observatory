@@ -1,3612 +1,3612 @@
 {
-    "max_water_area_total": 0.0,
+    "max_level_total": 0.0,
     "measurements": [
         {
             "date": "1972-10-04",
-            "water_area": 0.5098410610530578,
+            "level": 0.5098410610530578,
             "sensor_type": "LandSat-1",
-            "water_volume": 53547123
+            "volume": 53547123
         },
         {
             "date": "1972-10-22",
-            "water_area": 0.4441128613121233,
+            "level": 0.4441128613121233,
             "sensor_type": "LandSat-1",
-            "water_volume": 40412354
+            "volume": 40412354
         },
         {
             "date": "1972-12-14",
-            "water_area": 0.24422069562958476,
+            "level": 0.24422069562958476,
             "sensor_type": "LandSat-1",
-            "water_volume": 10206073
+            "volume": 10206073
         },
         {
             "date": "1973-1-2",
-            "water_area": 0.20297753211348,
+            "level": 0.20297753211348,
             "sensor_type": "LandSat-1",
-            "water_volume": 4178149
+            "volume": 4178149
         },
         {
             "date": "1973-6-30",
-            "water_area": 0.5136460464766419,
+            "level": 0.5136460464766419,
             "sensor_type": "LandSat-1",
-            "water_volume": 54354953
+            "volume": 54354953
         },
         {
             "date": "1975-06-29",
-            "water_area": 0.8494562493954861,
+            "level": 0.8494562493954861,
             "sensor_type": "LandSat-1",
-            "water_volume": 139762410
+            "volume": 139762410
         },
         {
             "date": "1975-08-04",
-            "water_area": 0.6205274573596179,
+            "level": 0.6205274573596179,
             "sensor_type": "LandSat-1",
-            "water_volume": 78088315
+            "volume": 78088315
         },
         {
             "date": "1975-08-23",
-            "water_area": 0.6564544355674766,
+            "level": 0.6564544355674766,
             "sensor_type": "LandSat-1",
-            "water_volume": 86603146
+            "volume": 86603146
         },
         {
             "date": "1975-09-09",
-            "water_area": 0.5968340020266432,
+            "level": 0.5968340020266432,
             "sensor_type": "LandSat-1",
-            "water_volume": 72668287
+            "volume": 72668287
         },
         {
             "date": "1975-09-10",
-            "water_area": 0.5848613410365128,
+            "level": 0.5848613410365128,
             "sensor_type": "LandSat-1",
-            "water_volume": 69969877
+            "volume": 69969877
         },
         {
             "date": "1975-10-24",
-            "water_area": 0.41857538231055574,
+            "level": 0.41857538231055574,
             "sensor_type": "LandSat-1",
-            "water_volume": 35860646
+            "volume": 35860646
         },
         {
             "date": "1976-01-22",
-            "water_area": 0.32477304661899165,
+            "level": 0.32477304661899165,
             "sensor_type": "LandSat-1",
-            "water_volume": 21645096
+            "volume": 21645096
         },
         {
             "date": "1976-10-18",
-            "water_area": 0.5025639139899298,
+            "level": 0.5025639139899298,
             "sensor_type": "LandSat-1",
-            "water_volume": 52013158
+            "volume": 52013158
         },
         {
             "date": "1977-03-20",
-            "water_area": 0.921939872429838,
+            "level": 0.921939872429838,
             "sensor_type": "LandSat-1",
-            "water_volume": 159636106
+            "volume": 159636106
         },
         {
             "date": "1977-04-07",
-            "water_area": 0.889952808206638,
+            "level": 0.889952808206638,
             "sensor_type": "LandSat-1",
-            "water_volume": 150879635
+            "volume": 150879635
         },
         {
             "date": "1977-05-31",
-            "water_area": 0.9060093069801333,
+            "level": 0.9060093069801333,
             "sensor_type": "LandSat-1",
-            "water_volume": 155251907
+            "volume": 155251907
         },
         {
             "date": "1977-06-18",
-            "water_area": 0.9041203071243958,
+            "level": 0.9041203071243958,
             "sensor_type": "LandSat-1",
-            "water_volume": 154736175
+            "volume": 154736175
         },
         {
             "date": "1977-11-09",
-            "water_area": 0.38811750844681114,
+            "level": 0.38811750844681114,
             "sensor_type": "LandSat-1",
-            "water_volume": 30877375
+            "volume": 30877375
         },
         {
             "date": "1978-07-02",
-            "water_area": 0.8799231184966105,
+            "level": 0.8799231184966105,
             "sensor_type": "LandSat-1",
-            "water_volume": 148149497
+            "volume": 148149497
         },
         {
             "date": "1978-07-20",
-            "water_area": 0.7947382202420421,
+            "level": 0.7947382202420421,
             "sensor_type": "LandSat-1",
-            "water_volume": 124182692
+            "volume": 124182692
         },
         {
             "date": "1978-09-11",
-            "water_area": 0.6405058796429145,
+            "level": 0.6405058796429145,
             "sensor_type": "LandSat-1",
-            "water_volume": 82769785
+            "volume": 82769785
         },
         {
             "date": "1978-09-12",
-            "water_area": 0.6286411615017178,
+            "level": 0.6286411615017178,
             "sensor_type": "LandSat-1",
-            "water_volume": 79975252
+            "volume": 79975252
         },
         {
             "date": "1978-09-29",
-            "water_area": 0.511046422865644,
+            "level": 0.511046422865644,
             "sensor_type": "LandSat-1",
-            "water_volume": 53802622
+            "volume": 53802622
         },
         {
             "date": "1978-11-13",
-            "water_area": 0.4438519994273075,
+            "level": 0.4438519994273075,
             "sensor_type": "LandSat-1",
-            "water_volume": 40364112
+            "volume": 40364112
         },
         {
             "date": "1978-11-23",
-            "water_area": 0.3955925507328782,
+            "level": 0.3955925507328782,
             "sensor_type": "LandSat-1",
-            "water_volume": 32058004
+            "volume": 32058004
         },
         {
             "date": "1979-02-12",
-            "water_area": 0.4133761350886945,
+            "level": 0.4133761350886945,
             "sensor_type": "LandSat-2",
-            "water_volume": 34976550
+            "volume": 34976550
         },
         {
             "date": "1979-03-02",
-            "water_area": 0.4444097041465884,
+            "level": 0.4444097041465884,
             "sensor_type": "LandSat-2",
-            "water_volume": 40467293
+            "volume": 40467293
         },
         {
             "date": "1979-04-16",
-            "water_area": 0.5363590209321173,
+            "level": 0.5363590209321173,
             "sensor_type": "LandSat-2",
-            "water_volume": 59245824
+            "volume": 59245824
         },
         {
             "date": "1979-05-21",
-            "water_area": 0.5159218415408893,
+            "level": 0.5159218415408893,
             "sensor_type": "LandSat-2",
-            "water_volume": 54839884
+            "volume": 54839884
         },
         {
             "date": "1979-07-14",
-            "water_area": 0.42436831520136387,
+            "level": 0.42436831520136387,
             "sensor_type": "LandSat-2",
-            "water_volume": 36862621
+            "volume": 36862621
         },
         {
             "date": "1979-07-15",
-            "water_area": 0.41692025862747717,
+            "level": 0.41692025862747717,
             "sensor_type": "LandSat-2",
-            "water_volume": 35577652
+            "volume": 35577652
         },
         {
             "date": "1979-08-01",
-            "water_area": 0.37138636686770715,
+            "level": 0.37138636686770715,
             "sensor_type": "LandSat-2",
-            "water_volume": 28322573
+            "volume": 28322573
         },
         {
             "date": "1979-08-02",
-            "water_area": 0.3757670474854768,
+            "level": 0.3757670474854768,
             "sensor_type": "LandSat-2",
-            "water_volume": 28980639
+            "volume": 28980639
         },
         {
             "date": "1979-08-20",
-            "water_area": 0.34280849762222976,
+            "level": 0.34280849762222976,
             "sensor_type": "LandSat-2",
-            "water_volume": 24176858
+            "volume": 24176858
         },
         {
             "date": "1979-09-06",
-            "water_area": 0.2869480733180149,
+            "level": 0.2869480733180149,
             "sensor_type": "LandSat-2",
-            "water_volume": 16358650
+            "volume": 16358650
         },
         {
             "date": "1979-09-07",
-            "water_area": 0.2835478735777437,
+            "level": 0.2835478735777437,
             "sensor_type": "LandSat-2",
-            "water_volume": 15877958
+            "volume": 15877958
         },
         {
             "date": "1979-09-25",
-            "water_area": 0.24018183403334872,
+            "level": 0.24018183403334872,
             "sensor_type": "LandSat-2",
-            "water_volume": 9613729
+            "volume": 9613729
         },
         {
             "date": "1979-10-12",
-            "water_area": 0.2115859743130359,
+            "level": 0.2115859743130359,
             "sensor_type": "LandSat-2",
-            "water_volume": 5421138
+            "volume": 5421138
         },
         {
             "date": "1979-10-13",
-            "water_area": 0.20164623697708786,
+            "level": 0.20164623697708786,
             "sensor_type": "LandSat-2",
-            "water_volume": 3987588
+            "volume": 3987588
         },
         {
             "date": "1979-10-30",
-            "water_area": 0.1824593955856611,
+            "level": 0.1824593955856611,
             "sensor_type": "LandSat-2",
-            "water_volume": 1314659
+            "volume": 1314659
         },
         {
             "date": "1980-07-26",
-            "water_area": 0.8018354625570434,
+            "level": 0.8018354625570434,
             "sensor_type": "LandSat-2",
-            "water_volume": 126231067
+            "volume": 126231067
         },
         {
             "date": "1980-08-13",
-            "water_area": 0.7206624401864306,
+            "level": 0.7206624401864306,
             "sensor_type": "LandSat-2",
-            "water_volume": 103159941
+            "volume": 103159941
         },
         {
             "date": "1980-08-31",
-            "water_area": 0.6592789401136095,
+            "level": 0.6592789401136095,
             "sensor_type": "LandSat-2",
-            "water_volume": 87292300
+            "volume": 87292300
         },
         {
             "date": "1980-10-06",
-            "water_area": 0.498749933328849,
+            "level": 0.498749933328849,
             "sensor_type": "LandSat-2",
-            "water_volume": 51215449
+            "volume": 51215449
         },
         {
             "date": "1980-11-12",
-            "water_area": 0.36214825804961503,
+            "level": 0.36214825804961503,
             "sensor_type": "LandSat-2",
-            "water_volume": 26957032
+            "volume": 26957032
         },
         {
             "date": "1981-02-10",
-            "water_area": 0.708617817297011,
+            "level": 0.708617817297011,
             "sensor_type": "LandSat-3",
-            "water_volume": 99908007
+            "volume": 99908007
         },
         {
             "date": "1981-05-11",
-            "water_area": 0.870451133505941,
+            "level": 0.870451133505941,
             "sensor_type": "LandSat-3",
-            "water_volume": 145561271
+            "volume": 145561271
         },
         {
             "date": "1981-05-28",
-            "water_area": 0.8931551127239793,
+            "level": 0.8931551127239793,
             "sensor_type": "LandSat-3",
-            "water_volume": 151750488
+            "volume": 151750488
         },
         {
             "date": "1981-05-29",
-            "water_area": 0.9135383206906941,
+            "level": 0.9135383206906941,
             "sensor_type": "LandSat-3",
-            "water_volume": 157314720
+            "volume": 157314720
         },
         {
             "date": "1981-06-15",
-            "water_area": 0.8837550896324744,
+            "level": 0.8837550896324744,
             "sensor_type": "LandSat-3",
-            "water_volume": 149193409
+            "volume": 149193409
         },
         {
             "date": "1981-07-03",
-            "water_area": 0.8038503957365092,
+            "level": 0.8038503957365092,
             "sensor_type": "LandSat-3",
-            "water_volume": 126811852
+            "volume": 126811852
         },
         {
             "date": "1981-07-04",
-            "water_area": 0.8649370529747245,
+            "level": 0.8649370529747245,
             "sensor_type": "LandSat-3",
-            "water_volume": 144047590
+            "volume": 144047590
         },
         {
             "date": "1981-07-21",
-            "water_area": 0.776918654936638,
+            "level": 0.776918654936638,
             "sensor_type": "LandSat-3",
-            "water_volume": 119035585
+            "volume": 119035585
         },
         {
             "date": "1981-08-08",
-            "water_area": 0.6990288942199375,
+            "level": 0.6990288942199375,
             "sensor_type": "LandSat-3",
-            "water_volume": 97366841
+            "volume": 97366841
         },
         {
             "date": "1981-08-09",
-            "water_area": 0.7004951179175242,
+            "level": 0.7004951179175242,
             "sensor_type": "LandSat-3",
-            "water_volume": 97752598
+            "volume": 97752598
         },
         {
             "date": "1981-08-26",
-            "water_area": 0.643699188922797,
+            "level": 0.643699188922797,
             "sensor_type": "LandSat-3",
-            "water_volume": 83529842
+            "volume": 83529842
         },
         {
             "date": "1981-08-27",
-            "water_area": 0.6396243463769969,
+            "level": 0.6396243463769969,
             "sensor_type": "LandSat-3",
-            "water_volume": 82560586
+            "volume": 82560586
         },
         {
             "date": "1981-09-13",
-            "water_area": 0.5705499183202356,
+            "level": 0.5705499183202356,
             "sensor_type": "LandSat-3",
-            "water_volume": 66772248
+            "volume": 66772248
         },
         {
             "date": "1982-01-17",
-            "water_area": 0.18085824332699524,
+            "level": 0.18085824332699524,
             "sensor_type": "LandSat-3",
-            "water_volume": 1099467
+            "volume": 1099467
         },
         {
             "date": "1982-01-18",
-            "water_area": 0.16598012065404444,
+            "level": 0.16598012065404444,
             "sensor_type": "LandSat-3",
-            "water_volume": -821138
+            "volume": -821138
         },
         {
             "date": "1983-04-21",
-            "water_area": 0.9290101290325432,
+            "level": 0.9290101290325432,
             "sensor_type": "LandSat-3",
-            "water_volume": 161612137
+            "volume": 161612137
         },
         {
             "date": "1983-06-24",
-            "water_area": 0.9170284728049662,
+            "level": 0.9170284728049662,
             "sensor_type": "LandSat-3",
-            "water_volume": 158276088
+            "volume": 158276088
         },
         {
             "date": "1983-07-10",
-            "water_area": 0.8772155520367397,
+            "level": 0.8772155520367397,
             "sensor_type": "LandSat-3",
-            "water_volume": 147410947
+            "volume": 147410947
         },
         {
             "date": "1983-09-12",
-            "water_area": 0.7098951410089306,
+            "level": 0.7098951410089306,
             "sensor_type": "LandSat-3",
-            "water_volume": 100249755
+            "volume": 100249755
         },
         {
             "date": "1983-09-28",
-            "water_area": 0.6820818669431186,
+            "level": 0.6820818669431186,
             "sensor_type": "LandSat-3",
-            "water_volume": 92982358
+            "volume": 92982358
         },
         {
             "date": "1984-02-19",
-            "water_area": 0.6289469995735519,
+            "level": 0.6289469995735519,
             "sensor_type": "LandSat-3",
-            "water_volume": 80046741
+            "volume": 80046741
         },
         {
             "date": "1984-03-22",
-            "water_area": 0.6843216810577496,
+            "level": 0.6843216810577496,
             "sensor_type": "LandSat-3",
-            "water_volume": 93554029
+            "volume": 93554029
         },
         {
             "date": "1984-04-07",
-            "water_area": 0.8426468546775104,
+            "level": 0.8426468546775104,
             "sensor_type": "LandSat-3",
-            "water_volume": 137858991
+            "volume": 137858991
         },
         {
             "date": "1984-07-20",
-            "water_area": 0.8772875139361171,
+            "level": 0.8772875139361171,
             "sensor_type": "LandSat-3",
-            "water_volume": 147430588
+            "volume": 147430588
         },
         {
             "date": "1984-08-05",
-            "water_area": 0.8309710365218236,
+            "level": 0.8309710365218236,
             "sensor_type": "LandSat-3",
-            "water_volume": 134568207
+            "volume": 134568207
         },
         {
             "date": "1984-08-21",
-            "water_area": 0.7704510792401935,
+            "level": 0.7704510792401935,
             "sensor_type": "LandSat-3",
-            "water_volume": 117172138
+            "volume": 117172138
         },
         {
             "date": "1984-09-06",
-            "water_area": 0.7658725033994183,
+            "level": 0.7658725033994183,
             "sensor_type": "LandSat-4",
-            "water_volume": 115856313
+            "volume": 115856313
         },
         {
             "date": "1984-09-22",
-            "water_area": 0.7143657740006695,
+            "level": 0.7143657740006695,
             "sensor_type": "LandSat-4",
-            "water_volume": 101451764
+            "volume": 101451764
         },
         {
             "date": "1984-10-24",
-            "water_area": 0.6037603348307756,
+            "level": 0.6037603348307756,
             "sensor_type": "LandSat-4",
-            "water_volume": 74240612
+            "volume": 74240612
         },
         {
             "date": "1985-06-05",
-            "water_area": 0.7965462629609913,
+            "level": 0.7965462629609913,
             "sensor_type": "LandSat-4",
-            "water_volume": 124704835
+            "volume": 124704835
         },
         {
             "date": "1985-06-21",
-            "water_area": 0.7396423911174278,
+            "level": 0.7396423911174278,
             "sensor_type": "LandSat-4",
-            "water_volume": 108408330
+            "volume": 108408330
         },
         {
             "date": "1985-07-07",
-            "water_area": 0.6722590676933643,
+            "level": 0.6722590676933643,
             "sensor_type": "LandSat-4",
-            "water_volume": 90502779
+            "volume": 90502779
         },
         {
             "date": "1985-07-23",
-            "water_area": 0.6095892486712199,
+            "level": 0.6095892486712199,
             "sensor_type": "LandSat-4",
-            "water_volume": 75571103
+            "volume": 75571103
         },
         {
             "date": "1985-08-24",
-            "water_area": 0.500620942709692,
+            "level": 0.500620942709692,
             "sensor_type": "LandSat-4",
-            "water_volume": 51606216
+            "volume": 51606216
         },
         {
             "date": "1985-09-09",
-            "water_area": 0.464828893062913,
+            "level": 0.464828893062913,
             "sensor_type": "LandSat-4",
-            "water_volume": 44352893
+            "volume": 44352893
         },
         {
             "date": "1985-09-25",
-            "water_area": 0.4320862288974699,
+            "level": 0.4320862288974699,
             "sensor_type": "LandSat-4",
-            "water_volume": 38225454
+            "volume": 38225454
         },
         {
             "date": "1985-11-12",
-            "water_area": 0.3525953159222296,
+            "level": 0.3525953159222296,
             "sensor_type": "LandSat-4",
-            "water_volume": 25572378
+            "volume": 25572378
         },
         {
             "date": "1985-11-28",
-            "water_area": 0.3405057168457398,
+            "level": 0.3405057168457398,
             "sensor_type": "LandSat-4",
-            "water_volume": 23851211
+            "volume": 23851211
         },
         {
             "date": "1986-04-05",
-            "water_area": 0.6770445339944895,
+            "level": 0.6770445339944895,
             "sensor_type": "LandSat-4",
-            "water_volume": 91705233
+            "volume": 91705233
         },
         {
             "date": "1986-05-07",
-            "water_area": 0.6776472149008401,
+            "level": 0.6776472149008401,
             "sensor_type": "LandSat-4",
-            "water_volume": 91857412
+            "volume": 91857412
         },
         {
             "date": "1986-07-26",
-            "water_area": 0.5614557333005578,
+            "level": 0.5614557333005578,
             "sensor_type": "LandSat-4",
-            "water_volume": 64754588
+            "volume": 64754588
         },
         {
             "date": "1986-08-11",
-            "water_area": 0.5273367978117138,
+            "level": 0.5273367978117138,
             "sensor_type": "LandSat-4",
-            "water_volume": 57290282
+            "volume": 57290282
         },
         {
             "date": "1986-08-27",
-            "water_area": 0.5049656423777985,
+            "level": 0.5049656423777985,
             "sensor_type": "LandSat-4",
-            "water_volume": 52517748
+            "volume": 52517748
         },
         {
             "date": "1986-09-12",
-            "water_area": 0.4693894784288141,
+            "level": 0.4693894784288141,
             "sensor_type": "LandSat-4",
-            "water_volume": 45248028
+            "volume": 45248028
         },
         {
             "date": "1986-09-28",
-            "water_area": 0.4336963763935099,
+            "level": 0.4336963763935099,
             "sensor_type": "LandSat-4",
-            "water_volume": 38513794
+            "volume": 38513794
         },
         {
             "date": "1986-10-30",
-            "water_area": 0.4163355681959207,
+            "level": 0.4163355681959207,
             "sensor_type": "LandSat-4",
-            "water_volume": 35478028
+            "volume": 35478028
         },
         {
             "date": "1988-05-12",
-            "water_area": 0.984258877192997,
+            "level": 0.984258877192997,
             "sensor_type": "LandSat-4",
-            "water_volume": 178458129
+            "volume": 178458129
         },
         {
             "date": "1988-06-13",
-            "water_area": 0.9409558043104669,
+            "level": 0.9409558043104669,
             "sensor_type": "LandSat-4",
-            "water_volume": 165014763
+            "volume": 165014763
         },
         {
             "date": "1988-06-29",
-            "water_area": 0.909787306691424,
+            "level": 0.909787306691424,
             "sensor_type": "LandSat-4",
-            "water_volume": 156285371
+            "volume": 156285371
         },
         {
             "date": "1988-07-15",
-            "water_area": 0.8611950342129246,
+            "level": 0.8611950342129246,
             "sensor_type": "LandSat-4",
-            "water_volume": 143016837
+            "volume": 143016837
         },
         {
             "date": "1988-07-31",
-            "water_area": 0.8081771049296508,
+            "level": 0.8081771049296508,
             "sensor_type": "LandSat-4",
-            "water_volume": 128057453
+            "volume": 128057453
         },
         {
             "date": "1988-09-01",
-            "water_area": 0.6776652053756377,
+            "level": 0.6776652053756377,
             "sensor_type": "LandSat-4",
-            "water_volume": 91861957
+            "volume": 91861957
         },
         {
             "date": "1988-09-17",
-            "water_area": 0.5985790780837213,
+            "level": 0.5985790780837213,
             "sensor_type": "LandSat-4",
-            "water_volume": 73063597
+            "volume": 73063597
         },
         {
             "date": "1988-11-04",
-            "water_area": 0.4563373889496778,
+            "level": 0.4563373889496778,
             "sensor_type": "LandSat-4",
-            "water_volume": 42712077
+            "volume": 42712077
         },
         {
             "date": "1988-12-22",
-            "water_area": 0.3894667940579823,
+            "level": 0.3894667940579823,
             "sensor_type": "LandSat-4",
-            "water_volume": 31088580
+            "volume": 31088580
         },
         {
             "date": "1989-02-08",
-            "water_area": 0.4866333485401281,
+            "level": 0.4866333485401281,
             "sensor_type": "LandSat-4",
-            "water_volume": 48713099
+            "volume": 48713099
         },
         {
             "date": "1989-04-13",
-            "water_area": 0.5487094818933087,
+            "level": 0.5487094818933087,
             "sensor_type": "LandSat-4",
-            "water_volume": 61945250
+            "volume": 61945250
         },
         {
             "date": "1989-05-15",
-            "water_area": 0.5158049034545485,
+            "level": 0.5158049034545485,
             "sensor_type": "LandSat-4",
-            "water_volume": 54814936
+            "volume": 54814936
         },
         {
             "date": "1989-05-31",
-            "water_area": 0.49768849531466236,
+            "level": 0.49768849531466236,
             "sensor_type": "LandSat-4",
-            "water_volume": 50994257
+            "volume": 50994257
         },
         {
             "date": "1989-07-02",
-            "water_area": 0.4696413450762329,
+            "level": 0.4696413450762329,
             "sensor_type": "LandSat-4",
-            "water_volume": 45297737
+            "volume": 45297737
         },
         {
             "date": "1989-07-18",
-            "water_area": 0.4505804370084953,
+            "level": 0.4505804370084953,
             "sensor_type": "LandSat-4",
-            "water_volume": 41619637
+            "volume": 41619637
         },
         {
             "date": "1989-08-03",
-            "water_area": 0.43173541463854814,
+            "level": 0.43173541463854814,
             "sensor_type": "LandSat-4",
-            "water_volume": 38162816
+            "volume": 38162816
         },
         {
             "date": "1989-08-19",
-            "water_area": 0.4118109637796556,
+            "level": 0.4118109637796556,
             "sensor_type": "LandSat-4",
-            "water_volume": 34713191
+            "volume": 34713191
         },
         {
             "date": "1989-09-20",
-            "water_area": 0.37145832876698276,
+            "level": 0.37145832876698276,
             "sensor_type": "LandSat-4",
-            "water_volume": 28333325
+            "volume": 28333325
         },
         {
             "date": "1989-10-22",
-            "water_area": 0.33291373647333267,
+            "level": 0.33291373647333267,
             "sensor_type": "LandSat-4",
-            "water_volume": 22783233
+            "volume": 22783233
         },
         {
             "date": "1989-11-07",
-            "water_area": 0.323684622892644,
+            "level": 0.323684622892644,
             "sensor_type": "LandSat-4",
-            "water_volume": 21493291
+            "volume": 21493291
         },
         {
             "date": "1989-11-23",
-            "water_area": 0.31924997085045326,
+            "level": 0.31924997085045326,
             "sensor_type": "LandSat-4",
-            "water_volume": 20875318
+            "volume": 20875318
         },
         {
             "date": "1989-12-25",
-            "water_area": 0.3209500707205876,
+            "level": 0.3209500707205876,
             "sensor_type": "LandSat-4",
-            "water_volume": 21112145
+            "volume": 21112145
         },
         {
             "date": "1990-03-15",
-            "water_area": 0.4938115479917782,
+            "level": 0.4938115479917782,
             "sensor_type": "LandSat-4",
-            "water_volume": 50189471
+            "volume": 50189471
         },
         {
             "date": "1990-05-18",
-            "water_area": 0.5033554948817598,
+            "level": 0.5033554948817598,
             "sensor_type": "LandSat-4",
-            "water_volume": 52179276
+            "volume": 52179276
         },
         {
             "date": "1990-05-26",
-            "water_area": 0.4925252290424138,
+            "level": 0.4925252290424138,
             "sensor_type": "LandSat-4",
-            "water_volume": 49923570
+            "volume": 49923570
         },
         {
             "date": "1990-07-05",
-            "water_area": 0.4464696135129981,
+            "level": 0.4464696135129981,
             "sensor_type": "LandSat-4",
-            "water_volume": 40849793
+            "volume": 40849793
         },
         {
             "date": "1990-07-21",
-            "water_area": 0.4237296533453699,
+            "level": 0.4237296533453699,
             "sensor_type": "LandSat-4",
-            "water_volume": 36751276
+            "volume": 36751276
         },
         {
             "date": "1990-08-06",
-            "water_area": 0.40176328359482283,
+            "level": 0.40176328359482283,
             "sensor_type": "LandSat-4",
-            "water_volume": 33052687
+            "volume": 33052687
         },
         {
             "date": "1990-08-22",
-            "water_area": 0.37286158580264767,
+            "level": 0.37286158580264767,
             "sensor_type": "LandSat-4",
-            "water_volume": 28543379
+            "volume": 28543379
         },
         {
             "date": "1990-09-07",
-            "water_area": 0.34853846385117354,
+            "level": 0.34853846385117354,
             "sensor_type": "LandSat-4",
-            "water_volume": 24991429
+            "volume": 24991429
         },
         {
             "date": "1990-10-09",
-            "water_area": 0.29684283446692666,
+            "level": 0.29684283446692666,
             "sensor_type": "LandSat-4",
-            "water_volume": 17749936
+            "volume": 17749936
         },
         {
             "date": "1991-05-05",
-            "water_area": 0.7381671721824933,
+            "level": 0.7381671721824933,
             "sensor_type": "LandSat-4",
-            "water_volume": 107995483
+            "volume": 107995483
         },
         {
             "date": "1991-06-06",
-            "water_area": 0.7479270047702952,
+            "level": 0.7479270047702952,
             "sensor_type": "LandSat-4",
-            "water_volume": 110740284
+            "volume": 110740284
         },
         {
             "date": "1991-07-24",
-            "water_area": 0.6506794931513735,
+            "level": 0.6506794931513735,
             "sensor_type": "LandSat-4",
-            "water_volume": 85204036
+            "volume": 85204036
         },
         {
             "date": "1991-08-09",
-            "water_area": 0.6097691534193809,
+            "level": 0.6097691534193809,
             "sensor_type": "LandSat-4",
-            "water_volume": 75612281
+            "volume": 75612281
         },
         {
             "date": "1991-09-10",
-            "water_area": 0.5369796923131717,
+            "level": 0.5369796923131717,
             "sensor_type": "LandSat-4",
-            "water_volume": 59380894
+            "volume": 59380894
         },
         {
             "date": "1991-09-26",
-            "water_area": 0.5004500331989465,
+            "level": 0.5004500331989465,
             "sensor_type": "LandSat-4",
-            "water_volume": 51570476
+            "volume": 51570476
         },
         {
             "date": "1991-10-28",
-            "water_area": 0.4340202049402091,
+            "level": 0.4340202049402091,
             "sensor_type": "LandSat-4",
-            "water_volume": 38571951
+            "volume": 38571951
         },
         {
             "date": "1992-04-05",
-            "water_area": 1.004893951807147,
+            "level": 1.004893951807147,
             "sensor_type": "LandSat-4",
-            "water_volume": 185750063
+            "volume": 185750063
         },
         {
             "date": "1992-05-23",
-            "water_area": 1.0070977849721428,
+            "level": 1.0070977849721428,
             "sensor_type": "LandSat-4",
-            "water_volume": 186570156
+            "volume": 186570156
         },
         {
             "date": "1992-06-08",
-            "water_area": 0.9908703766879529,
+            "level": 0.9908703766879529,
             "sensor_type": "LandSat-4",
-            "water_volume": 180721089
+            "volume": 180721089
         },
         {
             "date": "1992-06-24",
-            "water_area": 0.9888014720840933,
+            "level": 0.9888014720840933,
             "sensor_type": "LandSat-4",
-            "water_volume": 180005818
+            "volume": 180005818
         },
         {
             "date": "1992-07-10",
-            "water_area": 0.9624184407661595,
+            "level": 0.9624184407661595,
             "sensor_type": "LandSat-4",
-            "water_volume": 171414955
+            "volume": 171414955
         },
         {
             "date": "1992-08-27",
-            "water_area": 0.8057663813042784,
+            "level": 0.8057663813042784,
             "sensor_type": "LandSat-4",
-            "water_volume": 127363715
+            "volume": 127363715
         },
         {
             "date": "1992-09-12",
-            "water_area": 0.7464607810727679,
+            "level": 0.7464607810727679,
             "sensor_type": "LandSat-4",
-            "water_volume": 110325987
+            "volume": 110325987
         },
         {
             "date": "1992-09-28",
-            "water_area": 0.6828734478349411,
+            "level": 0.6828734478349411,
             "sensor_type": "LandSat-4",
-            "water_volume": 93184125
+            "volume": 93184125
         },
         {
             "date": "1992-10-14",
-            "water_area": 0.6170193147702994,
+            "level": 0.6170193147702994,
             "sensor_type": "LandSat-4",
-            "water_volume": 77277859
+            "volume": 77277859
         },
         {
             "date": "1993-05-26",
-            "water_area": 0.9680764450958376,
+            "level": 0.9680764450958376,
             "sensor_type": "LandSat-4",
-            "water_volume": 173181216
+            "volume": 173181216
         },
         {
             "date": "1993-06-11",
-            "water_area": 0.9321674573627511,
+            "level": 0.9321674573627511,
             "sensor_type": "LandSat-4",
-            "water_volume": 162502849
+            "volume": 162502849
         },
         {
             "date": "1993-06-27",
-            "water_area": 0.9045071023328798,
+            "level": 0.9045071023328798,
             "sensor_type": "LandSat-4",
-            "water_volume": 154841730
+            "volume": 154841730
         },
         {
             "date": "1994-03-26",
-            "water_area": 0.8521908015674411,
+            "level": 0.8521908015674411,
             "sensor_type": "LandSat-5",
-            "water_volume": 140523511
+            "volume": 140523511
         },
         {
             "date": "1994-04-11",
-            "water_area": 0.8434564260441876,
+            "level": 0.8434564260441876,
             "sensor_type": "LandSat-5",
-            "water_volume": 138085904
+            "volume": 138085904
         },
         {
             "date": "1994-05-29",
-            "water_area": 0.8718004191170702,
+            "level": 0.8718004191170702,
             "sensor_type": "LandSat-5",
-            "water_volume": 145930808
+            "volume": 145930808
         },
         {
             "date": "1994-06-14",
-            "water_area": 0.828686246220113,
+            "level": 0.828686246220113,
             "sensor_type": "LandSat-5",
-            "water_volume": 133920393
+            "volume": 133920393
         },
         {
             "date": "1994-06-30",
-            "water_area": 0.7804357927631287,
+            "level": 0.7804357927631287,
             "sensor_type": "LandSat-5",
-            "water_volume": 120050632
+            "volume": 120050632
         },
         {
             "date": "1994-08-17",
-            "water_area": 0.5927501642432902,
+            "level": 0.5927501642432902,
             "sensor_type": "LandSat-5",
-            "water_volume": 71745250
+            "volume": 71745250
         },
         {
             "date": "1994-09-02",
-            "water_area": 0.5195918984033518,
+            "level": 0.5195918984033518,
             "sensor_type": "LandSat-5",
-            "water_volume": 55624542
+            "volume": 55624542
         },
         {
             "date": "1994-10-04",
-            "water_area": 0.43102479088331,
+            "level": 0.43102479088331,
             "sensor_type": "LandSat-5",
-            "water_volume": 38036134
+            "volume": 38036134
         },
         {
             "date": "1995-03-29",
-            "water_area": 0.8041472385708295,
+            "level": 0.8041472385708295,
             "sensor_type": "LandSat-5",
-            "water_volume": 126897379
+            "volume": 126897379
         },
         {
             "date": "1995-06-01",
-            "water_area": 0.8312498888814122,
+            "level": 0.8312498888814122,
             "sensor_type": "LandSat-5",
-            "water_volume": 134647187
+            "volume": 134647187
         },
         {
             "date": "1995-06-17",
-            "water_area": 0.7898897872790305,
+            "level": 0.7898897872790305,
             "sensor_type": "LandSat-5",
-            "water_volume": 122781908
+            "volume": 122781908
         },
         {
             "date": "1995-07-19",
-            "water_area": 0.6929571089693972,
+            "level": 0.6929571089693972,
             "sensor_type": "LandSat-5",
-            "water_volume": 95780269
+            "volume": 95780269
         },
         {
             "date": "1995-08-04",
-            "water_area": 0.6329228945078074,
+            "level": 0.6329228945078074,
             "sensor_type": "LandSat-5",
-            "water_volume": 80978633
+            "volume": 80978633
         },
         {
             "date": "1995-08-20",
-            "water_area": 0.5681571851695878,
+            "level": 0.5681571851695878,
             "sensor_type": "LandSat-5",
-            "water_volume": 66240338
+            "volume": 66240338
         },
         {
             "date": "1995-09-21",
-            "water_area": 0.4488083752391012,
+            "level": 0.4488083752391012,
             "sensor_type": "LandSat-5",
-            "water_volume": 41286721
+            "volume": 41286721
         },
         {
             "date": "1995-10-07",
-            "water_area": 0.28087628806756293,
+            "level": 0.28087628806756293,
             "sensor_type": "LandSat-5",
-            "water_volume": 15499231
+            "volume": 15499231
         },
         {
             "date": "1995-10-23",
-            "water_area": 0.29505278222270664,
+            "level": 0.29505278222270664,
             "sensor_type": "LandSat-5",
-            "water_volume": 17498988
+            "volume": 17498988
         },
         {
             "date": "1999-04-25",
-            "water_area": 0.6333096897163533,
+            "level": 0.6333096897163533,
             "sensor_type": "LandSat-5",
-            "water_volume": 81069549
+            "volume": 81069549
         },
         {
             "date": "1999-05-27",
-            "water_area": 0.41217976851340393,
+            "level": 0.41217976851340393,
             "sensor_type": "LandSat-5",
-            "water_volume": 34775132
+            "volume": 34775132
         },
         {
             "date": "1999-08-15",
-            "water_area": 0.5008458236449052,
+            "level": 0.5008458236449052,
             "sensor_type": "LandSat-5",
-            "water_volume": 51653257
+            "volume": 51653257
         },
         {
             "date": "1999-08-31",
-            "water_area": 0.4688137832346987,
+            "level": 0.4688137832346987,
             "sensor_type": "LandSat-5",
-            "water_volume": 45134514
+            "volume": 45134514
         },
         {
             "date": "1999-10-18",
-            "water_area": 0.35451130149015736,
+            "level": 0.35451130149015736,
             "sensor_type": "LandSat-5",
-            "water_volume": 25848120
+            "volume": 25848120
         },
         {
             "date": "1999-11-03",
-            "water_area": 0.32736367499254365,
+            "level": 0.32736367499254365,
             "sensor_type": "LandSat-5",
-            "water_volume": 22006707
+            "volume": 22006707
         },
         {
             "date": "2000-05-13",
-            "water_area": 0.6982463085653807,
+            "level": 0.6982463085653807,
             "sensor_type": "LandSat-5",
-            "water_volume": 97161365
+            "volume": 97161365
         },
         {
             "date": "2000-05-29",
-            "water_area": 0.6880367141071793,
+            "level": 0.6880367141071793,
             "sensor_type": "LandSat-5",
-            "water_volume": 94507438
+            "volume": 94507438
         },
         {
             "date": "2000-06-14",
-            "water_area": 0.6524875358703977,
+            "level": 0.6524875358703977,
             "sensor_type": "LandSat-5",
-            "water_volume": 85640671
+            "volume": 85640671
         },
         {
             "date": "2000-06-30",
-            "water_area": 0.625195985574255,
+            "level": 0.625195985574255,
             "sensor_type": "LandSat-5",
-            "water_volume": 79171815
+            "volume": 79171815
         },
         {
             "date": "2000-07-16",
-            "water_area": 0.5692995803204074,
+            "level": 0.5692995803204074,
             "sensor_type": "LandSat-5",
-            "water_volume": 66494201
+            "volume": 66494201
         },
         {
             "date": "2000-10-04",
-            "water_area": 0.38678621331037366,
+            "level": 0.38678621331037366,
             "sensor_type": "LandSat-5",
-            "water_volume": 30669786
+            "volume": 30669786
         },
         {
             "date": "2000-11-21",
-            "water_area": 0.3051004624075445,
+            "level": 0.3051004624075445,
             "sensor_type": "LandSat-5",
-            "water_volume": 18904231
+            "volume": 18904231
         },
         {
             "date": "2001-01-08",
-            "water_area": 0.3083297526370454,
+            "level": 0.3083297526370454,
             "sensor_type": "LandSat-5",
-            "water_volume": 19354503
+            "volume": 19354503
         },
         {
             "date": "2001-02-25",
-            "water_area": 0.47887945389433884,
+            "level": 0.47887945389433884,
             "sensor_type": "LandSat-5",
-            "water_volume": 47139944
+            "volume": 47139944
         },
         {
             "date": "2001-06-01",
-            "water_area": 0.5373215113346741,
+            "level": 0.5373215113346741,
             "sensor_type": "LandSat-5",
-            "water_volume": 59455309
+            "volume": 59455309
         },
         {
             "date": "2001-07-03",
-            "water_area": 0.47329341146392806,
+            "level": 0.47329341146392806,
             "sensor_type": "LandSat-5",
-            "water_volume": 46021650
+            "volume": 46021650
         },
         {
             "date": "2001-07-19",
-            "water_area": 0.4500317275266086,
+            "level": 0.4500317275266086,
             "sensor_type": "LandSat-5",
-            "water_volume": 41516381
+            "volume": 41516381
         },
         {
             "date": "2001-08-04",
-            "water_area": 0.4196008393750559,
+            "level": 0.4196008393750559,
             "sensor_type": "LandSat-5",
-            "water_volume": 36036710
+            "volume": 36036710
         },
         {
             "date": "2001-08-20",
-            "water_area": 0.3944141746324123,
+            "level": 0.3944141746324123,
             "sensor_type": "LandSat-5",
-            "water_volume": 31870153
+            "volume": 31870153
         },
         {
             "date": "2001-09-21",
-            "water_area": 0.3354324029475973,
+            "level": 0.3354324029475973,
             "sensor_type": "LandSat-5",
-            "water_volume": 23136686
+            "volume": 23136686
         },
         {
             "date": "2001-12-10",
-            "water_area": 0.3173699662321739,
+            "level": 0.3173699662321739,
             "sensor_type": "LandSat-5",
-            "water_volume": 20613508
+            "volume": 20613508
         },
         {
             "date": "2002-02-28",
-            "water_area": 0.6023390873203063,
+            "level": 0.6023390873203063,
             "sensor_type": "LandSat-5",
-            "water_volume": 73917243
+            "volume": 73917243
         },
         {
             "date": "2002-03-16",
-            "water_area": 0.31233263328358024,
+            "level": 0.31233263328358024,
             "sensor_type": "LandSat-5",
-            "water_volume": 19912117
+            "volume": 19912117
         },
         {
             "date": "2002-06-20",
-            "water_area": 0.8386259835560494,
+            "level": 0.8386259835560494,
             "sensor_type": "LandSat-5",
-            "water_volume": 136729538
+            "volume": 136729538
         },
         {
             "date": "2003-10-13",
-            "water_area": 0.5506974293604942,
+            "level": 0.5506974293604942,
             "sensor_type": "LandSat-5",
-            "water_volume": 62381920
+            "volume": 62381920
         },
         {
             "date": "2005-07-14",
-            "water_area": 0.7229022543009507,
+            "level": 0.7229022543009507,
             "sensor_type": "LandSat-5",
-            "water_volume": 103771732
+            "volume": 103771732
         },
         {
             "date": "2005-07-30",
-            "water_area": 0.6508863836117604,
+            "level": 0.6508863836117604,
             "sensor_type": "LandSat-5",
-            "water_volume": 85253936
+            "volume": 85253936
         },
         {
             "date": "2005-08-15",
-            "water_area": 0.6087886725419015,
+            "level": 0.6087886725419015,
             "sensor_type": "LandSat-5",
-            "water_volume": 75387945
+            "volume": 75387945
         },
         {
             "date": "2005-10-18",
-            "water_area": 0.45577068899296436,
+            "level": 0.45577068899296436,
             "sensor_type": "LandSat-5",
-            "water_volume": 42603810
+            "volume": 42603810
         },
         {
             "date": "2006-08-18",
-            "water_area": 0.6323022231267469,
+            "level": 0.6323022231267469,
             "sensor_type": "LandSat-5",
-            "water_volume": 80832840
+            "volume": 80832840
         },
         {
             "date": "2006-09-03",
-            "water_area": 0.5611139142790565,
+            "level": 0.5611139142790565,
             "sensor_type": "LandSat-5",
-            "water_volume": 64678963
+            "volume": 64678963
         },
         {
             "date": "2006-09-19",
-            "water_area": 0.5108035514556588,
+            "level": 0.5108035514556588,
             "sensor_type": "LandSat-5",
-            "water_volume": 53751110
+            "volume": 53751110
         },
         {
             "date": "2006-11-22",
-            "water_area": 0.38672324664851704,
+            "level": 0.38672324664851704,
             "sensor_type": "LandSat-5",
-            "water_volume": 30659987
+            "volume": 30659987
         },
         {
             "date": "2006-12-08",
-            "water_area": 0.3839527135268405,
+            "level": 0.3839527135268405,
             "sensor_type": "LandSat-5",
-            "water_volume": 30230556
+            "volume": 30230556
         },
         {
             "date": "2007-01-25",
-            "water_area": 0.409715073463572,
+            "level": 0.409715073463572,
             "sensor_type": "LandSat-5",
-            "water_volume": 34362537
+            "volume": 34362537
         },
         {
             "date": "2007-07-20",
-            "water_area": 0.7413065100379205,
+            "level": 0.7413065100379205,
             "sensor_type": "LandSat-5",
-            "water_volume": 108874944
+            "volume": 108874944
         },
         {
             "date": "2007-08-21",
-            "water_area": 0.6209682239924409,
+            "level": 0.6209682239924409,
             "sensor_type": "LandSat-5",
-            "water_volume": 78190363
+            "volume": 78190363
         },
         {
             "date": "2008-03-16",
-            "water_area": 0.6072504869451303,
+            "level": 0.6072504869451303,
             "sensor_type": "LandSat-5",
-            "water_volume": 75036417
+            "volume": 75036417
         },
         {
             "date": "2008-04-17",
-            "water_area": 0.6589011401423689,
+            "level": 0.6589011401423689,
             "sensor_type": "LandSat-5",
-            "water_volume": 87199931
+            "volume": 87199931
         },
         {
             "date": "2009-06-23",
-            "water_area": 0.8689039526716724,
+            "level": 0.8689039526716724,
             "sensor_type": "LandSat-5",
-            "water_volume": 145137136
+            "volume": 145137136
         },
         {
             "date": "2009-09-11",
-            "water_area": 0.6025819587303204,
+            "level": 0.6025819587303204,
             "sensor_type": "LandSat-5",
-            "water_volume": 73972474
+            "volume": 73972474
         },
         {
             "date": "2009-09-27",
-            "water_area": 0.553431981532641,
+            "level": 0.553431981532641,
             "sensor_type": "LandSat-5",
-            "water_volume": 62983506
+            "volume": 62983506
         },
         {
             "date": "2009-10-13",
-            "water_area": 0.5200686459859829,
+            "level": 0.5200686459859829,
             "sensor_type": "LandSat-5",
-            "water_volume": 55726700
+            "volume": 55726700
         },
         {
             "date": "2010-02-02",
-            "water_area": 0.8816591993163366,
+            "level": 0.8816591993163366,
             "sensor_type": "LandSat-5",
-            "water_volume": 148622616
+            "volume": 148622616
         },
         {
             "date": "2010-07-12",
-            "water_area": 0.8065849479084236,
+            "level": 0.8065849479084236,
             "sensor_type": "LandSat-5",
-            "water_volume": 127599357
+            "volume": 127599357
         },
         {
             "date": "2010-10-16",
-            "water_area": 0.5058651661186101,
+            "level": 0.5058651661186101,
             "sensor_type": "LandSat-5",
-            "water_volume": 52707166
+            "volume": 52707166
         },
         {
             "date": "2010-11-01",
-            "water_area": 0.4725468067590574,
+            "level": 0.4725468067590574,
             "sensor_type": "LandSat-5",
-            "water_volume": 45873185
+            "volume": 45873185
         },
         {
             "date": "2010-12-03",
-            "water_area": 0.3475579829736893,
+            "level": 0.3475579829736893,
             "sensor_type": "LandSat-5",
-            "water_volume": 24851575
+            "volume": 24851575
         },
         {
             "date": "2011-01-20",
-            "water_area": 0.3491771257071422,
+            "level": 0.3491771257071422,
             "sensor_type": "LandSat-5",
-            "water_volume": 25082638
+            "volume": 25082638
         },
         {
             "date": "2011-10-03",
-            "water_area": 0.5447155964841195,
+            "level": 0.5447155964841195,
             "sensor_type": "LandSat-5",
-            "water_volume": 61069707
+            "volume": 61069707
         },
         {
             "Average_Temperature": 22.051545328631384,
             "date": "2013-06-18",
-            "water_area": 0.9084470163176014,
+            "level": 0.9084470163176014,
             "sensor_type": "LandSat-8",
-            "water_volume": 155918399
+            "volume": 155918399
         },
         {
             "Average_Temperature": 28.63957489755846,
             "date": "2013-07-04",
-            "water_area": 0.8776293329575114,
+            "level": 0.8776293329575114,
             "sensor_type": "LandSat-8",
-            "water_volume": 147523874
+            "volume": 147523874
         },
         {
             "Average_Temperature": 24.61589197771053,
             "date": "2013-07-20",
-            "water_area": 0.837735455052647,
+            "level": 0.837735455052647,
             "sensor_type": "LandSat-8",
-            "water_volume": 136478842
+            "volume": 136478842
         },
         {
             "Average_Temperature": 27.244807264852913,
             "date": "2013-08-05",
-            "water_area": 0.7937127631774584,
+            "level": 0.7937127631774584,
             "sensor_type": "LandSat-8",
-            "water_volume": 123886483
+            "volume": 123886483
         },
         {
             "Average_Temperature": 26.264096055941774,
             "date": "2013-08-21",
-            "water_area": 0.7468026000942679,
+            "level": 0.7468026000942679,
             "sensor_type": "LandSat-8",
-            "water_volume": 110422514
+            "volume": 110422514
         },
         {
             "Average_Temperature": 24.341843504905302,
             "date": "2013-09-06",
-            "water_area": 0.6899167187254758,
+            "level": 0.6899167187254758,
             "sensor_type": "LandSat-8",
-            "water_volume": 94992407
+            "volume": 94992407
         },
         {
             "Average_Temperature": 19.542020400275426,
             "date": "2013-10-08",
-            "water_area": 0.5857968457268349,
+            "level": 0.5857968457268349,
             "sensor_type": "LandSat-8",
-            "water_volume": 70179910
+            "volume": 70179910
         },
         {
             "Average_Temperature": 18.94923548833978,
             "date": "2013-10-24",
-            "water_area": 0.5452373202537903,
+            "level": 0.5452373202537903,
             "sensor_type": "LandSat-8",
-            "water_volume": 61183944
+            "volume": 61183944
         },
         {
             "Average_Temperature": 7.532005238508929,
             "date": "2013-12-27",
-            "water_area": 0.4242153961654104,
+            "level": 0.4242153961654104,
             "sensor_type": "LandSat-8",
-            "water_volume": 36835941
+            "volume": 36835941
         },
         {
             "Average_Temperature": 10.2240412888036,
             "date": "2014-02-13",
-            "water_area": 0.36738348622113987,
+            "level": 0.36738348622113987,
             "sensor_type": "LandSat-8",
-            "water_volume": 27727358
+            "volume": 27727358
         },
         {
             "Average_Temperature": 14.123730369926204,
             "date": "2014-04-02",
-            "water_area": 0.44274558522606805,
+            "level": 0.44274558522606805,
             "sensor_type": "LandSat-8",
-            "water_volume": 40159894
+            "volume": 40159894
         },
         {
             "Average_Temperature": 17.71157976790935,
             "date": "2014-04-18",
-            "water_area": 0.4520376654686128,
+            "level": 0.4520376654686128,
             "sensor_type": "LandSat-8",
-            "water_volume": 41894596
+            "volume": 41894596
         },
         {
             "Average_Temperature": 22.98146674018287,
             "date": "2014-06-21",
-            "water_area": 0.4215887868422317,
+            "level": 0.4215887868422317,
             "sensor_type": "LandSat-8",
-            "water_volume": 36379624
+            "volume": 36379624
         },
         {
             "Average_Temperature": 26.42931279657545,
             "date": "2014-07-07",
-            "water_area": 0.402096107378917,
+            "level": 0.402096107378917,
             "sensor_type": "LandSat-8",
-            "water_volume": 33106869
+            "volume": 33106869
         },
         {
             "Average_Temperature": 26.027709658395512,
             "date": "2014-07-23",
-            "water_area": 0.37326637148602215,
+            "level": 0.37326637148602215,
             "sensor_type": "LandSat-8",
-            "water_volume": 28604106
+            "volume": 28604106
         },
         {
             "Average_Temperature": 26.259650353873475,
             "date": "2014-08-08",
-            "water_area": 0.345228216484997,
+            "level": 0.345228216484997,
             "sensor_type": "LandSat-8",
-            "water_volume": 24520059
+            "volume": 24520059
         },
         {
             "Average_Temperature": 28.42779995743112,
             "date": "2014-08-24",
-            "water_area": 0.3151121616427353,
+            "level": 0.3151121616427353,
             "sensor_type": "LandSat-8",
-            "water_volume": 20299140
+            "volume": 20299140
         },
         {
             "Average_Temperature": 24.36118748447699,
             "date": "2014-09-09",
-            "water_area": 0.2901323873604882,
+            "level": 0.2901323873604882,
             "sensor_type": "LandSat-8",
-            "water_volume": 16807551
+            "volume": 16807551
         },
         {
             "Average_Temperature": 14.69268762846453,
             "date": "2014-11-12",
-            "water_area": 0.23864364843659724,
+            "level": 0.23864364843659724,
             "sensor_type": "LandSat-8",
-            "water_volume": 9387883
+            "volume": 9387883
         },
         {
             "Average_Temperature": 9.346216626463365,
             "date": "2014-12-30",
-            "water_area": 0.3375282932636758,
+            "level": 0.3375282932636758,
             "sensor_type": "LandSat-8",
-            "water_volume": 23431422
+            "volume": 23431422
         },
         {
             "Average_Temperature": 14.584443009604968,
             "date": "2015-04-05",
-            "water_area": 0.7995236865430791,
+            "level": 0.7995236865430791,
             "sensor_type": "LandSat-8",
-            "water_volume": 125564253
+            "volume": 125564253
         },
         {
             "Average_Temperature": 14.801585646542332,
             "date": "2015-04-21",
-            "water_area": 0.8486646685034647,
+            "level": 0.8486646685034647,
             "sensor_type": "LandSat-8",
-            "water_volume": 139541742
+            "volume": 139541742
         },
         {
             "Average_Temperature": 19.497954997774073,
             "date": "2015-05-07",
-            "water_area": 0.8599626866880293,
+            "level": 0.8599626866880293,
             "sensor_type": "LandSat-8",
-            "water_volume": 142676710
+            "volume": 142676710
         },
         {
             "Average_Temperature": 22.972401373966697,
             "date": "2015-06-08",
-            "water_area": 0.8558698536673593,
+            "level": 0.8558698536673593,
             "sensor_type": "LandSat-8",
-            "water_volume": 141544588
+            "volume": 141544588
         },
         {
             "Average_Temperature": 25.527633379159088,
             "date": "2015-07-10",
-            "water_area": 0.7801659356408785,
+            "level": 0.7801659356408785,
             "sensor_type": "LandSat-8",
-            "water_volume": 119972720
+            "volume": 119972720
         },
         {
             "Average_Temperature": 25.954686025452123,
             "date": "2015-07-26",
-            "water_area": 0.7216609115386482,
+            "level": 0.7216609115386482,
             "sensor_type": "LandSat-8",
-            "water_volume": 103432402
+            "volume": 103432402
         },
         {
             "Average_Temperature": 25.418135718715803,
             "date": "2015-08-11",
-            "water_area": 0.6592609496386945,
+            "level": 0.6592609496386945,
             "sensor_type": "LandSat-8",
-            "water_volume": 87287900
+            "volume": 87287900
         },
         {
             "date": "2015-08-20",
-            "water_area": 0.6444008174406379,
+            "level": 0.6444008174406379,
             "sensor_type": "Sentinel-2",
-            "water_volume": 83697320
+            "volume": 83697320
         },
         {
             "Average_Temperature": 25.77707648721476,
             "date": "2015-08-27",
-            "water_area": 0.5924173404591903,
+            "level": 0.5924173404591903,
             "sensor_type": "LandSat-8",
-            "water_volume": 71670149
+            "volume": 71670149
         },
         {
             "date": "2015-08-30",
-            "water_area": 0.8588877558178416,
+            "level": 0.8588877558178416,
             "sensor_type": "Sentinel-2",
-            "water_volume": 142379750
+            "volume": 142379750
         },
         {
             "date": "2015-09-19",
-            "water_area": 0.49424331938738814,
+            "level": 0.49424331938738814,
             "sensor_type": "Sentinel-2",
-            "water_volume": 50278851
+            "volume": 50278851
         },
         {
             "Average_Temperature": 23.171250130714945,
             "date": "2015-09-28",
-            "water_area": 0.4432313280460898,
+            "level": 0.4432313280460898,
             "sensor_type": "LandSat-8",
-            "water_volume": 40249472
+            "volume": 40249472
         },
         {
             "date": "2015-09-29",
-            "water_area": 0.4577496412227601,
+            "level": 0.4577496412227601,
             "sensor_type": "Sentinel-2",
-            "water_volume": 42982568
+            "volume": 42982568
         },
         {
             "Average_Temperature": 20.831811658566235,
             "date": "2015-10-14",
-            "water_area": 0.4395342854713686,
+            "level": 0.4395342854713686,
             "sensor_type": "LandSat-8",
-            "water_volume": 39570791
+            "volume": 39570791
         },
         {
             "date": "2015-11-28",
-            "water_area": 0.47625284457119066,
+            "level": 0.47625284457119066,
             "sensor_type": "Sentinel-2",
-            "water_volume": 46612486
+            "volume": 46612486
         },
         {
             "date": "2015-12-08",
-            "water_area": 0.48135314418159103,
+            "level": 0.48135314418159103,
             "sensor_type": "Sentinel-2",
-            "water_volume": 47639261
+            "volume": 47639261
         },
         {
             "date": "2015-12-28",
-            "water_area": 0.4951608336030183,
+            "level": 0.4951608336030183,
             "sensor_type": "Sentinel-2",
-            "water_volume": 50468992
+            "volume": 50468992
         },
         {
             "date": "2016-01-17",
-            "water_area": 0.5533600196333647,
+            "level": 0.5533600196333647,
             "sensor_type": "Sentinel-2",
-            "water_volume": 62967661
+            "volume": 62967661
         },
         {
             "Average_Temperature": 7.4797166623080225,
             "date": "2016-02-03",
-            "water_area": 0.5765947178583696,
+            "level": 0.5765947178583696,
             "sensor_type": "LandSat-8",
-            "water_volume": 68119407
+            "volume": 68119407
         },
         {
             "date": "2016-02-16",
-            "water_area": 0.6327070088101243,
+            "level": 0.6327070088101243,
             "sensor_type": "Sentinel-2",
-            "water_volume": 80927909
+            "volume": 80927909
         },
         {
             "Average_Temperature": 12.95719419360793,
             "date": "2016-02-19",
-            "water_area": 0.607502353592541,
+            "level": 0.607502353592541,
             "sensor_type": "LandSat-8",
-            "water_volume": 75093943
+            "volume": 75093943
         },
         {
             "Average_Temperature": 11.918516387284287,
             "date": "2016-03-06",
-            "water_area": 0.6253399093727857,
+            "level": 0.6253399093727857,
             "sensor_type": "LandSat-8",
-            "water_volume": 79205311
+            "volume": 79205311
         },
         {
             "date": "2016-03-07",
-            "water_area": 0.6749936198655517,
+            "level": 0.6749936198655517,
             "sensor_type": "Sentinel-2",
-            "water_volume": 91188618
+            "volume": 91188618
         },
         {
             "Average_Temperature": 12.523809993980384,
             "date": "2016-03-22",
-            "water_area": 0.6409016700888488,
+            "level": 0.6409016700888488,
             "sensor_type": "LandSat-8",
-            "water_volume": 82863798
+            "volume": 82863798
         },
         {
             "date": "2016-03-27",
-            "water_area": 0.7337415153777974,
+            "level": 0.7337415153777974,
             "sensor_type": "Sentinel-2",
-            "water_volume": 106761639
+            "volume": 106761639
         },
         {
             "date": "2016-04-06",
-            "water_area": 0.7688049507945274,
+            "level": 0.7688049507945274,
             "sensor_type": "Sentinel-2",
-            "water_volume": 116698692
+            "volume": 116698692
         },
         {
             "Average_Temperature": 18.33631611509968,
             "date": "2016-04-07",
-            "water_area": 0.737654443650238,
+            "level": 0.737654443650238,
             "sensor_type": "LandSat-8",
-            "water_volume": 107852174
+            "volume": 107852174
         },
         {
             "date": "2016-04-16",
-            "water_area": 0.7716294553406771,
+            "level": 0.7716294553406771,
             "sensor_type": "Sentinel-2",
-            "water_volume": 117511285
+            "volume": 117511285
         },
         {
             "Average_Temperature": 21.44051856871456,
             "date": "2016-04-23",
-            "water_area": 0.7190972688773651,
+            "level": 0.7190972688773651,
             "sensor_type": "LandSat-8",
-            "water_volume": 102733708
+            "volume": 102733708
         },
         {
             "date": "2016-04-26",
-            "water_area": 0.7576328659336757,
+            "level": 0.7576328659336757,
             "sensor_type": "Sentinel-2",
-            "water_volume": 113497906
+            "volume": 113497906
         },
         {
             "date": "2016-05-16",
-            "water_area": 0.7380952102833147,
+            "level": 0.7380952102833147,
             "sensor_type": "Sentinel-2",
-            "water_volume": 107975364
+            "volume": 107975364
         },
         {
             "date": "2016-05-26",
-            "water_area": 0.6649774230116091,
+            "level": 0.6649774230116091,
             "sensor_type": "Sentinel-2",
-            "water_volume": 88692785
+            "volume": 88692785
         },
         {
             "date": "2016-06-05",
-            "water_area": 0.7011877511979006,
+            "level": 0.7011877511979006,
             "sensor_type": "Sentinel-2",
-            "water_volume": 97935181
+            "volume": 97935181
         },
         {
             "date": "2016-06-15",
-            "water_area": 0.6950799849977961,
+            "level": 0.6950799849977961,
             "sensor_type": "Sentinel-2",
-            "water_volume": 96332985
+            "volume": 96332985
         },
         {
             "date": "2016-06-25",
-            "water_area": 0.6754523769733556,
+            "level": 0.6754523769733556,
             "sensor_type": "Sentinel-2",
-            "water_volume": 91304009
+            "volume": 91304009
         },
         {
             "Average_Temperature": 26.921797778750065,
             "date": "2016-07-12",
-            "water_area": 0.6229201905100072,
+            "level": 0.6229201905100072,
             "sensor_type": "LandSat-8",
-            "water_volume": 78642904
+            "volume": 78642904
         },
         {
             "date": "2016-07-15",
-            "water_area": 0.6472343172241952,
+            "level": 0.6472343172241952,
             "sensor_type": "Sentinel-2",
-            "water_volume": 84375481
+            "volume": 84375481
         },
         {
             "date": "2016-07-25",
-            "water_area": 0.6277686234730951,
+            "level": 0.6277686234730951,
             "sensor_type": "Sentinel-2",
-            "water_volume": 79771449
+            "volume": 79771449
         },
         {
             "Average_Temperature": 27.51465758947768,
             "date": "2016-07-28",
-            "water_area": 0.5995595589612118,
+            "level": 0.5995595589612118,
             "sensor_type": "LandSat-8",
-            "water_volume": 73285946
+            "volume": 73285946
         },
         {
             "date": "2016-08-04",
-            "water_area": 0.6115142294766686,
+            "level": 0.6115142294766686,
             "sensor_type": "Sentinel-2",
-            "water_volume": 76012079
+            "volume": 76012079
         },
         {
             "Average_Temperature": 27.580243212373865,
             "date": "2016-08-13",
-            "water_area": 0.5697583374282242,
+            "level": 0.5697583374282242,
             "sensor_type": "LandSat-8",
-            "water_volume": 66596195
+            "volume": 66596195
         },
         {
             "date": "2016-08-14",
-            "water_area": 0.5925702594952058,
+            "level": 0.5925702594952058,
             "sensor_type": "Sentinel-2",
-            "water_volume": 71704652
+            "volume": 71704652
         },
         {
             "date": "2016-08-24",
-            "water_area": 0.5756232322183894,
+            "level": 0.5756232322183894,
             "sensor_type": "Sentinel-2",
-            "water_volume": 67902568
+            "volume": 67902568
         },
         {
             "Average_Temperature": 25.002001433693415,
             "date": "2016-08-29",
-            "water_area": 0.5486195295192287,
+            "level": 0.5486195295192287,
             "sensor_type": "LandSat-8",
-            "water_volume": 61925504
+            "volume": 61925504
         },
         {
             "date": "2016-09-13",
-            "water_area": 0.540083049219045,
+            "level": 0.540083049219045,
             "sensor_type": "Sentinel-2",
-            "water_volume": 60057219
+            "volume": 60057219
         },
         {
             "Average_Temperature": 23.87051275823113,
             "date": "2016-09-14",
-            "water_area": 0.5227402314961825,
+            "level": 0.5227402314961825,
             "sensor_type": "LandSat-8",
-            "water_volume": 56300116
+            "volume": 56300116
         },
         {
             "Average_Temperature": 22.685959526271645,
             "date": "2016-09-30",
-            "water_area": 0.49631222399121766,
+            "level": 0.49631222399121766,
             "sensor_type": "LandSat-8",
-            "water_volume": 50707998
+            "volume": 50707998
         },
         {
             "date": "2016-10-03",
-            "water_area": 0.5066837327227963,
+            "level": 0.5066837327227963,
             "sensor_type": "Sentinel-2",
-            "water_volume": 52879738
+            "volume": 52879738
         },
         {
             "date": "2016-10-13",
-            "water_area": 0.4903483815897001,
+            "level": 0.4903483815897001,
             "sensor_type": "Sentinel-2",
-            "water_volume": 49474894
+            "volume": 49474894
         },
         {
             "Average_Temperature": 20.80460459709511,
             "date": "2016-10-16",
-            "water_area": 0.46363252648763703,
+            "level": 0.46363252648763703,
             "sensor_type": "LandSat-8",
-            "water_volume": 44119652
+            "volume": 44119652
         },
         {
             "date": "2016-10-23",
-            "water_area": 0.4686788546735975,
+            "level": 0.4686788546735975,
             "sensor_type": "Sentinel-2",
-            "water_volume": 45107931
+            "volume": 45107931
         },
         {
             "date": "2016-11-22",
-            "water_area": 0.4160926967858959,
+            "level": 0.4160926967858959,
             "sensor_type": "Sentinel-2",
-            "water_volume": 35436699
+            "volume": 35436699
         },
         {
             "date": "2016-12-12",
-            "water_area": 0.35701197748958446,
+            "level": 0.35701197748958446,
             "sensor_type": "Sentinel-2",
-            "water_volume": 26209434
+            "volume": 26209434
         },
         {
             "date": "2017-01-01",
-            "water_area": 0.47942816337626276,
+            "level": 0.47942816337626276,
             "sensor_type": "Sentinel-2",
-            "water_volume": 47250489
+            "volume": 47250489
         },
         {
             "date": "2017-01-11",
-            "water_area": 0.5037063091407258,
+            "level": 0.5037063091407258,
             "sensor_type": "Sentinel-2",
-            "water_volume": 52252956
+            "volume": 52252956
         },
         {
             "Average_Temperature": 6.723612699277833,
             "date": "2017-02-05",
-            "water_area": 0.5550421290286065,
+            "level": 0.5550421290286065,
             "sensor_type": "LandSat-8",
-            "water_volume": 63338215
+            "volume": 63338215
         },
         {
             "date": "2017-02-10",
-            "water_area": 0.5941804069912638,
+            "level": 0.5941804069912638,
             "sensor_type": "Sentinel-2",
-            "water_volume": 72068194
+            "volume": 72068194
         },
         {
             "Average_Temperature": 8.05992100019346,
             "date": "2017-02-21",
-            "water_area": 0.5886303455103856,
+            "level": 0.5886303455103856,
             "sensor_type": "LandSat-8",
-            "water_volume": 70816876
+            "volume": 70816876
         },
         {
             "Average_Temperature": 12.562484675337366,
             "date": "2017-03-25",
-            "water_area": 0.7023661272982803,
+            "level": 0.7023661272982803,
             "sensor_type": "LandSat-8",
-            "water_volume": 98246331
+            "volume": 98246331
         },
         {
             "date": "2017-04-21",
-            "water_area": 0.7854056614311523,
+            "level": 0.7854056614311523,
             "sensor_type": "Sentinel-2",
-            "water_volume": 121486158
+            "volume": 121486158
         },
         {
             "Average_Temperature": 16.462073162472848,
             "date": "2017-04-26",
-            "water_area": 0.7236218732936505,
+            "level": 0.7236218732936505,
             "sensor_type": "LandSat-8",
-            "water_volume": 103968745
+            "volume": 103968745
         },
         {
             "date": "2017-05-11",
-            "water_area": 0.7777282263033702,
+            "level": 0.7777282263033702,
             "sensor_type": "Sentinel-2",
-            "water_volume": 119269143
+            "volume": 119269143
         },
         {
             "Average_Temperature": 21.466282021543556,
             "date": "2017-05-12",
-            "water_area": 0.7416753147716638,
+            "level": 0.7416753147716638,
             "sensor_type": "LandSat-8",
-            "water_volume": 108978483
+            "volume": 108978483
         },
         {
             "Average_Temperature": 21.198159337489027,
             "date": "2017-05-28",
-            "water_area": 0.7422420147283717,
+            "level": 0.7422420147283717,
             "sensor_type": "LandSat-8",
-            "water_volume": 109137668
+            "volume": 109137668
         },
         {
             "date": "2017-05-31",
-            "water_area": 0.7733565409230404,
+            "level": 0.7733565409230404,
             "sensor_type": "Sentinel-2",
-            "water_volume": 118008674
+            "volume": 118008674
         },
         {
             "date": "2017-06-10",
-            "water_area": 0.7578667421062908,
+            "level": 0.7578667421062908,
             "sensor_type": "Sentinel-2",
-            "water_volume": 113564650
+            "volume": 113564650
         },
         {
             "Average_Temperature": 24.361844846802793,
             "date": "2017-06-13",
-            "water_area": 0.7333457249317569,
+            "level": 0.7333457249317569,
             "sensor_type": "LandSat-8",
-            "water_volume": 106651648
+            "volume": 106651648
         },
         {
             "Average_Temperature": 26.971728802967338,
             "date": "2017-06-29",
-            "water_area": 0.7092564791528816,
+            "level": 0.7092564791528816,
             "sensor_type": "LandSat-8",
-            "water_volume": 100078787
+            "volume": 100078787
         },
         {
             "date": "2017-06-30",
-            "water_area": 0.7359813294923885,
+            "level": 0.7359813294923885,
             "sensor_type": "Sentinel-2",
-            "water_volume": 107385189
+            "volume": 107385189
         },
         {
             "date": "2017-07-05",
-            "water_area": 0.7298285871052522,
+            "level": 0.7298285871052522,
             "sensor_type": "Sentinel-2",
-            "water_volume": 105676877
+            "volume": 105676877
         },
         {
             "date": "2017-07-10",
-            "water_area": 0.7170193690361405,
+            "level": 0.7170193690361405,
             "sensor_type": "Sentinel-2",
-            "water_volume": 102169502
+            "volume": 102169502
         },
         {
             "Average_Temperature": 28.33592737381525,
             "date": "2017-07-15",
-            "water_area": 0.685931828553688,
+            "level": 0.685931828553688,
             "sensor_type": "LandSat-8",
-            "water_volume": 93966448
+            "volume": 93966448
         },
         {
             "date": "2017-07-20",
-            "water_area": 0.7061891031967974,
+            "level": 0.7061891031967974,
             "sensor_type": "Sentinel-2",
-            "water_volume": 99260292
+            "volume": 99260292
         },
         {
             "date": "2017-07-25",
-            "water_area": 0.6934428517895198,
+            "level": 0.6934428517895198,
             "sensor_type": "Sentinel-2",
-            "water_volume": 95906549
+            "volume": 95906549
         },
         {
             "date": "2017-07-30",
-            "water_area": 0.6815961241230741,
+            "level": 0.6815961241230741,
             "sensor_type": "Sentinel-2",
-            "water_volume": 92858692
+            "volume": 92858692
         },
         {
             "Average_Temperature": 28.567413206450066,
             "date": "2017-07-31",
-            "water_area": 0.6545204595246227,
+            "level": 0.6545204595246227,
             "sensor_type": "LandSat-8",
-            "water_volume": 86133133
+            "volume": 86133133
         },
         {
             "date": "2017-08-04",
-            "water_area": 0.6681752299102101,
+            "level": 0.6681752299102101,
             "sensor_type": "Sentinel-2",
-            "water_volume": 89484785
+            "volume": 89484785
         },
         {
             "date": "2017-08-09",
-            "water_area": 0.6613748304297112,
+            "level": 0.6613748304297112,
             "sensor_type": "Sentinel-2",
-            "water_volume": 87805805
+            "volume": 87805805
         },
         {
             "date": "2017-08-14",
-            "water_area": 0.6500048503458828,
+            "level": 0.6500048503458828,
             "sensor_type": "Sentinel-2",
-            "water_volume": 85041434
+            "volume": 85041434
         },
         {
             "Average_Temperature": 25.57538345763137,
             "date": "2017-08-16",
-            "water_area": 0.6275257520629438,
+            "level": 0.6275257520629438,
             "sensor_type": "LandSat-8",
-            "water_volume": 79714760
+            "volume": 79714760
         },
         {
             "date": "2017-08-19",
-            "water_area": 0.640047122535117,
+            "level": 0.640047122535117,
             "sensor_type": "Sentinel-2",
-            "water_volume": 82660884
+            "volume": 82660884
         },
         {
             "date": "2017-08-24",
-            "water_area": 0.6259695759914642,
+            "level": 0.6259695759914642,
             "sensor_type": "Sentinel-2",
-            "water_volume": 79351928
+            "volume": 79351928
         },
         {
             "date": "2017-08-29",
-            "water_area": 0.6100929819661896,
+            "level": 0.6100929819661896,
             "sensor_type": "Sentinel-2",
-            "water_volume": 75686420
+            "volume": 75686420
         },
         {
             "Average_Temperature": 25.64016210526069,
             "date": "2017-09-01",
-            "water_area": 0.5870921599135913,
+            "level": 0.5870921599135913,
             "sensor_type": "LandSat-8",
-            "water_volume": 70470942
+            "volume": 70470942
         },
         {
             "date": "2017-09-08",
-            "water_area": 0.5871101503885152,
+            "level": 0.5871101503885152,
             "sensor_type": "Sentinel-2",
-            "water_volume": 70474986
+            "volume": 70474986
         },
         {
             "Average_Temperature": 23.643395012751007,
             "date": "2017-09-17",
-            "water_area": 0.5420080300242873,
+            "level": 0.5420080300242873,
             "sensor_type": "LandSat-8",
-            "water_volume": 60477531
+            "volume": 60477531
         },
         {
             "date": "2017-09-18",
-            "water_area": 0.551201162655436,
+            "level": 0.551201162655436,
             "sensor_type": "Sentinel-2",
-            "water_volume": 62492660
+            "volume": 62492660
         },
         {
             "date": "2017-09-23",
-            "water_area": 0.5311687689476217,
+            "level": 0.5311687689476217,
             "sensor_type": "Sentinel-2",
-            "water_volume": 58118996
+            "volume": 58118996
         },
         {
             "date": "2017-09-28",
-            "water_area": 0.5107225943190276,
+            "level": 0.5107225943190276,
             "sensor_type": "Sentinel-2",
-            "water_volume": 53733942
+            "volume": 53733942
         },
         {
             "Average_Temperature": 22.767430411292978,
             "date": "2017-10-03",
-            "water_area": 0.47642375408193854,
+            "level": 0.47642375408193854,
             "sensor_type": "LandSat-8",
-            "water_volume": 46646720
+            "volume": 46646720
         },
         {
             "date": "2017-10-08",
-            "water_area": 0.4767205969164109,
+            "level": 0.4767205969164109,
             "sensor_type": "Sentinel-2",
-            "water_volume": 46706208
+            "volume": 46706208
         },
         {
             "date": "2017-10-13",
-            "water_area": 0.4559595889785464,
+            "level": 0.4559595889785464,
             "sensor_type": "Sentinel-2",
-            "water_volume": 42639882
+            "volume": 42639882
         },
         {
             "date": "2017-10-18",
-            "water_area": 0.4454891326355326,
+            "level": 0.4454891326355326,
             "sensor_type": "Sentinel-2",
-            "water_volume": 40667456
+            "volume": 40667456
         },
         {
             "Average_Temperature": 19.6801459028626,
             "date": "2017-10-19",
-            "water_area": 0.429225743401708,
+            "level": 0.429225743401708,
             "sensor_type": "LandSat-8",
-            "water_volume": 37716628
+            "volume": 37716628
         },
         {
             "date": "2017-10-23",
-            "water_area": 0.4378791617882922,
+            "level": 0.4378791617882922,
             "sensor_type": "Sentinel-2",
-            "water_volume": 39269284
+            "volume": 39269284
         },
         {
             "date": "2017-11-07",
-            "water_area": 0.4181526061523531,
+            "level": 0.4181526061523531,
             "sensor_type": "Sentinel-2",
-            "water_volume": 35788221
+            "volume": 35788221
         },
         {
             "date": "2017-11-17",
-            "water_area": 0.40407505960868234,
+            "level": 0.40407505960868234,
             "sensor_type": "Sentinel-2",
-            "water_volume": 33430181
+            "volume": 33430181
         },
         {
             "date": "2017-11-27",
-            "water_area": 0.39474699841651223,
+            "level": 0.39474699841651223,
             "sensor_type": "Sentinel-2",
-            "water_volume": 31923143
+            "volume": 31923143
         },
         {
             "date": "2017-12-02",
-            "water_area": 0.38203672795888566,
+            "level": 0.38203672795888566,
             "sensor_type": "Sentinel-2",
-            "water_volume": 29935514
+            "volume": 29935514
         },
         {
             "date": "2017-12-12",
-            "water_area": 0.37393201905420886,
+            "level": 0.37393201905420886,
             "sensor_type": "Sentinel-2",
-            "water_volume": 28704103
+            "volume": 28704103
         },
         {
             "Average_Temperature": 10.617337963358578,
             "date": "2018-02-24",
-            "water_area": 0.5188003175114485,
+            "level": 0.5188003175114485,
             "sensor_type": "LandSat-8",
-            "water_volume": 55455035
+            "volume": 55455035
         },
         {
             "date": "2018-03-02",
-            "water_area": 0.5590180239630587,
+            "level": 0.5590180239630587,
             "sensor_type": "Sentinel-2",
-            "water_volume": 64215599
+            "volume": 64215599
         },
         {
             "date": "2018-03-07",
-            "water_area": 0.5684990041911826,
+            "level": 0.5684990041911826,
             "sensor_type": "Sentinel-2",
-            "water_volume": 66316279
+            "volume": 66316279
         },
         {
             "date": "2018-03-12",
-            "water_area": 0.5798150128505728,
+            "level": 0.5798150128505728,
             "sensor_type": "Sentinel-2",
-            "water_volume": 68839116
+            "volume": 68839116
         },
         {
             "date": "2018-03-17",
-            "water_area": 0.5845465077272057,
+            "level": 0.5845465077272057,
             "sensor_type": "Sentinel-2",
-            "water_volume": 69899222
+            "volume": 69899222
         },
         {
             "date": "2018-03-22",
-            "water_area": 0.5952058640557959,
+            "level": 0.5952058640557959,
             "sensor_type": "Sentinel-2",
-            "water_volume": 72299951
+            "volume": 72299951
         },
         {
             "date": "2018-03-27",
-            "water_area": 0.5985655852277164,
+            "level": 0.5985655852277164,
             "sensor_type": "Sentinel-2",
-            "water_volume": 73060539
+            "volume": 73060539
         },
         {
             "date": "2018-04-06",
-            "water_area": 0.5965281639547861,
+            "level": 0.5965281639547861,
             "sensor_type": "Sentinel-2",
-            "water_volume": 72599062
+            "volume": 72599062
         },
         {
             "Average_Temperature": 17.062421192884607,
             "date": "2018-04-13",
-            "water_area": 0.5793202747930196,
+            "level": 0.5793202747930196,
             "sensor_type": "LandSat-8",
-            "water_volume": 68728452
+            "volume": 68728452
         },
         {
             "date": "2018-04-16",
-            "water_area": 0.5980933352637968,
+            "level": 0.5980933352637968,
             "sensor_type": "Sentinel-2",
-            "water_volume": 72953508
+            "volume": 72953508
         },
         {
             "date": "2018-05-01",
-            "water_area": 0.5828059292887817,
+            "level": 0.5828059292887817,
             "sensor_type": "Sentinel-2",
-            "water_volume": 69508865
+            "volume": 69508865
         },
         {
             "date": "2018-05-11",
-            "water_area": 0.6065398631899984,
+            "level": 0.6065398631899984,
             "sensor_type": "Sentinel-2",
-            "water_volume": 74874183
+            "volume": 74874183
         },
         {
             "Average_Temperature": 20.099257777363807,
             "date": "2018-05-15",
-            "water_area": 0.5751105036860296,
+            "level": 0.5751105036860296,
             "sensor_type": "LandSat-8",
-            "water_volume": 67788177
+            "volume": 67788177
         },
         {
             "date": "2018-05-16",
-            "water_area": 0.5961593592210547,
+            "level": 0.5961593592210547,
             "sensor_type": "Sentinel-2",
-            "water_volume": 72515606
+            "volume": 72515606
         },
         {
             "date": "2018-05-21",
-            "water_area": 0.5980123781271223,
+            "level": 0.5980123781271223,
             "sensor_type": "Sentinel-2",
-            "water_volume": 72935164
+            "volume": 72935164
         },
         {
             "date": "2018-05-26",
-            "water_area": 0.610767624771796,
+            "level": 0.610767624771796,
             "sensor_type": "Sentinel-2",
-            "water_volume": 75840949
+            "volume": 75840949
         },
         {
             "date": "2018-06-05",
-            "water_area": 0.597985392414899,
+            "level": 0.597985392414899,
             "sensor_type": "Sentinel-2",
-            "water_volume": 72929049
+            "volume": 72929049
         },
         {
             "date": "2018-06-10",
-            "water_area": 0.601349611205527,
+            "level": 0.601349611205527,
             "sensor_type": "Sentinel-2",
-            "water_volume": 73692342
+            "volume": 73692342
         },
         {
             "date": "2018-06-15",
-            "water_area": 0.5996135303857655,
+            "level": 0.5996135303857655,
             "sensor_type": "Sentinel-2",
-            "water_volume": 73298190
+            "volume": 73298190
         },
         {
             "Average_Temperature": 25.414068628082426,
             "date": "2018-06-16",
-            "water_area": 0.5754343322327268,
+            "level": 0.5754343322327268,
             "sensor_type": "LandSat-8",
-            "water_volume": 67860420
+            "volume": 67860420
         },
         {
             "date": "2018-06-20",
-            "water_area": 0.5899256596972475,
+            "level": 0.5899256596972475,
             "sensor_type": "Sentinel-2",
-            "water_volume": 71108474
+            "volume": 71108474
         },
         {
             "date": "2018-06-25",
-            "water_area": 0.5911759976969673,
+            "level": 0.5911759976969673,
             "sensor_type": "Sentinel-2",
-            "water_volume": 71390200
+            "volume": 71390200
         },
         {
             "date": "2018-06-30",
-            "water_area": 0.5838268887345757,
+            "level": 0.5838268887345757,
             "sensor_type": "Sentinel-2",
-            "water_volume": 69737780
+            "volume": 69737780
         },
         {
             "Average_Temperature": 28.045486456551114,
             "date": "2018-07-02",
-            "water_area": 0.5551950480645325,
+            "level": 0.5551950480645325,
             "sensor_type": "LandSat-8",
-            "water_volume": 63371921
+            "volume": 63371921
         },
         {
             "date": "2018-07-05",
-            "water_area": 0.5725468610248089,
+            "level": 0.5725468610248089,
             "sensor_type": "Sentinel-2",
-            "water_volume": 67216751
+            "volume": 67216751
         },
         {
             "date": "2018-07-10",
-            "water_area": 0.5659173710550668,
+            "level": 0.5659173710550668,
             "sensor_type": "Sentinel-2",
-            "water_volume": 65743104
+            "volume": 65743104
         },
         {
             "date": "2018-07-15",
-            "water_area": 0.5551140909279636,
+            "level": 0.5551140909279636,
             "sensor_type": "Sentinel-2",
-            "water_volume": 63354076
+            "volume": 63354076
         },
         {
             "Average_Temperature": 26.319667090957314,
             "date": "2018-07-18",
-            "water_area": 0.5283982358258638,
+            "level": 0.5283982358258638,
             "sensor_type": "LandSat-8",
-            "water_volume": 57519545
+            "volume": 57519545
         },
         {
             "date": "2018-07-20",
-            "water_area": 0.5466495725269477,
+            "level": 0.5466495725269477,
             "sensor_type": "Sentinel-2",
-            "water_volume": 61493378
+            "volume": 61493378
         },
         {
             "date": "2018-07-25",
-            "water_area": 0.5448685155201457,
+            "level": 0.5448685155201457,
             "sensor_type": "Sentinel-2",
-            "water_volume": 61103186
+            "volume": 61103186
         },
         {
             "date": "2018-07-30",
-            "water_area": 0.53330963545075,
+            "level": 0.53330963545075,
             "sensor_type": "Sentinel-2",
-            "water_volume": 58583199
+            "volume": 58583199
         },
         {
             "date": "2018-08-04",
-            "water_area": 0.528740054847432,
+            "level": 0.528740054847432,
             "sensor_type": "Sentinel-2",
-            "water_volume": 57593423
+            "volume": 57593423
         },
         {
             "date": "2018-08-09",
-            "water_area": 0.51428470833263,
+            "level": 0.51428470833263,
             "sensor_type": "Sentinel-2",
-            "water_volume": 54490910
+            "volume": 54490910
         },
         {
             "date": "2018-08-14",
-            "water_area": 0.5084647897296074,
+            "level": 0.5084647897296074,
             "sensor_type": "Sentinel-2",
-            "water_volume": 53255874
+            "volume": 53255874
         },
         {
             "Average_Temperature": 25.017560172382293,
             "date": "2018-08-19",
-            "water_area": 0.48442052013772685,
+            "level": 0.48442052013772685,
             "sensor_type": "LandSat-8",
-            "water_volume": 48261772
+            "volume": 48261772
         },
         {
             "date": "2018-08-24",
-            "water_area": 0.48787469130247374,
+            "level": 0.48787469130247374,
             "sensor_type": "Sentinel-2",
-            "water_volume": 48967085
+            "volume": 48967085
         },
         {
             "date": "2018-08-29",
-            "water_area": 0.4809573537356354,
+            "level": 0.4809573537356354,
             "sensor_type": "Sentinel-2",
-            "water_volume": 47559206
+            "volume": 47559206
         },
         {
             "date": "2018-09-03",
-            "water_area": 0.4723579067735048,
+            "level": 0.4723579067735048,
             "sensor_type": "Sentinel-2",
-            "water_volume": 45835660
+            "volume": 45835660
         },
         {
             "Average_Temperature": 26.400847231205972,
             "date": "2018-09-04",
-            "water_area": 0.4550420747629131,
+            "level": 0.4550420747629131,
             "sensor_type": "LandSat-8",
-            "water_volume": 42464842
+            "volume": 42464842
         },
         {
             "date": "2018-09-08",
-            "water_area": 0.46315577890502696,
+            "level": 0.46315577890502696,
             "sensor_type": "Sentinel-2",
-            "water_volume": 44026893
+            "volume": 44026893
         },
         {
             "date": "2018-09-18",
-            "water_area": 0.4388146664787349,
+            "level": 0.4388146664787349,
             "sensor_type": "Sentinel-2",
-            "water_volume": 39439523
+            "volume": 39439523
         },
         {
             "Average_Temperature": 23.697016365664922,
             "date": "2018-09-20",
-            "water_area": 0.41714513956264637,
+            "level": 0.41714513956264637,
             "sensor_type": "LandSat-8",
-            "water_volume": 35616017
+            "volume": 35616017
         },
         {
             "date": "2018-09-23",
-            "water_area": 0.4185483965983155,
+            "level": 0.4185483965983155,
             "sensor_type": "Sentinel-2",
-            "water_volume": 35856021
+            "volume": 35856021
         },
         {
             "date": "2018-09-28",
-            "water_area": 0.405028554773943,
+            "level": 0.405028554773943,
             "sensor_type": "Sentinel-2",
-            "water_volume": 33586663
+            "volume": 33586663
         },
         {
             "date": "2018-10-03",
-            "water_area": 0.3974545648763489,
+            "level": 0.3974545648763489,
             "sensor_type": "Sentinel-2",
-            "water_volume": 32356192
+            "volume": 32356192
         },
         {
             "Average_Temperature": 17.18712246440825,
             "date": "2018-10-06",
-            "water_area": 0.35309904921707386,
+            "level": 0.35309904921707386,
             "sensor_type": "LandSat-8",
-            "water_volume": 25644785
+            "volume": 25644785
         },
         {
             "date": "2018-10-13",
-            "water_area": 0.3671496100485172,
+            "level": 0.3671496100485172,
             "sensor_type": "Sentinel-2",
-            "water_volume": 27692753
+            "volume": 27692753
         },
         {
             "date": "2018-10-23",
-            "water_area": 0.34820564006706933,
+            "level": 0.34820564006706933,
             "sensor_type": "Sentinel-2",
-            "water_volume": 24943932
+            "volume": 24943932
         },
         {
             "date": "2018-10-28",
-            "water_area": 0.33530646962388083,
+            "level": 0.33530646962388083,
             "sensor_type": "Sentinel-2",
-            "water_volume": 23118995
+            "volume": 23118995
         },
         {
             "date": "2018-11-02",
-            "water_area": 0.327219751194019,
+            "level": 0.327219751194019,
             "sensor_type": "Sentinel-2",
-            "water_volume": 21986605
+            "volume": 21986605
         },
         {
             "date": "2018-11-07",
-            "water_area": 0.3223803134684506,
+            "level": 0.3223803134684506,
             "sensor_type": "Sentinel-2",
-            "water_volume": 21311455
+            "volume": 21311455
         },
         {
             "date": "2018-11-12",
-            "water_area": 0.3207341850227805,
+            "level": 0.3207341850227805,
             "sensor_type": "Sentinel-2",
-            "water_volume": 21082067
+            "volume": 21082067
         },
         {
             "date": "2018-11-22",
-            "water_area": 0.21119018386706934,
+            "level": 0.21119018386706934,
             "sensor_type": "Sentinel-2",
-            "water_volume": 5363639
+            "volume": 5363639
         },
         {
             "date": "2018-12-17",
-            "water_area": 0.2911398539501833,
+            "level": 0.2911398539501833,
             "sensor_type": "Sentinel-2",
-            "water_volume": 16949334
+            "volume": 16949334
         },
         {
             "date": "2018-12-22",
-            "water_area": 0.30257280069584014,
+            "level": 0.30257280069584014,
             "sensor_type": "Sentinel-2",
-            "water_volume": 18551408
+            "volume": 18551408
         },
         {
             "Average_Temperature": 7.83,
             "date": "2019-01-21",
-            "water_area": 0.6642263206880783,
+            "level": 0.6642263206880783,
             "sensor_type": "Sentinel-2",
-            "water_volume": 88507402
+            "volume": 88507402
         },
         {
             "Average_Temperature": 7.84,
             "date": "2019-01-26",
-            "water_area": 0.6945762517029394,
+            "level": 0.6945762517029394,
             "sensor_type": "Sentinel-2",
-            "water_volume": 96201638
+            "volume": 96201638
         },
         {
             "date": "2019-02-05",
-            "water_area": 0.7475671952740163,
+            "level": 0.7475671952740163,
             "sensor_type": "Sentinel-2",
-            "water_volume": 110638557
+            "volume": 110638557
         },
         {
             "date": "2019-02-25",
-            "water_area": 0.9373127331602189,
+            "level": 0.9373127331602189,
             "sensor_type": "Sentinel-2",
-            "water_volume": 163967210
+            "volume": 163967210
         },
         {
             "date": "2019-03-22",
-            "water_area": 1.0088968324537895,
+            "level": 1.0088968324537895,
             "sensor_type": "Sentinel-2",
-            "water_volume": 187245811
+            "volume": 187245811
         },
         {
             "date": "2019-04-11",
-            "water_area": 1.0089687943530599,
+            "level": 1.0089687943530599,
             "sensor_type": "Sentinel-2",
-            "water_volume": 187272954
+            "volume": 187272954
         },
         {
             "date": "2019-05-01",
-            "water_area": 1.0263925692125202,
+            "level": 1.0263925692125202,
             "sensor_type": "Sentinel-2",
-            "water_volume": 194114202
+            "volume": 194114202
         },
         {
             "date": "2019-05-11",
-            "water_area": 1.003499690008926,
+            "level": 1.003499690008926,
             "sensor_type": "Sentinel-2",
-            "water_volume": 185235505
+            "volume": 185235505
         },
         {
             "date": "2019-05-16",
-            "water_area": 1.009868318093861,
+            "level": 1.009868318093861,
             "sensor_type": "Sentinel-2",
-            "water_volume": 187612997
+            "volume": 187612997
         },
         {
             "Average_Temperature": 20.7,
             "date": "2019-05-18",
-            "water_area": 0.9392467092029161,
+            "level": 0.9392467092029161,
             "sensor_type": "LandSat-8",
-            "water_volume": 164522143
+            "volume": 164522143
         },
         {
             "date": "2019-05-21",
-            "water_area": 1.0120181798343786,
+            "level": 1.0120181798343786,
             "sensor_type": "Sentinel-2",
-            "water_volume": 188431414
+            "volume": 188431414
         },
         {
             "date": "2019-05-26",
-            "water_area": 1.0194662364082625,
+            "level": 1.0194662364082625,
             "sensor_type": "Sentinel-2",
-            "water_volume": 191329827
+            "volume": 191329827
         },
         {
             "date": "2019-05-31",
-            "water_area": 1.009688413345696,
+            "level": 1.009688413345696,
             "sensor_type": "Sentinel-2",
-            "water_volume": 187544876
+            "volume": 187544876
         },
         {
             "Average_Temperature": 24.82,
             "date": "2019-06-03",
-            "water_area": 0.9828376296825148,
+            "level": 0.9828376296825148,
             "sensor_type": "LandSat-8",
-            "water_volume": 177980184
+            "volume": 177980184
         },
         {
             "date": "2019-06-10",
-            "water_area": 1.009103722914163,
+            "level": 1.009103722914163,
             "sensor_type": "Sentinel-2",
-            "water_volume": 187323871
+            "volume": 187323871
         },
         {
             "date": "2019-06-15",
-            "water_area": 0.9958087620250089,
+            "level": 0.9958087620250089,
             "sensor_type": "Sentinel-2",
-            "water_volume": 182455522
+            "volume": 182455522
         },
         {
             "date": "2019-06-25",
-            "water_area": 0.9802380060716027,
+            "level": 0.9802380060716027,
             "sensor_type": "Sentinel-2",
-            "water_volume": 177113506
+            "volume": 177113506
         },
         {
             "date": "2019-06-30",
-            "water_area": 0.980876667927578,
+            "level": 0.980876667927578,
             "sensor_type": "Sentinel-2",
-            "water_volume": 177325534
+            "volume": 177325534
         },
         {
             "Average_Temperature": 26.03,
             "date": "2019-07-05",
-            "water_area": 0.9763070873242549,
+            "level": 0.9763070873242549,
             "sensor_type": "Sentinel-2",
-            "water_volume": 175821009
+            "volume": 175821009
         },
         {
             "date": "2019-07-15",
-            "water_area": 0.9569403411846448,
+            "level": 0.9569403411846448,
             "sensor_type": "Sentinel-2",
-            "water_volume": 169739124
+            "volume": 169739124
         },
         {
             "date": "2019-07-20",
-            "water_area": 0.941288628094587,
+            "level": 0.941288628094587,
             "sensor_type": "Sentinel-2",
-            "water_volume": 165110945
+            "volume": 165110945
         },
         {
             "Average_Temperature": 24.61,
             "date": "2019-07-21",
-            "water_area": 0.9246834198392341,
+            "level": 0.9246834198392341,
             "sensor_type": "LandSat-8",
-            "water_volume": 160400089
+            "volume": 160400089
         },
         {
             "date": "2019-07-25",
-            "water_area": 0.9294419004281467,
+            "level": 0.9294419004281467,
             "sensor_type": "Sentinel-2",
-            "water_volume": 161733617
+            "volume": 161733617
         },
         {
             "date": "2019-07-30",
-            "water_area": 0.9224526009620663,
+            "level": 0.9224526009620663,
             "sensor_type": "Sentinel-2",
-            "water_volume": 159778634
+            "volume": 159778634
         },
         {
             "date": "2019-08-04",
-            "water_area": 0.9191333583584675,
+            "level": 0.9191333583584675,
             "sensor_type": "Sentinel-2",
-            "water_volume": 158857841
+            "volume": 158857841
         },
         {
             "Average_Temperature": 25.34,
             "date": "2019-08-06",
-            "water_area": 0.8855901180636682,
+            "level": 0.8855901180636682,
             "sensor_type": "LandSat-8",
-            "water_volume": 149692878
+            "volume": 149692878
         },
         {
             "date": "2019-08-09",
-            "water_area": 0.8992628789239998,
+            "level": 0.8992628789239998,
             "sensor_type": "Sentinel-2",
-            "water_volume": 153412294
+            "volume": 153412294
         },
         {
             "date": "2019-08-14",
-            "water_area": 0.8965553124641437,
+            "level": 0.8965553124641437,
             "sensor_type": "Sentinel-2",
-            "water_volume": 152675367
+            "volume": 152675367
         },
         {
             "date": "2019-08-19",
-            "water_area": 0.8722142000378591,
+            "level": 0.8722142000378591,
             "sensor_type": "Sentinel-2",
-            "water_volume": 146044070
+            "volume": 146044070
         },
         {
             "Average_Temperature": 26.76,
             "date": "2019-08-22",
-            "water_area": 0.842026183296307,
+            "level": 0.842026183296307,
             "sensor_type": "LandSat-8",
-            "water_volume": 137684912
+            "volume": 137684912
         },
         {
             "date": "2019-08-24",
-            "water_area": 0.8596748390909977,
+            "level": 0.8596748390909977,
             "sensor_type": "Sentinel-2",
-            "water_volume": 142597215
+            "volume": 142597215
         },
         {
             "date": "2019-08-29",
-            "water_area": 0.848682658978312,
+            "level": 0.848682658978312,
             "sensor_type": "Sentinel-2",
-            "water_volume": 139546759
+            "volume": 139546759
         },
         {
             "date": "2019-09-03",
-            "water_area": 0.8275168653570725,
+            "level": 0.8275168653570725,
             "sensor_type": "Sentinel-2",
-            "water_volume": 133588371
+            "volume": 133588371
         },
         {
             "date": "2019-09-08",
-            "water_area": 0.8187644993590056,
+            "level": 0.8187644993590056,
             "sensor_type": "Sentinel-2",
-            "water_volume": 131093940
+            "volume": 131093940
         },
         {
             "date": "2019-09-13",
-            "water_area": 0.8008279959673064,
+            "level": 0.8008279959673064,
             "sensor_type": "Sentinel-2",
-            "water_volume": 125940528
+            "volume": 125940528
         },
         {
             "date": "2019-09-18",
-            "water_area": 0.7906184015091342,
+            "level": 0.7906184015091342,
             "sensor_type": "Sentinel-2",
-            "water_volume": 122992451
+            "volume": 122992451
         },
         {
             "Average_Temperature": 24.78,
             "date": "2019-09-23",
-            "water_area": 0.7744269741745792,
+            "level": 0.7744269741745792,
             "sensor_type": "Sentinel-2",
-            "water_volume": 118317128
+            "volume": 118317128
         },
         {
             "date": "2019-09-28",
-            "water_area": 0.76548570819094,
+            "level": 0.76548570819094,
             "sensor_type": "Sentinel-2",
-            "water_volume": 115745309
+            "volume": 115745309
         },
         {
             "date": "2019-10-08",
-            "water_area": 0.7424938813758478,
+            "level": 0.7424938813758478,
             "sensor_type": "Sentinel-2",
-            "water_volume": 109208452
+            "volume": 109208452
         },
         {
             "Average_Temperature": 22.25,
             "date": "2019-10-09",
-            "water_area": 0.7064499650815695,
+            "level": 0.7064499650815695,
             "sensor_type": "LandSat-8",
-            "water_volume": 99329729
+            "volume": 99329729
         },
         {
             "date": "2019-10-13",
-            "water_area": 0.7281914538969918,
+            "level": 0.7281914538969918,
             "sensor_type": "Sentinel-2",
-            "water_volume": 105224805
+            "volume": 105224805
         },
         {
             "date": "2019-10-18",
-            "water_area": 0.7180268356258562,
+            "level": 0.7180268356258562,
             "sensor_type": "Sentinel-2",
-            "water_volume": 102442819
+            "volume": 102442819
         },
         {
             "date": "2019-11-07",
-            "water_area": 0.6721331343697735,
+            "level": 0.6721331343697735,
             "sensor_type": "Sentinel-2",
-            "water_volume": 90471276
+            "volume": 90471276
         },
         {
             "Average_Temperature": 17.15,
             "date": "2019-11-10",
-            "water_area": 0.6422689461747981,
+            "level": 0.6422689461747981,
             "sensor_type": "LandSat-8",
-            "water_volume": 83188983
+            "volume": 83188983
         },
         {
             "date": "2019-11-12",
-            "water_area": 0.6566703212652927,
+            "level": 0.6566703212652927,
             "sensor_type": "Sentinel-2",
-            "water_volume": 86655705
+            "volume": 86655705
         },
         {
             "date": "2019-11-17",
-            "water_area": 0.652010788287888,
+            "level": 0.652010788287888,
             "sensor_type": "Sentinel-2",
-            "water_volume": 85525416
+            "volume": 85525416
         },
         {
             "date": "2019-12-07",
-            "water_area": 0.6071155583841046,
+            "level": 0.6071155583841046,
             "sensor_type": "Sentinel-2",
-            "water_volume": 75005605
+            "volume": 75005605
         },
         {
             "date": "2019-12-17",
-            "water_area": 0.5927141832937516,
+            "level": 0.5927141832937516,
             "sensor_type": "Sentinel-2",
-            "water_volume": 71737130
+            "volume": 71737130
         },
         {
             "date": "2019-12-22",
-            "water_area": 0.5702530754857603,
+            "level": 0.5702530754857603,
             "sensor_type": "Sentinel-2",
-            "water_volume": 66706218
+            "volume": 66706218
         },
         {
             "date": "2020-01-11",
-            "water_area": 0.6289200138613175,
+            "level": 0.6289200138613175,
             "sensor_type": "Sentinel-2",
-            "water_volume": 80040432
+            "volume": 80040432
         },
         {
             "date": "2020-01-26",
-            "water_area": 0.7404609577216176,
+            "level": 0.7404609577216176,
             "sensor_type": "Sentinel-2",
-            "water_volume": 108637735
+            "volume": 108637735
         },
         {
             "date": "2020-02-05",
-            "water_area": 0.7789965547779023,
+            "level": 0.7789965547779023,
             "sensor_type": "Sentinel-2",
-            "water_volume": 119635157
+            "volume": 119635157
         },
         {
             "date": "2020-03-11",
-            "water_area": 0.9709998972534977,
+            "level": 0.9709998972534977,
             "sensor_type": "Sentinel-2",
-            "water_volume": 174108923
+            "volume": 174108923
         },
         {
             "date": "2020-03-16",
-            "water_area": 0.9941716288167036,
+            "level": 0.9941716288167036,
             "sensor_type": "Sentinel-2",
-            "water_volume": 181876244
+            "volume": 181876244
         },
         {
             "Average_Temperature": 15.47,
             "date": "2020-04-18",
-            "water_area": 0.9894311387026536,
+            "level": 0.9894311387026536,
             "sensor_type": "LandSat-8",
-            "water_volume": 180222811
+            "volume": 180222811
         },
         {
             "date": "2020-04-30",
-            "water_area": 1.0052357708286914,
+            "level": 1.0052357708286914,
             "sensor_type": "Sentinel-2",
-            "water_volume": 185876716
+            "volume": 185876716
         },
         {
             "date": "2020-05-10",
-            "water_area": 0.9958717286868641,
+            "level": 0.9958717286868641,
             "sensor_type": "Sentinel-2",
-            "water_volume": 182477888
+            "volume": 182477888
         },
         {
             "date": "2020-05-15",
-            "water_area": 0.9886935292351985,
+            "level": 0.9886935292351985,
             "sensor_type": "Sentinel-2",
-            "water_volume": 179968680
+            "volume": 179968680
         },
         {
             "Average_Temperature": 24.1,
             "date": "2020-05-20",
-            "water_area": 0.9774135015254545,
+            "level": 0.9774135015254545,
             "sensor_type": "Sentinel-2",
-            "water_volume": 176182650
+            "volume": 176182650
         },
         {
             "date": "2020-06-09",
-            "water_area": 0.9498880750567213,
+            "level": 0.9498880750567213,
             "sensor_type": "Sentinel-2",
-            "water_volume": 167626706
+            "volume": 167626706
         },
         {
             "date": "2020-06-14",
-            "water_area": 0.9420532232742597,
+            "level": 0.9420532232742597,
             "sensor_type": "Sentinel-2",
-            "water_volume": 165332217
+            "volume": 165332217
         },
         {
             "date": "2020-06-24",
-            "water_area": 0.923756910386228,
+            "level": 0.923756910386228,
             "sensor_type": "Sentinel-2",
-            "water_volume": 160141716
+            "volume": 160141716
         },
         {
             "Average_Temperature": 21.35,
             "date": "2020-06-21",
-            "water_area": 0.9086359163032014,
+            "level": 0.9086359163032014,
             "sensor_type": "LandSat-8",
-            "water_volume": 155970096
+            "volume": 155970096
         },
         {
             "date": "2020-06-29",
-            "water_area": 0.91889048694846,
+            "level": 0.91889048694846,
             "sensor_type": "Sentinel-2",
-            "water_volume": 158790634
+            "volume": 158790634
         },
         {
             "date": "2020-07-04",
-            "water_area": 0.9019074787219769,
+            "level": 0.9019074787219769,
             "sensor_type": "Sentinel-2",
-            "water_volume": 154132718
+            "volume": 154132718
         },
         {
             "date": "2020-07-09",
-            "water_area": 0.8814343183811502,
+            "level": 0.8814343183811502,
             "sensor_type": "Sentinel-2",
-            "water_volume": 148561348
+            "volume": 148561348
         },
         {
             "date": "2020-07-14",
-            "water_area": 0.8580017249330839,
+            "level": 0.8580017249330839,
             "sensor_type": "Sentinel-2",
-            "water_volume": 142134775
+            "volume": 142134775
         },
         {
             "date": "2020-07-19",
-            "water_area": 0.8377444502900913,
+            "level": 0.8377444502900913,
             "sensor_type": "Sentinel-2",
-            "water_volume": 136481375
+            "volume": 136481375
         },
         {
             "date": "2020-07-24",
-            "water_area": 0.8264644225803227,
+            "level": 0.8264644225803227,
             "sensor_type": "Sentinel-2",
-            "water_volume": 133289287
+            "volume": 133289287
         },
         {
             "date": "2020-07-29",
-            "water_area": 0.8109566332888088,
+            "level": 0.8109566332888088,
             "sensor_type": "Sentinel-2",
-            "water_volume": 128856352
+            "volume": 128856352
         },
         {
             "date": "2020-08-03",
-            "water_area": 0.7914099824010407,
+            "level": 0.7914099824010407,
             "sensor_type": "Sentinel-2",
-            "water_volume": 123221179
+            "volume": 123221179
         },
         {
             "date": "2020-08-08",
-            "water_area": 0.7751196074550074,
+            "level": 0.7751196074550074,
             "sensor_type": "Sentinel-2",
-            "water_volume": 118516782
+            "volume": 118516782
         },
         {
             "date": "2020-08-13",
-            "water_area": 0.7567333421928616,
+            "level": 0.7567333421928616,
             "sensor_type": "Sentinel-2",
-            "water_volume": 113241319
+            "volume": 113241319
         },
         {
             "date": "2020-08-18",
-            "water_area": 0.7417472766709826,
+            "level": 0.7417472766709826,
             "sensor_type": "Sentinel-2",
-            "water_volume": 108998691
+            "volume": 108998691
         },
         {
             "date": "2020-08-23",
-            "water_area": 0.728830115752969,
+            "level": 0.728830115752969,
             "sensor_type": "Sentinel-2",
-            "water_volume": 105401035
+            "volume": 105401035
         },
         {
             "Average_Temperature": 25.87,
             "date": "2020-08-24",
-            "water_area": 0.7059552270241146,
+            "level": 0.7059552270241146,
             "sensor_type": "LandSat-8",
-            "water_volume": 99198064
+            "volume": 99198064
         },
         {
             "date": "2020-08-28",
-            "water_area": 0.7173431975828285,
+            "level": 0.7173431975828285,
             "sensor_type": "Sentinel-2",
-            "water_volume": 102257305
+            "volume": 102257305
         },
         {
             "date": "2020-09-02",
-            "water_area": 0.7098141838722628,
+            "level": 0.7098141838722628,
             "sensor_type": "Sentinel-2",
-            "water_volume": 100228073
+            "volume": 100228073
         },
         {
             "date": "2020-09-07",
-            "water_area": 0.6958355849400856,
+            "level": 0.6958355849400856,
             "sensor_type": "Sentinel-2",
-            "water_volume": 96530233
+            "volume": 96530233
         },
         {
             "Average_Temperature": 26.2,
             "date": "2020-09-09",
-            "water_area": 0.6673656585433816,
+            "level": 0.6673656585433816,
             "sensor_type": "LandSat-8",
-            "water_volume": 89283857
+            "volume": 89283857
         },
         {
             "date": "2020-09-12",
-            "water_area": 0.6820009098064433,
+            "level": 0.6820009098064433,
             "sensor_type": "Sentinel-2",
-            "water_volume": 92961740
+            "volume": 92961740
         },
         {
             "date": "2020-09-17",
-            "water_area": 0.6692906393488226,
+            "level": 0.6692906393488226,
             "sensor_type": "Sentinel-2",
-            "water_volume": 89762092
+            "volume": 89762092
         },
         {
             "date": "2020-09-22",
-            "water_area": 0.6525954787194205,
+            "level": 0.6525954787194205,
             "sensor_type": "Sentinel-2",
-            "water_volume": 85666778
+            "volume": 85666778
         },
         {
             "Average_Temperature": 24.18,
             "date": "2020-09-25",
-            "water_area": 0.6258976140920764,
+            "level": 0.6258976140920764,
             "sensor_type": "LandSat-8",
-            "water_volume": 79335166
+            "volume": 79335166
         },
         {
             "date": "2020-09-27",
-            "water_area": 0.6378432893701524,
+            "level": 0.6378432893701524,
             "sensor_type": "Sentinel-2",
-            "water_volume": 82138718
+            "volume": 82138718
         },
         {
             "date": "2020-10-02",
-            "water_area": 0.6209592287551617,
+            "level": 0.6209592287551617,
             "sensor_type": "Sentinel-2",
-            "water_volume": 78188280
+            "volume": 78188280
         },
         {
             "date": "2020-10-07",
-            "water_area": 0.6053884728017537,
+            "level": 0.6053884728017537,
             "sensor_type": "Sentinel-2",
-            "water_volume": 74611544
+            "volume": 74611544
         },
         {
             "Average_Temperature": 25.16,
             "date": "2020-10-11",
-            "water_area": 0.5709996801905373,
+            "level": 0.5709996801905373,
             "sensor_type": "LandSat-8",
-            "water_volume": 66872315
+            "volume": 66872315
         },
         {
             "date": "2020-10-12",
-            "water_area": 0.5905193453661831,
+            "level": 0.5905193453661831,
             "sensor_type": "Sentinel-2",
-            "water_volume": 71242212
+            "volume": 71242212
         },
         {
             "date": "2020-10-17",
-            "water_area": 0.5703790088094699,
+            "level": 0.5703790088094699,
             "sensor_type": "Sentinel-2",
-            "water_volume": 66734230
+            "volume": 66734230
         },
         {
             "date": "2020-10-22",
-            "water_area": 0.5548712195179405,
+            "level": 0.5548712195179405,
             "sensor_type": "Sentinel-2",
-            "water_volume": 63300547
+            "volume": 63300547
         },
         {
             "Average_Temperature": 20.28,
             "date": "2020-10-27",
-            "water_area": 0.5304581451923867,
+            "level": 0.5304581451923867,
             "sensor_type": "Sentinel-2",
-            "water_volume": 57965100
+            "volume": 57965100
         },
         {
             "date": "2020-12-11",
-            "water_area": 0.3489882257215884,
+            "level": 0.3489882257215884,
             "sensor_type": "Sentinel-2",
-            "water_volume": 25055652
+            "volume": 25055652
         },
         {
             "date": "2020-12-21",
-            "water_area": 0.36593525299843477,
+            "level": 0.36593525299843477,
             "sensor_type": "Sentinel-2",
-            "water_volume": 27513369
+            "volume": 27513369
         },
         {
             "date": "2020-12-26",
-            "water_area": 0.36964129081054636,
+            "level": 0.36964129081054636,
             "sensor_type": "Sentinel-2",
-            "water_volume": 28062393
+            "volume": 28062393
         },
         {
             "Average_Temperature": 9.81,
             "date": "2020-12-30",
-            "water_area": 0.35168679694399774,
+            "level": 0.35168679694399774,
             "sensor_type": "LandSat-8",
-            "water_volume": 25441943
+            "volume": 25441943
         },
         {
             "date": "2020-12-31",
-            "water_area": 0.3711255049828887,
+            "level": 0.3711255049828887,
             "sensor_type": "Sentinel-2",
-            "water_volume": 28283611
+            "volume": 28283611
         },
         {
             "date": "2021-01-10",
-            "water_area": 0.37318541434933394,
+            "level": 0.37318541434933394,
             "sensor_type": "Sentinel-2",
-            "water_volume": 28591956
+            "volume": 28591956
         },
         {
             "date": "2021-01-25",
-            "water_area": 0.4978504095880429,
+            "level": 0.4978504095880429,
             "sensor_type": "Sentinel-2",
-            "water_volume": 51027975
+            "volume": 51027975
         },
         {
             "date": "2021-02-09",
-            "water_area": 0.5759650512399036,
+            "level": 0.5759650512399036,
             "sensor_type": "Sentinel-2",
-            "water_volume": 67978848
+            "volume": 67978848
         },
         {
             "date": "2021-02-14",
-            "water_area": 0.5859227790506563,
+            "level": 0.5859227790506563,
             "sensor_type": "Sentinel-2",
-            "water_volume": 70208194
+            "volume": 70208194
         },
         {
             "date": "2021-02-24",
-            "water_area": 0.649141307554713,
+            "level": 0.649141307554713,
             "sensor_type": "Sentinel-2",
-            "water_volume": 84833556
+            "volume": 84833556
         },
         {
             "date": "2021-03-06",
-            "water_area": 0.6817490431590155,
+            "level": 0.6817490431590155,
             "sensor_type": "Sentinel-2",
-            "water_volume": 92897612
+            "volume": 92897612
         },
         {
             "date": "2021-03-21",
-            "water_area": 0.7232710590347605,
+            "level": 0.7232710590347605,
             "sensor_type": "Sentinel-2",
-            "water_volume": 103872674
+            "volume": 103872674
         },
         {
             "date": "2021-04-15",
-            "water_area": 0.7983093294930208,
+            "level": 0.7983093294930208,
             "sensor_type": "Sentinel-2",
-            "water_volume": 125213809
+            "volume": 125213809
         },
         {
             "date": "2021-04-20",
-            "water_area": 0.8145682211081278,
+            "level": 0.8145682211081278,
             "sensor_type": "Sentinel-2",
-            "water_volume": 129892657
+            "volume": 129892657
         },
         {
             "Average_Temperature": 15.42,
             "date": "2021-04-21",
-            "water_area": 0.7500678712734155,
+            "level": 0.7500678712734155,
             "sensor_type": "LandSat-8",
-            "water_volume": 111346350
+            "volume": 111346350
         },
         {
             "date": "2021-04-25",
-            "water_area": 0.8149325282231746,
+            "level": 0.8149325282231746,
             "sensor_type": "Sentinel-2",
-            "water_volume": 129997072
+            "volume": 129997072
         },
         {
             "date": "2021-05-05",
-            "water_area": 0.8132234331156345,
+            "level": 0.8132234331156345,
             "sensor_type": "Sentinel-2",
-            "water_volume": 129507030
+            "volume": 129507030
         },
         {
             "date": "2021-05-10",
-            "water_area": 0.8048038909016535,
+            "level": 0.8048038909016535,
             "sensor_type": "Sentinel-2",
-            "water_volume": 127086540
+            "volume": 127086540
         },
         {
             "date": "2021-05-15",
-            "water_area": 0.8026360386863195,
+            "level": 0.8026360386863195,
             "sensor_type": "Sentinel-2",
-            "water_volume": 126461874
+            "volume": 126461874
         },
         {
             "date": "2021-05-20",
-            "water_area": 0.7975447343133417,
+            "level": 0.7975447343133417,
             "sensor_type": "Sentinel-2",
-            "water_volume": 124993105
+            "volume": 124993105
         },
         {
             "Average_Temperature": 22.06,
             "date": "2021-05-23",
-            "water_area": 0.7685800698592532,
+            "level": 0.7685800698592532,
             "sensor_type": "LandSat-8",
-            "water_volume": 116634044
+            "volume": 116634044
         },
         {
             "date": "2021-05-25",
-            "water_area": 0.7954938201843196,
+            "level": 0.7954938201843196,
             "sensor_type": "Sentinel-2",
-            "water_volume": 124400921
+            "volume": 124400921
         },
         {
             "date": "2021-05-30",
-            "water_area": 0.7931100822711643,
+            "level": 0.7931100822711643,
             "sensor_type": "Sentinel-2",
-            "water_volume": 123712376
+            "volume": 123712376
         },
         {
             "date": "2021-06-04",
-            "water_area": 0.7893950492216456,
+            "level": 0.7893950492216456,
             "sensor_type": "Sentinel-2",
-            "water_volume": 122638944
+            "volume": 122638944
         },
         {
             "Average_Temperature": 23.82,
             "date": "2021-06-08",
-            "water_area": 0.7646401558745108,
+            "level": 0.7646401558745108,
             "sensor_type": "LandSat-8",
-            "water_volume": 115502739
+            "volume": 115502739
         },
         {
             "date": "2021-06-09",
-            "water_area": 0.7888283492649367,
+            "level": 0.7888283492649367,
             "sensor_type": "Sentinel-2",
-            "water_volume": 122475184
+            "volume": 122475184
         },
         {
             "date": "2021-06-14",
-            "water_area": 0.7828195306763425,
+            "level": 0.7828195306763425,
             "sensor_type": "Sentinel-2",
-            "water_volume": 120739033
+            "volume": 120739033
         },
         {
             "date": "2021-06-19",
-            "water_area": 0.7705500268516949,
+            "level": 0.7705500268516949,
             "sensor_type": "Sentinel-2",
-            "water_volume": 117200609
+            "volume": 117200609
         },
         {
             "Average_Temperature": 25.28,
             "date": "2021-06-24",
-            "water_area": 0.7648740320471682,
+            "level": 0.7648740320471682,
             "sensor_type": "Sentinel-2",
-            "water_volume": 115569820
+            "volume": 115569820
         },
         {
             "date": "2021-06-29",
-            "water_area": 0.7556629089412861,
+            "level": 0.7556629089412861,
             "sensor_type": "Sentinel-2",
-            "water_volume": 112936233
+            "volume": 112936233
         },
         {
             "date": "2021-07-04",
-            "water_area": 0.7521457711147294,
+            "level": 0.7521457711147294,
             "sensor_type": "Sentinel-2",
-            "water_volume": 111935832
+            "volume": 111935832
         },
         {
             "date": "2021-07-09",
-            "water_area": 0.7343531915215333,
+            "level": 0.7343531915215333,
             "sensor_type": "Sentinel-2",
-            "water_volume": 106931740
+            "volume": 106931740
         },
         {
             "date": "2021-07-14",
-            "water_area": 0.7204645449634399,
+            "level": 0.7204645449634399,
             "sensor_type": "Sentinel-2",
-            "water_volume": 103105991
+            "volume": 103105991
         },
         {
             "date": "2021-07-19",
-            "water_area": 0.707898198304344,
+            "level": 0.707898198304344,
             "sensor_type": "Sentinel-2",
-            "water_volume": 99715805
+            "volume": 99715805
         },
         {
             "date": "2021-07-24",
-            "water_area": 0.7006210512411838,
+            "level": 0.7006210512411838,
             "sensor_type": "Sentinel-2",
-            "water_volume": 97785778
+            "volume": 97785778
         },
         {
             "date": "2021-07-29",
-            "water_area": 0.6925613185235354,
+            "level": 0.6925613185235354,
             "sensor_type": "Sentinel-2",
-            "water_volume": 95677458
+            "volume": 95677458
         },
         {
             "date": "2021-08-03",
-            "water_area": 0.6762079769156362,
+            "level": 0.6762079769156362,
             "sensor_type": "Sentinel-2",
-            "water_volume": 91494275
+            "volume": 91494275
         },
         {
             "date": "2021-08-08",
-            "water_area": 0.6646221111340168,
+            "level": 0.6646221111340168,
             "sensor_type": "Sentinel-2",
-            "water_volume": 88605059
+            "volume": 88605059
         },
         {
             "date": "2021-10-02",
-            "water_area": 0.526590193106902,
+            "level": 0.526590193106902,
             "sensor_type": "Sentinel-2",
-            "water_volume": 57129156
+            "volume": 57129156
         },
         {
             "date": "2021-08-13",
-            "water_area": 0.6177029528134408,
+            "level": 0.6177029528134408,
             "sensor_type": "Sentinel-2",
-            "water_volume": 77435552
+            "volume": 77435552
         },
         {
             "date": "2021-08-18",
-            "water_area": 0.6326620326230866,
+            "level": 0.6326620326230866,
             "sensor_type": "Sentinel-2",
-            "water_volume": 80917343
+            "volume": 80917343
         },
         {
             "date": "2021-08-23",
-            "water_area": 0.6255467998332839,
+            "level": 0.6255467998332839,
             "sensor_type": "Sentinel-2",
-            "water_volume": 79253473
+            "volume": 79253473
         },
         {
             "date": "2021-08-28",
-            "water_area": 0.6158499339073654,
+            "level": 0.6158499339073654,
             "sensor_type": "Sentinel-2",
-            "water_volume": 77008385
+            "volume": 77008385
         },
         {
             "date": "2021-09-02",
-            "water_area": 0.5913199214955016,
+            "level": 0.5913199214955016,
             "sensor_type": "Sentinel-2",
-            "water_volume": 71422645
+            "volume": 71422645
         },
         {
             "date": "2021-09-07",
-            "water_area": 0.5838538744467955,
+            "level": 0.5838538744467955,
             "sensor_type": "Sentinel-2",
-            "water_volume": 69743833
+            "volume": 69743833
         },
         {
             "date": "2021-09-12",
-            "water_area": 0.5672576614288661,
+            "level": 0.5672576614288661,
             "sensor_type": "Sentinel-2",
-            "water_volume": 66040567
+            "volume": 66040567
         },
         {
             "date": "2021-09-17",
-            "water_area": 0.5563284479780346,
+            "level": 0.5563284479780346,
             "sensor_type": "Sentinel-2",
-            "water_volume": 63621841
+            "volume": 63621841
         },
         {
             "date": "2021-09-22",
-            "water_area": 0.5467035439513976,
+            "level": 0.5467035439513976,
             "sensor_type": "Sentinel-2",
-            "water_volume": 61505210
+            "volume": 61505210
         },
         {
             "Average_Temperature": 22.09,
             "date": "2021-09-28",
-            "water_area": 0.510785560980839,
+            "level": 0.510785560980839,
             "sensor_type": "LandSat-8",
-            "water_volume": 53747294
+            "volume": 53747294
         },
         {
             "date": "2021-10-07",
-            "water_area": 0.5149503559008338,
+            "level": 0.5149503559008338,
             "sensor_type": "Sentinel-2",
-            "water_volume": 54632721
+            "volume": 54632721
         },
         {
             "Average_Temperature": 19.44,
             "date": "2021-10-14",
-            "water_area": 0.4758750446000434,
+            "level": 0.4758750446000434,
             "sensor_type": "LandSat-8",
-            "water_volume": 46536854
+            "volume": 46536854
         },
         {
             "date": "2021-10-22",
-            "water_area": 0.4875958389428202,
+            "level": 0.4875958389428202,
             "sensor_type": "Sentinel-2",
-            "water_volume": 48909981
+            "volume": 48909981
         },
         {
             "date": "2021-10-27",
-            "water_area": 0.48036366806670244,
+            "level": 0.48036366806670244,
             "sensor_type": "Sentinel-2",
-            "water_volume": 47439240
+            "volume": 47439240
         },
         {
             "date": "2021-11-06",
-            "water_area": 0.4611678314378367,
+            "level": 0.4611678314378367,
             "sensor_type": "Sentinel-2",
-            "water_volume": 43641254
+            "volume": 43641254
         },
         {
             "date": "2021-11-11",
-            "water_area": 0.4529551796842569,
+            "level": 0.4529551796842569,
             "sensor_type": "Sentinel-2",
-            "water_volume": 42068266
+            "volume": 42068266
         },
         {
             "date": "2021-11-16",
-            "water_area": 0.4454171707362663,
+            "level": 0.4454171707362663,
             "sensor_type": "Sentinel-2",
-            "water_volume": 40654093
+            "volume": 40654093
         },
         {
             "date": "2021-11-26",
-            "water_area": 0.4388686379031819,
+            "level": 0.4388686379031819,
             "sensor_type": "Sentinel-2",
-            "water_volume": 39449359
+            "volume": 39449359
         },
         {
             "date": "2021-12-11",
-            "water_area": 0.4207702202381183,
+            "level": 0.4207702202381183,
             "sensor_type": "Sentinel-2",
-            "water_volume": 36238169
+            "volume": 36238169
         },
         {
             "date": "2021-12-26",
-            "water_area": 0.4465775563619345,
+            "level": 0.4465775563619345,
             "sensor_type": "Sentinel-2",
-            "water_volume": 40869897
+            "volume": 40869897
         },
         {
             "date": "2022-01-25",
-            "water_area": 0.48441152490033407,
+            "level": 0.48441152490033407,
             "sensor_type": "Sentinel-2",
-            "water_volume": 48259942
+            "volume": 48259942
         },
         {
             "date": "2022-02-09",
-            "water_area": 0.6104977676495672,
+            "level": 0.6104977676495672,
             "sensor_type": "Sentinel-2",
-            "water_volume": 75779125
+            "volume": 75779125
         },
         {
             "date": "2022-02-24",
-            "water_area": 0.7185935355825597,
+            "level": 0.7185935355825597,
             "sensor_type": "Sentinel-2",
-            "water_volume": 102596757
+            "volume": 102596757
         },
         {
             "date": "2022-03-16",
-            "water_area": 0.8877219893294098,
+            "level": 0.8877219893294098,
             "sensor_type": "Sentinel-2",
-            "water_volume": 150272892
+            "volume": 150272892
         },
         {
             "date": "2022-03-26",
-            "water_area": 0.9406409710012094,
+            "level": 0.9406409710012094,
             "sensor_type": "Sentinel-2",
-            "water_volume": 164923857
+            "volume": 164923857
         },
         {
             "Average_Temperature": 3.58,
             "date": "2022-03-31",
-            "water_area": 0.9634528930681138,
+            "level": 0.9634528930681138,
             "sensor_type": "Sentinel-2",
-            "water_volume": 171735104
+            "volume": 171735104
         },
         {
             "date": "2022-04-10",
-            "water_area": 0.9998746093334415,
+            "level": 0.9998746093334415,
             "sensor_type": "Sentinel-2",
-            "water_volume": 183912978
+            "volume": 183912978
         },
         {
             "date": "2022-04-15",
-            "water_area": 0.9936319145722594,
+            "level": 0.9936319145722594,
             "sensor_type": "Sentinel-2",
-            "water_volume": 181686213
+            "volume": 181686213
         },
         {
             "Average_Temperature": 7.62,
             "date": "2022-04-16",
-            "water_area": 0.9641095453988725,
+            "level": 0.9641095453988725,
             "sensor_type": "LandSat-8",
-            "water_volume": 171938961
+            "volume": 171938961
         },
         {
             "date": "2022-04-20",
-            "water_area": 0.9982284808877807,
+            "level": 0.9982284808877807,
             "sensor_type": "Sentinel-2",
-            "water_volume": 183319642
+            "volume": 183319642
         },
         {
             "date": "2022-04-25",
-            "water_area": 1.0015207377791473,
+            "level": 1.0015207377791473,
             "sensor_type": "Sentinel-2",
-            "water_volume": 184510804
+            "volume": 184510804
         },
         {
             "date": "2022-04-30",
-            "water_area": 1.015733212883915,
+            "level": 1.015733212883915,
             "sensor_type": "Sentinel-2",
-            "water_volume": 189864816
+            "volume": 189864816
         },
         {
             "Average_Temperature": 18.79,
             "date": "2022-05-10",
-            "water_area": 1.0003783426283146,
+            "level": 1.0003783426283146,
             "sensor_type": "Sentinel-2",
-            "water_volume": 184095441
+            "volume": 184095441
         },
         {
             "date": "2022-05-15",
-            "water_area": 1.008752908655216,
+            "level": 1.008752908655216,
             "sensor_type": "Sentinel-2",
-            "water_volume": 187191553
+            "volume": 187191553
         },
         {
             "Average_Temperature": 17.15,
             "date": "2022-05-18",
-            "water_area": 0.9522268367827892,
+            "level": 0.9522268367827892,
             "sensor_type": "LandSat-8",
-            "water_volume": 168321973
+            "volume": 168321973
         },
         {
             "date": "2022-05-20",
-            "water_area": 0.9843488295670918,
+            "level": 0.9843488295670918,
             "sensor_type": "Sentinel-2",
-            "water_volume": 178488479
+            "volume": 178488479
         },
         {
             "date": "2022-05-25",
-            "water_area": 0.9745889969793252,
+            "level": 0.9745889969793252,
             "sensor_type": "Sentinel-2",
-            "water_volume": 175262706
+            "volume": 175262706
         },
         {
             "date": "2022-05-30",
-            "water_area": 0.9738244017996461,
+            "level": 0.9738244017996461,
             "sensor_type": "Sentinel-2",
-            "water_volume": 175015508
+            "volume": 175015508
         },
         {
             "Average_Temperature": 15.56,
             "date": "2022-06-03",
-            "water_area": 0.9238738484725084,
+            "level": 0.9238738484725084,
             "sensor_type": "LandSat-8",
-            "water_volume": 160174304
+            "volume": 160174304
         },
         {
             "date": "2022-06-09",
-            "water_area": 0.9565535459761213,
+            "level": 0.9565535459761213,
             "sensor_type": "Sentinel-2",
-            "water_volume": 169621996
+            "volume": 169621996
         },
         {
             "Average_Temperature": 25.11,
             "date": "2022-06-11",
-            "water_area": 0.9261586387741478,
+            "level": 0.9261586387741478,
             "sensor_type": "LandSat-8",
-            "water_volume": 160812304
+            "volume": 160812304
         },
         {
             "Average_Temperature": 16.91,
             "date": "2022-06-19",
-            "water_area": 0.9570123030839184,
+            "level": 0.9570123030839184,
             "sensor_type": "Sentinel-2",
-            "water_volume": 169760932
+            "volume": 169760932
         },
         {
             "date": "2022-06-24",
-            "water_area": 0.9481789799491861,
+            "level": 0.9481789799491861,
             "sensor_type": "Sentinel-2",
-            "water_volume": 167121760
+            "volume": 167121760
         },
         {
             "Average_Temperature": 23.15,
             "date": "2022-06-27",
-            "water_area": 0.9152833967477678,
+            "level": 0.9152833967477678,
             "sensor_type": "LandSat-8",
-            "water_volume": 157794927
+            "volume": 157794927
         },
         {
             "date": "2022-06-29",
-            "water_area": 0.9376365617069015,
+            "level": 0.9376365617069015,
             "sensor_type": "Sentinel-2",
-            "water_volume": 164059948
+            "volume": 164059948
         },
         {
             "date": "2022-07-04",
-            "water_area": 0.9388509187570006,
+            "level": 0.9388509187570006,
             "sensor_type": "Sentinel-2",
-            "water_volume": 164408362
+            "volume": 164408362
         },
         {
             "Average_Temperature": 16.62,
             "date": "2022-07-05",
-            "water_area": 0.9156072252944568,
+            "level": 0.9156072252944568,
             "sensor_type": "LandSat-8",
-            "water_volume": 157884141
+            "volume": 157884141
         },
         {
             "date": "2022-07-09",
-            "water_area": 0.9272650529753927,
+            "level": 0.9272650529753927,
             "sensor_type": "Sentinel-2",
-            "water_volume": 161122158
+            "volume": 161122158
         },
         {
             "date": "2022-07-14",
-            "water_area": 0.9240357627458907,
+            "level": 0.9240357627458907,
             "sensor_type": "Sentinel-2",
-            "water_volume": 160219438
+            "volume": 160219438
         },
         {
             "date": "2022-07-19",
-            "water_area": 0.9098232876411004,
+            "level": 0.9098232876411004,
             "sensor_type": "Sentinel-2",
-            "water_volume": 156295228
+            "volume": 156295228
         },
         {
             "date": "2022-07-24",
-            "water_area": 0.9065400259871402,
+            "level": 0.9065400259871402,
             "sensor_type": "Sentinel-2",
-            "water_volume": 155396913
+            "volume": 155396913
         },
         {
             "Average_Temperature": 28.38,
             "date": "2022-07-29",
-            "water_area": 0.892552431817569,
+            "level": 0.892552431817569,
             "sensor_type": "Sentinel-2",
-            "water_volume": 151586588
+            "volume": 151586588
         },
         {
             "date": "2022-08-03",
-            "water_area": 0.8845556657617664,
+            "level": 0.8845556657617664,
             "sensor_type": "Sentinel-2",
-            "water_volume": 149411344
+            "volume": 149411344
         },
         {
             "Average_Temperature": 17.08,
             "date": "2022-08-06",
-            "water_area": 0.857273110703012,
+            "level": 0.857273110703012,
             "sensor_type": "LandSat-8",
-            "water_volume": 141933186
+            "volume": 141933186
         },
         {
             "date": "2022-08-08",
-            "water_area": 0.8759832045118675,
+            "level": 0.8759832045118675,
             "sensor_type": "Sentinel-2",
-            "water_volume": 147074486
+            "volume": 147074486
         },
         {
             "date": "2022-08-13",
-            "water_area": 0.862931115032716,
+            "level": 0.862931115032716,
             "sensor_type": "Sentinel-2",
-            "water_volume": 143495421
+            "volume": 143495421
         },
         {
             "date": "2022-08-18",
-            "water_area": 0.8442480069361292,
+            "level": 0.8442480069361292,
             "sensor_type": "Sentinel-2",
-            "water_volume": 138307614
+            "volume": 138307614
         },
         {
             "Average_Temperature": 16.18,
             "date": "2022-08-22",
-            "water_area": 0.8174691851722137,
+            "level": 0.8174691851722137,
             "sensor_type": "LandSat-8",
-            "water_volume": 130723467
+            "volume": 130723467
         },
         {
             "date": "2022-08-23",
-            "water_area": 0.8392916311242642,
+            "level": 0.8392916311242642,
             "sensor_type": "Sentinel-2",
-            "water_volume": 136916798
+            "volume": 136916798
         },
         {
             "date": "2022-08-28",
-            "water_area": 0.8232801085378662,
+            "level": 0.8232801085378662,
             "sensor_type": "Sentinel-2",
-            "water_volume": 132382892
+            "volume": 132382892
         },
         {
             "Average_Temperature": 26.57,
             "date": "2022-08-30",
-            "water_area": 0.7939646298248898,
+            "level": 0.7939646298248898,
             "sensor_type": "LandSat-8",
-            "water_volume": 123959240
+            "volume": 123959240
         },
         {
             "date": "2022-09-02",
-            "water_area": 0.8092565334186559,
+            "level": 0.8092565334186559,
             "sensor_type": "Sentinel-2",
-            "water_volume": 128367835
+            "volume": 128367835
         },
         {
             "date": "2022-09-07",
-            "water_area": 0.7783039214974561,
+            "level": 0.7783039214974561,
             "sensor_type": "Sentinel-2",
-            "water_volume": 119435262
+            "volume": 119435262
         },
         {
             "date": "2022-09-12",
-            "water_area": 0.766754036665473,
+            "level": 0.766754036665473,
             "sensor_type": "Sentinel-2",
-            "water_volume": 116109397
+            "volume": 116109397
         },
         {
             "Average_Temperature": 25.48,
             "date": "2022-09-15",
-            "water_area": 0.7344161581833278,
+            "level": 0.7344161581833278,
             "sensor_type": "LandSat-8",
-            "water_volume": 106949258
+            "volume": 106949258
         },
         {
             "date": "2022-09-17",
-            "water_area": 0.7486016475759355,
+            "level": 0.7486016475759355,
             "sensor_type": "Sentinel-2",
-            "water_volume": 110931127
+            "volume": 110931127
         },
         {
             "date": "2022-09-22",
-            "water_area": 0.7136326621520007,
+            "level": 0.7136326621520007,
             "sensor_type": "Sentinel-2",
-            "water_volume": 101254031
+            "volume": 101254031
         },
         {
             "Average_Temperature": 25.08,
             "date": "2022-10-01",
-            "water_area": 0.6771884577930013,
+            "level": 0.6771884577930013,
             "sensor_type": "LandSat-8",
-            "water_volume": 91741559
+            "volume": 91741559
         }
     ],
     "nominal_outline": {
