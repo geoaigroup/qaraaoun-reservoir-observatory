@@ -110,14 +110,6 @@ class App extends React.Component {
       .catch(e => console.error(e));
   };*/
 
-  onlyValidMeasurements(measurements, maxLevelTotal) {
-    const validMeasurements = measurements.filter(
-      //taking values from measurments where cc <= 0.02 and add them to validMeasurments
-      m => m.cc <= 0.02, // && m.level <= maxLevelTotal && m.level <= m.max_level && m.level >= m.min_level, 
-    );
-    return validMeasurements;
-  }
-
   //getting data from JSON file
   fetchWaterbody = waterbodyId => {
     this.setState({
@@ -126,10 +118,8 @@ class App extends React.Component {
     return axios
       .get(`${process.env.PUBLIC_URL}/static/38784/All.json`)
       .then(res => {
-        const validMeasurements = this.onlyValidMeasurements(
-          res.data.measurements,
-          res.data.max_level_total,
-        ).map(m => ({
+        const validMeasurements = 
+          res.data.measurements.map(m => ({
           ...m,
           date: moment.utc(m.date), // internal representation of dates is always moment.js object
         }));
