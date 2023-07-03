@@ -54,7 +54,7 @@ export default class WaterbodyInfo extends React.Component {
       )}
       {!outline && (<Info key={4} label="Water Surface Area" value="Not available"/>)}
       {!outline && (<Info key={5} label="Water Volume" value="Not available"/>)}
-      {outline && (<Info key={6} label="Water Surface Area" value={`${measurementInfo.level.toFixed(4)*100+'%'}`}   />)}
+      {outline && (<Info key={6} label="Water Surface Area" value={`${(measurementInfo.level*100).toFixed(2)+'%'}`}   />)}
       {outline && (<Info key={7} label="Water Volume (in Cubic meter)" value={thousands_separators(`${measurementInfo.volume}`)}   />)}
     </div>
   )}
