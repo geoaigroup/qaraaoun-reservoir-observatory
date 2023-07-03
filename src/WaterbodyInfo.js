@@ -53,7 +53,7 @@ export default class WaterbodyInfo extends React.Component {
       <Info key={3} label="Temperature (°C)" value={thousands_separators(`${measurementInfo.Average_Temperature}`)}   />
       )}
       {!outline && (<Info key={4} label="Water Detection" value="Not available"/>)}
-      {outline && (<Info key={5} label="Water Volume  <sup>abc</sup>" value={thousands_separators(`${measurementInfo.volume}`)}   />)}
+      {outline && (<Info key={5} label="Water Volume" value={thousands_separators(`${measurementInfo.volume}`)}   />)}
     </div>
   )}
 </div>
