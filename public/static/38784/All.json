@@ -3619,6 +3619,18 @@
             "level": 0.6059745018132875,
             "sensor_type": "Sentinel-2",
             "volume": 74745187
+        },
+        {
+            "date": "2022-11-06",
+            "level": 0.5845889258608442,
+            "sensor_type": "Sentinel-2",
+            "volume": 69908741
+        },
+        {
+            "date": "2022-11-11",
+            "level": 0.5363966052267544,
+            "sensor_type": "Sentinel-2",
+            "volume": 59254002
         }
     ],
     "nominal_outline": {
