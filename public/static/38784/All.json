@@ -3607,6 +3607,18 @@
             "level": 0.6771884577930013,
             "sensor_type": "LandSat-8",
             "volume": 91741559
+        },
+        {
+            "date": "2022-10-02",
+            "level": 0.6810483418701163,
+            "sensor_type": "Sentinel-2",
+            "volume": 92719364
+        },
+        {
+            "date": "2022-10-27",
+            "level": 0.6059745018132875,
+            "sensor_type": "Sentinel-2",
+            "volume": 74745187
         }
     ],
     "nominal_outline": {
