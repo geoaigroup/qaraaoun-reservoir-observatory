@@ -88,7 +88,7 @@ export default class Chart extends React.PureComponent {
       yAxis: {
 opposite: false,
         title: {
-          text: 'Water level %',
+          text: 'Water Surface Area %',
           style: {
             color: '#FFFFFF'
           }
