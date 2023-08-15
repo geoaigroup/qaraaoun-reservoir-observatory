@@ -4,8 +4,6 @@ import moment from 'moment';
 import { SizeMe } from 'react-sizeme';
 //import {  } from 'react-router';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Logo from './imgs/English_Logo.png';
-import Logo2 from './imgs/logo.png';
 /** Components */
 import WaterbodyMap from './WaterbodyMap';
 import WaterbodyInfo from './WaterbodyInfo';
@@ -220,8 +218,8 @@ class App extends React.Component {
           <br/>
           <br/>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <img src={Logo} alt="Logo" width={'8%'} height={'8%'}/>
-          <img src={Logo2} alt="Logo" width={'8%'} height={'8%'}/>
+          <img src={`${process.env.PUBLIC_URL}/media/cnrs_logo.png`} alt="Logo CNRS" width={'8%'} height={'8%'}/>
+          <img src={`${process.env.PUBLIC_URL}/media/ncrs_logo.png`} alt="Logo NCRS" width={'8%'} height={'8%'}/>
           </div>
           </p>
           
