@@ -4,7 +4,8 @@ import moment from 'moment';
 import { SizeMe } from 'react-sizeme';
 //import {  } from 'react-router';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
+import Logo from './imgs/English_Logo.png';
+import Logo2 from './imgs/logo.png';
 /** Components */
 import WaterbodyMap from './WaterbodyMap';
 import WaterbodyInfo from './WaterbodyInfo';
@@ -215,8 +216,14 @@ class App extends React.Component {
 	        <p>This project was kindly supported by <a href="https://eo4society.esa.int/network-of-resources/nor-sponsorship/" target="_blank" rel="noreferrer">NoR Sponsorship.</a><br/>
 	    We relied on both water-observatory <a href="https://github.com/sentinel-hub/water-observatory-frontend" target="_blank" rel="noreferrer">front-end</a> and <a href="https://github.com/sentinel-hub/water-observatory-backend" target="_blank" rel="noreferrer">back-end</a> while building this project.<br/>
           
-          © 2023, <a href="https://geogroup.ai" target="_blank" rel="noreferrer">GEOspatial Artificial Intelligence (GEOAI) group</a>, National Center for Remote Sensing, CNRS, Lebanon</p>
-          
+          © 2023, <a href="https://geogroup.ai" target="_blank" rel="noreferrer">GEOspatial Artificial Intelligence (GEOAI) group</a>, National Center for Remote Sensing, CNRS, Lebanon
+          <br/>
+          <br/>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <img src={Logo} alt="Logo" width={'8%'} height={'8%'}/>
+          <img src={Logo2} alt="Logo" width={'8%'} height={'8%'}/>
+          </div>
+          </p>
           
         </div>
 
