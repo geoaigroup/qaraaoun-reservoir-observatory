@@ -11,7 +11,8 @@ import IconAngleLeft from './imgs/angle-left.svg';
 import IconAngleRight from './imgs/angle-right.svg';
 
 class WaterbodyMap extends React.PureComponent {
-  SH_INSTANCE_ID = '1f0a401d-1a53-466a-9618-5a45ecee09e5';
+  //SH_INSTANCE_ID = '1f0a401d-1a53-466a-9618-5a45ecee09e5';
+  SH_INSTANCE_ID = '6481a180-9ae3-4190-9291-8a89dee16e1a';
   LINE_LAYOUT = {
     'line-cap': 'round',
     'line-join': 'round',
@@ -83,9 +84,35 @@ class WaterbodyMap extends React.PureComponent {
     const hasPrev = !!this.getPrevMeasurement(measurementDate);
     const hasNext = !!this.getNextMeasurement(measurementDate);
     const timeInterval = `${measurementDate.format('YYYY-MM-DD')}/${measurementDate.format('YYYY-MM-DD')}`;
+
     var tileID = null;
-    if(sensor === "Sentinel-2")
-      tileID = "TRUE-COLOR-S2L1C"
+    var sh_base_url = null;
+    if (sensor === "Sentinel-2") {
+      tileID = "TRUE-COLOR-S2L1C";
+      sh_base_url = "https://services.sentinel-hub.com";
+    } else if (sensor === "LandSat-8") {
+      tileID = "TRUE-COLOR-L8";
+      sh_base_url = "https://services-uswest2.sentinel-hub.com";
+    } else if (sensor === "LandSat-5") {
+      tileID = "TRUE-COLOR-L4-5";
+      sh_base_url = "https://services-uswest2.sentinel-hub.com";
+    } else if (sensor === "LandSat-4") {
+      tileID = "TRUE-COLOR-L4-5";
+      sh_base_url = "https://services-uswest2.sentinel-hub.com";
+    } else if (sensor === "LandSat-3") {
+      tileID = "TRUE-COLOR-L1-3";
+      sh_base_url = "https://services-uswest2.sentinel-hub.com";
+    } else if (sensor === "LandSat-2") {
+      tileID = "TRUE-COLOR-L1-3";
+      sh_base_url = "https://services-uswest2.sentinel-hub.com";
+    } else if (sensor === "LandSat-1") {
+      tileID = "TRUE-COLOR-L1-3";
+      sh_base_url = "https://services-uswest2.sentinel-hub.com";
+    }
+
+
+
+
     return (
       <div className="waterbody-map">
         <Map
@@ -101,7 +128,9 @@ class WaterbodyMap extends React.PureComponent {
               'sentinel-hub-tiles': {
                 type: 'raster',
                 tiles: [
-                  `https://sh.dataspace.copernicus.eu/ogc/wms/${
+                  //`https://sh.dataspace.copernicus.eu/ogc/wms/${
+		  //`https://services-uswest2.sentinel-hub.com/ogc/wms/${
+		  `${sh_base_url}/ogc/wms/${
                     this.SH_INSTANCE_ID
                   }?showLogo=false&service=WMS&request=GetMap&layers=${tileID}&styles=&format=image/jpeg&version=1.1.1&time=${timeInterval}&height=512&width=512&srs=EPSG:3857&bbox={bbox-epsg-3857}`,
                 ],
