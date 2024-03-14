@@ -1,9 +1,8 @@
-# qaraaoun-reservoir-frontend
+# Qaraaoun Reservoir Observatory  
 
 
-RUN
----
+Qaraaoun Reservoir Volume Estimation from Aerial Images is an essential building block to enable scientists and researchers understand the hydrological dynamics of the largest water reservoir in Lebanon.  
+In this project, we combined machine learning techniques, LandSat 1-9 and Sentinel-2 imageries to provide the first 50+ Years time-series of water volume of the Qaraaoun reservoir.  
+[Dashboard](http://geoai.cnrs.edu.lb/qaraaoun) is being autonomously updated on a daily basis.
 
-As usual, `yarn install` will install all packages needed to `node_modules/` directory.
 
-`yarn start` will run the app locally and start a browser.
