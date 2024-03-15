@@ -212,17 +212,16 @@ class App extends React.Component {
 
         <div id="footer2" className='bg-body-tertiary rounded-top '>
             <div className='row w-100'>
-            <div className='col-6   mt-3'>
-            <p className='text-start'>
-            This work was kindly supported by <a href="http://www.cnrs.edu.lb/english/call-of-interest/calls-for-proposals-by-cnrs/sealacom-call-for-researchers" target="_blank" rel="noreferrer">SEALACOM.</a><br/>
-          © 2023, <a href="https://geogroup.ai" target="_blank" rel="noreferrer">GEOspatial Artificial Intelligence (GEOAI) group</a>, National Center for Remote Sensing, CNRS, Lebanon
-          
-
+            <div className='col-md-6  text-start  mt-3'>
+            <p className=''>
+            This work was kindly supported by <a href="http://www.cnrs.edu.lb/english/call-of-interest/calls-for-proposals-by-cnrs/sealacom-call-for-researchers" target="_blank" rel="noreferrer">SEALACOM.</a>
             </p>
+            <p> © 2023, <a href="https://geogroup.ai" target="_blank" rel="noreferrer">GEOspatial Artificial Intelligence (GEOAI) group</a><br>
+            </br> National Center for Remote Sensing, CNRS, Lebanon</p>
           </div>
-          <div className='col-6'>
-            <img src={`${process.env.PUBLIC_URL}/media/cnrs_logo.png`} alt="Logo CNRS"  height={'100px'} />
-            <img src={`${process.env.PUBLIC_URL}/media/ncrs_logo.png`} alt="Logo NCRS"  height={'100px'}/>
+          <div className='col-md-6'>
+            <img src={`${process.env.PUBLIC_URL}/media/cnrs_logo.png`} alt="Logo CNRS"  style={{maxWidth: '40%',maxHeight: 100,}} />
+            <img src={`${process.env.PUBLIC_URL}/media/ncrs_logo.png`} alt="Logo NCRS"  style={{maxWidth: '40%',maxHeight: 100,}}/>
           </div>
             </div>
           
