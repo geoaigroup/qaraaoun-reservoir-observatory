@@ -48,7 +48,7 @@ export default class Chart extends React.PureComponent {
     const options = {
       chart: {
         zoomType: 'x',
-        backgroundColor: '#356b90',
+        backgroundColor: '#2b3035',
       },
       /*title: {
         text: "TITLE",
@@ -180,7 +180,7 @@ opposite: false,
     };
 
     return (
-      <div id="chart-container">
+      <div id="chart-container" className='bg-dark'>
         <HighchartsReact highcharts={Highcharts} constructorType={'stockChart'} options={options} />
       </div>
     );

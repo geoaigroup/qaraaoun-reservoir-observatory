@@ -185,11 +185,11 @@ class App extends React.Component {
         <Header waterbody={waterbody} loading={loading} />
         <SizeMe monitorHeight>
           {({ size }) => (
-            <div id="content">
-              <div className="panel info">
+            <div id="content" className='m-0 p-0'>
+              <div className="panel info bg-body-tertiary rounded ">
                 <WaterbodyInfo waterbody={waterbody} measurementDate={measurementDate} sensor={sensor_type} outline = {measurementOutline}/>
               </div>
-              <div className="panel waterbody">
+              <div className="panel waterbody rounded">
                 <WaterbodyMap
                   size={size}
                   waterbody={waterbody}
@@ -203,25 +203,28 @@ class App extends React.Component {
           )}
         </SizeMe>
 
-        <div className="panel chart">
+        <div className="panel chart bg-body-tertiary">
           <Chart
             waterbody={waterbody}
             onDateSelect = {this.setMeasurementDate}
           />
         </div>
 
-        <div id="footer2">
-	        <p>This work was kindly supported by <a href="http://www.cnrs.edu.lb/english/call-of-interest/calls-for-proposals-by-cnrs/sealacom-call-for-researchers" target="_blank" rel="noreferrer">SEALACOM.</a><br/>
-	    We relied on both water-observatory <a href="https://github.com/sentinel-hub/water-observatory-frontend" target="_blank" rel="noreferrer">front-end</a> and <a href="https://github.com/sentinel-hub/water-observatory-backend" target="_blank" rel="noreferrer">back-end</a> while building this project.<br/>
-          
+        <div id="footer2" className='bg-body-tertiary rounded-top '>
+            <div className='row w-100'>
+            <div className='col-6   mt-3'>
+            <p className='text-start'>
+            This work was kindly supported by <a href="http://www.cnrs.edu.lb/english/call-of-interest/calls-for-proposals-by-cnrs/sealacom-call-for-researchers" target="_blank" rel="noreferrer">SEALACOM.</a><br/>
           © 2023, <a href="https://geogroup.ai" target="_blank" rel="noreferrer">GEOspatial Artificial Intelligence (GEOAI) group</a>, National Center for Remote Sensing, CNRS, Lebanon
-          <br/>
-          <br/>
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <img src={`${process.env.PUBLIC_URL}/media/cnrs_logo.png`} alt="Logo CNRS" width={'8%'} height={'8%'}/>
-          <img src={`${process.env.PUBLIC_URL}/media/ncrs_logo.png`} alt="Logo NCRS" width={'8%'} height={'8%'}/>
+          
+
+            </p>
           </div>
-          </p>
+          <div className='col-6'>
+            <img src={`${process.env.PUBLIC_URL}/media/cnrs_logo.png`} alt="Logo CNRS"  height={'100px'} />
+            <img src={`${process.env.PUBLIC_URL}/media/ncrs_logo.png`} alt="Logo NCRS"  height={'100px'}/>
+          </div>
+            </div>
           
         </div>
 
