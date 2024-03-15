@@ -211,7 +211,7 @@ class App extends React.Component {
         </div>
 
         <div id="footer2">
-	        <p>This project was kindly supported by <a href="https://eo4society.esa.int/network-of-resources/nor-sponsorship/" target="_blank" rel="noreferrer">NoR Sponsorship.</a><br/>
+	        <p>This work was kindly supported by <a href="http://www.cnrs.edu.lb/english/call-of-interest/calls-for-proposals-by-cnrs/sealacom-call-for-researchers" target="_blank" rel="noreferrer">SEALACOM.</a><br/>
 	    We relied on both water-observatory <a href="https://github.com/sentinel-hub/water-observatory-frontend" target="_blank" rel="noreferrer">front-end</a> and <a href="https://github.com/sentinel-hub/water-observatory-backend" target="_blank" rel="noreferrer">back-end</a> while building this project.<br/>
           
           © 2023, <a href="https://geogroup.ai" target="_blank" rel="noreferrer">GEOspatial Artificial Intelligence (GEOAI) group</a>, National Center for Remote Sensing, CNRS, Lebanon
