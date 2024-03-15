@@ -179,7 +179,7 @@ class App extends React.Component {
       loading,
       sensor_type
     } = this.state;
-
+    const today = new Date();
     return (
       <div id="app">
         <Header waterbody={waterbody} loading={loading} />
@@ -216,7 +216,7 @@ class App extends React.Component {
             <p className=''>
             This work was kindly supported by <a href="http://www.cnrs.edu.lb/english/call-of-interest/calls-for-proposals-by-cnrs/sealacom-call-for-researchers" target="_blank" rel="noreferrer">SEALACOM.</a>
             </p>
-            <p> © 2023, <a href="https://geogroup.ai" target="_blank" rel="noreferrer">GEOspatial Artificial Intelligence (GEOAI) group</a><br>
+            <p> © {today.getFullYear()}, <a href="https://geogroup.ai" target="_blank" rel="noreferrer">GEOspatial Artificial Intelligence (GEOAI) group</a><br>
             </br> National Center for Remote Sensing, CNRS, Lebanon</p>
           </div>
           <div className='col-md-6'>
