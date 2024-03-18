@@ -1,10 +1,10 @@
 import React from 'react';
 import moment from 'moment';
-import { GeoJSONLayer } from 'react-mapbox-gl';
+//import { GeoJSONLayer } from 'react-map-gl';
+import Map, {Source, Layer} from 'react-map-gl';
+
 import bbox from '@turf/bbox';
-
-
-import Map from './Map';
+//import Map from './Map';
 import Loading from './Loading';
 
 import IconAngleLeft from './imgs/angle-left.svg';
@@ -122,6 +122,7 @@ class WaterbodyMap extends React.PureComponent {
           movingMethod="jumpTo"
           zoom={this.DEFAULT_ZOOM}
           onStyleLoad={this.onMapLoad}
+	  mapboxAccessToken={import.meta.env.VITE_MAPBOX_TOKEN}
           style={{
             version: 8,
             sources: {
@@ -149,14 +150,16 @@ class WaterbodyMap extends React.PureComponent {
           }}
           containerStyle={this.MAP_CONTAINER_STYLE}
         >
-          <GeoJSONLayer
+          <Layer
             key={`blue-${waterbody.properties.id}`}
             data={waterbody.nominal_outline}
             lineLayout={this.LINE_LAYOUT}
             linePaint={this.NOMINAL_OUTLINE_LINE_PAINT}
+	    type={"geojson"}
           />
+
           {measurementOutline && (
-            <GeoJSONLayer
+            <Layer
               key={`yellow-${waterbody.properties.id}`}
               data={measurementOutline}
               lineLayout={this.LINE_LAYOUT}
