@@ -12,8 +12,7 @@ Qaraaoun Reservoir Volume Estimation from Aerial Images is an essential building
 - We relied on both water-observatory [front-end](https://github.com/sentinel-hub/water-observatory-frontend) and [back-end](https://github.com/sentinel-hub/water-observatory-backend) while developping this project.  
 
 ## Contact
-Feel free to reach to us via below link or through aghandour at cnrs.edu.lb:
-https://geogroup.ai/#contact
+Feel free to reach out via contact widget [Contact](https://geogroup.ai/#contact) or through email aghandour at cnrs.edu.lb.
 
 ## Disclaimer
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
