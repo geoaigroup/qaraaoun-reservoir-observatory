@@ -7,7 +7,7 @@ Qaraaoun Reservoir Volume Estimation from Aerial Images is an essential building
 [Dashboard](http://geoai.cnrs.edu.lb/qaraaoun) is being autonomously updated on a daily basis. 
 
 ## Funding and References
-- This work was kindly supported by [SEALACOM](http://www.cnrs.edu.lb/english/call-of-interest/calls-for-proposals-by-cnrs/sealacom-call-for-researchers).  
+- This work was partially supported by [SEALACOM](http://www.cnrs.edu.lb/english/call-of-interest/calls-for-proposals-by-cnrs/sealacom-call-for-researchers).  
 
 - We relied on both water-observatory [front-end](https://github.com/sentinel-hub/water-observatory-frontend) and [back-end](https://github.com/sentinel-hub/water-observatory-backend) while developping this project.  
 

@@ -214,7 +214,7 @@ class App extends React.Component {
             <div className='row w-100'>
             <div className='col-md-6  text-start  mt-3'>
             <p className=''>
-            This work was kindly supported by <a href="http://www.cnrs.edu.lb/english/call-of-interest/calls-for-proposals-by-cnrs/sealacom-call-for-researchers" target="_blank" rel="noreferrer">SEALACOM.</a>
+            This work was partially supported by <a href="http://www.cnrs.edu.lb/english/call-of-interest/calls-for-proposals-by-cnrs/sealacom-call-for-researchers" target="_blank" rel="noreferrer">SEALACOM.</a>
             </p>
             <p> © {today.getFullYear()}, <a href="https://geogroup.ai" target="_blank" rel="noreferrer">GEOspatial Artificial Intelligence (GEOAI) group</a><br>
             </br> National Center for Remote Sensing, CNRS, Lebanon</p>
