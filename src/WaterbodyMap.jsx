@@ -122,7 +122,7 @@ class WaterbodyMap extends React.PureComponent {
           movingMethod="jumpTo"
           zoom={this.DEFAULT_ZOOM}
           onStyleLoad={this.onMapLoad}
-	  mapboxAccessToken={import.meta.env.VITE_MAPBOX_TOKEN}
+	  mapboxAccessToken="pk.eyJ1IjoicmVtb3RlLXNlbnNpbmciLCJhIjoiY2x0dmZpMmFnMXF2NjJvb2FkYTExbXowbiJ9.VvNnVFK7lYwhTjS1PZZr_A"
           style={{
             version: 8,
             sources: {
@@ -145,6 +145,7 @@ class WaterbodyMap extends React.PureComponent {
                 source: 'sentinel-hub-tiles',
                 minzoom: 0,
                 maxzoom: 22,
+
               },
             ],
           }}
@@ -155,6 +156,7 @@ class WaterbodyMap extends React.PureComponent {
             data={waterbody.nominal_outline}
             lineLayout={this.LINE_LAYOUT}
             linePaint={this.NOMINAL_OUTLINE_LINE_PAINT}
+            source = ""
 	    type={"geojson"}
           />
 
@@ -164,6 +166,8 @@ class WaterbodyMap extends React.PureComponent {
               data={measurementOutline}
               lineLayout={this.LINE_LAYOUT}
               linePaint={this.MEASUREMENT_OUTLINE_LINE_PAINT}
+              source = ""
+	    type={"geojson"}
             />
           )}
         </Map>
