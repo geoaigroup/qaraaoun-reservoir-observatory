@@ -37,16 +37,21 @@ export default class Chart extends React.PureComponent {
         </div>
       );
     }
+
     const { zoom } = this.state;
     const validMeasurements = waterbody?.measurements ?? [];
+    const maxLevel = Math.max(...validMeasurements.map(m => m.level));
     const data = validMeasurements.map((measurement) => ({
       x: measurement.date.valueOf(),
-      y: measurement.level * 100,
+      y: (measurement.level/maxLevel) * 100,
     }));
+
+    console.log(data.slice(0,100));
     
 
     const options = {
       chart: {
+        type: 'column', 
         zoomType: 'x',
         backgroundColor: '#2b3035',
       },
@@ -106,9 +111,15 @@ opposite: false,
         tooltip: {
           valueDecimals: 2,
         },
+        dataGrouping: {
+          enabled: true,
+          approximation: 'average', // Set approximation to average
+          groupPixelWidth: 10, 
+          forced: true, // Ensure grouping is always applied
+        }
       }],
       plotOptions: {
-        line: {
+        column: {
           color: '#FFFFFF' 
         },
         series: {
