@@ -43,7 +43,7 @@ class App extends React.Component {
       if (prevProps.match.params.id !== id) {
         this.initWaterbody();
       } else if (date && prevProps.match.params.date !== date) {
-        this.setMeasurementDate(id, moment(date));
+        this.setMeasurementDate(id, moment(date, 'YYYY-MM-DD', true));
       }
     }
   }
@@ -120,7 +120,7 @@ class App extends React.Component {
         const validMeasurements = 
           res.data.measurements.map(m => ({
           ...m,
-          date: moment.utc(m.date), // internal representation of dates is always moment.js object
+          date: moment.utc(m.date, 'YYYY-MM-DD'), // internal representation of dates is always moment.js object
         }));
         const waterbody = {
           ...res.data,
@@ -129,14 +129,14 @@ class App extends React.Component {
 
         const measurementDate =
           this.props.match.params.date &&
-          validMeasurements.some(item => moment(item.date).isSame(moment(this.props.match.params.date)))
-            ? moment(this.props.match.params.date)
+          validMeasurements.some(item => moment(item.date, 'YYYY-MM-DD').isSame(moment(this.props.match.params.date, 'YYYY-MM-DD')))
+            ? moment(this.props.match.params.date, 'YYYY-MM-DD')
             : validMeasurements[validMeasurements.length - 1].date; // or last measurement date
         
             const sensor =
             this.props.match.params.sensor_type &&
-            validMeasurements.some(item => item.sensor_type.isSame(moment(this.props.match.params.sensor_type)))
-              ? moment(this.props.match.params.sensor_type)
+            validMeasurements.some(item => item.sensor_type.isSame(moment(this.props.match.params.sensor_type, 'YYYY-MM-DD')))
+              ? moment(this.props.match.params.sensor_type, 'YYYY-MM-DD')
               : validMeasurements[validMeasurements.length - 1].sensor_type;
           console.log("fetch: "+sensor);
         this.setState({

@@ -3,11 +3,12 @@ import Loading from './Loading';
 import HighchartsReact from 'highcharts-react-official';
 import React from 'react';
 import Highcharts from 'highcharts/highstock';
+import accessibility from 'highcharts/modules/accessibility'
+
 
 /** Sass variables, needed for the graph size which is a js prop 
 import sassVariables from './styles/_vars.scss';*/
 import './styles/Chart.scss';
-
 
 /**
  * Used for dynamic graph heights,
@@ -46,7 +47,8 @@ export default class Chart extends React.PureComponent {
       y: (measurement.level/maxLevel) * 100,
     }));
 
-    console.log(data.slice(0,100));
+    data.sort((a,b)=> a.x - b.x);
+
     
 
     const options = {
@@ -54,6 +56,9 @@ export default class Chart extends React.PureComponent {
         type: 'column', 
         zoomType: 'x',
         backgroundColor: '#2b3035',
+      },
+      accessibility: {
+        enabled: false
       },
       /*title: {
         text: "TITLE",
