@@ -240,3 +240,44 @@ div.loading {
     }
   }
 }
+
+#legend {
+  background-color: #2B3035; 
+  border-radius: 4px; 
+  bottom: 20px; 
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); 
+  padding: 10px; 
+  position: absolute;
+  z-index: 1;
+  font-size: 12px; 
+  line-height: 16px; 
+  width: 140px; 
+  color: #333; 
+  margin-left: 10px; 
+}
+
+#legend h4 {
+  margin: 0 0 8px; 
+  font-size: 14px; 
+  font-weight: bold;
+  color: white;
+}
+
+#legend div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px; 
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+#legend span {
+  display: inline-block;
+  width: 15px; 
+  height: 15px; 
+  margin-right: 8px; 
+  vertical-align: middle;
+}
+
+
+

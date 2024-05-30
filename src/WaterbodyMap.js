@@ -18,11 +18,11 @@ class WaterbodyMap extends React.PureComponent {
     'line-join': 'round',
   };
   NOMINAL_OUTLINE_LINE_PAINT = {
-    'line-color': '#26accc',
+    'line-color': '#e8c26e',
     'line-width': 2,
   };
   MEASUREMENT_OUTLINE_LINE_PAINT = {
-    'line-color': '#e8c26e',
+    'line-color': '#26accc',
     'line-width': 2,
   };
   MAP_CONTAINER_STYLE = {
@@ -65,7 +65,7 @@ class WaterbodyMap extends React.PureComponent {
     if (!goToMeasurement) {
       return;
     }
-    this.props.onDateSelect(this.props.waterbody.properties.id, moment(goToMeasurement.date), goToMeasurement.sensor_type);
+    this.props.onDateSelect(this.props.waterbody.properties.id, moment(goToMeasurement.date, 'YYYY-MM-DD'), goToMeasurement.sensor_type);
   };
 
   goNext = () => {
@@ -73,7 +73,7 @@ class WaterbodyMap extends React.PureComponent {
     if (!goToMeasurement) {
       return;
     }
-    this.props.onDateSelect(this.props.waterbody.properties.id, moment(goToMeasurement.date), goToMeasurement.sensor_type);
+    this.props.onDateSelect(this.props.waterbody.properties.id, moment(goToMeasurement.date, 'YYYY-MM-DD'), goToMeasurement.sensor_type);
   };
 
   render() {
@@ -110,8 +110,12 @@ class WaterbodyMap extends React.PureComponent {
       sh_base_url = "https://services-uswest2.sentinel-hub.com";
     }
 
-
-
+    const legend = document.getElementById('legend');
+    if(legend){
+    legend.innerHTML= '<h4>Legend :<h4>'+
+                      '<div><span style="background-color: #e8c26e"></span>yellow: lake contour</div>' +
+                      '<div><span style="background-color: #26accc"></span>blue: water borders</div>';
+    }
 
     return (
       <div className="waterbody-map">
@@ -150,14 +154,14 @@ class WaterbodyMap extends React.PureComponent {
           containerStyle={this.MAP_CONTAINER_STYLE}
         >
           <GeoJSONLayer
-            key={`blue-${waterbody.properties.id}`}
+            key={`yellow-${waterbody.properties.id}`}
             data={waterbody.nominal_outline}
             lineLayout={this.LINE_LAYOUT}
             linePaint={this.NOMINAL_OUTLINE_LINE_PAINT}
           />
           {measurementOutline && (
             <GeoJSONLayer
-              key={`yellow-${waterbody.properties.id}`}
+              key={`blue-${waterbody.properties.id}`}
               data={measurementOutline}
               lineLayout={this.LINE_LAYOUT}
               linePaint={this.MEASUREMENT_OUTLINE_LINE_PAINT}
@@ -170,6 +174,7 @@ class WaterbodyMap extends React.PureComponent {
         <div className="go next" onClick={this.goNext}>
           <img alt="Next date" className={hasNext ? '' : 'disabled'} src={IconAngleRight} />
         </div>
+        <div id="legend" className='legend'></div>
       </div>
     );
   }
