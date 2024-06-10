@@ -1,7 +1,23 @@
-import ReactMapboxGl from 'react-mapbox-gl';
+import React, { forwardRef } from 'react';
+import { Map } from 'react-map-gl';
 
-const Map = ReactMapboxGl({
-  accessToken: 'pk.eyJ1IjoicmVtb3RlLXNlbnNpbmciLCJhIjoiY2wxa3U3emJoMDJvdDNqb2J3c2psYmV5ayJ9.IrXF8F1L-De03oW9FbA4sQ',
+const accessToken = 'pk.eyJ1IjoiYWFmMzYiLCJhIjoiY2x3eHV4eWs3MWc5ODJscjM2NTM1czljbSJ9.7nYI2PWYbTsSki8Pk5AO3A';
+
+const MapComponent = forwardRef(({ initialViewState, mapStyle, onLoad }, ref) => {
+  return (
+    <Map
+      ref={ref}
+      initialViewState={initialViewState}
+      style={{ width: '100%', height: '100%' }}
+      mapStyle={mapStyle}
+      mapboxAccessToken={accessToken}
+      onLoad={onLoad}
+      attributionControl={false}
+      logoPosition="bottom-left"
+    />
+  );
 });
 
-export default Map;
+export default MapComponent;
+
+

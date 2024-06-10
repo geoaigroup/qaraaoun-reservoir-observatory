@@ -27,6 +27,7 @@ export default class Chart extends React.PureComponent {
   handleZoom = (zoom) => {
     this.setState({ zoom });
   }
+  
 
   render() {
     const { waterbody } = this.props;
@@ -41,10 +42,9 @@ export default class Chart extends React.PureComponent {
 
     const { zoom } = this.state;
     const validMeasurements = waterbody?.measurements ?? [];
-    const maxLevel = Math.max(...validMeasurements.map(m => m.level));
     const data = validMeasurements.map((measurement) => ({
       x: measurement.date.valueOf(),
-      y: (measurement.level/maxLevel) * 100,
+      y: measurement.level * 100,
     }));
 
     data.sort((a,b)=> a.x - b.x);

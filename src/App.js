@@ -1,17 +1,19 @@
 import React from 'react';
 import axios from 'axios';
 import moment from 'moment';
-import { SizeMe } from 'react-sizeme';
-//import {  } from 'react-router';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
 /** Components */
 import WaterbodyMap from './WaterbodyMap';
 import WaterbodyInfo from './WaterbodyInfo';
 import Chart from './Chart';
 import Header from './Header';
 import Error404 from './Error404';
+import MeasureWrapper from './MeasureWrapper';
+import 'mapbox-gl/dist/mapbox-gl.css';
+
+
 
 import './styles/App.scss';
+
 
 class App extends React.Component {
   DEFAULT_WATERBODY_ID = 2307;
@@ -37,12 +39,12 @@ class App extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    const { id, date } = this.props.match.params;
+    const { id, date } = this.props.params;
 
-    if (this.props.history.action === 'POP') {
+    if (this.props.navigate.action === 'POP') {
       if (prevProps.match.params.id !== id) {
         this.initWaterbody();
-      } else if (date && prevProps.match.params.date !== date) {
+      } else if (date && prevProps.params.date !== date) {
         this.setMeasurementDate(id, moment(date, 'YYYY-MM-DD', true));
       }
     }
@@ -52,7 +54,7 @@ class App extends React.Component {
     /*  
      * Get id from url pathname param and fetch, if error, fetch default
      */
-    const { id } = this.props.match.params;
+    const { id } = this.props.params;
     if (id) {
       this.fetchWaterbody(id).catch(err => {
         if (err.response.status >= 400 && err.response.status <= 499) {
@@ -84,8 +86,8 @@ class App extends React.Component {
     this.setState({ measurementDate: measurementDate,
      sensor_type: sensor_type});
     let pathname = "";
-    if (this.props.location.pathname !== pathname) {
-      this.props.history.push(pathname);
+    if (this.props.pathname !== pathname) {
+      this.props.navigate(pathname);
     }
   };
 
@@ -128,15 +130,15 @@ class App extends React.Component {
         };
 
         const measurementDate =
-          this.props.match.params.date &&
-          validMeasurements.some(item => moment(item.date, 'YYYY-MM-DD').isSame(moment(this.props.match.params.date, 'YYYY-MM-DD')))
-            ? moment(this.props.match.params.date, 'YYYY-MM-DD')
+          this.props.params.date &&
+          validMeasurements.some(item => moment(item.date, 'YYYY-MM-DD').isSame(moment(this.props.params.date, 'YYYY-MM-DD')))
+            ? moment(this.props.params.date, 'YYYY-MM-DD')
             : validMeasurements[validMeasurements.length - 1].date; // or last measurement date
         
             const sensor =
-            this.props.match.params.sensor_type &&
-            validMeasurements.some(item => item.sensor_type.isSame(moment(this.props.match.params.sensor_type, 'YYYY-MM-DD')))
-              ? moment(this.props.match.params.sensor_type, 'YYYY-MM-DD')
+            this.props.params.sensor_type &&
+            validMeasurements.some(item => item.sensor_type.isSame(moment(this.props.params.sensor_type, 'YYYY-MM-DD')))
+              ? moment(this.props.params.sensor_type, 'YYYY-MM-DD')
               : validMeasurements[validMeasurements.length - 1].sensor_type;
           console.log("fetch: "+sensor);
         this.setState({
@@ -155,18 +157,25 @@ class App extends React.Component {
 
   fetchMeasurementOutline = (waterbodyId, date) => {
     axios
-      .get(`${process.env.PUBLIC_URL}/static/38784/maps/${date.format('YYYY-MM-DD',)}.json`,)
+      .get(`${process.env.PUBLIC_URL}/static/38784/maps/${date.format('YYYY-MM-DD')}.json`)
       .then(res => {
         this.setState({
           measurementOutline: res.data,
         });
       })
-      .catch(e => {console.error(e);
+      .catch(e => {
+        if (e.response && e.response.status === 404) {
+          console.error(`Measurement outline not found for date ${date.format('YYYY-MM-DD')}`);
+        } else {
+          console.error(`Error fetching measurement outline for date ${date.format('YYYY-MM-DD')}:`, e);
+        }
         this.setState({
           measurementOutline: null,
         });
       });
   };
+
+  
 
   render() {
     const {
@@ -183,15 +192,15 @@ class App extends React.Component {
     return (
       <div id="app">
         <Header waterbody={waterbody} loading={loading} />
-        <SizeMe monitorHeight>
-          {({ size }) => (
+        <MeasureWrapper>
+          {({ width, height }) => (
             <div id="content" className='m-0 p-0'>
-              <div className="panel info bg-body-tertiary rounded ">
-                <WaterbodyInfo waterbody={waterbody} measurementDate={measurementDate} sensor={sensor_type} outline = {measurementOutline}/>
+              <div className="panel info bg-body-tertiary rounded">
+                <WaterbodyInfo waterbody={waterbody} measurementDate={measurementDate} sensor={sensor_type} outline={measurementOutline} />
               </div>
               <div className="panel waterbody rounded">
                 <WaterbodyMap
-                  size={size}
+                  size={{ width, height }}
                   waterbody={waterbody}
                   measurementOutline={measurementOutline}
                   measurementDate={measurementDate}
@@ -201,7 +210,7 @@ class App extends React.Component {
               </div>
             </div>
           )}
-        </SizeMe>
+        </MeasureWrapper>
 
         <div className="panel chart bg-body-tertiary">
           <Chart
@@ -233,13 +242,4 @@ class App extends React.Component {
   }
 }
 
-const AppRoutes = () => (
-  <BrowserRouter basename={process.env.REACT_APP_BASENAME}>
-    <Switch>
-      <Route path="/:id(\d+)?/:date(\d{4}-\d{2}-\d{2})?" exact component={App} />
-      <Route component={Error404} />
-    </Switch>
-  </BrowserRouter>
-);
-
-export default AppRoutes;
+export default App;
