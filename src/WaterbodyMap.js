@@ -130,6 +130,7 @@ class WaterbodyMap extends React.PureComponent {
       legend.innerHTML = '<h4>Legend :</h4>' +
         '<div><span style="background-color: #e8c26e"></span>Lake Contour</div>' +
         '<div><span style="background-color: #26accc"></span>Water Borders</div>';
+
     }
 
     return (
