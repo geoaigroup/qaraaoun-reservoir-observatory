@@ -136,9 +136,11 @@ opposite: false,
                 const waterbody = this.props.waterbody;
                 //console.log(this.props.waterbody.properties.id);     
                 const { x, index } = event.point;
-                const measurement = waterbody.measurements[index];
+                const measurement = validMeasurements.find(m => m.date.valueOf() === x);
+                console.log(measurement);
                 const date = moment.utc(x);
                 const sensor = measurement.sensor_type;
+                console.log(sensor);
                 onDateSelect(waterbody.properties.id, date, sensor);
                 //console.log(measurement.sensor_type);
               },
