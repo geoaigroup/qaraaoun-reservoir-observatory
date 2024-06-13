@@ -212,7 +212,8 @@ div.loading {
       display: flex;
       .waterbody-map {
         flex: 1;
-        position: relative;
+        position: relative !important;
+        height: 100% !important;
         .go {
           position: absolute;
           width: 50px;
@@ -244,7 +245,7 @@ div.loading {
 #legend {
   background-color: #2B3035; 
   border-radius: 4px; 
-  bottom: 20px; 
+  bottom: 10px; 
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); 
   padding: 10px; 
   position: absolute;

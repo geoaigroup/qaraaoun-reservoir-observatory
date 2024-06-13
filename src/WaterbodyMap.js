@@ -142,6 +142,7 @@ class WaterbodyMap extends React.PureComponent {
     latitude: waterbody.properties.lat,
     zoom: this.DEFAULT_ZOOM,
   }}
+  style = {this.MAP_CONTAINER_STYLE}
   mapStyle={{
     version: 8,
     sources: {
