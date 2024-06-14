@@ -12,6 +12,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 
 class WaterbodyMap extends React.PureComponent {
   SH_INSTANCE_ID = '6481a180-9ae3-4190-9291-8a89dee16e1a';
+  //SH_INSTANCE_ID = '450a11d0-1f80-4faa-852e-4d5ebe535c7b';
   LINE_LAYOUT = {
     'line-cap': 'round',
     'line-join': 'round',
