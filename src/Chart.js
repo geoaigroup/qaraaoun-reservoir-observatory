@@ -3,18 +3,8 @@ import Loading from './Loading';
 import HighchartsReact from 'highcharts-react-official';
 import React from 'react';
 import Highcharts from 'highcharts/highstock';
-import accessibility from 'highcharts/modules/accessibility'
-
-
-/** Sass variables, needed for the graph size which is a js prop 
-import sassVariables from './styles/_vars.scss';*/
 import './styles/Chart.scss';
 
-/**
- * Used for dynamic graph heights,
- * TODO: fine tune for different monitor sizes or maybe switch
- * to height based breakpoints
- */
 
 export default class Chart extends React.PureComponent {
   constructor(props) {
@@ -27,11 +17,46 @@ export default class Chart extends React.PureComponent {
   handleZoom = (zoom) => {
     this.setState({ zoom });
   }
+
+  handlePointClick = (event, validMeasurements) => {
+    const point = event.point;
+    const chart = event.point.series.chart;
+
+    if (point.dataGroup && point.dataGroup.length > 1) {
+        console.log('This is a grouped point');
+        const { start, length } = point.dataGroup;
+        const series = point.series;
+        const xData = series.xData.slice(start, start + length);
+        const newMin = Math.min(...xData); // Get the minimum x value in the group
+        const newMax = Math.max(...xData); // Get the maximum x value in the group
+        chart.xAxis[0].setExtremes(newMin, newMax);
+    } else {
+        const { waterbody, onDateSelect } = this.props;
+        const { x } = event.point;
+        let measurement = validMeasurements.find(m => m.date.valueOf() === x);
+        
+        if (!measurement) {
+            console.log('Measurement not found, looking for nearest measurement');
+            const clickedDate = moment.utc(x).format('YYYY-MM-DD');
+            measurement = validMeasurements.find(m => moment(m.date).isSameOrAfter(clickedDate));
+        }
+
+        if (measurement) {
+            const date = moment.utc(measurement.date);
+            const sensor = measurement.sensor_type;
+            onDateSelect(waterbody.properties.id, date, sensor);
+        } else {
+            console.log('measurement not found');
+        } 
+    }
+}
+
+  
+  
   
 
   render() {
     const { waterbody } = this.props;
-    const { onDateSelect } = this.props;
     if (!waterbody) {
       return (
         <div className="chart-loader">
@@ -47,27 +72,19 @@ export default class Chart extends React.PureComponent {
       y: measurement.level * 100,
     }));
 
-    data.sort((a,b)=> a.x - b.x);
-
-    
+    data.sort((a, b) => a.x - b.x);
 
     const options = {
       chart: {
-        type: 'column', 
+        type: 'column',
         zoomType: 'x',
         backgroundColor: '#2b3035',
       },
       accessibility: {
-        enabled: false
+        enabled: false,
       },
-      /*title: {
-        text: "TITLE",
-        style: {
-          color: "white", 
-        },
-      },*/
       global: {
-        timezoneOffset: 0
+        timezoneOffset: 0,
       },
       tooltip: {
         xDateFormat: '%A, %b %e, %Y',
@@ -79,36 +96,35 @@ export default class Chart extends React.PureComponent {
         ordinal: false,
         tickColor: '#FFFFFF',
         lineColor: '#FFFFFF',
-        //tickInterval: 365 * 24 * 3600 * 1000, // set tick interval to one year
         dateTimeLabelFormats: {
           day: '%e %b %Y',
           week: '%e %b %Y',
           month: '%b %Y',
-          year: '%Y'
+          year: '%Y',
         },
         labels: {
           style: {
-            color: '#FFFFFF'
-          }
+            color: '#FFFFFF',
+          },
+        },
       },
-    },
-    navigator: {
-      maskFill: 'rgba(230, 242, 250, 0.3)'
-    },
+      navigator: {
+        maskFill: 'rgba(230, 242, 250, 0.3)',
+      },
       yAxis: {
-opposite: false,
+        opposite: false,
         title: {
           text: 'Water Surface Area %',
           style: {
-            color: '#FFFFFF'
-          }
+            color: '#FFFFFF',
+          },
         },
         labels: {
           style: {
-            color: '#FFFFFF'
+            color: '#FFFFFF',
           },
-          offset: 10
-      },
+          offset: 10,
+        },
       },
       series: [{
         name: 'Water level %',
@@ -118,42 +134,30 @@ opposite: false,
         },
         dataGrouping: {
           enabled: true,
-          approximation: 'average', // Set approximation to average
-          groupPixelWidth: 10, 
-          forced: true, // Ensure grouping is always applied
-        }
+          approximation: 'average',
+          groupPixelWidth: 10,
+          forced: true,
+        },
       }],
       plotOptions: {
         column: {
-          color: '#FFFFFF' 
+          color: '#FFFFFF',
         },
         series: {
           color: '#3f484e',
           point: {
             events: {
-              click: (event) => {
-                //const date = moment.utc(event.point.series.options.data[event.point.index].x);
-                const waterbody = this.props.waterbody;
-                //console.log(this.props.waterbody.properties.id);     
-                const { x, index } = event.point;
-                const measurement = validMeasurements.find(m => m.date.valueOf() === x);
-                console.log(measurement);
-                const date = moment.utc(x);
-                const sensor = measurement.sensor_type;
-                console.log(sensor);
-                onDateSelect(waterbody.properties.id, date, sensor);
-                //console.log(measurement.sensor_type);
-              },
+              click: (event) => this.handlePointClick(event, validMeasurements),
             },
           },
         },
       },
       rangeSelector: {
         labelStyle: {
-          color: 'white'
+          color: 'white',
         },
         inputStyle: {
-          color: '#9fa0a1'
+          color: '#9fa0a1',
         },
         buttons: [{
           type: 'month',
@@ -192,9 +196,9 @@ opposite: false,
         text: 'Highcharts.com',
         href: 'https://www.highcharts.com/?credits',
         style: {
-            color: '#ffffff',
-        }
-    },
+          color: '#ffffff',
+        },
+      },
     };
 
     return (
@@ -204,3 +208,10 @@ opposite: false,
     );
   }
 }
+
+
+
+
+
+
+
