@@ -28,13 +28,12 @@
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.40",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-keep-alive": "^2.5.2",
     "react-map-gl": "^7.1.6",
     "react-router": "^6.14.1",
     "react-router-dom": "^6.14.1",
-    "react-scripts": "^5.0.1",
     "react-use-measure": "^2.1.1",
     "semiotic": "^2.0.3",
     "tsutils": "^3.21.0",
@@ -54,12 +53,9 @@
     "semiotic/react-dom": "^18.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "lint": "eslint --max-warnings 0 --ext .js src/",
-    "prettier": "prettier --write \"src/**/*.js\"",
-    "test": "react-scripts test",
-    "eject": "echo 'Ejecting is never a good idea. Find another way.'"
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "browserslist": [
     ">0.2%",
@@ -68,10 +64,12 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
     "eslint-config-prettier": "^8.9.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^3.2.0",
     "sass": "^1.64.0",
-    "sass-loader": "^13.2.2"
+    "sass-loader": "^13.2.2",
+    "vite": "^5.3.1"
   }
 }
