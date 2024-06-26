@@ -53,7 +53,7 @@
     "semiotic/react-dom": "^18.0.0"
   },
   "scripts": {
-    "start": "vite --no-open",
+    "start": "vite --host --no-open",
     "build": "vite build",
     "serve": "vite preview"
   },
