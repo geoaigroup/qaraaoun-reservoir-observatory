@@ -1,0 +1,5147 @@
+{
+    "max_level_total": 0.0,
+    "measurements": [
+        {
+            "date": "1972-10-04",
+            "level": 0.5098410610530578,
+            "sensor_type": "LandSat-1",
+            "volume": 53547123
+        },
+        {
+            "date": "1972-10-22",
+            "level": 0.4441128613121233,
+            "sensor_type": "LandSat-1",
+            "volume": 40412354
+        },
+        {
+            "date": "1972-12-14",
+            "level": 0.24422069562958476,
+            "sensor_type": "LandSat-1",
+            "volume": 10206073
+        },
+        {
+            "date": "1973-1-2",
+            "level": 0.20297753211348,
+            "sensor_type": "LandSat-1",
+            "volume": 4178149
+        },
+        {
+            "date": "1973-6-30",
+            "level": 0.5136460464766419,
+            "sensor_type": "LandSat-1",
+            "volume": 54354953
+        },
+        {
+            "date": "1975-06-29",
+            "level": 0.8494562493954861,
+            "sensor_type": "LandSat-1",
+            "volume": 139762410
+        },
+        {
+            "date": "1975-08-04",
+            "level": 0.6205274573596179,
+            "sensor_type": "LandSat-1",
+            "volume": 78088315
+        },
+        {
+            "date": "1975-08-23",
+            "level": 0.6564544355674766,
+            "sensor_type": "LandSat-1",
+            "volume": 86603146
+        },
+        {
+            "date": "1975-09-09",
+            "level": 0.5968340020266432,
+            "sensor_type": "LandSat-1",
+            "volume": 72668287
+        },
+        {
+            "date": "1975-09-10",
+            "level": 0.5848613410365128,
+            "sensor_type": "LandSat-1",
+            "volume": 69969877
+        },
+        {
+            "date": "1975-10-24",
+            "level": 0.41857538231055574,
+            "sensor_type": "LandSat-1",
+            "volume": 35860646
+        },
+        {
+            "date": "1976-01-22",
+            "level": 0.32477304661899165,
+            "sensor_type": "LandSat-1",
+            "volume": 21645096
+        },
+        {
+            "date": "1976-10-18",
+            "level": 0.5025639139899298,
+            "sensor_type": "LandSat-1",
+            "volume": 52013158
+        },
+        {
+            "date": "1977-03-20",
+            "level": 0.921939872429838,
+            "sensor_type": "LandSat-1",
+            "volume": 159636106
+        },
+        {
+            "date": "1977-04-07",
+            "level": 0.889952808206638,
+            "sensor_type": "LandSat-1",
+            "volume": 150879635
+        },
+        {
+            "date": "1977-05-31",
+            "level": 0.9060093069801333,
+            "sensor_type": "LandSat-1",
+            "volume": 155251907
+        },
+        {
+            "date": "1977-06-18",
+            "level": 0.9041203071243958,
+            "sensor_type": "LandSat-1",
+            "volume": 154736175
+        },
+        {
+            "date": "1977-11-09",
+            "level": 0.38811750844681114,
+            "sensor_type": "LandSat-1",
+            "volume": 30877375
+        },
+        {
+            "date": "1978-07-02",
+            "level": 0.8799231184966105,
+            "sensor_type": "LandSat-1",
+            "volume": 148149497
+        },
+        {
+            "date": "1978-07-20",
+            "level": 0.7947382202420421,
+            "sensor_type": "LandSat-1",
+            "volume": 124182692
+        },
+        {
+            "date": "1978-09-11",
+            "level": 0.6405058796429145,
+            "sensor_type": "LandSat-1",
+            "volume": 82769785
+        },
+        {
+            "date": "1978-09-12",
+            "level": 0.6286411615017178,
+            "sensor_type": "LandSat-1",
+            "volume": 79975252
+        },
+        {
+            "date": "1978-09-29",
+            "level": 0.511046422865644,
+            "sensor_type": "LandSat-1",
+            "volume": 53802622
+        },
+        {
+            "date": "1978-11-13",
+            "level": 0.4438519994273075,
+            "sensor_type": "LandSat-1",
+            "volume": 40364112
+        },
+        {
+            "date": "1978-11-23",
+            "level": 0.3955925507328782,
+            "sensor_type": "LandSat-1",
+            "volume": 32058004
+        },
+        {
+            "date": "1979-02-12",
+            "level": 0.4133761350886945,
+            "sensor_type": "LandSat-2",
+            "volume": 34976550
+        },
+        {
+            "date": "1979-03-02",
+            "level": 0.4444097041465884,
+            "sensor_type": "LandSat-2",
+            "volume": 40467293
+        },
+        {
+            "date": "1979-04-16",
+            "level": 0.5363590209321173,
+            "sensor_type": "LandSat-2",
+            "volume": 59245824
+        },
+        {
+            "date": "1979-05-21",
+            "level": 0.5159218415408893,
+            "sensor_type": "LandSat-2",
+            "volume": 54839884
+        },
+        {
+            "date": "1979-07-14",
+            "level": 0.42436831520136387,
+            "sensor_type": "LandSat-2",
+            "volume": 36862621
+        },
+        {
+            "date": "1979-07-15",
+            "level": 0.41692025862747717,
+            "sensor_type": "LandSat-2",
+            "volume": 35577652
+        },
+        {
+            "date": "1979-08-01",
+            "level": 0.37138636686770715,
+            "sensor_type": "LandSat-2",
+            "volume": 28322573
+        },
+        {
+            "date": "1979-08-02",
+            "level": 0.3757670474854768,
+            "sensor_type": "LandSat-2",
+            "volume": 28980639
+        },
+        {
+            "date": "1979-08-20",
+            "level": 0.34280849762222976,
+            "sensor_type": "LandSat-2",
+            "volume": 24176858
+        },
+        {
+            "date": "1979-09-06",
+            "level": 0.2869480733180149,
+            "sensor_type": "LandSat-2",
+            "volume": 16358650
+        },
+        {
+            "date": "1979-09-07",
+            "level": 0.2835478735777437,
+            "sensor_type": "LandSat-2",
+            "volume": 15877958
+        },
+        {
+            "date": "1979-09-25",
+            "level": 0.24018183403334872,
+            "sensor_type": "LandSat-2",
+            "volume": 9613729
+        },
+        {
+            "date": "1979-10-12",
+            "level": 0.2115859743130359,
+            "sensor_type": "LandSat-2",
+            "volume": 5421138
+        },
+        {
+            "date": "1979-10-13",
+            "level": 0.20164623697708786,
+            "sensor_type": "LandSat-2",
+            "volume": 3987588
+        },
+        {
+            "date": "1979-10-30",
+            "level": 0.1824593955856611,
+            "sensor_type": "LandSat-2",
+            "volume": 1314659
+        },
+        {
+            "date": "1980-07-26",
+            "level": 0.8018354625570434,
+            "sensor_type": "LandSat-2",
+            "volume": 126231067
+        },
+        {
+            "date": "1980-08-13",
+            "level": 0.7206624401864306,
+            "sensor_type": "LandSat-2",
+            "volume": 103159941
+        },
+        {
+            "date": "1980-08-31",
+            "level": 0.6592789401136095,
+            "sensor_type": "LandSat-2",
+            "volume": 87292300
+        },
+        {
+            "date": "1980-10-06",
+            "level": 0.498749933328849,
+            "sensor_type": "LandSat-2",
+            "volume": 51215449
+        },
+        {
+            "date": "1980-11-12",
+            "level": 0.36214825804961503,
+            "sensor_type": "LandSat-2",
+            "volume": 26957032
+        },
+        {
+            "date": "1981-02-10",
+            "level": 0.708617817297011,
+            "sensor_type": "LandSat-3",
+            "volume": 99908007
+        },
+        {
+            "date": "1981-05-11",
+            "level": 0.870451133505941,
+            "sensor_type": "LandSat-3",
+            "volume": 145561271
+        },
+        {
+            "date": "1981-05-28",
+            "level": 0.8931551127239793,
+            "sensor_type": "LandSat-3",
+            "volume": 151750488
+        },
+        {
+            "date": "1981-05-29",
+            "level": 0.9135383206906941,
+            "sensor_type": "LandSat-3",
+            "volume": 157314720
+        },
+        {
+            "date": "1981-06-15",
+            "level": 0.8837550896324744,
+            "sensor_type": "LandSat-3",
+            "volume": 149193409
+        },
+        {
+            "date": "1981-07-03",
+            "level": 0.8038503957365092,
+            "sensor_type": "LandSat-3",
+            "volume": 126811852
+        },
+        {
+            "date": "1981-07-04",
+            "level": 0.8649370529747245,
+            "sensor_type": "LandSat-3",
+            "volume": 144047590
+        },
+        {
+            "date": "1981-07-21",
+            "level": 0.776918654936638,
+            "sensor_type": "LandSat-3",
+            "volume": 119035585
+        },
+        {
+            "date": "1981-08-08",
+            "level": 0.6990288942199375,
+            "sensor_type": "LandSat-3",
+            "volume": 97366841
+        },
+        {
+            "date": "1981-08-09",
+            "level": 0.7004951179175242,
+            "sensor_type": "LandSat-3",
+            "volume": 97752598
+        },
+        {
+            "date": "1981-08-26",
+            "level": 0.643699188922797,
+            "sensor_type": "LandSat-3",
+            "volume": 83529842
+        },
+        {
+            "date": "1981-08-27",
+            "level": 0.6396243463769969,
+            "sensor_type": "LandSat-3",
+            "volume": 82560586
+        },
+        {
+            "date": "1981-09-13",
+            "level": 0.5705499183202356,
+            "sensor_type": "LandSat-3",
+            "volume": 66772248
+        },
+        {
+            "date": "1982-01-17",
+            "level": 0.18085824332699524,
+            "sensor_type": "LandSat-3",
+            "volume": 1099467
+        },
+        {
+            "date": "1982-01-18",
+            "level": 0.16598012065404444,
+            "sensor_type": "LandSat-3",
+            "volume": -821138
+        },
+        {
+            "date": "1983-04-21",
+            "level": 0.9290101290325432,
+            "sensor_type": "LandSat-3",
+            "volume": 161612137
+        },
+        {
+            "date": "1983-06-24",
+            "level": 0.9170284728049662,
+            "sensor_type": "LandSat-3",
+            "volume": 158276088
+        },
+        {
+            "date": "1983-07-10",
+            "level": 0.8772155520367397,
+            "sensor_type": "LandSat-3",
+            "volume": 147410947
+        },
+        {
+            "date": "1983-09-12",
+            "level": 0.7098951410089306,
+            "sensor_type": "LandSat-3",
+            "volume": 100249755
+        },
+        {
+            "date": "1983-09-28",
+            "level": 0.6820818669431186,
+            "sensor_type": "LandSat-3",
+            "volume": 92982358
+        },
+        {
+            "date": "1984-02-19",
+            "level": 0.6289469995735519,
+            "sensor_type": "LandSat-3",
+            "volume": 80046741
+        },
+        {
+            "date": "1984-03-22",
+            "level": 0.6843216810577496,
+            "sensor_type": "LandSat-3",
+            "volume": 93554029
+        },
+        {
+            "date": "1984-04-07",
+            "level": 0.8426468546775104,
+            "sensor_type": "LandSat-3",
+            "volume": 137858991
+        },
+        {
+            "date": "1984-07-20",
+            "level": 0.8772875139361171,
+            "sensor_type": "LandSat-3",
+            "volume": 147430588
+        },
+        {
+            "date": "1984-08-05",
+            "level": 0.8309710365218236,
+            "sensor_type": "LandSat-3",
+            "volume": 134568207
+        },
+        {
+            "date": "1984-08-21",
+            "level": 0.7704510792401935,
+            "sensor_type": "LandSat-3",
+            "volume": 117172138
+        },
+        {
+            "date": "1984-09-06",
+            "level": 0.7658725033994183,
+            "sensor_type": "LandSat-4",
+            "volume": 115856313
+        },
+        {
+            "date": "1984-09-22",
+            "level": 0.7143657740006695,
+            "sensor_type": "LandSat-4",
+            "volume": 101451764
+        },
+        {
+            "date": "1984-10-24",
+            "level": 0.6037603348307756,
+            "sensor_type": "LandSat-4",
+            "volume": 74240612
+        },
+        {
+            "date": "1985-06-05",
+            "level": 0.7965462629609913,
+            "sensor_type": "LandSat-4",
+            "volume": 124704835
+        },
+        {
+            "date": "1985-06-21",
+            "level": 0.7396423911174278,
+            "sensor_type": "LandSat-4",
+            "volume": 108408330
+        },
+        {
+            "date": "1985-07-07",
+            "level": 0.6722590676933643,
+            "sensor_type": "LandSat-4",
+            "volume": 90502779
+        },
+        {
+            "date": "1985-07-23",
+            "level": 0.6095892486712199,
+            "sensor_type": "LandSat-4",
+            "volume": 75571103
+        },
+        {
+            "date": "1985-08-24",
+            "level": 0.500620942709692,
+            "sensor_type": "LandSat-4",
+            "volume": 51606216
+        },
+        {
+            "date": "1985-09-09",
+            "level": 0.464828893062913,
+            "sensor_type": "LandSat-4",
+            "volume": 44352893
+        },
+        {
+            "date": "1985-09-25",
+            "level": 0.4320862288974699,
+            "sensor_type": "LandSat-4",
+            "volume": 38225454
+        },
+        {
+            "date": "1985-11-12",
+            "level": 0.3525953159222296,
+            "sensor_type": "LandSat-4",
+            "volume": 25572378
+        },
+        {
+            "date": "1985-11-28",
+            "level": 0.3405057168457398,
+            "sensor_type": "LandSat-4",
+            "volume": 23851211
+        },
+        {
+            "date": "1986-04-05",
+            "level": 0.6770445339944895,
+            "sensor_type": "LandSat-4",
+            "volume": 91705233
+        },
+        {
+            "date": "1986-05-07",
+            "level": 0.6776472149008401,
+            "sensor_type": "LandSat-4",
+            "volume": 91857412
+        },
+        {
+            "date": "1986-07-26",
+            "level": 0.5614557333005578,
+            "sensor_type": "LandSat-4",
+            "volume": 64754588
+        },
+        {
+            "date": "1986-08-11",
+            "level": 0.5273367978117138,
+            "sensor_type": "LandSat-4",
+            "volume": 57290282
+        },
+        {
+            "date": "1986-08-27",
+            "level": 0.5049656423777985,
+            "sensor_type": "LandSat-4",
+            "volume": 52517748
+        },
+        {
+            "date": "1986-09-12",
+            "level": 0.4693894784288141,
+            "sensor_type": "LandSat-4",
+            "volume": 45248028
+        },
+        {
+            "date": "1986-09-28",
+            "level": 0.4336963763935099,
+            "sensor_type": "LandSat-4",
+            "volume": 38513794
+        },
+        {
+            "date": "1986-10-30",
+            "level": 0.4163355681959207,
+            "sensor_type": "LandSat-4",
+            "volume": 35478028
+        },
+        {
+            "date": "1988-05-12",
+            "level": 0.984258877192997,
+            "sensor_type": "LandSat-4",
+            "volume": 178458129
+        },
+        {
+            "date": "1988-06-13",
+            "level": 0.9409558043104669,
+            "sensor_type": "LandSat-4",
+            "volume": 165014763
+        },
+        {
+            "date": "1988-06-29",
+            "level": 0.909787306691424,
+            "sensor_type": "LandSat-4",
+            "volume": 156285371
+        },
+        {
+            "date": "1988-07-15",
+            "level": 0.8611950342129246,
+            "sensor_type": "LandSat-4",
+            "volume": 143016837
+        },
+        {
+            "date": "1988-07-31",
+            "level": 0.8081771049296508,
+            "sensor_type": "LandSat-4",
+            "volume": 128057453
+        },
+        {
+            "date": "1988-09-01",
+            "level": 0.6776652053756377,
+            "sensor_type": "LandSat-4",
+            "volume": 91861957
+        },
+        {
+            "date": "1988-09-17",
+            "level": 0.5985790780837213,
+            "sensor_type": "LandSat-4",
+            "volume": 73063597
+        },
+        {
+            "date": "1988-11-04",
+            "level": 0.4563373889496778,
+            "sensor_type": "LandSat-4",
+            "volume": 42712077
+        },
+        {
+            "date": "1988-12-22",
+            "level": 0.3894667940579823,
+            "sensor_type": "LandSat-4",
+            "volume": 31088580
+        },
+        {
+            "date": "1989-02-08",
+            "level": 0.4866333485401281,
+            "sensor_type": "LandSat-4",
+            "volume": 48713099
+        },
+        {
+            "date": "1989-04-13",
+            "level": 0.5487094818933087,
+            "sensor_type": "LandSat-4",
+            "volume": 61945250
+        },
+        {
+            "date": "1989-05-15",
+            "level": 0.5158049034545485,
+            "sensor_type": "LandSat-4",
+            "volume": 54814936
+        },
+        {
+            "date": "1989-05-31",
+            "level": 0.49768849531466236,
+            "sensor_type": "LandSat-4",
+            "volume": 50994257
+        },
+        {
+            "date": "1989-07-02",
+            "level": 0.4696413450762329,
+            "sensor_type": "LandSat-4",
+            "volume": 45297737
+        },
+        {
+            "date": "1989-07-18",
+            "level": 0.4505804370084953,
+            "sensor_type": "LandSat-4",
+            "volume": 41619637
+        },
+        {
+            "date": "1989-08-03",
+            "level": 0.43173541463854814,
+            "sensor_type": "LandSat-4",
+            "volume": 38162816
+        },
+        {
+            "date": "1989-08-19",
+            "level": 0.4118109637796556,
+            "sensor_type": "LandSat-4",
+            "volume": 34713191
+        },
+        {
+            "date": "1989-09-20",
+            "level": 0.37145832876698276,
+            "sensor_type": "LandSat-4",
+            "volume": 28333325
+        },
+        {
+            "date": "1989-10-22",
+            "level": 0.33291373647333267,
+            "sensor_type": "LandSat-4",
+            "volume": 22783233
+        },
+        {
+            "date": "1989-11-07",
+            "level": 0.323684622892644,
+            "sensor_type": "LandSat-4",
+            "volume": 21493291
+        },
+        {
+            "date": "1989-11-23",
+            "level": 0.31924997085045326,
+            "sensor_type": "LandSat-4",
+            "volume": 20875318
+        },
+        {
+            "date": "1989-12-25",
+            "level": 0.3209500707205876,
+            "sensor_type": "LandSat-4",
+            "volume": 21112145
+        },
+        {
+            "date": "1990-03-15",
+            "level": 0.4938115479917782,
+            "sensor_type": "LandSat-4",
+            "volume": 50189471
+        },
+        {
+            "date": "1990-05-18",
+            "level": 0.5033554948817598,
+            "sensor_type": "LandSat-4",
+            "volume": 52179276
+        },
+        {
+            "date": "1990-05-26",
+            "level": 0.4925252290424138,
+            "sensor_type": "LandSat-4",
+            "volume": 49923570
+        },
+        {
+            "date": "1990-07-05",
+            "level": 0.4464696135129981,
+            "sensor_type": "LandSat-4",
+            "volume": 40849793
+        },
+        {
+            "date": "1990-07-21",
+            "level": 0.4237296533453699,
+            "sensor_type": "LandSat-4",
+            "volume": 36751276
+        },
+        {
+            "date": "1990-08-06",
+            "level": 0.40176328359482283,
+            "sensor_type": "LandSat-4",
+            "volume": 33052687
+        },
+        {
+            "date": "1990-08-22",
+            "level": 0.37286158580264767,
+            "sensor_type": "LandSat-4",
+            "volume": 28543379
+        },
+        {
+            "date": "1990-09-07",
+            "level": 0.34853846385117354,
+            "sensor_type": "LandSat-4",
+            "volume": 24991429
+        },
+        {
+            "date": "1990-10-09",
+            "level": 0.29684283446692666,
+            "sensor_type": "LandSat-4",
+            "volume": 17749936
+        },
+        {
+            "date": "1991-05-05",
+            "level": 0.7381671721824933,
+            "sensor_type": "LandSat-4",
+            "volume": 107995483
+        },
+        {
+            "date": "1991-06-06",
+            "level": 0.7479270047702952,
+            "sensor_type": "LandSat-4",
+            "volume": 110740284
+        },
+        {
+            "date": "1991-07-24",
+            "level": 0.6506794931513735,
+            "sensor_type": "LandSat-4",
+            "volume": 85204036
+        },
+        {
+            "date": "1991-08-09",
+            "level": 0.6097691534193809,
+            "sensor_type": "LandSat-4",
+            "volume": 75612281
+        },
+        {
+            "date": "1991-09-10",
+            "level": 0.5369796923131717,
+            "sensor_type": "LandSat-4",
+            "volume": 59380894
+        },
+        {
+            "date": "1991-09-26",
+            "level": 0.5004500331989465,
+            "sensor_type": "LandSat-4",
+            "volume": 51570476
+        },
+        {
+            "date": "1991-10-28",
+            "level": 0.4340202049402091,
+            "sensor_type": "LandSat-4",
+            "volume": 38571951
+        },
+        {
+            "date": "1992-04-05",
+            "level": 1.004893951807147,
+            "sensor_type": "LandSat-4",
+            "volume": 185750063
+        },
+        {
+            "date": "1992-05-23",
+            "level": 1.0070977849721428,
+            "sensor_type": "LandSat-4",
+            "volume": 186570156
+        },
+        {
+            "date": "1992-06-08",
+            "level": 0.9908703766879529,
+            "sensor_type": "LandSat-4",
+            "volume": 180721089
+        },
+        {
+            "date": "1992-06-24",
+            "level": 0.9888014720840933,
+            "sensor_type": "LandSat-4",
+            "volume": 180005818
+        },
+        {
+            "date": "1992-07-10",
+            "level": 0.9624184407661595,
+            "sensor_type": "LandSat-4",
+            "volume": 171414955
+        },
+        {
+            "date": "1992-08-27",
+            "level": 0.8057663813042784,
+            "sensor_type": "LandSat-4",
+            "volume": 127363715
+        },
+        {
+            "date": "1992-09-12",
+            "level": 0.7464607810727679,
+            "sensor_type": "LandSat-4",
+            "volume": 110325987
+        },
+        {
+            "date": "1992-09-28",
+            "level": 0.6828734478349411,
+            "sensor_type": "LandSat-4",
+            "volume": 93184125
+        },
+        {
+            "date": "1992-10-14",
+            "level": 0.6170193147702994,
+            "sensor_type": "LandSat-4",
+            "volume": 77277859
+        },
+        {
+            "date": "1993-05-26",
+            "level": 0.9680764450958376,
+            "sensor_type": "LandSat-4",
+            "volume": 173181216
+        },
+        {
+            "date": "1993-06-11",
+            "level": 0.9321674573627511,
+            "sensor_type": "LandSat-4",
+            "volume": 162502849
+        },
+        {
+            "date": "1993-06-27",
+            "level": 0.9045071023328798,
+            "sensor_type": "LandSat-4",
+            "volume": 154841730
+        },
+        {
+            "date": "1994-03-26",
+            "level": 0.8521908015674411,
+            "sensor_type": "LandSat-5",
+            "volume": 140523511
+        },
+        {
+            "date": "1994-04-11",
+            "level": 0.8434564260441876,
+            "sensor_type": "LandSat-5",
+            "volume": 138085904
+        },
+        {
+            "date": "1994-05-29",
+            "level": 0.8718004191170702,
+            "sensor_type": "LandSat-5",
+            "volume": 145930808
+        },
+        {
+            "date": "1994-06-14",
+            "level": 0.828686246220113,
+            "sensor_type": "LandSat-5",
+            "volume": 133920393
+        },
+        {
+            "date": "1994-06-30",
+            "level": 0.7804357927631287,
+            "sensor_type": "LandSat-5",
+            "volume": 120050632
+        },
+        {
+            "date": "1994-08-17",
+            "level": 0.5927501642432902,
+            "sensor_type": "LandSat-5",
+            "volume": 71745250
+        },
+        {
+            "date": "1994-09-02",
+            "level": 0.5195918984033518,
+            "sensor_type": "LandSat-5",
+            "volume": 55624542
+        },
+        {
+            "date": "1994-10-04",
+            "level": 0.43102479088331,
+            "sensor_type": "LandSat-5",
+            "volume": 38036134
+        },
+        {
+            "date": "1995-03-29",
+            "level": 0.8041472385708295,
+            "sensor_type": "LandSat-5",
+            "volume": 126897379
+        },
+        {
+            "date": "1995-06-01",
+            "level": 0.8312498888814122,
+            "sensor_type": "LandSat-5",
+            "volume": 134647187
+        },
+        {
+            "date": "1995-06-17",
+            "level": 0.7898897872790305,
+            "sensor_type": "LandSat-5",
+            "volume": 122781908
+        },
+        {
+            "date": "1995-07-19",
+            "level": 0.6929571089693972,
+            "sensor_type": "LandSat-5",
+            "volume": 95780269
+        },
+        {
+            "date": "1995-08-04",
+            "level": 0.6329228945078074,
+            "sensor_type": "LandSat-5",
+            "volume": 80978633
+        },
+        {
+            "date": "1995-08-20",
+            "level": 0.5681571851695878,
+            "sensor_type": "LandSat-5",
+            "volume": 66240338
+        },
+        {
+            "date": "1995-09-21",
+            "level": 0.4488083752391012,
+            "sensor_type": "LandSat-5",
+            "volume": 41286721
+        },
+        {
+            "date": "1995-10-07",
+            "level": 0.28087628806756293,
+            "sensor_type": "LandSat-5",
+            "volume": 15499231
+        },
+        {
+            "date": "1995-10-23",
+            "level": 0.29505278222270664,
+            "sensor_type": "LandSat-5",
+            "volume": 17498988
+        },
+        {
+            "date": "1999-04-25",
+            "level": 0.6333096897163533,
+            "sensor_type": "LandSat-5",
+            "volume": 81069549
+        },
+        {
+            "date": "1999-05-27",
+            "level": 0.41217976851340393,
+            "sensor_type": "LandSat-5",
+            "volume": 34775132
+        },
+        {
+            "date": "1999-08-15",
+            "level": 0.5008458236449052,
+            "sensor_type": "LandSat-5",
+            "volume": 51653257
+        },
+        {
+            "date": "1999-08-31",
+            "level": 0.4688137832346987,
+            "sensor_type": "LandSat-5",
+            "volume": 45134514
+        },
+        {
+            "date": "1999-10-18",
+            "level": 0.35451130149015736,
+            "sensor_type": "LandSat-5",
+            "volume": 25848120
+        },
+        {
+            "date": "1999-11-03",
+            "level": 0.32736367499254365,
+            "sensor_type": "LandSat-5",
+            "volume": 22006707
+        },
+        {
+            "date": "2000-05-13",
+            "level": 0.6982463085653807,
+            "sensor_type": "LandSat-5",
+            "volume": 97161365
+        },
+        {
+            "date": "2000-05-29",
+            "level": 0.6880367141071793,
+            "sensor_type": "LandSat-5",
+            "volume": 94507438
+        },
+        {
+            "date": "2000-06-14",
+            "level": 0.6524875358703977,
+            "sensor_type": "LandSat-5",
+            "volume": 85640671
+        },
+        {
+            "date": "2000-06-30",
+            "level": 0.625195985574255,
+            "sensor_type": "LandSat-5",
+            "volume": 79171815
+        },
+        {
+            "date": "2000-07-16",
+            "level": 0.5692995803204074,
+            "sensor_type": "LandSat-5",
+            "volume": 66494201
+        },
+        {
+            "date": "2000-10-04",
+            "level": 0.38678621331037366,
+            "sensor_type": "LandSat-5",
+            "volume": 30669786
+        },
+        {
+            "date": "2000-11-21",
+            "level": 0.3051004624075445,
+            "sensor_type": "LandSat-5",
+            "volume": 18904231
+        },
+        {
+            "date": "2001-01-08",
+            "level": 0.3083297526370454,
+            "sensor_type": "LandSat-5",
+            "volume": 19354503
+        },
+        {
+            "date": "2001-02-25",
+            "level": 0.47887945389433884,
+            "sensor_type": "LandSat-5",
+            "volume": 47139944
+        },
+        {
+            "date": "2001-06-01",
+            "level": 0.5373215113346741,
+            "sensor_type": "LandSat-5",
+            "volume": 59455309
+        },
+        {
+            "date": "2001-07-03",
+            "level": 0.47329341146392806,
+            "sensor_type": "LandSat-5",
+            "volume": 46021650
+        },
+        {
+            "date": "2001-07-19",
+            "level": 0.4500317275266086,
+            "sensor_type": "LandSat-5",
+            "volume": 41516381
+        },
+        {
+            "date": "2001-08-04",
+            "level": 0.4196008393750559,
+            "sensor_type": "LandSat-5",
+            "volume": 36036710
+        },
+        {
+            "date": "2001-08-20",
+            "level": 0.3944141746324123,
+            "sensor_type": "LandSat-5",
+            "volume": 31870153
+        },
+        {
+            "date": "2001-09-21",
+            "level": 0.3354324029475973,
+            "sensor_type": "LandSat-5",
+            "volume": 23136686
+        },
+        {
+            "date": "2001-12-10",
+            "level": 0.3173699662321739,
+            "sensor_type": "LandSat-5",
+            "volume": 20613508
+        },
+        {
+            "date": "2002-02-28",
+            "level": 0.6023390873203063,
+            "sensor_type": "LandSat-5",
+            "volume": 73917243
+        },
+        {
+            "date": "2002-03-16",
+            "level": 0.31233263328358024,
+            "sensor_type": "LandSat-5",
+            "volume": 19912117
+        },
+        {
+            "date": "2002-06-20",
+            "level": 0.8386259835560494,
+            "sensor_type": "LandSat-5",
+            "volume": 136729538
+        },
+        {
+            "date": "2003-10-13",
+            "level": 0.5506974293604942,
+            "sensor_type": "LandSat-5",
+            "volume": 62381920
+        },
+        {
+            "date": "2005-07-14",
+            "level": 0.7229022543009507,
+            "sensor_type": "LandSat-5",
+            "volume": 103771732
+        },
+        {
+            "date": "2005-07-30",
+            "level": 0.6508863836117604,
+            "sensor_type": "LandSat-5",
+            "volume": 85253936
+        },
+        {
+            "date": "2005-08-15",
+            "level": 0.6087886725419015,
+            "sensor_type": "LandSat-5",
+            "volume": 75387945
+        },
+        {
+            "date": "2005-10-18",
+            "level": 0.45577068899296436,
+            "sensor_type": "LandSat-5",
+            "volume": 42603810
+        },
+        {
+            "date": "2006-08-18",
+            "level": 0.6323022231267469,
+            "sensor_type": "LandSat-5",
+            "volume": 80832840
+        },
+        {
+            "date": "2006-09-03",
+            "level": 0.5611139142790565,
+            "sensor_type": "LandSat-5",
+            "volume": 64678963
+        },
+        {
+            "date": "2006-09-19",
+            "level": 0.5108035514556588,
+            "sensor_type": "LandSat-5",
+            "volume": 53751110
+        },
+        {
+            "date": "2006-11-22",
+            "level": 0.38672324664851704,
+            "sensor_type": "LandSat-5",
+            "volume": 30659987
+        },
+        {
+            "date": "2006-12-08",
+            "level": 0.3839527135268405,
+            "sensor_type": "LandSat-5",
+            "volume": 30230556
+        },
+        {
+            "date": "2007-01-25",
+            "level": 0.409715073463572,
+            "sensor_type": "LandSat-5",
+            "volume": 34362537
+        },
+        {
+            "date": "2007-07-20",
+            "level": 0.7413065100379205,
+            "sensor_type": "LandSat-5",
+            "volume": 108874944
+        },
+        {
+            "date": "2007-08-21",
+            "level": 0.6209682239924409,
+            "sensor_type": "LandSat-5",
+            "volume": 78190363
+        },
+        {
+            "date": "2008-03-16",
+            "level": 0.6072504869451303,
+            "sensor_type": "LandSat-5",
+            "volume": 75036417
+        },
+        {
+            "date": "2008-04-17",
+            "level": 0.6589011401423689,
+            "sensor_type": "LandSat-5",
+            "volume": 87199931
+        },
+        {
+            "date": "2009-06-23",
+            "level": 0.8689039526716724,
+            "sensor_type": "LandSat-5",
+            "volume": 145137136
+        },
+        {
+            "date": "2009-09-11",
+            "level": 0.6025819587303204,
+            "sensor_type": "LandSat-5",
+            "volume": 73972474
+        },
+        {
+            "date": "2009-09-27",
+            "level": 0.553431981532641,
+            "sensor_type": "LandSat-5",
+            "volume": 62983506
+        },
+        {
+            "date": "2009-10-13",
+            "level": 0.5200686459859829,
+            "sensor_type": "LandSat-5",
+            "volume": 55726700
+        },
+        {
+            "date": "2010-02-02",
+            "level": 0.8816591993163366,
+            "sensor_type": "LandSat-5",
+            "volume": 148622616
+        },
+        {
+            "date": "2010-07-12",
+            "level": 0.8065849479084236,
+            "sensor_type": "LandSat-5",
+            "volume": 127599357
+        },
+        {
+            "date": "2010-10-16",
+            "level": 0.5058651661186101,
+            "sensor_type": "LandSat-5",
+            "volume": 52707166
+        },
+        {
+            "date": "2010-11-01",
+            "level": 0.4725468067590574,
+            "sensor_type": "LandSat-5",
+            "volume": 45873185
+        },
+        {
+            "date": "2010-12-03",
+            "level": 0.3475579829736893,
+            "sensor_type": "LandSat-5",
+            "volume": 24851575
+        },
+        {
+            "date": "2011-01-20",
+            "level": 0.3491771257071422,
+            "sensor_type": "LandSat-5",
+            "volume": 25082638
+        },
+        {
+            "date": "2011-10-03",
+            "level": 0.5447155964841195,
+            "sensor_type": "LandSat-5",
+            "volume": 61069707
+        },
+        {
+            "Average_Temperature": 22.051545328631384,
+            "date": "2013-06-18",
+            "level": 0.9084470163176014,
+            "sensor_type": "LandSat-8",
+            "volume": 155918399
+        },
+        {
+            "Average_Temperature": 28.63957489755846,
+            "date": "2013-07-04",
+            "level": 0.8776293329575114,
+            "sensor_type": "LandSat-8",
+            "volume": 147523874
+        },
+        {
+            "Average_Temperature": 24.61589197771053,
+            "date": "2013-07-20",
+            "level": 0.837735455052647,
+            "sensor_type": "LandSat-8",
+            "volume": 136478842
+        },
+        {
+            "Average_Temperature": 27.244807264852913,
+            "date": "2013-08-05",
+            "level": 0.7937127631774584,
+            "sensor_type": "LandSat-8",
+            "volume": 123886483
+        },
+        {
+            "Average_Temperature": 26.264096055941774,
+            "date": "2013-08-21",
+            "level": 0.7468026000942679,
+            "sensor_type": "LandSat-8",
+            "volume": 110422514
+        },
+        {
+            "Average_Temperature": 24.341843504905302,
+            "date": "2013-09-06",
+            "level": 0.6899167187254758,
+            "sensor_type": "LandSat-8",
+            "volume": 94992407
+        },
+        {
+            "Average_Temperature": 19.542020400275426,
+            "date": "2013-10-08",
+            "level": 0.5857968457268349,
+            "sensor_type": "LandSat-8",
+            "volume": 70179910
+        },
+        {
+            "Average_Temperature": 18.94923548833978,
+            "date": "2013-10-24",
+            "level": 0.5452373202537903,
+            "sensor_type": "LandSat-8",
+            "volume": 61183944
+        },
+        {
+            "Average_Temperature": 7.532005238508929,
+            "date": "2013-12-27",
+            "level": 0.4242153961654104,
+            "sensor_type": "LandSat-8",
+            "volume": 36835941
+        },
+        {
+            "Average_Temperature": 10.2240412888036,
+            "date": "2014-02-13",
+            "level": 0.36738348622113987,
+            "sensor_type": "LandSat-8",
+            "volume": 27727358
+        },
+        {
+            "Average_Temperature": 14.123730369926204,
+            "date": "2014-04-02",
+            "level": 0.44274558522606805,
+            "sensor_type": "LandSat-8",
+            "volume": 40159894
+        },
+        {
+            "Average_Temperature": 17.71157976790935,
+            "date": "2014-04-18",
+            "level": 0.4520376654686128,
+            "sensor_type": "LandSat-8",
+            "volume": 41894596
+        },
+        {
+            "Average_Temperature": 22.98146674018287,
+            "date": "2014-06-21",
+            "level": 0.4215887868422317,
+            "sensor_type": "LandSat-8",
+            "volume": 36379624
+        },
+        {
+            "Average_Temperature": 26.42931279657545,
+            "date": "2014-07-07",
+            "level": 0.402096107378917,
+            "sensor_type": "LandSat-8",
+            "volume": 33106869
+        },
+        {
+            "Average_Temperature": 26.027709658395512,
+            "date": "2014-07-23",
+            "level": 0.37326637148602215,
+            "sensor_type": "LandSat-8",
+            "volume": 28604106
+        },
+        {
+            "Average_Temperature": 26.259650353873475,
+            "date": "2014-08-08",
+            "level": 0.345228216484997,
+            "sensor_type": "LandSat-8",
+            "volume": 24520059
+        },
+        {
+            "Average_Temperature": 28.42779995743112,
+            "date": "2014-08-24",
+            "level": 0.3151121616427353,
+            "sensor_type": "LandSat-8",
+            "volume": 20299140
+        },
+        {
+            "Average_Temperature": 24.36118748447699,
+            "date": "2014-09-09",
+            "level": 0.2901323873604882,
+            "sensor_type": "LandSat-8",
+            "volume": 16807551
+        },
+        {
+            "Average_Temperature": 14.69268762846453,
+            "date": "2014-11-12",
+            "level": 0.23864364843659724,
+            "sensor_type": "LandSat-8",
+            "volume": 9387883
+        },
+        {
+            "Average_Temperature": 9.346216626463365,
+            "date": "2014-12-30",
+            "level": 0.3375282932636758,
+            "sensor_type": "LandSat-8",
+            "volume": 23431422
+        },
+        {
+            "Average_Temperature": 14.584443009604968,
+            "date": "2015-04-05",
+            "level": 0.7995236865430791,
+            "sensor_type": "LandSat-8",
+            "volume": 125564253
+        },
+        {
+            "Average_Temperature": 14.801585646542332,
+            "date": "2015-04-21",
+            "level": 0.8486646685034647,
+            "sensor_type": "LandSat-8",
+            "volume": 139541742
+        },
+        {
+            "Average_Temperature": 19.497954997774073,
+            "date": "2015-05-07",
+            "level": 0.8599626866880293,
+            "sensor_type": "LandSat-8",
+            "volume": 142676710
+        },
+        {
+            "Average_Temperature": 22.972401373966697,
+            "date": "2015-06-08",
+            "level": 0.8558698536673593,
+            "sensor_type": "LandSat-8",
+            "volume": 141544588
+        },
+        {
+            "Average_Temperature": 25.527633379159088,
+            "date": "2015-07-10",
+            "level": 0.7801659356408785,
+            "sensor_type": "LandSat-8",
+            "volume": 119972720
+        },
+        {
+            "Average_Temperature": 25.954686025452123,
+            "date": "2015-07-26",
+            "level": 0.7216609115386482,
+            "sensor_type": "LandSat-8",
+            "volume": 103432402
+        },
+        {
+            "Average_Temperature": 25.418135718715803,
+            "date": "2015-08-11",
+            "level": 0.6592609496386945,
+            "sensor_type": "LandSat-8",
+            "volume": 87287900
+        },
+        {
+            "date": "2015-08-20",
+            "level": 0.6444008174406379,
+            "sensor_type": "Sentinel-2",
+            "volume": 83697320
+        },
+        {
+            "Average_Temperature": 25.77707648721476,
+            "date": "2015-08-27",
+            "level": 0.5924173404591903,
+            "sensor_type": "LandSat-8",
+            "volume": 71670149
+        },
+        {
+            "date": "2015-08-30",
+            "level": 0.8588877558178416,
+            "sensor_type": "Sentinel-2",
+            "volume": 142379750
+        },
+        {
+            "date": "2015-09-19",
+            "level": 0.49424331938738814,
+            "sensor_type": "Sentinel-2",
+            "volume": 50278851
+        },
+        {
+            "Average_Temperature": 23.171250130714945,
+            "date": "2015-09-28",
+            "level": 0.4432313280460898,
+            "sensor_type": "LandSat-8",
+            "volume": 40249472
+        },
+        {
+            "date": "2015-09-29",
+            "level": 0.4577496412227601,
+            "sensor_type": "Sentinel-2",
+            "volume": 42982568
+        },
+        {
+            "Average_Temperature": 20.831811658566235,
+            "date": "2015-10-14",
+            "level": 0.4395342854713686,
+            "sensor_type": "LandSat-8",
+            "volume": 39570791
+        },
+        {
+            "date": "2015-11-28",
+            "level": 0.47625284457119066,
+            "sensor_type": "Sentinel-2",
+            "volume": 46612486
+        },
+        {
+            "date": "2015-12-08",
+            "level": 0.48135314418159103,
+            "sensor_type": "Sentinel-2",
+            "volume": 47639261
+        },
+        {
+            "date": "2015-12-28",
+            "level": 0.4951608336030183,
+            "sensor_type": "Sentinel-2",
+            "volume": 50468992
+        },
+        {
+            "date": "2016-01-17",
+            "level": 0.5533600196333647,
+            "sensor_type": "Sentinel-2",
+            "volume": 62967661
+        },
+        {
+            "Average_Temperature": 7.4797166623080225,
+            "date": "2016-02-03",
+            "level": 0.5765947178583696,
+            "sensor_type": "LandSat-8",
+            "volume": 68119407
+        },
+        {
+            "date": "2016-02-16",
+            "level": 0.6327070088101243,
+            "sensor_type": "Sentinel-2",
+            "volume": 80927909
+        },
+        {
+            "Average_Temperature": 12.95719419360793,
+            "date": "2016-02-19",
+            "level": 0.607502353592541,
+            "sensor_type": "LandSat-8",
+            "volume": 75093943
+        },
+        {
+            "Average_Temperature": 11.918516387284287,
+            "date": "2016-03-06",
+            "level": 0.6253399093727857,
+            "sensor_type": "LandSat-8",
+            "volume": 79205311
+        },
+        {
+            "date": "2016-03-07",
+            "level": 0.6749936198655517,
+            "sensor_type": "Sentinel-2",
+            "volume": 91188618
+        },
+        {
+            "Average_Temperature": 12.523809993980384,
+            "date": "2016-03-22",
+            "level": 0.6409016700888488,
+            "sensor_type": "LandSat-8",
+            "volume": 82863798
+        },
+        {
+            "date": "2016-03-27",
+            "level": 0.7337415153777974,
+            "sensor_type": "Sentinel-2",
+            "volume": 106761639
+        },
+        {
+            "date": "2016-04-06",
+            "level": 0.7688049507945274,
+            "sensor_type": "Sentinel-2",
+            "volume": 116698692
+        },
+        {
+            "Average_Temperature": 18.33631611509968,
+            "date": "2016-04-07",
+            "level": 0.737654443650238,
+            "sensor_type": "LandSat-8",
+            "volume": 107852174
+        },
+        {
+            "date": "2016-04-16",
+            "level": 0.7716294553406771,
+            "sensor_type": "Sentinel-2",
+            "volume": 117511285
+        },
+        {
+            "Average_Temperature": 21.44051856871456,
+            "date": "2016-04-23",
+            "level": 0.7190972688773651,
+            "sensor_type": "LandSat-8",
+            "volume": 102733708
+        },
+        {
+            "date": "2016-04-26",
+            "level": 0.7576328659336757,
+            "sensor_type": "Sentinel-2",
+            "volume": 113497906
+        },
+        {
+            "date": "2016-05-16",
+            "level": 0.7380952102833147,
+            "sensor_type": "Sentinel-2",
+            "volume": 107975364
+        },
+        {
+            "date": "2016-05-26",
+            "level": 0.6649774230116091,
+            "sensor_type": "Sentinel-2",
+            "volume": 88692785
+        },
+        {
+            "date": "2016-06-05",
+            "level": 0.7011877511979006,
+            "sensor_type": "Sentinel-2",
+            "volume": 97935181
+        },
+        {
+            "date": "2016-06-15",
+            "level": 0.6950799849977961,
+            "sensor_type": "Sentinel-2",
+            "volume": 96332985
+        },
+        {
+            "date": "2016-06-25",
+            "level": 0.6754523769733556,
+            "sensor_type": "Sentinel-2",
+            "volume": 91304009
+        },
+        {
+            "Average_Temperature": 26.921797778750065,
+            "date": "2016-07-12",
+            "level": 0.6229201905100072,
+            "sensor_type": "LandSat-8",
+            "volume": 78642904
+        },
+        {
+            "date": "2016-07-15",
+            "level": 0.6472343172241952,
+            "sensor_type": "Sentinel-2",
+            "volume": 84375481
+        },
+        {
+            "date": "2016-07-25",
+            "level": 0.6277686234730951,
+            "sensor_type": "Sentinel-2",
+            "volume": 79771449
+        },
+        {
+            "Average_Temperature": 27.51465758947768,
+            "date": "2016-07-28",
+            "level": 0.5995595589612118,
+            "sensor_type": "LandSat-8",
+            "volume": 73285946
+        },
+        {
+            "date": "2016-08-04",
+            "level": 0.6115142294766686,
+            "sensor_type": "Sentinel-2",
+            "volume": 76012079
+        },
+        {
+            "Average_Temperature": 27.580243212373865,
+            "date": "2016-08-13",
+            "level": 0.5697583374282242,
+            "sensor_type": "LandSat-8",
+            "volume": 66596195
+        },
+        {
+            "date": "2016-08-14",
+            "level": 0.5925702594952058,
+            "sensor_type": "Sentinel-2",
+            "volume": 71704652
+        },
+        {
+            "date": "2016-08-24",
+            "level": 0.5756232322183894,
+            "sensor_type": "Sentinel-2",
+            "volume": 67902568
+        },
+        {
+            "Average_Temperature": 25.002001433693415,
+            "date": "2016-08-29",
+            "level": 0.5486195295192287,
+            "sensor_type": "LandSat-8",
+            "volume": 61925504
+        },
+        {
+            "date": "2016-09-13",
+            "level": 0.540083049219045,
+            "sensor_type": "Sentinel-2",
+            "volume": 60057219
+        },
+        {
+            "Average_Temperature": 23.87051275823113,
+            "date": "2016-09-14",
+            "level": 0.5227402314961825,
+            "sensor_type": "LandSat-8",
+            "volume": 56300116
+        },
+        {
+            "Average_Temperature": 22.685959526271645,
+            "date": "2016-09-30",
+            "level": 0.49631222399121766,
+            "sensor_type": "LandSat-8",
+            "volume": 50707998
+        },
+        {
+            "date": "2016-10-03",
+            "level": 0.5066837327227963,
+            "sensor_type": "Sentinel-2",
+            "volume": 52879738
+        },
+        {
+            "date": "2016-10-13",
+            "level": 0.4903483815897001,
+            "sensor_type": "Sentinel-2",
+            "volume": 49474894
+        },
+        {
+            "Average_Temperature": 20.80460459709511,
+            "date": "2016-10-16",
+            "level": 0.46363252648763703,
+            "sensor_type": "LandSat-8",
+            "volume": 44119652
+        },
+        {
+            "date": "2016-10-23",
+            "level": 0.4686788546735975,
+            "sensor_type": "Sentinel-2",
+            "volume": 45107931
+        },
+        {
+            "date": "2016-11-22",
+            "level": 0.4160926967858959,
+            "sensor_type": "Sentinel-2",
+            "volume": 35436699
+        },
+        {
+            "date": "2016-12-12",
+            "level": 0.35701197748958446,
+            "sensor_type": "Sentinel-2",
+            "volume": 26209434
+        },
+        {
+            "date": "2017-01-01",
+            "level": 0.47942816337626276,
+            "sensor_type": "Sentinel-2",
+            "volume": 47250489
+        },
+        {
+            "date": "2017-01-11",
+            "level": 0.5037063091407258,
+            "sensor_type": "Sentinel-2",
+            "volume": 52252956
+        },
+        {
+            "Average_Temperature": 6.723612699277833,
+            "date": "2017-02-05",
+            "level": 0.5550421290286065,
+            "sensor_type": "LandSat-8",
+            "volume": 63338215
+        },
+        {
+            "date": "2017-02-10",
+            "level": 0.5941804069912638,
+            "sensor_type": "Sentinel-2",
+            "volume": 72068194
+        },
+        {
+            "Average_Temperature": 8.05992100019346,
+            "date": "2017-02-21",
+            "level": 0.5886303455103856,
+            "sensor_type": "LandSat-8",
+            "volume": 70816876
+        },
+        {
+            "Average_Temperature": 12.562484675337366,
+            "date": "2017-03-25",
+            "level": 0.7023661272982803,
+            "sensor_type": "LandSat-8",
+            "volume": 98246331
+        },
+        {
+            "date": "2017-04-21",
+            "level": 0.7854056614311523,
+            "sensor_type": "Sentinel-2",
+            "volume": 121486158
+        },
+        {
+            "Average_Temperature": 16.462073162472848,
+            "date": "2017-04-26",
+            "level": 0.7236218732936505,
+            "sensor_type": "LandSat-8",
+            "volume": 103968745
+        },
+        {
+            "date": "2017-05-11",
+            "level": 0.7777282263033702,
+            "sensor_type": "Sentinel-2",
+            "volume": 119269143
+        },
+        {
+            "Average_Temperature": 21.466282021543556,
+            "date": "2017-05-12",
+            "level": 0.7416753147716638,
+            "sensor_type": "LandSat-8",
+            "volume": 108978483
+        },
+        {
+            "Average_Temperature": 21.198159337489027,
+            "date": "2017-05-28",
+            "level": 0.7422420147283717,
+            "sensor_type": "LandSat-8",
+            "volume": 109137668
+        },
+        {
+            "date": "2017-05-31",
+            "level": 0.7733565409230404,
+            "sensor_type": "Sentinel-2",
+            "volume": 118008674
+        },
+        {
+            "date": "2017-06-10",
+            "level": 0.7578667421062908,
+            "sensor_type": "Sentinel-2",
+            "volume": 113564650
+        },
+        {
+            "Average_Temperature": 24.361844846802793,
+            "date": "2017-06-13",
+            "level": 0.7333457249317569,
+            "sensor_type": "LandSat-8",
+            "volume": 106651648
+        },
+        {
+            "Average_Temperature": 26.971728802967338,
+            "date": "2017-06-29",
+            "level": 0.7092564791528816,
+            "sensor_type": "LandSat-8",
+            "volume": 100078787
+        },
+        {
+            "date": "2017-06-30",
+            "level": 0.7359813294923885,
+            "sensor_type": "Sentinel-2",
+            "volume": 107385189
+        },
+        {
+            "date": "2017-07-05",
+            "level": 0.7298285871052522,
+            "sensor_type": "Sentinel-2",
+            "volume": 105676877
+        },
+        {
+            "date": "2017-07-10",
+            "level": 0.7170193690361405,
+            "sensor_type": "Sentinel-2",
+            "volume": 102169502
+        },
+        {
+            "Average_Temperature": 28.33592737381525,
+            "date": "2017-07-15",
+            "level": 0.685931828553688,
+            "sensor_type": "LandSat-8",
+            "volume": 93966448
+        },
+        {
+            "date": "2017-07-20",
+            "level": 0.7061891031967974,
+            "sensor_type": "Sentinel-2",
+            "volume": 99260292
+        },
+        {
+            "date": "2017-07-25",
+            "level": 0.6934428517895198,
+            "sensor_type": "Sentinel-2",
+            "volume": 95906549
+        },
+        {
+            "date": "2017-07-30",
+            "level": 0.6815961241230741,
+            "sensor_type": "Sentinel-2",
+            "volume": 92858692
+        },
+        {
+            "Average_Temperature": 28.567413206450066,
+            "date": "2017-07-31",
+            "level": 0.6545204595246227,
+            "sensor_type": "LandSat-8",
+            "volume": 86133133
+        },
+        {
+            "date": "2017-08-04",
+            "level": 0.6681752299102101,
+            "sensor_type": "Sentinel-2",
+            "volume": 89484785
+        },
+        {
+            "date": "2017-08-09",
+            "level": 0.6613748304297112,
+            "sensor_type": "Sentinel-2",
+            "volume": 87805805
+        },
+        {
+            "date": "2017-08-14",
+            "level": 0.6500048503458828,
+            "sensor_type": "Sentinel-2",
+            "volume": 85041434
+        },
+        {
+            "Average_Temperature": 25.57538345763137,
+            "date": "2017-08-16",
+            "level": 0.6275257520629438,
+            "sensor_type": "LandSat-8",
+            "volume": 79714760
+        },
+        {
+            "date": "2017-08-19",
+            "level": 0.640047122535117,
+            "sensor_type": "Sentinel-2",
+            "volume": 82660884
+        },
+        {
+            "date": "2017-08-24",
+            "level": 0.6259695759914642,
+            "sensor_type": "Sentinel-2",
+            "volume": 79351928
+        },
+        {
+            "date": "2017-08-29",
+            "level": 0.6100929819661896,
+            "sensor_type": "Sentinel-2",
+            "volume": 75686420
+        },
+        {
+            "Average_Temperature": 25.64016210526069,
+            "date": "2017-09-01",
+            "level": 0.5870921599135913,
+            "sensor_type": "LandSat-8",
+            "volume": 70470942
+        },
+        {
+            "date": "2017-09-08",
+            "level": 0.5871101503885152,
+            "sensor_type": "Sentinel-2",
+            "volume": 70474986
+        },
+        {
+            "Average_Temperature": 23.643395012751007,
+            "date": "2017-09-17",
+            "level": 0.5420080300242873,
+            "sensor_type": "LandSat-8",
+            "volume": 60477531
+        },
+        {
+            "date": "2017-09-18",
+            "level": 0.551201162655436,
+            "sensor_type": "Sentinel-2",
+            "volume": 62492660
+        },
+        {
+            "date": "2017-09-23",
+            "level": 0.5311687689476217,
+            "sensor_type": "Sentinel-2",
+            "volume": 58118996
+        },
+        {
+            "date": "2017-09-28",
+            "level": 0.5107225943190276,
+            "sensor_type": "Sentinel-2",
+            "volume": 53733942
+        },
+        {
+            "Average_Temperature": 22.767430411292978,
+            "date": "2017-10-03",
+            "level": 0.47642375408193854,
+            "sensor_type": "LandSat-8",
+            "volume": 46646720
+        },
+        {
+            "date": "2017-10-08",
+            "level": 0.4767205969164109,
+            "sensor_type": "Sentinel-2",
+            "volume": 46706208
+        },
+        {
+            "date": "2017-10-13",
+            "level": 0.4559595889785464,
+            "sensor_type": "Sentinel-2",
+            "volume": 42639882
+        },
+        {
+            "date": "2017-10-18",
+            "level": 0.4454891326355326,
+            "sensor_type": "Sentinel-2",
+            "volume": 40667456
+        },
+        {
+            "Average_Temperature": 19.6801459028626,
+            "date": "2017-10-19",
+            "level": 0.429225743401708,
+            "sensor_type": "LandSat-8",
+            "volume": 37716628
+        },
+        {
+            "date": "2017-10-23",
+            "level": 0.4378791617882922,
+            "sensor_type": "Sentinel-2",
+            "volume": 39269284
+        },
+        {
+            "date": "2017-11-07",
+            "level": 0.4181526061523531,
+            "sensor_type": "Sentinel-2",
+            "volume": 35788221
+        },
+        {
+            "date": "2017-11-17",
+            "level": 0.40407505960868234,
+            "sensor_type": "Sentinel-2",
+            "volume": 33430181
+        },
+        {
+            "date": "2017-11-27",
+            "level": 0.39474699841651223,
+            "sensor_type": "Sentinel-2",
+            "volume": 31923143
+        },
+        {
+            "date": "2017-12-02",
+            "level": 0.38203672795888566,
+            "sensor_type": "Sentinel-2",
+            "volume": 29935514
+        },
+        {
+            "date": "2017-12-12",
+            "level": 0.37393201905420886,
+            "sensor_type": "Sentinel-2",
+            "volume": 28704103
+        },
+        {
+            "Average_Temperature": 10.617337963358578,
+            "date": "2018-02-24",
+            "level": 0.5188003175114485,
+            "sensor_type": "LandSat-8",
+            "volume": 55455035
+        },
+        {
+            "date": "2018-03-02",
+            "level": 0.5590180239630587,
+            "sensor_type": "Sentinel-2",
+            "volume": 64215599
+        },
+        {
+            "date": "2018-03-07",
+            "level": 0.5684990041911826,
+            "sensor_type": "Sentinel-2",
+            "volume": 66316279
+        },
+        {
+            "date": "2018-03-12",
+            "level": 0.5798150128505728,
+            "sensor_type": "Sentinel-2",
+            "volume": 68839116
+        },
+        {
+            "date": "2018-03-17",
+            "level": 0.5845465077272057,
+            "sensor_type": "Sentinel-2",
+            "volume": 69899222
+        },
+        {
+            "date": "2018-03-22",
+            "level": 0.5952058640557959,
+            "sensor_type": "Sentinel-2",
+            "volume": 72299951
+        },
+        {
+            "date": "2018-03-27",
+            "level": 0.5985655852277164,
+            "sensor_type": "Sentinel-2",
+            "volume": 73060539
+        },
+        {
+            "date": "2018-04-06",
+            "level": 0.5965281639547861,
+            "sensor_type": "Sentinel-2",
+            "volume": 72599062
+        },
+        {
+            "Average_Temperature": 17.062421192884607,
+            "date": "2018-04-13",
+            "level": 0.5793202747930196,
+            "sensor_type": "LandSat-8",
+            "volume": 68728452
+        },
+        {
+            "date": "2018-04-16",
+            "level": 0.5980933352637968,
+            "sensor_type": "Sentinel-2",
+            "volume": 72953508
+        },
+        {
+            "date": "2018-05-01",
+            "level": 0.5828059292887817,
+            "sensor_type": "Sentinel-2",
+            "volume": 69508865
+        },
+        {
+            "date": "2018-05-11",
+            "level": 0.6065398631899984,
+            "sensor_type": "Sentinel-2",
+            "volume": 74874183
+        },
+        {
+            "Average_Temperature": 20.099257777363807,
+            "date": "2018-05-15",
+            "level": 0.5751105036860296,
+            "sensor_type": "LandSat-8",
+            "volume": 67788177
+        },
+        {
+            "date": "2018-05-16",
+            "level": 0.5961593592210547,
+            "sensor_type": "Sentinel-2",
+            "volume": 72515606
+        },
+        {
+            "date": "2018-05-21",
+            "level": 0.5980123781271223,
+            "sensor_type": "Sentinel-2",
+            "volume": 72935164
+        },
+        {
+            "date": "2018-05-26",
+            "level": 0.610767624771796,
+            "sensor_type": "Sentinel-2",
+            "volume": 75840949
+        },
+        {
+            "date": "2018-06-05",
+            "level": 0.597985392414899,
+            "sensor_type": "Sentinel-2",
+            "volume": 72929049
+        },
+        {
+            "date": "2018-06-10",
+            "level": 0.601349611205527,
+            "sensor_type": "Sentinel-2",
+            "volume": 73692342
+        },
+        {
+            "date": "2018-06-15",
+            "level": 0.5996135303857655,
+            "sensor_type": "Sentinel-2",
+            "volume": 73298190
+        },
+        {
+            "Average_Temperature": 25.414068628082426,
+            "date": "2018-06-16",
+            "level": 0.5754343322327268,
+            "sensor_type": "LandSat-8",
+            "volume": 67860420
+        },
+        {
+            "date": "2018-06-20",
+            "level": 0.5899256596972475,
+            "sensor_type": "Sentinel-2",
+            "volume": 71108474
+        },
+        {
+            "date": "2018-06-25",
+            "level": 0.5911759976969673,
+            "sensor_type": "Sentinel-2",
+            "volume": 71390200
+        },
+        {
+            "date": "2018-06-30",
+            "level": 0.5838268887345757,
+            "sensor_type": "Sentinel-2",
+            "volume": 69737780
+        },
+        {
+            "Average_Temperature": 28.045486456551114,
+            "date": "2018-07-02",
+            "level": 0.5551950480645325,
+            "sensor_type": "LandSat-8",
+            "volume": 63371921
+        },
+        {
+            "date": "2018-07-05",
+            "level": 0.5725468610248089,
+            "sensor_type": "Sentinel-2",
+            "volume": 67216751
+        },
+        {
+            "date": "2018-07-10",
+            "level": 0.5659173710550668,
+            "sensor_type": "Sentinel-2",
+            "volume": 65743104
+        },
+        {
+            "date": "2018-07-15",
+            "level": 0.5551140909279636,
+            "sensor_type": "Sentinel-2",
+            "volume": 63354076
+        },
+        {
+            "Average_Temperature": 26.319667090957314,
+            "date": "2018-07-18",
+            "level": 0.5283982358258638,
+            "sensor_type": "LandSat-8",
+            "volume": 57519545
+        },
+        {
+            "date": "2018-07-20",
+            "level": 0.5466495725269477,
+            "sensor_type": "Sentinel-2",
+            "volume": 61493378
+        },
+        {
+            "date": "2018-07-25",
+            "level": 0.5448685155201457,
+            "sensor_type": "Sentinel-2",
+            "volume": 61103186
+        },
+        {
+            "date": "2018-07-30",
+            "level": 0.53330963545075,
+            "sensor_type": "Sentinel-2",
+            "volume": 58583199
+        },
+        {
+            "date": "2018-08-04",
+            "level": 0.528740054847432,
+            "sensor_type": "Sentinel-2",
+            "volume": 57593423
+        },
+        {
+            "date": "2018-08-09",
+            "level": 0.51428470833263,
+            "sensor_type": "Sentinel-2",
+            "volume": 54490910
+        },
+        {
+            "date": "2018-08-14",
+            "level": 0.5084647897296074,
+            "sensor_type": "Sentinel-2",
+            "volume": 53255874
+        },
+        {
+            "Average_Temperature": 25.017560172382293,
+            "date": "2018-08-19",
+            "level": 0.48442052013772685,
+            "sensor_type": "LandSat-8",
+            "volume": 48261772
+        },
+        {
+            "date": "2018-08-24",
+            "level": 0.48787469130247374,
+            "sensor_type": "Sentinel-2",
+            "volume": 48967085
+        },
+        {
+            "date": "2018-08-29",
+            "level": 0.4809573537356354,
+            "sensor_type": "Sentinel-2",
+            "volume": 47559206
+        },
+        {
+            "date": "2018-09-03",
+            "level": 0.4723579067735048,
+            "sensor_type": "Sentinel-2",
+            "volume": 45835660
+        },
+        {
+            "Average_Temperature": 26.400847231205972,
+            "date": "2018-09-04",
+            "level": 0.4550420747629131,
+            "sensor_type": "LandSat-8",
+            "volume": 42464842
+        },
+        {
+            "date": "2018-09-08",
+            "level": 0.46315577890502696,
+            "sensor_type": "Sentinel-2",
+            "volume": 44026893
+        },
+        {
+            "date": "2018-09-18",
+            "level": 0.4388146664787349,
+            "sensor_type": "Sentinel-2",
+            "volume": 39439523
+        },
+        {
+            "Average_Temperature": 23.697016365664922,
+            "date": "2018-09-20",
+            "level": 0.41714513956264637,
+            "sensor_type": "LandSat-8",
+            "volume": 35616017
+        },
+        {
+            "date": "2018-09-23",
+            "level": 0.4185483965983155,
+            "sensor_type": "Sentinel-2",
+            "volume": 35856021
+        },
+        {
+            "date": "2018-09-28",
+            "level": 0.405028554773943,
+            "sensor_type": "Sentinel-2",
+            "volume": 33586663
+        },
+        {
+            "date": "2018-10-03",
+            "level": 0.3974545648763489,
+            "sensor_type": "Sentinel-2",
+            "volume": 32356192
+        },
+        {
+            "Average_Temperature": 17.18712246440825,
+            "date": "2018-10-06",
+            "level": 0.35309904921707386,
+            "sensor_type": "LandSat-8",
+            "volume": 25644785
+        },
+        {
+            "date": "2018-10-13",
+            "level": 0.3671496100485172,
+            "sensor_type": "Sentinel-2",
+            "volume": 27692753
+        },
+        {
+            "date": "2018-10-23",
+            "level": 0.34820564006706933,
+            "sensor_type": "Sentinel-2",
+            "volume": 24943932
+        },
+        {
+            "date": "2018-10-28",
+            "level": 0.33530646962388083,
+            "sensor_type": "Sentinel-2",
+            "volume": 23118995
+        },
+        {
+            "date": "2018-11-02",
+            "level": 0.327219751194019,
+            "sensor_type": "Sentinel-2",
+            "volume": 21986605
+        },
+        {
+            "date": "2018-11-07",
+            "level": 0.3223803134684506,
+            "sensor_type": "Sentinel-2",
+            "volume": 21311455
+        },
+        {
+            "date": "2018-11-12",
+            "level": 0.3207341850227805,
+            "sensor_type": "Sentinel-2",
+            "volume": 21082067
+        },
+        {
+            "date": "2018-11-22",
+            "level": 0.21119018386706934,
+            "sensor_type": "Sentinel-2",
+            "volume": 5363639
+        },
+        {
+            "date": "2018-12-17",
+            "level": 0.2911398539501833,
+            "sensor_type": "Sentinel-2",
+            "volume": 16949334
+        },
+        {
+            "date": "2018-12-22",
+            "level": 0.30257280069584014,
+            "sensor_type": "Sentinel-2",
+            "volume": 18551408
+        },
+        {
+            "Average_Temperature": 7.83,
+            "date": "2019-01-21",
+            "level": 0.6642263206880783,
+            "sensor_type": "Sentinel-2",
+            "volume": 88507402
+        },
+        {
+            "Average_Temperature": 7.84,
+            "date": "2019-01-26",
+            "level": 0.6945762517029394,
+            "sensor_type": "Sentinel-2",
+            "volume": 96201638
+        },
+        {
+            "date": "2019-02-05",
+            "level": 0.7475671952740163,
+            "sensor_type": "Sentinel-2",
+            "volume": 110638557
+        },
+        {
+            "date": "2019-02-25",
+            "level": 0.9373127331602189,
+            "sensor_type": "Sentinel-2",
+            "volume": 163967210
+        },
+        {
+            "date": "2019-03-22",
+            "level": 1.0088968324537895,
+            "sensor_type": "Sentinel-2",
+            "volume": 187245811
+        },
+        {
+            "date": "2019-04-11",
+            "level": 1.0089687943530599,
+            "sensor_type": "Sentinel-2",
+            "volume": 187272954
+        },
+        {
+            "date": "2019-05-01",
+            "level": 1.0263925692125202,
+            "sensor_type": "Sentinel-2",
+            "volume": 194114202
+        },
+        {
+            "date": "2019-05-11",
+            "level": 1.003499690008926,
+            "sensor_type": "Sentinel-2",
+            "volume": 185235505
+        },
+        {
+            "date": "2019-05-16",
+            "level": 1.009868318093861,
+            "sensor_type": "Sentinel-2",
+            "volume": 187612997
+        },
+        {
+            "Average_Temperature": 20.7,
+            "date": "2019-05-18",
+            "level": 0.9392467092029161,
+            "sensor_type": "LandSat-8",
+            "volume": 164522143
+        },
+        {
+            "date": "2019-05-21",
+            "level": 1.0120181798343786,
+            "sensor_type": "Sentinel-2",
+            "volume": 188431414
+        },
+        {
+            "date": "2019-05-26",
+            "level": 1.0194662364082625,
+            "sensor_type": "Sentinel-2",
+            "volume": 191329827
+        },
+        {
+            "date": "2019-05-31",
+            "level": 1.009688413345696,
+            "sensor_type": "Sentinel-2",
+            "volume": 187544876
+        },
+        {
+            "Average_Temperature": 24.82,
+            "date": "2019-06-03",
+            "level": 0.9828376296825148,
+            "sensor_type": "LandSat-8",
+            "volume": 177980184
+        },
+        {
+            "date": "2019-06-10",
+            "level": 1.009103722914163,
+            "sensor_type": "Sentinel-2",
+            "volume": 187323871
+        },
+        {
+            "date": "2019-06-15",
+            "level": 0.9958087620250089,
+            "sensor_type": "Sentinel-2",
+            "volume": 182455522
+        },
+        {
+            "date": "2019-06-25",
+            "level": 0.9802380060716027,
+            "sensor_type": "Sentinel-2",
+            "volume": 177113506
+        },
+        {
+            "date": "2019-06-30",
+            "level": 0.980876667927578,
+            "sensor_type": "Sentinel-2",
+            "volume": 177325534
+        },
+        {
+            "Average_Temperature": 26.03,
+            "date": "2019-07-05",
+            "level": 0.9763070873242549,
+            "sensor_type": "Sentinel-2",
+            "volume": 175821009
+        },
+        {
+            "date": "2019-07-15",
+            "level": 0.9569403411846448,
+            "sensor_type": "Sentinel-2",
+            "volume": 169739124
+        },
+        {
+            "date": "2019-07-20",
+            "level": 0.941288628094587,
+            "sensor_type": "Sentinel-2",
+            "volume": 165110945
+        },
+        {
+            "Average_Temperature": 24.61,
+            "date": "2019-07-21",
+            "level": 0.9246834198392341,
+            "sensor_type": "LandSat-8",
+            "volume": 160400089
+        },
+        {
+            "date": "2019-07-25",
+            "level": 0.9294419004281467,
+            "sensor_type": "Sentinel-2",
+            "volume": 161733617
+        },
+        {
+            "date": "2019-07-30",
+            "level": 0.9224526009620663,
+            "sensor_type": "Sentinel-2",
+            "volume": 159778634
+        },
+        {
+            "date": "2019-08-04",
+            "level": 0.9191333583584675,
+            "sensor_type": "Sentinel-2",
+            "volume": 158857841
+        },
+        {
+            "Average_Temperature": 25.34,
+            "date": "2019-08-06",
+            "level": 0.8855901180636682,
+            "sensor_type": "LandSat-8",
+            "volume": 149692878
+        },
+        {
+            "date": "2019-08-09",
+            "level": 0.8992628789239998,
+            "sensor_type": "Sentinel-2",
+            "volume": 153412294
+        },
+        {
+            "date": "2019-08-14",
+            "level": 0.8965553124641437,
+            "sensor_type": "Sentinel-2",
+            "volume": 152675367
+        },
+        {
+            "date": "2019-08-19",
+            "level": 0.8722142000378591,
+            "sensor_type": "Sentinel-2",
+            "volume": 146044070
+        },
+        {
+            "Average_Temperature": 26.76,
+            "date": "2019-08-22",
+            "level": 0.842026183296307,
+            "sensor_type": "LandSat-8",
+            "volume": 137684912
+        },
+        {
+            "date": "2019-08-24",
+            "level": 0.8596748390909977,
+            "sensor_type": "Sentinel-2",
+            "volume": 142597215
+        },
+        {
+            "date": "2019-08-29",
+            "level": 0.848682658978312,
+            "sensor_type": "Sentinel-2",
+            "volume": 139546759
+        },
+        {
+            "date": "2019-09-03",
+            "level": 0.8275168653570725,
+            "sensor_type": "Sentinel-2",
+            "volume": 133588371
+        },
+        {
+            "date": "2019-09-08",
+            "level": 0.8187644993590056,
+            "sensor_type": "Sentinel-2",
+            "volume": 131093940
+        },
+        {
+            "date": "2019-09-13",
+            "level": 0.8008279959673064,
+            "sensor_type": "Sentinel-2",
+            "volume": 125940528
+        },
+        {
+            "date": "2019-09-18",
+            "level": 0.7906184015091342,
+            "sensor_type": "Sentinel-2",
+            "volume": 122992451
+        },
+        {
+            "Average_Temperature": 24.78,
+            "date": "2019-09-23",
+            "level": 0.7744269741745792,
+            "sensor_type": "Sentinel-2",
+            "volume": 118317128
+        },
+        {
+            "date": "2019-09-28",
+            "level": 0.76548570819094,
+            "sensor_type": "Sentinel-2",
+            "volume": 115745309
+        },
+        {
+            "date": "2019-10-08",
+            "level": 0.7424938813758478,
+            "sensor_type": "Sentinel-2",
+            "volume": 109208452
+        },
+        {
+            "Average_Temperature": 22.25,
+            "date": "2019-10-09",
+            "level": 0.7064499650815695,
+            "sensor_type": "LandSat-8",
+            "volume": 99329729
+        },
+        {
+            "date": "2019-10-13",
+            "level": 0.7281914538969918,
+            "sensor_type": "Sentinel-2",
+            "volume": 105224805
+        },
+        {
+            "date": "2019-10-18",
+            "level": 0.7180268356258562,
+            "sensor_type": "Sentinel-2",
+            "volume": 102442819
+        },
+        {
+            "date": "2019-11-07",
+            "level": 0.6721331343697735,
+            "sensor_type": "Sentinel-2",
+            "volume": 90471276
+        },
+        {
+            "Average_Temperature": 17.15,
+            "date": "2019-11-10",
+            "level": 0.6422689461747981,
+            "sensor_type": "LandSat-8",
+            "volume": 83188983
+        },
+        {
+            "date": "2019-11-12",
+            "level": 0.6566703212652927,
+            "sensor_type": "Sentinel-2",
+            "volume": 86655705
+        },
+        {
+            "date": "2019-11-17",
+            "level": 0.652010788287888,
+            "sensor_type": "Sentinel-2",
+            "volume": 85525416
+        },
+        {
+            "date": "2019-12-07",
+            "level": 0.6071155583841046,
+            "sensor_type": "Sentinel-2",
+            "volume": 75005605
+        },
+        {
+            "date": "2019-12-17",
+            "level": 0.5927141832937516,
+            "sensor_type": "Sentinel-2",
+            "volume": 71737130
+        },
+        {
+            "date": "2019-12-22",
+            "level": 0.5702530754857603,
+            "sensor_type": "Sentinel-2",
+            "volume": 66706218
+        },
+        {
+            "date": "2020-01-11",
+            "level": 0.6289200138613175,
+            "sensor_type": "Sentinel-2",
+            "volume": 80040432
+        },
+        {
+            "date": "2020-01-26",
+            "level": 0.7404609577216176,
+            "sensor_type": "Sentinel-2",
+            "volume": 108637735
+        },
+        {
+            "date": "2020-02-05",
+            "level": 0.7789965547779023,
+            "sensor_type": "Sentinel-2",
+            "volume": 119635157
+        },
+        {
+            "date": "2020-03-11",
+            "level": 0.9709998972534977,
+            "sensor_type": "Sentinel-2",
+            "volume": 174108923
+        },
+        {
+            "date": "2020-03-16",
+            "level": 0.9941716288167036,
+            "sensor_type": "Sentinel-2",
+            "volume": 181876244
+        },
+        {
+            "Average_Temperature": 15.47,
+            "date": "2020-04-18",
+            "level": 0.9894311387026536,
+            "sensor_type": "LandSat-8",
+            "volume": 180222811
+        },
+        {
+            "date": "2020-04-30",
+            "level": 1.0052357708286914,
+            "sensor_type": "Sentinel-2",
+            "volume": 185876716
+        },
+        {
+            "date": "2020-05-10",
+            "level": 0.9958717286868641,
+            "sensor_type": "Sentinel-2",
+            "volume": 182477888
+        },
+        {
+            "date": "2020-05-15",
+            "level": 0.9886935292351985,
+            "sensor_type": "Sentinel-2",
+            "volume": 179968680
+        },
+        {
+            "Average_Temperature": 24.1,
+            "date": "2020-05-20",
+            "level": 0.9774135015254545,
+            "sensor_type": "Sentinel-2",
+            "volume": 176182650
+        },
+        {
+            "date": "2020-06-09",
+            "level": 0.9498880750567213,
+            "sensor_type": "Sentinel-2",
+            "volume": 167626706
+        },
+        {
+            "date": "2020-06-14",
+            "level": 0.9420532232742597,
+            "sensor_type": "Sentinel-2",
+            "volume": 165332217
+        },
+        {
+            "date": "2020-06-24",
+            "level": 0.923756910386228,
+            "sensor_type": "Sentinel-2",
+            "volume": 160141716
+        },
+        {
+            "Average_Temperature": 21.35,
+            "date": "2020-06-21",
+            "level": 0.9086359163032014,
+            "sensor_type": "LandSat-8",
+            "volume": 155970096
+        },
+        {
+            "date": "2020-06-29",
+            "level": 0.91889048694846,
+            "sensor_type": "Sentinel-2",
+            "volume": 158790634
+        },
+        {
+            "date": "2020-07-04",
+            "level": 0.9019074787219769,
+            "sensor_type": "Sentinel-2",
+            "volume": 154132718
+        },
+        {
+            "date": "2020-07-09",
+            "level": 0.8814343183811502,
+            "sensor_type": "Sentinel-2",
+            "volume": 148561348
+        },
+        {
+            "date": "2020-07-14",
+            "level": 0.8580017249330839,
+            "sensor_type": "Sentinel-2",
+            "volume": 142134775
+        },
+        {
+            "date": "2020-07-19",
+            "level": 0.8377444502900913,
+            "sensor_type": "Sentinel-2",
+            "volume": 136481375
+        },
+        {
+            "date": "2020-07-24",
+            "level": 0.8264644225803227,
+            "sensor_type": "Sentinel-2",
+            "volume": 133289287
+        },
+        {
+            "date": "2020-07-29",
+            "level": 0.8109566332888088,
+            "sensor_type": "Sentinel-2",
+            "volume": 128856352
+        },
+        {
+            "date": "2020-08-03",
+            "level": 0.7914099824010407,
+            "sensor_type": "Sentinel-2",
+            "volume": 123221179
+        },
+        {
+            "date": "2020-08-08",
+            "level": 0.7751196074550074,
+            "sensor_type": "Sentinel-2",
+            "volume": 118516782
+        },
+        {
+            "date": "2020-08-13",
+            "level": 0.7567333421928616,
+            "sensor_type": "Sentinel-2",
+            "volume": 113241319
+        },
+        {
+            "date": "2020-08-18",
+            "level": 0.7417472766709826,
+            "sensor_type": "Sentinel-2",
+            "volume": 108998691
+        },
+        {
+            "date": "2020-08-23",
+            "level": 0.728830115752969,
+            "sensor_type": "Sentinel-2",
+            "volume": 105401035
+        },
+        {
+            "Average_Temperature": 25.87,
+            "date": "2020-08-24",
+            "level": 0.7059552270241146,
+            "sensor_type": "LandSat-8",
+            "volume": 99198064
+        },
+        {
+            "date": "2020-08-28",
+            "level": 0.7173431975828285,
+            "sensor_type": "Sentinel-2",
+            "volume": 102257305
+        },
+        {
+            "date": "2020-09-02",
+            "level": 0.7098141838722628,
+            "sensor_type": "Sentinel-2",
+            "volume": 100228073
+        },
+        {
+            "date": "2020-09-07",
+            "level": 0.6958355849400856,
+            "sensor_type": "Sentinel-2",
+            "volume": 96530233
+        },
+        {
+            "Average_Temperature": 26.2,
+            "date": "2020-09-09",
+            "level": 0.6673656585433816,
+            "sensor_type": "LandSat-8",
+            "volume": 89283857
+        },
+        {
+            "date": "2020-09-12",
+            "level": 0.6820009098064433,
+            "sensor_type": "Sentinel-2",
+            "volume": 92961740
+        },
+        {
+            "date": "2020-09-17",
+            "level": 0.6692906393488226,
+            "sensor_type": "Sentinel-2",
+            "volume": 89762092
+        },
+        {
+            "date": "2020-09-22",
+            "level": 0.6525954787194205,
+            "sensor_type": "Sentinel-2",
+            "volume": 85666778
+        },
+        {
+            "Average_Temperature": 24.18,
+            "date": "2020-09-25",
+            "level": 0.6258976140920764,
+            "sensor_type": "LandSat-8",
+            "volume": 79335166
+        },
+        {
+            "date": "2020-09-27",
+            "level": 0.6378432893701524,
+            "sensor_type": "Sentinel-2",
+            "volume": 82138718
+        },
+        {
+            "date": "2020-10-02",
+            "level": 0.6209592287551617,
+            "sensor_type": "Sentinel-2",
+            "volume": 78188280
+        },
+        {
+            "date": "2020-10-07",
+            "level": 0.6053884728017537,
+            "sensor_type": "Sentinel-2",
+            "volume": 74611544
+        },
+        {
+            "Average_Temperature": 25.16,
+            "date": "2020-10-11",
+            "level": 0.5709996801905373,
+            "sensor_type": "LandSat-8",
+            "volume": 66872315
+        },
+        {
+            "date": "2020-10-12",
+            "level": 0.5905193453661831,
+            "sensor_type": "Sentinel-2",
+            "volume": 71242212
+        },
+        {
+            "date": "2020-10-17",
+            "level": 0.5703790088094699,
+            "sensor_type": "Sentinel-2",
+            "volume": 66734230
+        },
+        {
+            "date": "2020-10-22",
+            "level": 0.5548712195179405,
+            "sensor_type": "Sentinel-2",
+            "volume": 63300547
+        },
+        {
+            "Average_Temperature": 20.28,
+            "date": "2020-10-27",
+            "level": 0.5304581451923867,
+            "sensor_type": "Sentinel-2",
+            "volume": 57965100
+        },
+        {
+            "date": "2020-12-11",
+            "level": 0.3489882257215884,
+            "sensor_type": "Sentinel-2",
+            "volume": 25055652
+        },
+        {
+            "date": "2020-12-21",
+            "level": 0.36593525299843477,
+            "sensor_type": "Sentinel-2",
+            "volume": 27513369
+        },
+        {
+            "date": "2020-12-26",
+            "level": 0.36964129081054636,
+            "sensor_type": "Sentinel-2",
+            "volume": 28062393
+        },
+        {
+            "Average_Temperature": 9.81,
+            "date": "2020-12-30",
+            "level": 0.35168679694399774,
+            "sensor_type": "LandSat-8",
+            "volume": 25441943
+        },
+        {
+            "date": "2020-12-31",
+            "level": 0.3711255049828887,
+            "sensor_type": "Sentinel-2",
+            "volume": 28283611
+        },
+        {
+            "date": "2021-01-10",
+            "level": 0.37318541434933394,
+            "sensor_type": "Sentinel-2",
+            "volume": 28591956
+        },
+        {
+            "date": "2021-01-25",
+            "level": 0.4978504095880429,
+            "sensor_type": "Sentinel-2",
+            "volume": 51027975
+        },
+        {
+            "date": "2021-02-09",
+            "level": 0.5759650512399036,
+            "sensor_type": "Sentinel-2",
+            "volume": 67978848
+        },
+        {
+            "date": "2021-02-14",
+            "level": 0.5859227790506563,
+            "sensor_type": "Sentinel-2",
+            "volume": 70208194
+        },
+        {
+            "date": "2021-02-24",
+            "level": 0.649141307554713,
+            "sensor_type": "Sentinel-2",
+            "volume": 84833556
+        },
+        {
+            "date": "2021-03-06",
+            "level": 0.6817490431590155,
+            "sensor_type": "Sentinel-2",
+            "volume": 92897612
+        },
+        {
+            "date": "2021-03-21",
+            "level": 0.7232710590347605,
+            "sensor_type": "Sentinel-2",
+            "volume": 103872674
+        },
+        {
+            "date": "2021-04-15",
+            "level": 0.7983093294930208,
+            "sensor_type": "Sentinel-2",
+            "volume": 125213809
+        },
+        {
+            "date": "2021-04-20",
+            "level": 0.8145682211081278,
+            "sensor_type": "Sentinel-2",
+            "volume": 129892657
+        },
+        {
+            "Average_Temperature": 15.42,
+            "date": "2021-04-21",
+            "level": 0.7500678712734155,
+            "sensor_type": "LandSat-8",
+            "volume": 111346350
+        },
+        {
+            "date": "2021-04-25",
+            "level": 0.8149325282231746,
+            "sensor_type": "Sentinel-2",
+            "volume": 129997072
+        },
+        {
+            "date": "2021-05-05",
+            "level": 0.8132234331156345,
+            "sensor_type": "Sentinel-2",
+            "volume": 129507030
+        },
+        {
+            "date": "2021-05-10",
+            "level": 0.8048038909016535,
+            "sensor_type": "Sentinel-2",
+            "volume": 127086540
+        },
+        {
+            "date": "2021-05-15",
+            "level": 0.8026360386863195,
+            "sensor_type": "Sentinel-2",
+            "volume": 126461874
+        },
+        {
+            "date": "2021-05-20",
+            "level": 0.7975447343133417,
+            "sensor_type": "Sentinel-2",
+            "volume": 124993105
+        },
+        {
+            "Average_Temperature": 22.06,
+            "date": "2021-05-23",
+            "level": 0.7685800698592532,
+            "sensor_type": "LandSat-8",
+            "volume": 116634044
+        },
+        {
+            "date": "2021-05-25",
+            "level": 0.7954938201843196,
+            "sensor_type": "Sentinel-2",
+            "volume": 124400921
+        },
+        {
+            "date": "2021-05-30",
+            "level": 0.7931100822711643,
+            "sensor_type": "Sentinel-2",
+            "volume": 123712376
+        },
+        {
+            "date": "2021-06-04",
+            "level": 0.7893950492216456,
+            "sensor_type": "Sentinel-2",
+            "volume": 122638944
+        },
+        {
+            "Average_Temperature": 23.82,
+            "date": "2021-06-08",
+            "level": 0.7646401558745108,
+            "sensor_type": "LandSat-8",
+            "volume": 115502739
+        },
+        {
+            "date": "2021-06-09",
+            "level": 0.7888283492649367,
+            "sensor_type": "Sentinel-2",
+            "volume": 122475184
+        },
+        {
+            "date": "2021-06-14",
+            "level": 0.7828195306763425,
+            "sensor_type": "Sentinel-2",
+            "volume": 120739033
+        },
+        {
+            "date": "2021-06-19",
+            "level": 0.7705500268516949,
+            "sensor_type": "Sentinel-2",
+            "volume": 117200609
+        },
+        {
+            "Average_Temperature": 25.28,
+            "date": "2021-06-24",
+            "level": 0.7648740320471682,
+            "sensor_type": "Sentinel-2",
+            "volume": 115569820
+        },
+        {
+            "date": "2021-06-29",
+            "level": 0.7556629089412861,
+            "sensor_type": "Sentinel-2",
+            "volume": 112936233
+        },
+        {
+            "date": "2021-07-04",
+            "level": 0.7521457711147294,
+            "sensor_type": "Sentinel-2",
+            "volume": 111935832
+        },
+        {
+            "date": "2021-07-09",
+            "level": 0.7343531915215333,
+            "sensor_type": "Sentinel-2",
+            "volume": 106931740
+        },
+        {
+            "date": "2021-07-14",
+            "level": 0.7204645449634399,
+            "sensor_type": "Sentinel-2",
+            "volume": 103105991
+        },
+        {
+            "date": "2021-07-19",
+            "level": 0.707898198304344,
+            "sensor_type": "Sentinel-2",
+            "volume": 99715805
+        },
+        {
+            "date": "2021-07-24",
+            "level": 0.7006210512411838,
+            "sensor_type": "Sentinel-2",
+            "volume": 97785778
+        },
+        {
+            "date": "2021-07-29",
+            "level": 0.6925613185235354,
+            "sensor_type": "Sentinel-2",
+            "volume": 95677458
+        },
+        {
+            "date": "2021-08-03",
+            "level": 0.6762079769156362,
+            "sensor_type": "Sentinel-2",
+            "volume": 91494275
+        },
+        {
+            "date": "2021-08-08",
+            "level": 0.6646221111340168,
+            "sensor_type": "Sentinel-2",
+            "volume": 88605059
+        },
+        {
+            "date": "2021-10-02",
+            "level": 0.526590193106902,
+            "sensor_type": "Sentinel-2",
+            "volume": 57129156
+        },
+        {
+            "date": "2021-08-13",
+            "level": 0.6177029528134408,
+            "sensor_type": "Sentinel-2",
+            "volume": 77435552
+        },
+        {
+            "date": "2021-08-18",
+            "level": 0.6326620326230866,
+            "sensor_type": "Sentinel-2",
+            "volume": 80917343
+        },
+        {
+            "date": "2021-08-23",
+            "level": 0.6255467998332839,
+            "sensor_type": "Sentinel-2",
+            "volume": 79253473
+        },
+        {
+            "date": "2021-08-28",
+            "level": 0.6158499339073654,
+            "sensor_type": "Sentinel-2",
+            "volume": 77008385
+        },
+        {
+            "date": "2021-09-02",
+            "level": 0.5913199214955016,
+            "sensor_type": "Sentinel-2",
+            "volume": 71422645
+        },
+        {
+            "date": "2021-09-07",
+            "level": 0.5838538744467955,
+            "sensor_type": "Sentinel-2",
+            "volume": 69743833
+        },
+        {
+            "date": "2021-09-12",
+            "level": 0.5672576614288661,
+            "sensor_type": "Sentinel-2",
+            "volume": 66040567
+        },
+        {
+            "date": "2021-09-17",
+            "level": 0.5563284479780346,
+            "sensor_type": "Sentinel-2",
+            "volume": 63621841
+        },
+        {
+            "date": "2021-09-22",
+            "level": 0.5467035439513976,
+            "sensor_type": "Sentinel-2",
+            "volume": 61505210
+        },
+        {
+            "Average_Temperature": 22.09,
+            "date": "2021-09-28",
+            "level": 0.510785560980839,
+            "sensor_type": "LandSat-8",
+            "volume": 53747294
+        },
+        {
+            "date": "2021-10-07",
+            "level": 0.5149503559008338,
+            "sensor_type": "Sentinel-2",
+            "volume": 54632721
+        },
+        {
+            "Average_Temperature": 19.44,
+            "date": "2021-10-14",
+            "level": 0.4758750446000434,
+            "sensor_type": "LandSat-8",
+            "volume": 46536854
+        },
+        {
+            "date": "2021-10-22",
+            "level": 0.4875958389428202,
+            "sensor_type": "Sentinel-2",
+            "volume": 48909981
+        },
+        {
+            "date": "2021-10-27",
+            "level": 0.48036366806670244,
+            "sensor_type": "Sentinel-2",
+            "volume": 47439240
+        },
+        {
+            "date": "2021-11-06",
+            "level": 0.4611678314378367,
+            "sensor_type": "Sentinel-2",
+            "volume": 43641254
+        },
+        {
+            "date": "2021-11-11",
+            "level": 0.4529551796842569,
+            "sensor_type": "Sentinel-2",
+            "volume": 42068266
+        },
+        {
+            "date": "2021-11-16",
+            "level": 0.4454171707362663,
+            "sensor_type": "Sentinel-2",
+            "volume": 40654093
+        },
+        {
+            "date": "2021-11-26",
+            "level": 0.4388686379031819,
+            "sensor_type": "Sentinel-2",
+            "volume": 39449359
+        },
+        {
+            "date": "2021-12-11",
+            "level": 0.4207702202381183,
+            "sensor_type": "Sentinel-2",
+            "volume": 36238169
+        },
+        {
+            "date": "2021-12-26",
+            "level": 0.4465775563619345,
+            "sensor_type": "Sentinel-2",
+            "volume": 40869897
+        },
+        {
+            "date": "2022-01-25",
+            "level": 0.48441152490033407,
+            "sensor_type": "Sentinel-2",
+            "volume": 48259942
+        },
+        {
+            "date": "2022-02-09",
+            "level": 0.6104977676495672,
+            "sensor_type": "Sentinel-2",
+            "volume": 75779125
+        },
+        {
+            "date": "2022-02-24",
+            "level": 0.7185935355825597,
+            "sensor_type": "Sentinel-2",
+            "volume": 102596757
+        },
+        {
+            "date": "2022-03-16",
+            "level": 0.8877219893294098,
+            "sensor_type": "Sentinel-2",
+            "volume": 150272892
+        },
+        {
+            "date": "2022-03-26",
+            "level": 0.9406409710012094,
+            "sensor_type": "Sentinel-2",
+            "volume": 164923857
+        },
+        {
+            "Average_Temperature": 3.58,
+            "date": "2022-03-31",
+            "level": 0.9634528930681138,
+            "sensor_type": "Sentinel-2",
+            "volume": 171735104
+        },
+        {
+            "date": "2022-04-10",
+            "level": 0.9998746093334415,
+            "sensor_type": "Sentinel-2",
+            "volume": 183912978
+        },
+        {
+            "date": "2022-04-15",
+            "level": 0.9936319145722594,
+            "sensor_type": "Sentinel-2",
+            "volume": 181686213
+        },
+        {
+            "Average_Temperature": 7.62,
+            "date": "2022-04-16",
+            "level": 0.9641095453988725,
+            "sensor_type": "LandSat-8",
+            "volume": 171938961
+        },
+        {
+            "date": "2022-04-20",
+            "level": 0.9982284808877807,
+            "sensor_type": "Sentinel-2",
+            "volume": 183319642
+        },
+        {
+            "date": "2022-04-25",
+            "level": 1.0015207377791473,
+            "sensor_type": "Sentinel-2",
+            "volume": 184510804
+        },
+        {
+            "date": "2022-04-30",
+            "level": 1.015733212883915,
+            "sensor_type": "Sentinel-2",
+            "volume": 189864816
+        },
+        {
+            "Average_Temperature": 18.79,
+            "date": "2022-05-10",
+            "level": 1.0003783426283146,
+            "sensor_type": "Sentinel-2",
+            "volume": 184095441
+        },
+        {
+            "date": "2022-05-15",
+            "level": 1.008752908655216,
+            "sensor_type": "Sentinel-2",
+            "volume": 187191553
+        },
+        {
+            "Average_Temperature": 17.15,
+            "date": "2022-05-18",
+            "level": 0.9522268367827892,
+            "sensor_type": "LandSat-8",
+            "volume": 168321973
+        },
+        {
+            "date": "2022-05-20",
+            "level": 0.9843488295670918,
+            "sensor_type": "Sentinel-2",
+            "volume": 178488479
+        },
+        {
+            "date": "2022-05-25",
+            "level": 0.9745889969793252,
+            "sensor_type": "Sentinel-2",
+            "volume": 175262706
+        },
+        {
+            "date": "2022-05-30",
+            "level": 0.9738244017996461,
+            "sensor_type": "Sentinel-2",
+            "volume": 175015508
+        },
+        {
+            "Average_Temperature": 15.56,
+            "date": "2022-06-03",
+            "level": 0.9238738484725084,
+            "sensor_type": "LandSat-8",
+            "volume": 160174304
+        },
+        {
+            "date": "2022-06-09",
+            "level": 0.9565535459761213,
+            "sensor_type": "Sentinel-2",
+            "volume": 169621996
+        },
+        {
+            "Average_Temperature": 25.11,
+            "date": "2022-06-11",
+            "level": 0.9261586387741478,
+            "sensor_type": "LandSat-8",
+            "volume": 160812304
+        },
+        {
+            "Average_Temperature": 16.91,
+            "date": "2022-06-19",
+            "level": 0.9570123030839184,
+            "sensor_type": "Sentinel-2",
+            "volume": 169760932
+        },
+        {
+            "date": "2022-06-24",
+            "level": 0.9481789799491861,
+            "sensor_type": "Sentinel-2",
+            "volume": 167121760
+        },
+        {
+            "Average_Temperature": 23.15,
+            "date": "2022-06-27",
+            "level": 0.9152833967477678,
+            "sensor_type": "LandSat-8",
+            "volume": 157794927
+        },
+        {
+            "date": "2022-06-29",
+            "level": 0.9376365617069015,
+            "sensor_type": "Sentinel-2",
+            "volume": 164059948
+        },
+        {
+            "date": "2022-07-04",
+            "level": 0.9388509187570006,
+            "sensor_type": "Sentinel-2",
+            "volume": 164408362
+        },
+        {
+            "Average_Temperature": 16.62,
+            "date": "2022-07-05",
+            "level": 0.9156072252944568,
+            "sensor_type": "LandSat-8",
+            "volume": 157884141
+        },
+        {
+            "date": "2022-07-09",
+            "level": 0.9272650529753927,
+            "sensor_type": "Sentinel-2",
+            "volume": 161122158
+        },
+        {
+            "date": "2022-07-14",
+            "level": 0.9240357627458907,
+            "sensor_type": "Sentinel-2",
+            "volume": 160219438
+        },
+        {
+            "date": "2022-07-19",
+            "level": 0.9098232876411004,
+            "sensor_type": "Sentinel-2",
+            "volume": 156295228
+        },
+        {
+            "date": "2022-07-24",
+            "level": 0.9065400259871402,
+            "sensor_type": "Sentinel-2",
+            "volume": 155396913
+        },
+        {
+            "Average_Temperature": 28.38,
+            "date": "2022-07-29",
+            "level": 0.892552431817569,
+            "sensor_type": "Sentinel-2",
+            "volume": 151586588
+        },
+        {
+            "date": "2022-08-03",
+            "level": 0.8845556657617664,
+            "sensor_type": "Sentinel-2",
+            "volume": 149411344
+        },
+        {
+            "Average_Temperature": 17.08,
+            "date": "2022-08-06",
+            "level": 0.857273110703012,
+            "sensor_type": "LandSat-8",
+            "volume": 141933186
+        },
+        {
+            "date": "2022-08-08",
+            "level": 0.8759832045118675,
+            "sensor_type": "Sentinel-2",
+            "volume": 147074486
+        },
+        {
+            "date": "2022-08-13",
+            "level": 0.862931115032716,
+            "sensor_type": "Sentinel-2",
+            "volume": 143495421
+        },
+        {
+            "date": "2022-08-18",
+            "level": 0.8442480069361292,
+            "sensor_type": "Sentinel-2",
+            "volume": 138307614
+        },
+        {
+            "Average_Temperature": 16.18,
+            "date": "2022-08-22",
+            "level": 0.8174691851722137,
+            "sensor_type": "LandSat-8",
+            "volume": 130723467
+        },
+        {
+            "date": "2022-08-23",
+            "level": 0.8392916311242642,
+            "sensor_type": "Sentinel-2",
+            "volume": 136916798
+        },
+        {
+            "date": "2022-08-28",
+            "level": 0.8232801085378662,
+            "sensor_type": "Sentinel-2",
+            "volume": 132382892
+        },
+        {
+            "Average_Temperature": 26.57,
+            "date": "2022-08-30",
+            "level": 0.7939646298248898,
+            "sensor_type": "LandSat-8",
+            "volume": 123959240
+        },
+        {
+            "date": "2022-09-02",
+            "level": 0.8092565334186559,
+            "sensor_type": "Sentinel-2",
+            "volume": 128367835
+        },
+        {
+            "date": "2022-09-07",
+            "level": 0.7783039214974561,
+            "sensor_type": "Sentinel-2",
+            "volume": 119435262
+        },
+        {
+            "date": "2022-09-12",
+            "level": 0.766754036665473,
+            "sensor_type": "Sentinel-2",
+            "volume": 116109397
+        },
+        {
+            "Average_Temperature": 25.48,
+            "date": "2022-09-15",
+            "level": 0.7344161581833278,
+            "sensor_type": "LandSat-8",
+            "volume": 106949258
+        },
+        {
+            "date": "2022-09-17",
+            "level": 0.7486016475759355,
+            "sensor_type": "Sentinel-2",
+            "volume": 110931127
+        },
+        {
+            "date": "2022-09-22",
+            "level": 0.7136326621520007,
+            "sensor_type": "Sentinel-2",
+            "volume": 101254031
+        },
+        {
+            "Average_Temperature": 25.08,
+            "date": "2022-10-01",
+            "level": 0.6771884577930013,
+            "sensor_type": "LandSat-8",
+            "volume": 91741559
+        },
+        {
+            "date": "2022-10-02",
+            "level": 0.6810483418701163,
+            "sensor_type": "Sentinel-2",
+            "volume": 92719364
+        },
+        {
+            "date": "2022-10-27",
+            "level": 0.6059745018132875,
+            "sensor_type": "Sentinel-2",
+            "volume": 74745187
+        },
+        {
+            "date": "2022-11-06",
+            "level": 0.5845889258608442,
+            "sensor_type": "Sentinel-2",
+            "volume": 69908741
+        }
+    ],
+    "nominal_outline": {
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        35.6800032,
+                        33.5537862
+                    ],
+                    [
+                        35.6804288,
+                        33.5547772
+                    ],
+                    [
+                        35.6806327,
+                        33.5554057
+                    ],
+                    [
+                        35.68105,
+                        33.5564343
+                    ],
+                    [
+                        35.6810695,
+                        33.5566451
+                    ],
+                    [
+                        35.681207,
+                        33.5566744
+                    ],
+                    [
+                        35.6814713,
+                        33.5572318
+                    ],
+                    [
+                        35.6815554,
+                        33.5574726
+                    ],
+                    [
+                        35.6811438,
+                        33.5579662
+                    ],
+                    [
+                        35.6812262,
+                        33.5585137
+                    ],
+                    [
+                        35.6812196,
+                        33.5589005
+                    ],
+                    [
+                        35.6813947,
+                        33.5592512
+                    ],
+                    [
+                        35.6822509,
+                        33.559457
+                    ],
+                    [
+                        35.6825966,
+                        33.560047
+                    ],
+                    [
+                        35.683601,
+                        33.560143
+                    ],
+                    [
+                        35.6842596,
+                        33.5604861
+                    ],
+                    [
+                        35.68625,
+                        33.56175
+                    ],
+                    [
+                        35.6867261,
+                        33.5632378
+                    ],
+                    [
+                        35.6866449,
+                        33.5642353
+                    ],
+                    [
+                        35.686658,
+                        33.5644796
+                    ],
+                    [
+                        35.6868503,
+                        33.5647297
+                    ],
+                    [
+                        35.6868297,
+                        33.5649583
+                    ],
+                    [
+                        35.6867621,
+                        33.5653894
+                    ],
+                    [
+                        35.686628,
+                        33.5657354
+                    ],
+                    [
+                        35.6868179,
+                        33.5661793
+                    ],
+                    [
+                        35.6867355,
+                        33.5663808
+                    ],
+                    [
+                        35.6864743,
+                        33.5665668
+                    ],
+                    [
+                        35.6861961,
+                        33.5666761
+                    ],
+                    [
+                        35.6858987,
+                        33.5669273
+                    ],
+                    [
+                        35.685709,
+                        33.5669435
+                    ],
+                    [
+                        35.6853845,
+                        33.5669668
+                    ],
+                    [
+                        35.6851171,
+                        33.5670893
+                    ],
+                    [
+                        35.6840901,
+                        33.5672488
+                    ],
+                    [
+                        35.6838251,
+                        33.5674227
+                    ],
+                    [
+                        35.6835241,
+                        33.5674848
+                    ],
+                    [
+                        35.6832468,
+                        33.5674889
+                    ],
+                    [
+                        35.6829024,
+                        33.5674491
+                    ],
+                    [
+                        35.6825253,
+                        33.5674969
+                    ],
+                    [
+                        35.6822152,
+                        33.5676426
+                    ],
+                    [
+                        35.6820001,
+                        33.5678773
+                    ],
+                    [
+                        35.6818992,
+                        33.5682673
+                    ],
+                    [
+                        35.6822707,
+                        33.5690471
+                    ],
+                    [
+                        35.6828104,
+                        33.5703703
+                    ],
+                    [
+                        35.6830512,
+                        33.5708193
+                    ],
+                    [
+                        35.6833439,
+                        33.5709536
+                    ],
+                    [
+                        35.6833503,
+                        33.5710752
+                    ],
+                    [
+                        35.6834356,
+                        33.5711499
+                    ],
+                    [
+                        35.6835802,
+                        33.5711257
+                    ],
+                    [
+                        35.6834686,
+                        33.5713787
+                    ],
+                    [
+                        35.6835201,
+                        33.5717615
+                    ],
+                    [
+                        35.683765,
+                        33.5720947
+                    ],
+                    [
+                        35.6836523,
+                        33.5723853
+                    ],
+                    [
+                        35.683872,
+                        33.5728798
+                    ],
+                    [
+                        35.683939,
+                        33.5729772
+                    ],
+                    [
+                        35.6838323,
+                        33.573106
+                    ],
+                    [
+                        35.6844505,
+                        33.5736841
+                    ],
+                    [
+                        35.6847539,
+                        33.5739655
+                    ],
+                    [
+                        35.6852367,
+                        33.5741829
+                    ],
+                    [
+                        35.6856075,
+                        33.5747382
+                    ],
+                    [
+                        35.6858523,
+                        33.575342
+                    ],
+                    [
+                        35.6861436,
+                        33.5757246
+                    ],
+                    [
+                        35.6863396,
+                        33.5766507
+                    ],
+                    [
+                        35.6866062,
+                        33.5771823
+                    ],
+                    [
+                        35.6871322,
+                        33.5779159
+                    ],
+                    [
+                        35.688247,
+                        33.5790041
+                    ],
+                    [
+                        35.6887158,
+                        33.5794622
+                    ],
+                    [
+                        35.6889974,
+                        33.5800008
+                    ],
+                    [
+                        35.6891847,
+                        33.581476
+                    ],
+                    [
+                        35.6892726,
+                        33.5825571
+                    ],
+                    [
+                        35.6893719,
+                        33.5834764
+                    ],
+                    [
+                        35.6894175,
+                        33.5844023
+                    ],
+                    [
+                        35.6897291,
+                        33.5854347
+                    ],
+                    [
+                        35.6900425,
+                        33.5859999
+                    ],
+                    [
+                        35.6902136,
+                        33.5861886
+                    ],
+                    [
+                        35.6906783,
+                        33.5865356
+                    ],
+                    [
+                        35.6910708,
+                        33.586673
+                    ],
+                    [
+                        35.6912741,
+                        33.586908
+                    ],
+                    [
+                        35.6914136,
+                        33.5871873
+                    ],
+                    [
+                        35.6914967,
+                        33.5874354
+                    ],
+                    [
+                        35.6917054,
+                        33.588044
+                    ],
+                    [
+                        35.6920004,
+                        33.5882674
+                    ],
+                    [
+                        35.6924264,
+                        33.5885186
+                    ],
+                    [
+                        35.6932788,
+                        33.5889118
+                    ],
+                    [
+                        35.6943597,
+                        33.5892671
+                    ],
+                    [
+                        35.6948506,
+                        33.5894968
+                    ],
+                    [
+                        35.695181,
+                        33.589785
+                    ],
+                    [
+                        35.6953355,
+                        33.5900129
+                    ],
+                    [
+                        35.6954278,
+                        33.5905854
+                    ],
+                    [
+                        35.695446,
+                        33.5910023
+                    ],
+                    [
+                        35.6954192,
+                        33.5913061
+                    ],
+                    [
+                        35.6954342,
+                        33.5916542
+                    ],
+                    [
+                        35.6951616,
+                        33.5919877
+                    ],
+                    [
+                        35.6947498,
+                        33.5922868
+                    ],
+                    [
+                        35.6952427,
+                        33.5929273
+                    ],
+                    [
+                        35.6957355,
+                        33.5930744
+                    ],
+                    [
+                        35.6963018,
+                        33.5932153
+                    ],
+                    [
+                        35.6966249,
+                        33.5935613
+                    ],
+                    [
+                        35.6968461,
+                        33.5942323
+                    ],
+                    [
+                        35.6961397,
+                        33.5940294
+                    ],
+                    [
+                        35.6955881,
+                        33.5937526
+                    ],
+                    [
+                        35.6948088,
+                        33.594122
+                    ],
+                    [
+                        35.6946154,
+                        33.5949603
+                    ],
+                    [
+                        35.6952868,
+                        33.5958313
+                    ],
+                    [
+                        35.6955958,
+                        33.5967992
+                    ],
+                    [
+                        35.6962352,
+                        33.5978051
+                    ],
+                    [
+                        35.6969412,
+                        33.5992623
+                    ],
+                    [
+                        35.6973904,
+                        33.5999114
+                    ],
+                    [
+                        35.6978234,
+                        33.6007156
+                    ],
+                    [
+                        35.6988466,
+                        33.6012591
+                    ],
+                    [
+                        35.6992438,
+                        33.6011672
+                    ],
+                    [
+                        35.6995527,
+                        33.6013694
+                    ],
+                    [
+                        35.6999131,
+                        33.601204
+                    ],
+                    [
+                        35.7002941,
+                        33.6012045
+                    ],
+                    [
+                        35.7007574,
+                        33.6017313
+                    ],
+                    [
+                        35.7014703,
+                        33.6023258
+                    ],
+                    [
+                        35.7021616,
+                        33.6029495
+                    ],
+                    [
+                        35.7026248,
+                        33.6042929
+                    ],
+                    [
+                        35.7032008,
+                        33.6053144
+                    ],
+                    [
+                        35.7043455,
+                        33.6062255
+                    ],
+                    [
+                        35.7040709,
+                        33.6067042
+                    ],
+                    [
+                        35.703728,
+                        33.6066761
+                    ],
+                    [
+                        35.703537,
+                        33.606887
+                    ],
+                    [
+                        35.7035137,
+                        33.6070769
+                    ],
+                    [
+                        35.7036491,
+                        33.6072484
+                    ],
+                    [
+                        35.7042132,
+                        33.6071926
+                    ],
+                    [
+                        35.7044114,
+                        33.6072426
+                    ],
+                    [
+                        35.7045973,
+                        33.6076052
+                    ],
+                    [
+                        35.7044685,
+                        33.6083696
+                    ],
+                    [
+                        35.7047931,
+                        33.6089882
+                    ],
+                    [
+                        35.7050366,
+                        33.609506
+                    ],
+                    [
+                        35.7052394,
+                        33.6098252
+                    ],
+                    [
+                        35.7055283,
+                        33.610871
+                    ],
+                    [
+                        35.7055617,
+                        33.6112868
+                    ],
+                    [
+                        35.7057407,
+                        33.6116989
+                    ],
+                    [
+                        35.7054955,
+                        33.6119912
+                    ],
+                    [
+                        35.7055111,
+                        33.6123013
+                    ],
+                    [
+                        35.7056573,
+                        33.6127262
+                    ],
+                    [
+                        35.7060762,
+                        33.6129893
+                    ],
+                    [
+                        35.7062016,
+                        33.6134122
+                    ],
+                    [
+                        35.7068361,
+                        33.6137919
+                    ],
+                    [
+                        35.7074675,
+                        33.6139574
+                    ],
+                    [
+                        35.7083674,
+                        33.6140211
+                    ],
+                    [
+                        35.7094569,
+                        33.6138422
+                    ],
+                    [
+                        35.7097676,
+                        33.6138419
+                    ],
+                    [
+                        35.7099526,
+                        33.6141411
+                    ],
+                    [
+                        35.7105142,
+                        33.6143298
+                    ],
+                    [
+                        35.7108581,
+                        33.6142797
+                    ],
+                    [
+                        35.7111478,
+                        33.6143568
+                    ],
+                    [
+                        35.7114501,
+                        33.6143845
+                    ],
+                    [
+                        35.7117373,
+                        33.6143298
+                    ],
+                    [
+                        35.7124189,
+                        33.6141131
+                    ],
+                    [
+                        35.7129521,
+                        33.6138853
+                    ],
+                    [
+                        35.7129975,
+                        33.6145576
+                    ],
+                    [
+                        35.7134926,
+                        33.6151665
+                    ],
+                    [
+                        35.7146598,
+                        33.6158132
+                    ],
+                    [
+                        35.7159283,
+                        33.6161355
+                    ],
+                    [
+                        35.7162898,
+                        33.6163573
+                    ],
+                    [
+                        35.7174759,
+                        33.616667
+                    ],
+                    [
+                        35.7183446,
+                        33.6167381
+                    ],
+                    [
+                        35.7189035,
+                        33.6164406
+                    ],
+                    [
+                        35.7191463,
+                        33.6160031
+                    ],
+                    [
+                        35.7191683,
+                        33.615605
+                    ],
+                    [
+                        35.7190286,
+                        33.615262
+                    ],
+                    [
+                        35.7187684,
+                        33.6145105
+                    ],
+                    [
+                        35.7187608,
+                        33.6141346
+                    ],
+                    [
+                        35.7189919,
+                        33.6137904
+                    ],
+                    [
+                        35.7192121,
+                        33.613621
+                    ],
+                    [
+                        35.7196935,
+                        33.6135395
+                    ],
+                    [
+                        35.7204031,
+                        33.613747
+                    ],
+                    [
+                        35.7208982,
+                        33.6138961
+                    ],
+                    [
+                        35.7213363,
+                        33.6139402
+                    ],
+                    [
+                        35.7214646,
+                        33.6136777
+                    ],
+                    [
+                        35.7215818,
+                        33.613419
+                    ],
+                    [
+                        35.7205809,
+                        33.6128665
+                    ],
+                    [
+                        35.7197723,
+                        33.6125689
+                    ],
+                    [
+                        35.7189556,
+                        33.6126037
+                    ],
+                    [
+                        35.7183566,
+                        33.6126593
+                    ],
+                    [
+                        35.7178598,
+                        33.612778
+                    ],
+                    [
+                        35.7174863,
+                        33.6131276
+                    ],
+                    [
+                        35.7173515,
+                        33.6136311
+                    ],
+                    [
+                        35.7170973,
+                        33.6144489
+                    ],
+                    [
+                        35.7171589,
+                        33.6148498
+                    ],
+                    [
+                        35.7173559,
+                        33.6152546
+                    ],
+                    [
+                        35.7164513,
+                        33.6153296
+                    ],
+                    [
+                        35.7153144,
+                        33.6137981
+                    ],
+                    [
+                        35.7147995,
+                        33.613008
+                    ],
+                    [
+                        35.7139707,
+                        33.6123407
+                    ],
+                    [
+                        35.7130711,
+                        33.6122117
+                    ],
+                    [
+                        35.7124018,
+                        33.6120218
+                    ],
+                    [
+                        35.7118281,
+                        33.6115992
+                    ],
+                    [
+                        35.7112353,
+                        33.6116642
+                    ],
+                    [
+                        35.7103939,
+                        33.6118687
+                    ],
+                    [
+                        35.7094707,
+                        33.6119204
+                    ],
+                    [
+                        35.7087268,
+                        33.6115068
+                    ],
+                    [
+                        35.7083604,
+                        33.6113205
+                    ],
+                    [
+                        35.7079232,
+                        33.6112515
+                    ],
+                    [
+                        35.7077411,
+                        33.6110652
+                    ],
+                    [
+                        35.7073195,
+                        33.6101413
+                    ],
+                    [
+                        35.7070548,
+                        33.609247
+                    ],
+                    [
+                        35.706915,
+                        33.608806
+                    ],
+                    [
+                        35.7063604,
+                        33.6083162
+                    ],
+                    [
+                        35.7062898,
+                        33.6070235
+                    ],
+                    [
+                        35.7062395,
+                        33.6067508
+                    ],
+                    [
+                        35.7063875,
+                        33.606372
+                    ],
+                    [
+                        35.7068691,
+                        33.6060875
+                    ],
+                    [
+                        35.7072395,
+                        33.6056427
+                    ],
+                    [
+                        35.710032,
+                        33.6052495
+                    ],
+                    [
+                        35.7103792,
+                        33.6052409
+                    ],
+                    [
+                        35.7099231,
+                        33.6046839
+                    ],
+                    [
+                        35.7097099,
+                        33.6041138
+                    ],
+                    [
+                        35.7091302,
+                        33.6037597
+                    ],
+                    [
+                        35.7089425,
+                        33.6036339
+                    ],
+                    [
+                        35.708799,
+                        33.6031121
+                    ],
+                    [
+                        35.7073677,
+                        33.603224
+                    ],
+                    [
+                        35.7062132,
+                        33.6031508
+                    ],
+                    [
+                        35.7055957,
+                        33.6030222
+                    ],
+                    [
+                        35.7051866,
+                        33.6027722
+                    ],
+                    [
+                        35.7048016,
+                        33.6023101
+                    ],
+                    [
+                        35.7043677,
+                        33.6021152
+                    ],
+                    [
+                        35.7041643,
+                        33.6014858
+                    ],
+                    [
+                        35.7042354,
+                        33.6009877
+                    ],
+                    [
+                        35.7042283,
+                        33.6003308
+                    ],
+                    [
+                        35.7049145,
+                        33.5998807
+                    ],
+                    [
+                        35.7047968,
+                        33.5991027
+                    ],
+                    [
+                        35.7046129,
+                        33.5982757
+                    ],
+                    [
+                        35.7035538,
+                        33.5978468
+                    ],
+                    [
+                        35.7025903,
+                        33.5977059
+                    ],
+                    [
+                        35.7023476,
+                        33.5982757
+                    ],
+                    [
+                        35.7024358,
+                        33.5991088
+                    ],
+                    [
+                        35.7014356,
+                        33.599458
+                    ],
+                    [
+                        35.6999192,
+                        33.5990172
+                    ],
+                    [
+                        35.6993163,
+                        33.5987806
+                    ],
+                    [
+                        35.6991914,
+                        33.5985686
+                    ],
+                    [
+                        35.6996851,
+                        33.5983553
+                    ],
+                    [
+                        35.6995895,
+                        33.5978285
+                    ],
+                    [
+                        35.6992953,
+                        33.5973139
+                    ],
+                    [
+                        35.6988981,
+                        33.59664
+                    ],
+                    [
+                        35.6982722,
+                        33.5956887
+                    ],
+                    [
+                        35.6981185,
+                        33.595237
+                    ],
+                    [
+                        35.6982068,
+                        33.5947959
+                    ],
+                    [
+                        35.698523,
+                        33.5943548
+                    ],
+                    [
+                        35.698706,
+                        33.593848
+                    ],
+                    [
+                        35.6986692,
+                        33.5931581
+                    ],
+                    [
+                        35.6977574,
+                        33.5918591
+                    ],
+                    [
+                        35.6994497,
+                        33.593736
+                    ],
+                    [
+                        35.7006045,
+                        33.5952615
+                    ],
+                    [
+                        35.7010954,
+                        33.5955966
+                    ],
+                    [
+                        35.7022005,
+                        33.5965542
+                    ],
+                    [
+                        35.7037144,
+                        33.5974261
+                    ],
+                    [
+                        35.7040834,
+                        33.5971607
+                    ],
+                    [
+                        35.7042157,
+                        33.5965726
+                    ],
+                    [
+                        35.7042452,
+                        33.5958987
+                    ],
+                    [
+                        35.7041929,
+                        33.5947253
+                    ],
+                    [
+                        35.7044342,
+                        33.5927634
+                    ],
+                    [
+                        35.7048093,
+                        33.5921715
+                    ],
+                    [
+                        35.7055445,
+                        33.5911874
+                    ],
+                    [
+                        35.7060077,
+                        33.5904533
+                    ],
+                    [
+                        35.7064635,
+                        33.590044
+                    ],
+                    [
+                        35.707037,
+                        33.5901015
+                    ],
+                    [
+                        35.7080663,
+                        33.5901335
+                    ],
+                    [
+                        35.708353,
+                        33.5896997
+                    ],
+                    [
+                        35.7093201,
+                        33.5904399
+                    ],
+                    [
+                        35.7105704,
+                        33.5912854
+                    ],
+                    [
+                        35.7112176,
+                        33.592039
+                    ],
+                    [
+                        35.7119826,
+                        33.5919716
+                    ],
+                    [
+                        35.7134069,
+                        33.5919917
+                    ],
+                    [
+                        35.7132403,
+                        33.5910893
+                    ],
+                    [
+                        35.7136227,
+                        33.5907462
+                    ],
+                    [
+                        35.7138577,
+                        33.5900045
+                    ],
+                    [
+                        35.7137698,
+                        33.5895025
+                    ],
+                    [
+                        35.7127548,
+                        33.5891471
+                    ],
+                    [
+                        35.7118774,
+                        33.5883943
+                    ],
+                    [
+                        35.7111991,
+                        33.586784
+                    ],
+                    [
+                        35.711154,
+                        33.5855358
+                    ],
+                    [
+                        35.7105846,
+                        33.5848213
+                    ],
+                    [
+                        35.7101941,
+                        33.5843564
+                    ],
+                    [
+                        35.7094414,
+                        33.5814313
+                    ],
+                    [
+                        35.7094695,
+                        33.5809164
+                    ],
+                    [
+                        35.711127,
+                        33.5810919
+                    ],
+                    [
+                        35.7093076,
+                        33.5785739
+                    ],
+                    [
+                        35.7118541,
+                        33.5791581
+                    ],
+                    [
+                        35.7129804,
+                        33.5793183
+                    ],
+                    [
+                        35.7136283,
+                        33.5784137
+                    ],
+                    [
+                        35.7136414,
+                        33.5775577
+                    ],
+                    [
+                        35.7128407,
+                        33.5766566
+                    ],
+                    [
+                        35.710622,
+                        33.5748797
+                    ],
+                    [
+                        35.7099978,
+                        33.573536
+                    ],
+                    [
+                        35.7096221,
+                        33.5723101
+                    ],
+                    [
+                        35.7095404,
+                        33.5715449
+                    ],
+                    [
+                        35.7093228,
+                        33.571166
+                    ],
+                    [
+                        35.7090693,
+                        33.5706556
+                    ],
+                    [
+                        35.7090067,
+                        33.5703259
+                    ],
+                    [
+                        35.7087802,
+                        33.5702654
+                    ],
+                    [
+                        35.7087298,
+                        33.5701061
+                    ],
+                    [
+                        35.7084483,
+                        33.5697663
+                    ],
+                    [
+                        35.7084014,
+                        33.5694231
+                    ],
+                    [
+                        35.7082792,
+                        33.5690659
+                    ],
+                    [
+                        35.7081438,
+                        33.5686233
+                    ],
+                    [
+                        35.7083117,
+                        33.5677753
+                    ],
+                    [
+                        35.707984,
+                        33.5665492
+                    ],
+                    [
+                        35.7077904,
+                        33.5664436
+                    ],
+                    [
+                        35.7075853,
+                        33.5656919
+                    ],
+                    [
+                        35.7074665,
+                        33.5652995
+                    ],
+                    [
+                        35.7073065,
+                        33.5649225
+                    ],
+                    [
+                        35.7075259,
+                        33.5644889
+                    ],
+                    [
+                        35.7075822,
+                        33.5640635
+                    ],
+                    [
+                        35.7077512,
+                        33.5638875
+                    ],
+                    [
+                        35.7076843,
+                        33.563597
+                    ],
+                    [
+                        35.7075641,
+                        33.5631402
+                    ],
+                    [
+                        35.7071682,
+                        33.5622314
+                    ],
+                    [
+                        35.7070292,
+                        33.5616828
+                    ],
+                    [
+                        35.707026,
+                        33.5608532
+                    ],
+                    [
+                        35.7068036,
+                        33.560696
+                    ],
+                    [
+                        35.706622,
+                        33.5603853
+                    ],
+                    [
+                        35.7063656,
+                        33.5601
+                    ],
+                    [
+                        35.7055756,
+                        33.559866
+                    ],
+                    [
+                        35.7059114,
+                        33.5594487
+                    ],
+                    [
+                        35.7063973,
+                        33.5590644
+                    ],
+                    [
+                        35.7054099,
+                        33.5589369
+                    ],
+                    [
+                        35.7054993,
+                        33.5589061
+                    ],
+                    [
+                        35.705707,
+                        33.5588268
+                    ],
+                    [
+                        35.7058866,
+                        33.5585628
+                    ],
+                    [
+                        35.705984,
+                        33.5581021
+                    ],
+                    [
+                        35.7059711,
+                        33.5579848
+                    ],
+                    [
+                        35.705832,
+                        33.5577259
+                    ],
+                    [
+                        35.7055591,
+                        33.5573848
+                    ],
+                    [
+                        35.7051956,
+                        33.5566658
+                    ],
+                    [
+                        35.7053171,
+                        33.5564276
+                    ],
+                    [
+                        35.7052511,
+                        33.5561892
+                    ],
+                    [
+                        35.7052203,
+                        33.5560462
+                    ],
+                    [
+                        35.7049694,
+                        33.5557124
+                    ],
+                    [
+                        35.7046657,
+                        33.5551916
+                    ],
+                    [
+                        35.7044457,
+                        33.5549716
+                    ],
+                    [
+                        35.7041936,
+                        33.5547907
+                    ],
+                    [
+                        35.7035391,
+                        33.5544214
+                    ],
+                    [
+                        35.7027337,
+                        33.5542161
+                    ],
+                    [
+                        35.7022628,
+                        33.5537833
+                    ],
+                    [
+                        35.7018833,
+                        33.5533085
+                    ],
+                    [
+                        35.7003297,
+                        33.5531613
+                    ],
+                    [
+                        35.6997462,
+                        33.5529539
+                    ],
+                    [
+                        35.699355,
+                        33.5528029
+                    ],
+                    [
+                        35.6991362,
+                        33.5525183
+                    ],
+                    [
+                        35.698671,
+                        33.552221
+                    ],
+                    [
+                        35.6981304,
+                        33.5519312
+                    ],
+                    [
+                        35.6973052,
+                        33.5514358
+                    ],
+                    [
+                        35.6972498,
+                        33.5512591
+                    ],
+                    [
+                        35.6973103,
+                        33.5510205
+                    ],
+                    [
+                        35.69758,
+                        33.5501008
+                    ],
+                    [
+                        35.6977324,
+                        33.549796
+                    ],
+                    [
+                        35.6977828,
+                        33.5495036
+                    ],
+                    [
+                        35.6977282,
+                        33.5492378
+                    ],
+                    [
+                        35.6973381,
+                        33.549118
+                    ],
+                    [
+                        35.6973506,
+                        33.5488432
+                    ],
+                    [
+                        35.6971704,
+                        33.5487965
+                    ],
+                    [
+                        35.6972254,
+                        33.5484321
+                    ],
+                    [
+                        35.697479,
+                        33.5481666
+                    ],
+                    [
+                        35.6967915,
+                        33.547746
+                    ],
+                    [
+                        35.6963285,
+                        33.5476518
+                    ],
+                    [
+                        35.6959873,
+                        33.5473157
+                    ],
+                    [
+                        35.6954209,
+                        33.5473364
+                    ],
+                    [
+                        35.6952449,
+                        33.5472141
+                    ],
+                    [
+                        35.6934518,
+                        33.5475694
+                    ],
+                    [
+                        35.6914498,
+                        33.5479569
+                    ],
+                    [
+                        35.6905046,
+                        33.5481539
+                    ],
+                    [
+                        35.6893421,
+                        33.5483993
+                    ],
+                    [
+                        35.6887579,
+                        33.5485495
+                    ],
+                    [
+                        35.6881273,
+                        33.5486564
+                    ],
+                    [
+                        35.6856295,
+                        33.5488727
+                    ],
+                    [
+                        35.6841067,
+                        33.5490507
+                    ],
+                    [
+                        35.6833997,
+                        33.5506124
+                    ],
+                    [
+                        35.6818021,
+                        33.5521449
+                    ],
+                    [
+                        35.6814876,
+                        33.5525936
+                    ],
+                    [
+                        35.6815375,
+                        33.5531534
+                    ],
+                    [
+                        35.6813004,
+                        33.5536943
+                    ],
+                    [
+                        35.6800032,
+                        33.5537862
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "type": "Feature"
+    },
+    "properties": {
+        "country": "Lebanon",
+        "id": 38784,
+        "lat": 33.574245370273864,
+        "long": 35.697950593910825,
+        "name": "Qaraaoun Reservoir"
+    }
+}
