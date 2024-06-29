@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 
 import './styles/WaterbodyInfo.scss';
-import Loading from './Loading';
+const Loading = React.lazy(() => import('./Loading'));
 
 
   
@@ -21,7 +21,7 @@ export default class WaterbodyInfo extends React.Component {
     const { waterbody, measurementDate, outline } = this.props;
 
     if (!waterbody) {
-      return <Loading />;
+      return <Suspense fallback={<div>Loading...</div>}><Loading /></Suspense>;
     }
     
     function thousands_separators(num) { 

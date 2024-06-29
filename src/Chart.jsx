@@ -1,8 +1,8 @@
+import React, {Suspense} from 'react';
 import moment from 'moment-timezone';
-import Loading from './Loading';
+const Loading = React.lazy(() =>  import('./Loading'));
 import HighchartsReact from 'highcharts-react-official';
-import React from 'react';
-import Highcharts from 'highcharts/highstock';
+import Highcharts from'highcharts/highstock';
 import './styles/Chart.scss';
 
 
@@ -60,7 +60,9 @@ export default class Chart extends React.PureComponent {
     if (!waterbody) {
       return (
         <div className="chart-loader">
+          <Suspense fallback={<div>Loading...</div>}>
           <Loading />
+          </Suspense>
         </div>
       );
     }

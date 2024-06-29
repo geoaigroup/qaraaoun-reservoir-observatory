@@ -1,14 +1,15 @@
-import React, { createRef } from 'react';
+import React, { createRef, Suspense} from 'react';
 import moment from 'moment';
 import bbox from '@turf/bbox';
 
-import MapComponent from './Map';
-import Loading from './Loading';
+const MapComponent = React.lazy(() => import('./Map'));
+const Loading = React.lazy(() => import('./Loading'));
 
 
 import IconAngleLeft from './imgs/angle-left.svg';
 import IconAngleRight from './imgs/angle-right.svg';
 import "mapbox-gl/dist/mapbox-gl.css";
+
 
 class WaterbodyMap extends React.PureComponent {
   SH_INSTANCE_ID = '6481a180-9ae3-4190-9291-8a89dee16e1a';
@@ -95,7 +96,7 @@ class WaterbodyMap extends React.PureComponent {
   render() {
     const { waterbody, measurementOutline, measurementDate, sensor } = this.props;
     if (!waterbody) {
-      return <Loading />;
+      return <Suspense fallback={<div>Loading...</div>}><Loading /></Suspense>;
     }
     const hasPrev = !!this.getPrevMeasurement(measurementDate);
     const hasNext = !!this.getNextMeasurement(measurementDate);
@@ -136,59 +137,61 @@ class WaterbodyMap extends React.PureComponent {
 
     return (
       <div className="waterbody-map">
-<MapComponent
-  ref={this.mapRef}
-  initialViewState={{
-    longitude: waterbody.properties.long,
-    latitude: waterbody.properties.lat,
-    zoom: this.DEFAULT_ZOOM,
-  }}
-  style = {this.MAP_CONTAINER_STYLE}
-  mapStyle={{
-    version: 8,
-    sources: {
-      'sentinel-hub-tiles': {
-        type: 'raster',
-        tiles: [
-          `${sh_base_url}/ogc/wms/${this.SH_INSTANCE_ID}?showLogo=false&service=WMS&request=GetMap&layers=${tileID}&styles=&format=image/jpeg&version=1.1.1&time=${timeInterval}&height=512&width=512&srs=EPSG:3857&bbox={bbox-epsg-3857}`,
-        ],
-        tileSize: 512,
-      },
-      'nominal-outline': {
-        type: 'geojson',
-        data: waterbody.nominal_outline,
-      },
-      'measurement-outline': {
-        type: 'geojson',
-        data: measurementOutline,
-      },
-    },
-    layers: [
-      {
-        id: 'sentinel-hub-tiles',
-        type: 'raster',
-        source: 'sentinel-hub-tiles',
-        minzoom: 0,
-        maxzoom: 22,
-      },
-      {
-        id: 'nominal-outline-layer',
-        type: 'line',
-        source: 'nominal-outline',
-        layout: this.LINE_LAYOUT,
-        paint: this.NOMINAL_OUTLINE_LINE_PAINT,
-      },
-      measurementOutline && {
-        id: 'measurement-outline-layer',
-        type: 'line',
-        source: 'measurement-outline',
-        layout: this.LINE_LAYOUT,
-        paint: this.MEASUREMENT_OUTLINE_LINE_PAINT,
-      },
-    ].filter(Boolean),
-  }}
-  onLoad={this.onMapLoad}
-/>
+        <Suspense fallback= {<div>Loading...</div>}>
+        <MapComponent
+          ref={this.mapRef}
+          initialViewState={{
+            longitude: waterbody.properties.long,
+            latitude: waterbody.properties.lat,
+            zoom: this.DEFAULT_ZOOM,
+          }}
+          style = {this.MAP_CONTAINER_STYLE}
+          mapStyle={{
+            version: 8,
+            sources: {
+              'sentinel-hub-tiles': {
+                type: 'raster',
+                tiles: [
+                  `${sh_base_url}/ogc/wms/${this.SH_INSTANCE_ID}?showLogo=false&service=WMS&request=GetMap&layers=${tileID}&styles=&format=image/jpeg&version=1.1.1&time=${timeInterval}&height=512&width=512&srs=EPSG:3857&bbox={bbox-epsg-3857}`,
+                ],
+                tileSize: 512,
+              },
+              'nominal-outline': {
+                type: 'geojson',
+                data: waterbody.nominal_outline,
+              },
+              'measurement-outline': {
+                type: 'geojson',
+                data: measurementOutline,
+              },
+            },
+            layers: [
+              {
+                id: 'sentinel-hub-tiles',
+                type: 'raster',
+                source: 'sentinel-hub-tiles',
+                minzoom: 0,
+                maxzoom: 22,
+              },
+              {
+                id: 'nominal-outline-layer',
+                type: 'line',
+                source: 'nominal-outline',
+                layout: this.LINE_LAYOUT,
+                paint: this.NOMINAL_OUTLINE_LINE_PAINT,
+              },
+              measurementOutline && {
+                id: 'measurement-outline-layer',
+                type: 'line',
+                source: 'measurement-outline',
+                layout: this.LINE_LAYOUT,
+                paint: this.MEASUREMENT_OUTLINE_LINE_PAINT,
+              },
+            ].filter(Boolean),
+          }}
+          onLoad={this.onMapLoad}
+        />
+        </Suspense>
 
         <div className="go prev" onClick={this.goPrev}>
           <img alt="Previous date" className={hasPrev ? '' : 'disabled'} src={IconAngleLeft} />

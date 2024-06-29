@@ -52,6 +52,7 @@
     "semiotic/react": "^18.0.0",
     "semiotic/react-dom": "^18.0.0"
   },
+  "type": "module",
   "scripts": {
     "start": "vite --host --no-open",
     "build": "vite build",
@@ -68,6 +69,7 @@
     "eslint-config-prettier": "^8.9.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^3.2.0",
+    "rollup-plugin-visualizer": "^5.12.0",
     "sass": "^1.64.0",
     "sass-loader": "^13.2.2",
     "vite": "^5.3.1"

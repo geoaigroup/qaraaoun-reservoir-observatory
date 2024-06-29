@@ -1,13 +1,12 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import axios from 'axios';
 import moment from 'moment';
 /** Components */
-import WaterbodyMap from './WaterbodyMap';
-import WaterbodyInfo from './WaterbodyInfo';
-import Chart from './Chart';
-import Header from './Header';
-import Error404 from './Error404';
-import MeasureWrapper from './MeasureWrapper';
+const WaterbodyMap = React.lazy(() => import('./WaterbodyMap'));
+const WaterbodyInfo = React.lazy(() => import('./WaterbodyInfo'));
+const Chart = React.lazy(() => import('./Chart'));
+const Header = React.lazy(() => import('./Header'));
+const MeasureWrapper = React.lazy(() => import('./MeasureWrapper'));
 import 'mapbox-gl/dist/mapbox-gl.css';
 import './styles/App.scss';
 
@@ -148,14 +147,20 @@ class App extends React.Component {
     const today = new Date();
     return (
       <div id="app">
+        <Suspense fallback={<div>Loading...</div>}>
         <Header waterbody={waterbody} loading={loading} />
+        </Suspense>
+        <Suspense fallback={<div>Loading...</div>}>
         <MeasureWrapper>
           {({ width, height }) => (
             <div id="content" className='m-0 p-0'>
               <div className="panel info bg-body-tertiary rounded">
-                <WaterbodyInfo waterbody={waterbody} measurementDate={measurementDate} sensor={sensor_type} outline={measurementOutline} />
+              <Suspense fallback={<div>Loading...</div>}>
+              <WaterbodyInfo waterbody={waterbody} measurementDate={measurementDate} sensor={sensor_type} outline={measurementOutline} />
+              </Suspense>
               </div>
               <div className="panel waterbody rounded">
+              <Suspense fallback={<div>Loading...</div>}>
                 <WaterbodyMap
                   size={{ width, height }}
                   waterbody={waterbody}
@@ -164,16 +169,20 @@ class App extends React.Component {
                   onDateSelect={this.setMeasurementDate}
                   sensor={sensor_type}
                 />
+                </Suspense>
               </div>
             </div>
           )}
         </MeasureWrapper>
+        </Suspense>
 
         <div className="panel chart bg-body-tertiary">
+        <Suspense fallback={<div>Loading...</div>}>
           <Chart
             waterbody={waterbody}
             onDateSelect={this.setMeasurementDate}
           />
+        </Suspense>
         </div>
 
         <div id="footer2" className='bg-body-tertiary rounded-top '>
