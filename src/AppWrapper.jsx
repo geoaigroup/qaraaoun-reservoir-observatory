@@ -1,13 +1,13 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
-import App from './App'; 
+const App = React.lazy(() => import('./App')); 
 
 const AppWrapper = () => {
   const params = useParams();
   const navigate = useNavigate();
   const location = useLocation();
 
-  return <App params={params} navigate={navigate} />;
+  return <Suspense fallback={<div>Loading...</div>}><App params={params} navigate={navigate} /></Suspense>;
 };
 
 export default AppWrapper;

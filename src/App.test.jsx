@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+const App = React.lazy(() => import('./App'));
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+  ReactDOM.render(<Suspense fallback={<div>Loading...</div>}><App /></Suspense>, div);
   ReactDOM.unmountComponentAtNode(div);
 });

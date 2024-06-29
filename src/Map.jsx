@@ -1,10 +1,11 @@
-import React, { forwardRef } from 'react';
-import { Map } from 'react-map-gl';
+import React, { Suspense, forwardRef } from 'react';
+const Map = React.lazy(() => import('react-map-gl'));
 
 const accessToken = 'pk.eyJ1IjoiYWFmMzYiLCJhIjoiY2x3eHV4eWs3MWc5ODJscjM2NTM1czljbSJ9.7nYI2PWYbTsSki8Pk5AO3A';
 
 const MapComponent = forwardRef(({ initialViewState, mapStyle, onLoad }, ref) => {
   return (
+    <Suspense fallback={<div>Loading...</div>}>
     <Map
       ref={ref}
       initialViewState={initialViewState}
@@ -15,6 +16,7 @@ const MapComponent = forwardRef(({ initialViewState, mapStyle, onLoad }, ref) =>
       attributionControl={false}
       logoPosition="bottom-left"
     />
+    </Suspense>
   );
 });
 
