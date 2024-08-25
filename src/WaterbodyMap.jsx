@@ -125,10 +125,7 @@ class WaterbodyMap extends React.PureComponent {
     } else if (sensor === "LandSat-1") {
       tileID = "TRUE-COLOR-L1-3";
       sh_base_url = "https://services-uswest2.sentinel-hub.com";
-    } else if (sensor == "LandSat8-9"){
-      tileID = "TRUE-COLOR-L8";
-      sh_base_url = "https://services-uswest2.sentinel-hub.com";
-    }
+    } 
 
     const legend = document.getElementById('legend');
     if (legend) {
