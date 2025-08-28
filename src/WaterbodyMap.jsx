@@ -12,8 +12,6 @@ import "mapbox-gl/dist/mapbox-gl.css";
 
 
 class WaterbodyMap extends React.PureComponent {
-  SH_INSTANCE_ID = '6481a180-9ae3-4190-9291-8a89dee16e1a';
-  //SH_INSTANCE_ID = '450a11d0-1f80-4faa-852e-4d5ebe535c7b';
   LINE_LAYOUT = {
     'line-cap': 'round',
     'line-join': 'round',
@@ -102,29 +100,37 @@ class WaterbodyMap extends React.PureComponent {
     const hasNext = !!this.getNextMeasurement(measurementDate);
     const timeInterval = `${measurementDate.format('YYYY-MM-DD')}/${measurementDate.format('YYYY-MM-DD')}`;
 
-    let tileID = null;
-    let sh_base_url = null;
+    let instance_id = null;
+    let layerID = null;
+    let endpoint_url = null;
     if (sensor === "Sentinel-2") {
-      tileID = "TRUE-COLOR-S2L1C";
-      sh_base_url = "https://services.sentinel-hub.com";
+      instance_id = "43e54b2d-9a03-42a3-ab9b-1b016057f54e";
+      layerID = "TRUE-COLOR-S2L1C";
+      endpoint_url = "https://sh.dataspace.copernicus.eu";
     } else if (sensor === "LandSat-8") {
-      tileID = "TRUE-COLOR-L8";
-      sh_base_url = "https://services-uswest2.sentinel-hub.com";
+      instance_id = "66430348-ee9d-4dde-881d-9fe84c59679e";
+      layerID = "TRUE-COLOR-L8-L2";
+      endpoint_url = "https://services-uswest2.sentinel-hub.com";
     } else if (sensor === "LandSat-5") {
-      tileID = "TRUE-COLOR-L4-5";
-      sh_base_url = "https://services-uswest2.sentinel-hub.com";
+      instance_id = "66430348-ee9d-4dde-881d-9fe84c59679e";
+      layerID = "TRUE-COLOR-L4-5";
+      endpoint_url = "https://services-uswest2.sentinel-hub.com";
     } else if (sensor === "LandSat-4") {
-      tileID = "TRUE-COLOR-L4-5";
-      sh_base_url = "https://services-uswest2.sentinel-hub.com";
+      instance_id = "66430348-ee9d-4dde-881d-9fe84c59679e";
+      layerID = "TRUE-COLOR-L4-5";
+      endpoint_url = "https://services-uswest2.sentinel-hub.com";
     } else if (sensor === "LandSat-3") {
-      tileID = "TRUE-COLOR-L1-3";
-      sh_base_url = "https://services-uswest2.sentinel-hub.com";
+      instance_id = "66430348-ee9d-4dde-881d-9fe84c59679e";
+      layerID = "TRUE-COLOR-L1-3";
+      endpoint_url = "https://services-uswest2.sentinel-hub.com";
     } else if (sensor === "LandSat-2") {
-      tileID = "TRUE-COLOR-L1-3";
-      sh_base_url = "https://services-uswest2.sentinel-hub.com";
+      instance_id = "66430348-ee9d-4dde-881d-9fe84c59679e";
+      layerID = "TRUE-COLOR-L1-3";
+      endpoint_url = "https://services-uswest2.sentinel-hub.com";
     } else if (sensor === "LandSat-1") {
-      tileID = "TRUE-COLOR-L1-3";
-      sh_base_url = "https://services-uswest2.sentinel-hub.com";
+      instance_id = "66430348-ee9d-4dde-881d-9fe84c59679e";
+      layerID = "TRUE-COLOR-L1-3";
+      endpoint_url = "https://services-uswest2.sentinel-hub.com";
     }
 
     const legend = document.getElementById('legend');
@@ -152,7 +158,7 @@ class WaterbodyMap extends React.PureComponent {
               'sentinel-hub-tiles': {
                 type: 'raster',
                 tiles: [
-                  `${sh_base_url}/ogc/wms/${this.SH_INSTANCE_ID}?showLogo=false&service=WMS&request=GetMap&layers=${tileID}&styles=&format=image/jpeg&version=1.1.1&time=${timeInterval}&height=512&width=512&srs=EPSG:3857&bbox={bbox-epsg-3857}`,
+                  `${endpoint_url}/ogc/wms/${instance_id}?showLogo=false&service=WMS&request=GetMap&layers=${layerID}&styles=&format=image/jpeg&version=1.1.1&time=${timeInterval}&height=512&width=512&srs=EPSG:3857&bbox={bbox-epsg-3857}`,
                 ],
                 tileSize: 512,
               },
