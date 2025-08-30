@@ -72,6 +72,6 @@
     "rollup-plugin-visualizer": "^5.12.0",
     "sass": "^1.64.0",
     "sass-loader": "^13.2.2",
-    "vite": "^5.3.1"
+    "vite": "^6.3.5"
   }
 }
