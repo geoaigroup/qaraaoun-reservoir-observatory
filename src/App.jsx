@@ -73,7 +73,7 @@ class App extends React.Component {
       loading: true,
     });
     return axios
-      .get(`${import.meta.env.VITE_BACKEND_ROOT_URI}/static/38784/All.json`)
+      .get(import.meta.env.BASE_URL + '/static/38784/All.json')
       .then((res) => {
         if (!res.data.measurements) {
           throw new Error('Measurements field is missing in response data');
@@ -118,7 +118,7 @@ class App extends React.Component {
 
   fetchMeasurementOutline = (waterbodyId, date) => {
     axios
-      .get(`${import.meta.env.VITE_BACKEND_ROOT_URI}/static/38784/maps/${date.format('YYYY-MM-DD')}.json`)
+      .get(import.meta.env.BASE_URL + `/static/38784/maps/${date.format('YYYY-MM-DD')}.json`)
       .then(res => {
         this.setState({
           measurementOutline: res.data,
@@ -188,14 +188,22 @@ class App extends React.Component {
         <div id="footer2" className='bg-body-tertiary rounded-top '>
           <div className='row w-100'>
             <div className='col-md-6  text-start  mt-3'>
-              <p className=''>
-                This work was partially supported by <a href="http://www.cnrs.edu.lb/english/call-of-interest/calls-for-proposals-by-cnrs/sealacom-call-for-researchers" target="_blank" rel="noreferrer">SEALACOM.</a>
-              </p>
+                <p className=''>
+                  This work was partially supported by{" "} 
+                  <a 
+                    href="http://www.cnrs.edu.lb/english/call-of-interest/calls-for-proposals-by-cnrs/sealacom-call-for-researchers" 
+                    target="_blank" 
+                    rel="noreferrer"
+                  >
+                    SEALACOM
+                  </a> 
+                  , and actively maintained by Software Engineer Ali Faour.
+                </p>
               <p> © {today.getFullYear()}, <a href="https://geogroup.ai" target="_blank" rel="noreferrer">GEOspatial Artificial Intelligence (GEOAI) group</a><br></br> National Center for Remote Sensing, CNRS, Lebanon</p>
             </div>
             <div className='col-md-6'>
-              <img src={`${import.meta.env.VITE_BACKEND_ROOT_URI}/media/cnrs_logo.png`} alt="Logo CNRS" style={{ maxWidth: '40%', maxHeight: 100, }} />
-              <img src={`${import.meta.env.VITE_BACKEND_ROOT_URI}/media/ncrs_logo.png`} alt="Logo NCRS" style={{ maxWidth: '40%', maxHeight: 100, }} />
+              <img src={`${import.meta.env.BASE_URL}/media/cnrs_logo.png`} alt="Logo CNRS" style={{ maxWidth: '40%', maxHeight: 100, }} />
+              <img src={`${import.meta.env.BASE_URL}/media/ncrs_logo.png`} alt="Logo NCRS" style={{ maxWidth: '40%', maxHeight: 100, }} />
             </div>
           </div>
         </div>
