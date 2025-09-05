@@ -38,12 +38,6 @@
             "volume": 139762410
         },
         {
-            "date": "1975-08-04",
-            "level": 0.6205274573596179,
-            "sensor_type": "LandSat-1",
-            "volume": 78088315
-        },
-        {
             "date": "1975-08-23",
             "level": 0.6564544355674766,
             "sensor_type": "LandSat-1",
@@ -86,12 +80,6 @@
             "volume": 159636106
         },
         {
-            "date": "1977-04-07",
-            "level": 0.889952808206638,
-            "sensor_type": "LandSat-1",
-            "volume": 150879635
-        },
-        {
             "date": "1977-05-31",
             "level": 0.9060093069801333,
             "sensor_type": "LandSat-1",
@@ -116,12 +104,6 @@
             "volume": 148149497
         },
         {
-            "date": "1978-07-20",
-            "level": 0.7947382202420421,
-            "sensor_type": "LandSat-1",
-            "volume": 124182692
-        },
-        {
             "date": "1978-09-11",
             "level": 0.6405058796429145,
             "sensor_type": "LandSat-1",
@@ -132,12 +114,6 @@
             "level": 0.6286411615017178,
             "sensor_type": "LandSat-1",
             "volume": 79975252
-        },
-        {
-            "date": "1978-09-29",
-            "level": 0.511046422865644,
-            "sensor_type": "LandSat-1",
-            "volume": 53802622
         },
         {
             "date": "1978-11-13",
@@ -284,28 +260,10 @@
             "volume": 145561271
         },
         {
-            "date": "1981-05-28",
-            "level": 0.8931551127239793,
-            "sensor_type": "LandSat-3",
-            "volume": 151750488
-        },
-        {
             "date": "1981-05-29",
             "level": 0.9135383206906941,
             "sensor_type": "LandSat-3",
             "volume": 157314720
-        },
-        {
-            "date": "1981-06-15",
-            "level": 0.8837550896324744,
-            "sensor_type": "LandSat-3",
-            "volume": 149193409
-        },
-        {
-            "date": "1981-07-03",
-            "level": 0.8038503957365092,
-            "sensor_type": "LandSat-3",
-            "volume": 126811852
         },
         {
             "date": "1981-07-04",
@@ -486,12 +444,6 @@
             "level": 0.4320862288974699,
             "sensor_type": "LandSat-4",
             "volume": 38225454
-        },
-        {
-            "date": "1985-11-12",
-            "level": 0.3525953159222296,
-            "sensor_type": "LandSat-4",
-            "volume": 25572378
         },
         {
             "date": "1985-11-28",
@@ -938,12 +890,6 @@
             "volume": 41286721
         },
         {
-            "date": "1995-10-07",
-            "level": 0.28087628806756293,
-            "sensor_type": "LandSat-5",
-            "volume": 15499231
-        },
-        {
             "date": "1995-10-23",
             "level": 0.29505278222270664,
             "sensor_type": "LandSat-5",
@@ -954,12 +900,6 @@
             "level": 0.6333096897163533,
             "sensor_type": "LandSat-5",
             "volume": 81069549
-        },
-        {
-            "date": "1999-05-27",
-            "level": 0.41217976851340393,
-            "sensor_type": "LandSat-5",
-            "volume": 34775132
         },
         {
             "date": "1999-08-15",
@@ -1088,12 +1028,6 @@
             "volume": 73917243
         },
         {
-            "date": "2002-03-16",
-            "level": 0.31233263328358024,
-            "sensor_type": "LandSat-5",
-            "volume": 19912117
-        },
-        {
             "date": "2002-06-20",
             "level": 0.8386259835560494,
             "sensor_type": "LandSat-5",
@@ -1128,12 +1062,6 @@
             "level": 0.45577068899296436,
             "sensor_type": "LandSat-5",
             "volume": 42603810
-        },
-        {
-            "date": "2006-08-18",
-            "level": 0.6323022231267469,
-            "sensor_type": "LandSat-5",
-            "volume": 80832840
         },
         {
             "date": "2006-09-03",
@@ -1200,12 +1128,6 @@
             "level": 0.6025819587303204,
             "sensor_type": "LandSat-5",
             "volume": 73972474
-        },
-        {
-            "date": "2009-09-27",
-            "level": 0.553431981532641,
-            "sensor_type": "LandSat-5",
-            "volume": 62983506
         },
         {
             "date": "2009-10-13",
@@ -1458,12 +1380,6 @@
             "volume": 71670149
         },
         {
-            "date": "2015-08-30",
-            "level": 0.8588877558178416,
-            "sensor_type": "Sentinel-2",
-            "volume": 142379750
-        },
-        {
             "date": "2015-09-19",
             "level": 0.49424331938738814,
             "sensor_type": "Sentinel-2",
@@ -1475,12 +1391,6 @@
             "level": 0.4432313280460898,
             "sensor_type": "LandSat-8",
             "volume": 40249472
-        },
-        {
-            "date": "2015-09-29",
-            "level": 0.4577496412227601,
-            "sensor_type": "Sentinel-2",
-            "volume": 42982568
         },
         {
             "Average_Temperature": 20.831811658566235,
@@ -1547,25 +1457,6 @@
             "volume": 91188618
         },
         {
-            "Average_Temperature": 12.523809993980384,
-            "date": "2016-03-22",
-            "level": 0.6409016700888488,
-            "sensor_type": "LandSat-8",
-            "volume": 82863798
-        },
-        {
-            "date": "2016-03-27",
-            "level": 0.7337415153777974,
-            "sensor_type": "Sentinel-2",
-            "volume": 106761639
-        },
-        {
-            "date": "2016-04-06",
-            "level": 0.7688049507945274,
-            "sensor_type": "Sentinel-2",
-            "volume": 116698692
-        },
-        {
             "Average_Temperature": 18.33631611509968,
             "date": "2016-04-07",
             "level": 0.737654443650238,
@@ -1590,18 +1481,6 @@
             "level": 0.7576328659336757,
             "sensor_type": "Sentinel-2",
             "volume": 113497906
-        },
-        {
-            "date": "2016-05-16",
-            "level": 0.7380952102833147,
-            "sensor_type": "Sentinel-2",
-            "volume": 107975364
-        },
-        {
-            "date": "2016-05-26",
-            "level": 0.6649774230116091,
-            "sensor_type": "Sentinel-2",
-            "volume": 88692785
         },
         {
             "date": "2016-06-05",
@@ -1729,12 +1608,6 @@
             "level": 0.4160926967858959,
             "sensor_type": "Sentinel-2",
             "volume": 35436699
-        },
-        {
-            "date": "2016-12-12",
-            "level": 0.35701197748958446,
-            "sensor_type": "Sentinel-2",
-            "volume": 26209434
         },
         {
             "date": "2017-01-01",
@@ -2010,12 +1883,6 @@
             "volume": 35788221
         },
         {
-            "date": "2017-11-17",
-            "level": 0.40407505960868234,
-            "sensor_type": "Sentinel-2",
-            "volume": 33430181
-        },
-        {
             "date": "2017-11-27",
             "level": 0.39474699841651223,
             "sensor_type": "Sentinel-2",
@@ -2039,18 +1906,6 @@
             "level": 0.5188003175114485,
             "sensor_type": "LandSat-8",
             "volume": 55455035
-        },
-        {
-            "date": "2018-03-02",
-            "level": 0.5590180239630587,
-            "sensor_type": "Sentinel-2",
-            "volume": 64215599
-        },
-        {
-            "date": "2018-03-07",
-            "level": 0.5684990041911826,
-            "sensor_type": "Sentinel-2",
-            "volume": 66316279
         },
         {
             "date": "2018-03-12",
@@ -2094,12 +1949,6 @@
             "level": 0.5980933352637968,
             "sensor_type": "Sentinel-2",
             "volume": 72953508
-        },
-        {
-            "date": "2018-05-01",
-            "level": 0.5828059292887817,
-            "sensor_type": "Sentinel-2",
-            "volume": 69508865
         },
         {
             "date": "2018-05-11",
@@ -2276,12 +2125,6 @@
             "volume": 42464842
         },
         {
-            "date": "2018-09-08",
-            "level": 0.46315577890502696,
-            "sensor_type": "Sentinel-2",
-            "volume": 44026893
-        },
-        {
             "date": "2018-09-18",
             "level": 0.4388146664787349,
             "sensor_type": "Sentinel-2",
@@ -2326,12 +2169,6 @@
             "volume": 27692753
         },
         {
-            "date": "2018-10-23",
-            "level": 0.34820564006706933,
-            "sensor_type": "Sentinel-2",
-            "volume": 24943932
-        },
-        {
             "date": "2018-10-28",
             "level": 0.33530646962388083,
             "sensor_type": "Sentinel-2",
@@ -2354,18 +2191,6 @@
             "level": 0.3207341850227805,
             "sensor_type": "Sentinel-2",
             "volume": 21082067
-        },
-        {
-            "date": "2018-11-22",
-            "level": 0.21119018386706934,
-            "sensor_type": "Sentinel-2",
-            "volume": 5363639
-        },
-        {
-            "date": "2018-12-17",
-            "level": 0.2911398539501833,
-            "sensor_type": "Sentinel-2",
-            "volume": 16949334
         },
         {
             "date": "2018-12-22",
@@ -2424,12 +2249,6 @@
             "volume": 185235505
         },
         {
-            "date": "2019-05-16",
-            "level": 1.009868318093861,
-            "sensor_type": "Sentinel-2",
-            "volume": 187612997
-        },
-        {
             "Average_Temperature": 20.7,
             "date": "2019-05-18",
             "level": 0.9392467092029161,
@@ -2466,12 +2285,6 @@
             "level": 1.009103722914163,
             "sensor_type": "Sentinel-2",
             "volume": 187323871
-        },
-        {
-            "date": "2019-06-15",
-            "level": 0.9958087620250089,
-            "sensor_type": "Sentinel-2",
-            "volume": 182455522
         },
         {
             "date": "2019-06-25",
@@ -2611,12 +2424,6 @@
             "volume": 115745309
         },
         {
-            "date": "2019-10-08",
-            "level": 0.7424938813758478,
-            "sensor_type": "Sentinel-2",
-            "volume": 109208452
-        },
-        {
             "Average_Temperature": 22.25,
             "date": "2019-10-09",
             "level": 0.7064499650815695,
@@ -2628,12 +2435,6 @@
             "level": 0.7281914538969918,
             "sensor_type": "Sentinel-2",
             "volume": 105224805
-        },
-        {
-            "date": "2019-10-18",
-            "level": 0.7180268356258562,
-            "sensor_type": "Sentinel-2",
-            "volume": 102442819
         },
         {
             "date": "2019-11-07",
@@ -3178,12 +2979,6 @@
             "volume": 88605059
         },
         {
-            "date": "2021-08-13",
-            "level": 0.6177029528134408,
-            "sensor_type": "Sentinel-2",
-            "volume": 77435552
-        },
-        {
             "date": "2021-08-18",
             "level": 0.6326620326230866,
             "sensor_type": "Sentinel-2",
@@ -3286,12 +3081,6 @@
             "level": 0.4454171707362663,
             "sensor_type": "Sentinel-2",
             "volume": 40654093
-        },
-        {
-            "date": "2021-11-26",
-            "level": 0.4388686379031819,
-            "sensor_type": "Sentinel-2",
-            "volume": 39449359
         },
         {
             "date": "2021-12-11",
@@ -3596,12 +3385,6 @@
             "volume": 110931127
         },
         {
-            "date": "2022-09-22",
-            "level": 0.7136326621520007,
-            "sensor_type": "Sentinel-2",
-            "volume": 101254031
-        },
-        {
             "Average_Temperature": 25.08,
             "date": "2022-10-01",
             "level": 0.6771884577930013,
@@ -3627,12 +3410,6 @@
             "volume": 69908741
         },
         {
-            "date": "2022-11-11",
-            "level": 0.5214416570082626,
-            "sensor_type": "Sentinel-2",
-            "volume": 56021199
-        },
-        {
             "date": "2022-12-11",
             "level": 0.5403222791341085,
             "sensor_type": "Sentinel-2",
@@ -3645,28 +3422,10 @@
             "volume": 54319227
         },
         {
-            "date": "2022-12-20",
-            "level": 0.5334857336381339,
-            "sensor_type": "LandSat8-9",
-            "volume": 58621420
-        },
-        {
             "date": "2023-01-20",
             "level": 0.4888398698919505,
             "sensor_type": "Sentinel-2",
             "volume": 49164957
-        },
-        {
-            "date": "2023-01-21",
-            "level": 0.4990263313859961,
-            "sensor_type": "LandSat8-9",
-            "volume": 51273107
-        },
-        {
-            "date": "2023-01-25",
-            "level": 0.9985418925486971,
-            "sensor_type": "Sentinel-2",
-            "volume": 183432265
         },
         {
             "date": "2023-02-19",
@@ -3675,58 +3434,16 @@
             "volume": 88248864
         },
         {
-            "date": "2023-02-22",
-            "level": 0.6686986707306748,
-            "sensor_type": "LandSat8-9",
-            "volume": 89614852
-        },
-        {
             "date": "2023-03-01",
             "level": 0.6857965379294875,
             "sensor_type": "Sentinel-2",
             "volume": 93931748
         },
         {
-            "date": "2023-03-02",
-            "level": 0.693506053678774,
-            "sensor_type": "LandSat8-9",
-            "volume": 95922987
-        },
-        {
-            "date": "2023-03-10",
-            "level": 0.698501397002794,
-            "sensor_type": "LandSat8-9",
-            "volume": 97228309
-        },
-        {
             "date": "2023-03-11",
             "level": 0.6854600515945714,
             "sensor_type": "Sentinel-2",
             "volume": 93845482
-        },
-        {
-            "date": "2023-04-03",
-            "level": 0.745491490982982,
-            "sensor_type": "LandSat8-9",
-            "volume": 110052464
-        },
-        {
-            "date": "2023-04-19",
-            "level": 0.7912115824231648,
-            "sensor_type": "LandSat8-9",
-            "volume": 123163852
-        },
-        {
-            "date": "2023-04-25",
-            "level": 0.5789808202789097,
-            "sensor_type": "Sentinel-2",
-            "volume": 68652543
-        },
-        {
-            "date": "2023-04-27",
-            "level": 0.7416814833629667,
-            "sensor_type": "LandSat8-9",
-            "volume": 108980215
         },
         {
             "date": "2023-05-10",
@@ -3753,28 +3470,10 @@
             "volume": 132486517
         },
         {
-            "date": "2023-06-06",
-            "level": 0.7967995935991872,
-            "sensor_type": "LandSat8-9",
-            "volume": 124777980
-        },
-        {
             "date": "2023-06-14",
             "level": 0.8123527872284743,
             "sensor_type": "Sentinel-2",
             "volume": 129257209
-        },
-        {
-            "date": "2023-06-14",
-            "level": 0.8009482685632038,
-            "sensor_type": "LandSat8-9",
-            "volume": 125975217
-        },
-        {
-            "date": "2023-06-22",
-            "level": 0.7829142324951317,
-            "sensor_type": "LandSat8-9",
-            "volume": 120766388
         },
         {
             "date": "2023-06-24",
@@ -3789,34 +3488,10 @@
             "volume": 123114847
         },
         {
-            "date": "2023-06-30",
-            "level": 0.7820675641351282,
-            "sensor_type": "LandSat8-9",
-            "volume": 120521841
-        },
-        {
             "date": "2023-07-04",
             "level": 0.7752645156466146,
             "sensor_type": "Sentinel-2",
             "volume": 118558558
-        },
-        {
-            "date": "2023-07-08",
-            "level": 0.7733468800270934,
-            "sensor_type": "LandSat8-9",
-            "volume": 118005891
-        },
-        {
-            "date": "2023-07-09",
-            "level": 0.7867050510337608,
-            "sensor_type": "Sentinel-2",
-            "volume": 121861615
-        },
-        {
-            "date": "2023-07-16",
-            "level": 0.7531961730590128,
-            "sensor_type": "LandSat8-9",
-            "volume": 112234268
         },
         {
             "date": "2023-07-19",
@@ -3843,28 +3518,10 @@
             "volume": 111080892
         },
         {
-            "date": "2023-08-01",
-            "level": 0.728727457454915,
-            "sensor_type": "LandSat8-9",
-            "volume": 105372697
-        },
-        {
             "date": "2023-08-03",
             "level": 0.7300257972856768,
             "sensor_type": "Sentinel-2",
             "volume": 105731406
-        },
-        {
-            "date": "2023-08-09",
-            "level": 0.7160274320548641,
-            "sensor_type": "LandSat8-9",
-            "volume": 101900837
-        },
-        {
-            "date": "2023-08-17",
-            "level": 0.6988400643467954,
-            "sensor_type": "LandSat8-9",
-            "volume": 97317235
         },
         {
             "date": "2023-08-18",
@@ -3879,22 +3536,10 @@
             "volume": 94037258
         },
         {
-            "date": "2023-08-25",
-            "level": 0.678012022690712,
-            "sensor_type": "LandSat8-9",
-            "volume": 91949609
-        },
-        {
             "date": "2023-09-02",
             "level": 0.6699816801884323,
             "sensor_type": "Sentinel-2",
             "volume": 89934171
-        },
-        {
-            "date": "2023-09-02",
-            "level": 0.662009990686648,
-            "sensor_type": "LandSat8-9",
-            "volume": 87961785
         },
         {
             "date": "2023-09-07",
@@ -3915,22 +3560,10 @@
             "volume": 79049024
         },
         {
-            "date": "2023-09-18",
-            "level": 0.6162898992464652,
-            "sensor_type": "LandSat8-9",
-            "volume": 77109732
-        },
-        {
             "date": "2023-09-22",
             "level": 0.6052267544023628,
             "sensor_type": "Sentinel-2",
             "volume": 74574677
-        },
-        {
-            "date": "2023-09-26",
-            "level": 0.5976631953263907,
-            "sensor_type": "LandSat8-9",
-            "volume": 72856056
         },
         {
             "date": "2023-09-27",
@@ -3939,64 +3572,16 @@
             "volume": 72317100
         },
         {
-            "date": "2023-10-12",
-            "level": 0.5606610087112573,
-            "sensor_type": "Sentinel-2",
-            "volume": 64578784
-        },
-        {
-            "date": "2023-10-12",
-            "level": 0.5617644568622471,
-            "sensor_type": "LandSat8-9",
-            "volume": 64822904
-        },
-        {
-            "date": "2023-10-17",
-            "level": 0.5577074064381052,
-            "sensor_type": "Sentinel-2",
-            "volume": 63926142
-        },
-        {
-            "date": "2023-10-20",
-            "level": 0.5462704258741851,
-            "sensor_type": "LandSat8-9",
-            "volume": 61410275
-        },
-        {
             "date": "2023-10-22",
             "level": 0.5563988484689871,
             "sensor_type": "Sentinel-2",
             "volume": 63637370
         },
         {
-            "date": "2023-10-28",
-            "level": 0.5400897468461604,
-            "sensor_type": "LandSat8-9",
-            "volume": 60058681
-        },
-        {
-            "date": "2023-11-05",
-            "level": 0.5205317077300822,
-            "sensor_type": "LandSat8-9",
-            "volume": 55825976
-        },
-        {
             "date": "2023-11-16",
             "level": 0.5028601338467865,
             "sensor_type": "Sentinel-2",
             "volume": 52075299
-        },
-        {
-            "date": "2023-11-21",
-            "level": 0.447377275956182,
-            "sensor_type": "Sentinel-2",
-            "volume": 41019030
-        },
-        {
-            "date": "2023-11-29",
-            "level": 0.4956396579459826,
-            "sensor_type": "LandSat8-9",
-            "volume": 50568333
         },
         {
             "date": "2023-12-01",
@@ -4023,34 +3608,10 @@
             "volume": 145684626
         },
         {
-            "date": "2024-02-25",
-            "level": 0.9394632122597578,
-            "sensor_type": "LandSat8-9",
-            "volume": 164584429
-        },
-        {
             "date": "2024-03-05",
             "level": 0.8728829401428198,
             "sensor_type": "Sentinel-2",
             "volume": 146227061
-        },
-        {
-            "date": "2024-03-12",
-            "level": 0.9493692320717975,
-            "sensor_type": "LandSat8-9",
-            "volume": 167473141
-        },
-        {
-            "date": "2024-03-28",
-            "level": 0.9762086190839049,
-            "sensor_type": "LandSat8-9",
-            "volume": 175788904
-        },
-        {
-            "date": "2024-03-30",
-            "level": 0.8351964706322205,
-            "sensor_type": "Sentinel-2",
-            "volume": 135763002
         },
         {
             "date": "2024-04-04",
@@ -4059,58 +3620,10 @@
             "volume": 159842694
         },
         {
-            "date": "2024-04-05",
-            "level": 0.9760392854119042,
-            "sensor_type": "LandSat8-9",
-            "volume": 175733725
-        },
-        {
-            "date": "2024-04-13",
-            "level": 0.9724832782998899,
-            "sensor_type": "LandSat8-9",
-            "volume": 174583763
-        },
-        {
-            "date": "2024-04-21",
-            "level": 0.973753280839895,
-            "sensor_type": "LandSat8-9",
-            "volume": 174992553
-        },
-        {
-            "date": "2024-04-24",
-            "level": 0.8298126892735634,
-            "sensor_type": "Sentinel-2",
-            "volume": 134239928
-        },
-        {
             "date": "2024-05-09",
             "level": 0.982091449508356,
             "sensor_type": "Sentinel-2",
             "volume": 177730428
-        },
-        {
-            "date": "2024-05-15",
-            "level": 0.8658877317754635,
-            "sensor_type": "LandSat8-9",
-            "volume": 144308988
-        },
-        {
-            "date": "2024-05-19",
-            "level": 0.9931207238194938,
-            "sensor_type": "Sentinel-2",
-            "volume": 181506652
-        },
-        {
-            "date": "2024-05-24",
-            "level": 0.8863423935394623,
-            "sensor_type": "Sentinel-2",
-            "volume": 149897575
-        },
-        {
-            "date": "2024-05-31",
-            "level": 0.968503937007874,
-            "sensor_type": "LandSat8-9",
-            "volume": 173316213
         },
         {
             "date": "2024-06-03",
@@ -4125,22 +3638,10 @@
             "volume": 160844052
         },
         {
-            "date": "2024-06-08",
-            "level": 0.9508085682838032,
-            "sensor_type": "LandSat8-9",
-            "volume": 167899748
-        },
-        {
             "date": "2024-06-13",
             "level": 0.9220473324111115,
             "sensor_type": "Sentinel-2",
             "volume": 159665969
-        },
-        {
-            "date": "2024-06-16",
-            "level": 0.9439505545677758,
-            "sensor_type": "LandSat8-9",
-            "volume": 165883242
         },
         {
             "date": "2024-06-18",
@@ -4149,22 +3650,10 @@
             "volume": 161883310
         },
         {
-            "date": "2024-06-24",
-            "level": 0.9238845144356955,
-            "sensor_type": "LandSat8-9",
-            "volume": 160177277
-        },
-        {
             "date": "2024-06-28",
             "level": 0.820615396119191,
             "sensor_type": "Sentinel-2",
             "volume": 131622759
-        },
-        {
-            "date": "2024-07-02",
-            "level": 0.905765811531623,
-            "sensor_type": "LandSat8-9",
-            "volume": 155185394
         },
         {
             "date": "2024-07-03",
@@ -4177,12 +3666,6 @@
             "level": 0.8875761767674879,
             "sensor_type": "Sentinel-2",
             "volume": 150233228
-        },
-        {
-            "date": "2024-07-10",
-            "level": 0.8762170857675049,
-            "sensor_type": "LandSat8-9",
-            "volume": 147138357
         },
         {
             "date": "2024-07-13",
@@ -4387,12 +3870,6 @@
             "level": 0.518413279994018,
             "sensor_type": "Sentinel-2",
             "volume": 55372208
-        },
-        {
-            "date": "2025-06-03",
-            "level": 0.5418925486970502,
-            "sensor_type": "Sentinel-2",
-            "volume": 60452299
         },
         {
             "date": "2025-06-08",
