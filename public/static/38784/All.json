@@ -314,12 +314,6 @@
             "volume": 1099467
         },
         {
-            "date": "1982-01-18",
-            "level": 0.16598012065404444,
-            "sensor_type": "LandSat-3",
-            "volume": -821138
-        },
-        {
             "date": "1983-04-21",
             "level": 0.9290101290325432,
             "sensor_type": "LandSat-3",
