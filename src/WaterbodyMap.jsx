@@ -9,31 +9,26 @@ import IconAngleLeft from './imgs/angle-left.svg';
 import IconAngleRight from './imgs/angle-right.svg';
 import "mapbox-gl/dist/mapbox-gl.css";
 
-// CDSE — free, covers Sentinel-2 and Landsat 8/9.
 const CDSE = "https://sh.dataspace.copernicus.eu";
 const CDSE_INSTANCE = "43e54b2d-9a03-42a3-ab9b-1b016057f54e";
 
-// Earth Search + titiler — free fallback for Landsat 4/5/7 (Collection 2 on AWS).
 const EARTH_SEARCH = "https://earth-search.aws.element84.com/v1";
 const TITILER = "https://titiler.xyz";
 
-// ESRI — static fallback for Landsat 1/2/3 (MSS sensor, not in Collection 2).
 const ESRI_FALLBACK =
   "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
 
-// Sensors served via CDSE WMS (synchronous, no STAC lookup needed).
 const CDSE_LAYERS = {
   "Sentinel-2": "TRUE-COLOR-S2L1C",
   "LandSat-8":  "TRUE-COLOR-L89",
   "LandSat8-9": "TRUE-COLOR-L89",
 };
 
-// Sensors served via Earth Search + titiler (async STAC lookup).
 const EARTH_SEARCH_SENSORS = new Set(["LandSat-4", "LandSat-5", "LandSat-7"]);
 
 function buildCdseUrl(layerId, measurementDate) {
-  const time = `${measurementDate.format('YYYY-MM-DD')}/${measurementDate.format('YYYY-MM-DD')}`;
-  return `${CDSE}/ogc/wms/${CDSE_INSTANCE}?showLogo=false&service=WMS&request=GetMap&layers=${layerId}&styles=&format=image/jpeg&version=1.1.1&time=${time}&height=512&width=512&srs=EPSG:3857&bbox={bbox-epsg-3857}`;
+  const time = measurementDate.format('YYYY-MM-DD') + '/' + measurementDate.format('YYYY-MM-DD');
+  return CDSE + '/ogc/wms/' + CDSE_INSTANCE + '?showLogo=false&service=WMS&request=GetMap&layers=' + layerId + '&styles=&format=image/jpeg&version=1.1.1&time=' + time + '&height=512&width=512&srs=EPSG:3857&bbox={bbox-epsg-3857}';
 }
 
 async function fetchEarthSearchTileUrl(measurementDate, waterbodyOutline) {
@@ -42,12 +37,12 @@ async function fetchEarthSearchTileUrl(measurementDate, waterbodyOutline) {
 
   let itemId;
   try {
-    const resp = await fetch(`${EARTH_SEARCH}/search`, {
+    const resp = await fetch(EARTH_SEARCH + '/search', {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         collections: ["landsat-c2-l2"],
-        datetime: `${date}T00:00:00Z/${date}T23:59:59Z`,
+        datetime: date + 'T00:00:00Z/' + date + 'T23:59:59Z',
         bbox: bounds,
         limit: 1,
       }),
@@ -56,14 +51,14 @@ async function fetchEarthSearchTileUrl(measurementDate, waterbodyOutline) {
     const data = await resp.json();
     if (!data.features || data.features.length === 0) return null;
     itemId = data.features[0].id;
-  } catch {
+  } catch (e) {
     return null;
   }
 
   const itemUrl = encodeURIComponent(
-    `${EARTH_SEARCH}/collections/landsat-c2-l2/items/${itemId}`
+    EARTH_SEARCH + '/collections/landsat-c2-l2/items/' + itemId
   );
-  return `${TITILER}/stac/tiles/{z}/{x}/{y}.jpg?url=${itemUrl}&assets=red&assets=green&assets=blue&rescale=7272,11000&color_formula=gamma+RGB+3.5+saturation+1.7+sigmoidal+RGB+15+0.35`;
+  return TITILER + '/stac/tiles/{z}/{x}/{y}?url=' + itemUrl + '&assets=red&assets=green&assets=blue&rescale=7272,11000&color_formula=gamma+RGB+3.5+saturation+1.7+sigmoidal+RGB+15+0.35';
 }
 
 class WaterbodyMap extends React.PureComponent {
@@ -77,8 +72,6 @@ class WaterbodyMap extends React.PureComponent {
   constructor(props) {
     super(props);
     this.mapRef = createRef();
-    // landsatTileUrl is only used for Earth Search sensors (L4/5/7).
-    // CDSE sensors build their URL synchronously in render().
     this.state = { mapLoaded: false, landsatTileUrl: ESRI_FALLBACK };
   }
 
@@ -100,7 +93,6 @@ class WaterbodyMap extends React.PureComponent {
   refreshLandsatTile = async () => {
     const { sensor, measurementDate, waterbody } = this.props;
     if (!EARTH_SEARCH_SENSORS.has(sensor) || !waterbody) return;
-
     this.setState({ landsatTileUrl: ESRI_FALLBACK });
     const url = await fetchEarthSearchTileUrl(measurementDate, waterbody.nominal_outline);
     this.setState({ landsatTileUrl: url || ESRI_FALLBACK });
@@ -144,7 +136,6 @@ class WaterbodyMap extends React.PureComponent {
     const hasPrev = !!this.getPrevMeasurement(measurementDate);
     const hasNext = !!this.getNextMeasurement(measurementDate);
 
-    // Determine tile URL and format (WMS uses bbox placeholder, XYZ uses z/x/y).
     const cdseLayer = CDSE_LAYERS[sensor];
     let tileUrl, isCdseWms;
     if (cdseLayer) {
@@ -154,7 +145,6 @@ class WaterbodyMap extends React.PureComponent {
       tileUrl = landsatTileUrl || ESRI_FALLBACK;
       isCdseWms = false;
     } else {
-      // Landsat 1/2/3: MSS sensor, no free per-scene tile service.
       tileUrl = ESRI_FALLBACK;
       isCdseWms = false;
     }
@@ -197,7 +187,6 @@ class WaterbodyMap extends React.PureComponent {
           onLoad={this.onMapLoad}
         />
         </Suspense>
-
         <div className="go prev" onClick={this.goPrev}>
           <img alt="Previous date" className={hasPrev ? '' : 'disabled'} src={IconAngleLeft} />
         </div>
