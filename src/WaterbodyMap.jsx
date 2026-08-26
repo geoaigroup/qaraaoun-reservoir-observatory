@@ -68,10 +68,9 @@ async function fetchPcTileUrl(bands, measurementDate, waterbodyOutline) {
     return null;
   }
 
-  const itemUrl = encodeURIComponent(PC_STAC + '/collections/landsat-c2-l2/items/' + itemId);
   const assetParams = bands.map(b => 'assets=' + b).join('&');
   return PC_TITILER + '/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x'
-    + '?url=' + itemUrl
+    + '?collection=landsat-c2-l2&item=' + itemId
     + '&' + assetParams
     + '&rescale=7272%2C11000&color_formula=gamma+RGB+3.5+saturation+1.7+sigmoidal+RGB+15+0.35';
 }
