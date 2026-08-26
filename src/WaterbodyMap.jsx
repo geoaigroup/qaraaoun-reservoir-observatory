@@ -72,7 +72,7 @@ async function fetchPcTileUrl(bands, measurementDate, waterbodyOutline) {
   return PC_TITILER + '/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x'
     + '?collection=landsat-c2-l2&item=' + itemId
     + '&' + assetParams
-    + '&rescale=7272%2C22000&nodata=0&color_formula=gamma+RGB+3.5+saturation+1.7+sigmoidal+RGB+15+0.35';
+    + '&rescale=7272%2C16000&nodata=0&color_formula=gamma+RGB+3.5+saturation+1.7+sigmoidal+RGB+15+0.35';
 }
 
 class WaterbodyMap extends React.PureComponent {
