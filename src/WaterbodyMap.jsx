@@ -35,12 +35,13 @@ const PC_L2_SENSORS = {
   "LandSat-4": { bands: ["red", "green", "blue"], rescale: "8095%2C21758&rescale=8383%2C18787&rescale=8887%2C15410" },
 };
 
-// Landsat 1/2/3/5-MSS — Collection 2 Level-1 (no blue band; green reused for blue channel).
-// MSS DNs are 8-bit (0–255); rescale from p2–p98 of a Lebanon scene (Dec 1993, LM05).
+// Landsat 1/2/3/5-MSS — Collection 2 Level-1. CIR composite: nir08→R, red→G, green→B.
+// Water appears dark/black; vegetation appears red/pink.
+// Rescale from mean±1.5σ of a Lebanon scene (Dec 1993, LM05_L1GS_174037_19931220_02_T2).
 const PC_L1_SENSORS = {
-  "LandSat-3": { bands: ["red", "green", "green"], rescale: "20%2C200&rescale=32%2C220&rescale=32%2C220" },
-  "LandSat-2": { bands: ["red", "green", "green"], rescale: "20%2C200&rescale=32%2C220&rescale=32%2C220" },
-  "LandSat-1": { bands: ["red", "green", "green"], rescale: "20%2C200&rescale=32%2C220&rescale=32%2C220" },
+  "LandSat-3": { bands: ["nir08", "red", "green"], rescale: "20%2C225&rescale=10%2C235&rescale=45%2C220" },
+  "LandSat-2": { bands: ["nir08", "red", "green"], rescale: "20%2C225&rescale=10%2C235&rescale=45%2C220" },
+  "LandSat-1": { bands: ["nir08", "red", "green"], rescale: "20%2C225&rescale=10%2C235&rescale=45%2C220" },
 };
 
 function buildCdseUrl(layerId, measurementDate) {
