@@ -9,21 +9,27 @@ import IconAngleLeft from './imgs/angle-left.svg';
 import IconAngleRight from './imgs/angle-right.svg';
 import "mapbox-gl/dist/mapbox-gl.css";
 
+// CDSE — free, covers Sentinel-2 and Landsat 8/9.
 const CDSE = "https://sh.dataspace.copernicus.eu";
 const CDSE_INSTANCE = "43e54b2d-9a03-42a3-ab9b-1b016057f54e";
 
+// Microsoft Planetary Computer — free, pre-authorized access to Landsat Collection 2.
 const PC_STAC    = "https://planetarycomputer.microsoft.com/api/stac/v1";
 const PC_TITILER = "https://planetarycomputer.microsoft.com/api/data/v1";
 
+// ESRI — static fallback for Landsat 1/2/3 (MSS sensor, not in Collection 2).
 const ESRI_FALLBACK =
   "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
 
+// Sensors served synchronously via CDSE WMS.
 const CDSE_LAYERS = {
   "Sentinel-2": "TRUE-COLOR-S2L1C",
   "LandSat-8":  "TRUE-COLOR-L89",
   "LandSat8-9": "TRUE-COLOR-L89",
 };
 
+// Sensors served via PC STAC search + PC Titiler (async).
+// Landsat 4/5/7 TM — Red=SR_B3, Green=SR_B2, Blue=SR_B1
 const PC_SENSORS = {
   "LandSat-7": ["SR_B3", "SR_B2", "SR_B1"],
   "LandSat-5": ["SR_B3", "SR_B2", "SR_B1"],
@@ -63,10 +69,10 @@ async function fetchPcTileUrl(bands, measurementDate, waterbodyOutline) {
   }
 
   const assetParams = bands.map(b => 'assets=' + b).join('&');
-  return PC_TITILER + '/item/tiles/{z}/{x}/{y}'
+  return PC_TITILER + '/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x'
     + '?collection=landsat-c2-l2&item=' + itemId
     + '&' + assetParams
-    + '&rescale=7272,11000&color_formula=gamma+RGB+3.5+saturation+1.7+sigmoidal+RGB+15+0.35';
+    + '&rescale=7272%2C11000&color_formula=gamma+RGB+3.5+saturation+1.7+sigmoidal+RGB+15+0.35';
 }
 
 class WaterbodyMap extends React.PureComponent {
@@ -154,6 +160,7 @@ class WaterbodyMap extends React.PureComponent {
       tileUrl = landsatTileUrl || ESRI_FALLBACK;
       isCdseWms = false;
     } else {
+      // Landsat 1/2/3: MSS sensor, no free per-scene tile service.
       tileUrl = ESRI_FALLBACK;
       isCdseWms = false;
     }
