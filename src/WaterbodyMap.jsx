@@ -5,70 +5,119 @@ import bbox from '@turf/bbox';
 const MapComponent = React.lazy(() => import('./Map'));
 const Loading = React.lazy(() => import('./Loading'));
 
-
 import IconAngleLeft from './imgs/angle-left.svg';
 import IconAngleRight from './imgs/angle-right.svg';
 import "mapbox-gl/dist/mapbox-gl.css";
 
+// CDSE — free, covers Sentinel-2 and Landsat 8/9.
+const CDSE = "https://sh.dataspace.copernicus.eu";
+const CDSE_INSTANCE = "43e54b2d-9a03-42a3-ab9b-1b016057f54e";
+
+// Earth Search + titiler — free fallback for Landsat 4/5/7 (Collection 2 on AWS).
+const EARTH_SEARCH = "https://earth-search.aws.element84.com/v1";
+const TITILER = "https://titiler.xyz";
+
+// ESRI — static fallback for Landsat 1/2/3 (MSS sensor, not in Collection 2).
+const ESRI_FALLBACK =
+  "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
+
+// Sensors served via CDSE WMS (synchronous, no STAC lookup needed).
+const CDSE_LAYERS = {
+  "Sentinel-2": "TRUE-COLOR-S2L1C",
+  "LandSat-8":  "TRUE-COLOR-L89",
+  "LandSat8-9": "TRUE-COLOR-L89",
+};
+
+// Sensors served via Earth Search + titiler (async STAC lookup).
+const EARTH_SEARCH_SENSORS = new Set(["LandSat-4", "LandSat-5", "LandSat-7"]);
+
+function buildCdseUrl(layerId, measurementDate) {
+  const time = `${measurementDate.format('YYYY-MM-DD')}/${measurementDate.format('YYYY-MM-DD')}`;
+  return `${CDSE}/ogc/wms/${CDSE_INSTANCE}?showLogo=false&service=WMS&request=GetMap&layers=${layerId}&styles=&format=image/jpeg&version=1.1.1&time=${time}&height=512&width=512&srs=EPSG:3857&bbox={bbox-epsg-3857}`;
+}
+
+async function fetchEarthSearchTileUrl(measurementDate, waterbodyOutline) {
+  const date = measurementDate.format('YYYY-MM-DD');
+  const bounds = bbox(waterbodyOutline);
+
+  let itemId;
+  try {
+    const resp = await fetch(`${EARTH_SEARCH}/search`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        collections: ["landsat-c2-l2"],
+        datetime: `${date}T00:00:00Z/${date}T23:59:59Z`,
+        bbox: bounds,
+        limit: 1,
+      }),
+    });
+    if (!resp.ok) return null;
+    const data = await resp.json();
+    if (!data.features || data.features.length === 0) return null;
+    itemId = data.features[0].id;
+  } catch {
+    return null;
+  }
+
+  const itemUrl = encodeURIComponent(
+    `${EARTH_SEARCH}/collections/landsat-c2-l2/items/${itemId}`
+  );
+  return `${TITILER}/stac/tiles/{z}/{x}/{y}.jpg?url=${itemUrl}&assets=red&assets=green&assets=blue&rescale=7272,11000&color_formula=gamma+RGB+3.5+saturation+1.7+sigmoidal+RGB+15+0.35`;
+}
 
 class WaterbodyMap extends React.PureComponent {
-  LINE_LAYOUT = {
-    'line-cap': 'round',
-    'line-join': 'round',
-  };
-  NOMINAL_OUTLINE_LINE_PAINT = {
-    'line-color': '#e8c26e',
-    'line-width': 2,
-  };
-  MEASUREMENT_OUTLINE_LINE_PAINT = {
-    'line-color': '#26accc',
-    'line-width': 2,
-  };
-  MAP_CONTAINER_STYLE = {
-    height: '100%',
-    width: '100%',
-    position: 'absolute',
-  };
+  LINE_LAYOUT = { 'line-cap': 'round', 'line-join': 'round' };
+  NOMINAL_OUTLINE_LINE_PAINT = { 'line-color': '#e8c26e', 'line-width': 2 };
+  MEASUREMENT_OUTLINE_LINE_PAINT = { 'line-color': '#26accc', 'line-width': 2 };
+  MAP_CONTAINER_STYLE = { height: '100%', width: '100%', position: 'absolute' };
   FIT_BOUNDS_OPTIONS = { duration: 0, padding: 50 };
-  DEFAULT_ZOOM = 11;  
+  DEFAULT_ZOOM = 11;
 
   constructor(props) {
     super(props);
     this.mapRef = createRef();
-    this.state = { mapLoaded: false };
+    // landsatTileUrl is only used for Earth Search sensors (L4/5/7).
+    // CDSE sensors build their URL synchronously in render().
+    this.state = { mapLoaded: false, landsatTileUrl: ESRI_FALLBACK };
   }
 
   componentDidMount() {
     this.fitBounds();
+    this.refreshLandsatTile();
   }
 
   componentDidUpdate(prevProps) {
-    if (prevProps.waterbody !== this.props.waterbody) {
-      this.fitBounds();
+    if (prevProps.waterbody !== this.props.waterbody) this.fitBounds();
+    if (
+      prevProps.sensor !== this.props.sensor ||
+      !prevProps.measurementDate.isSame(this.props.measurementDate)
+    ) {
+      this.refreshLandsatTile();
     }
   }
+
+  refreshLandsatTile = async () => {
+    const { sensor, measurementDate, waterbody } = this.props;
+    if (!EARTH_SEARCH_SENSORS.has(sensor) || !waterbody) return;
+
+    this.setState({ landsatTileUrl: ESRI_FALLBACK });
+    const url = await fetchEarthSearchTileUrl(measurementDate, waterbody.nominal_outline);
+    this.setState({ landsatTileUrl: url || ESRI_FALLBACK });
+  };
 
   fitBounds = () => {
     const { waterbody } = this.props;
     if (this.mapRef.current && waterbody) {
       const map = this.mapRef.current.getMap();
-      const bounds = bbox(waterbody.nominal_outline);
-      map.fitBounds(bounds, {
-        padding: 50,
-        duration: 0,
-      });
+      map.fitBounds(bbox(waterbody.nominal_outline), { padding: 50, duration: 0 });
     }
   }
 
-  onMapLoad = () => {
-    this.setState({ mapLoaded: true });
-  };
+  onMapLoad = () => this.setState({ mapLoaded: true });
 
   getPrevMeasurement(date) {
-    return this.props.waterbody.measurements
-      .slice()
-      .reverse()
-      .find(m => m.date.isBefore(date));
+    return this.props.waterbody.measurements.slice().reverse().find(m => m.date.isBefore(date));
   }
 
   getNextMeasurement(date) {
@@ -76,139 +125,23 @@ class WaterbodyMap extends React.PureComponent {
   }
 
   goPrev = () => {
-    const goToMeasurement = this.getPrevMeasurement(this.props.measurementDate);
-    if (!goToMeasurement) {
-      return;
-    }
-    this.props.onDateSelect(this.props.waterbody.properties.id, moment(goToMeasurement.date, 'YYYY-MM-DD'), goToMeasurement.sensor_type);
+    const m = this.getPrevMeasurement(this.props.measurementDate);
+    if (!m) return;
+    this.props.onDateSelect(this.props.waterbody.properties.id, moment(m.date, 'YYYY-MM-DD'), m.sensor_type);
   };
 
   goNext = () => {
-    const goToMeasurement = this.getNextMeasurement(this.props.measurementDate);
-    if (!goToMeasurement) {
-      return;
-    }
-    this.props.onDateSelect(this.props.waterbody.properties.id, moment(goToMeasurement.date, 'YYYY-MM-DD'), goToMeasurement.sensor_type);
+    const m = this.getNextMeasurement(this.props.measurementDate);
+    if (!m) return;
+    this.props.onDateSelect(this.props.waterbody.properties.id, moment(m.date, 'YYYY-MM-DD'), m.sensor_type);
   };
 
   render() {
     const { waterbody, measurementOutline, measurementDate, sensor } = this.props;
-    if (!waterbody) {
-      return <Suspense fallback={<div>Loading...</div>}><Loading /></Suspense>;
-    }
+    const { landsatTileUrl } = this.state;
+    if (!waterbody) return <Suspense fallback={<div>Loading...</div>}><Loading /></Suspense>;
+
     const hasPrev = !!this.getPrevMeasurement(measurementDate);
     const hasNext = !!this.getNextMeasurement(measurementDate);
-    const timeInterval = `${measurementDate.format('YYYY-MM-DD')}/${measurementDate.format('YYYY-MM-DD')}`;
 
-    let instance_id = null;
-    let layerID = null;
-    let endpoint_url = null;
-    if (sensor === "Sentinel-2") {
-      instance_id = "43e54b2d-9a03-42a3-ab9b-1b016057f54e";
-      layerID = "TRUE-COLOR-S2L1C";
-      endpoint_url = "https://sh.dataspace.copernicus.eu";
-    } else if (sensor === "LandSat-8") {
-      instance_id = "43e54b2d-9a03-42a3-ab9b-1b016057f54e";
-      layerID = "TRUE-COLOR-L89";
-      endpoint_url = "https://sh.dataspace.copernicus.eu";
-    } else if (sensor === "LandSat-5") {
-      instance_id = "66430348-ee9d-4dde-881d-9fe84c59679e";
-      layerID = "TRUE-COLOR-L4-5";
-      endpoint_url = "https://services-uswest2.sentinel-hub.com";
-    } else if (sensor === "LandSat-4") {
-      instance_id = "66430348-ee9d-4dde-881d-9fe84c59679e";
-      layerID = "TRUE-COLOR-L4-5";
-      endpoint_url = "https://services-uswest2.sentinel-hub.com";
-    } else if (sensor === "LandSat-3") {
-      instance_id = "66430348-ee9d-4dde-881d-9fe84c59679e";
-      layerID = "TRUE-COLOR-L1-3";
-      endpoint_url = "https://services-uswest2.sentinel-hub.com";
-    } else if (sensor === "LandSat-2") {
-      instance_id = "66430348-ee9d-4dde-881d-9fe84c59679e";
-      layerID = "TRUE-COLOR-L1-3";
-      endpoint_url = "https://services-uswest2.sentinel-hub.com";
-    } else if (sensor === "LandSat-1") {
-      instance_id = "66430348-ee9d-4dde-881d-9fe84c59679e";
-      layerID = "TRUE-COLOR-L1-3";
-      endpoint_url = "https://services-uswest2.sentinel-hub.com";
-    }
-
-    const legend = document.getElementById('legend');
-    if (legend) {
-      legend.innerHTML = '<h4>Legend :</h4>' +
-        '<div><span style="background-color: #e8c26e"></span>Lake Contour</div>' +
-        '<div><span style="background-color: #26accc"></span>Water Borders</div>';
-
-    }
-
-    return (
-      <div className="waterbody-map">
-        <Suspense fallback= {<div>Loading...</div>}>
-        <MapComponent
-          ref={this.mapRef}
-          initialViewState={{
-            longitude: waterbody.properties.long,
-            latitude: waterbody.properties.lat,
-            zoom: this.DEFAULT_ZOOM,
-          }}
-          style = {this.MAP_CONTAINER_STYLE}
-          mapStyle={{
-            version: 8,
-            sources: {
-              'sentinel-hub-tiles': {
-                type: 'raster',
-                tiles: [
-                  `${endpoint_url}/ogc/wms/${instance_id}?showLogo=false&service=WMS&request=GetMap&layers=${layerID}&styles=&format=image/jpeg&version=1.1.1&time=${timeInterval}&height=512&width=512&srs=EPSG:3857&bbox={bbox-epsg-3857}`,
-                ],
-                tileSize: 512,
-              },
-              'nominal-outline': {
-                type: 'geojson',
-                data: waterbody.nominal_outline,
-              },
-              'measurement-outline': {
-                type: 'geojson',
-                data: measurementOutline,
-              },
-            },
-            layers: [
-              {
-                id: 'sentinel-hub-tiles',
-                type: 'raster',
-                source: 'sentinel-hub-tiles',
-                minzoom: 0,
-                maxzoom: 22,
-              },
-              {
-                id: 'nominal-outline-layer',
-                type: 'line',
-                source: 'nominal-outline',
-                layout: this.LINE_LAYOUT,
-                paint: this.NOMINAL_OUTLINE_LINE_PAINT,
-              },
-              measurementOutline && {
-                id: 'measurement-outline-layer',
-                type: 'line',
-                source: 'measurement-outline',
-                layout: this.LINE_LAYOUT,
-                paint: this.MEASUREMENT_OUTLINE_LINE_PAINT,
-              },
-            ].filter(Boolean),
-          }}
-          onLoad={this.onMapLoad}
-        />
-        </Suspense>
-
-        <div className="go prev" onClick={this.goPrev}>
-          <img alt="Previous date" className={hasPrev ? '' : 'disabled'} src={IconAngleLeft} />
-        </div>
-        <div className="go next" onClick={this.goNext}>
-          <img alt="Next date" className={hasNext ? '' : 'disabled'} src={IconAngleRight} />
-        </div>
-        <div id="legend" className='legend'></div>
-      </div>
-    );
-  }
-}
-
-export default WaterbodyMap;
+    // Determine tile URL and format (WMS uses bbox placeholder, XYZ uses z/x/
