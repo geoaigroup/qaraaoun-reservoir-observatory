@@ -1,3 +1,4 @@
+cat > ~/git/qaraaoun-reservoir-observatory/src/WaterbodyMap.jsx << 'ENDOFFILE'
 import React, { createRef, Suspense} from 'react';
 import moment from 'moment';
 import bbox from '@turf/bbox';
@@ -12,8 +13,8 @@ import "mapbox-gl/dist/mapbox-gl.css";
 const CDSE = "https://sh.dataspace.copernicus.eu";
 const CDSE_INSTANCE = "43e54b2d-9a03-42a3-ab9b-1b016057f54e";
 
-const EARTH_SEARCH = "https://earth-search.aws.element84.com/v1";
-const TITILER = "https://titiler.xyz";
+const PC_STAC    = "https://planetarycomputer.microsoft.com/api/stac/v1";
+const PC_TITILER = "https://planetarycomputer.microsoft.com/api/data/v1";
 
 const ESRI_FALLBACK =
   "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
@@ -24,20 +25,27 @@ const CDSE_LAYERS = {
   "LandSat8-9": "TRUE-COLOR-L89",
 };
 
-const EARTH_SEARCH_SENSORS = new Set(["LandSat-4", "LandSat-5", "LandSat-7"]);
+const PC_SENSORS = {
+  "LandSat-7": ["SR_B3", "SR_B2", "SR_B1"],
+  "LandSat-5": ["SR_B3", "SR_B2", "SR_B1"],
+  "LandSat-4": ["SR_B3", "SR_B2", "SR_B1"],
+};
 
 function buildCdseUrl(layerId, measurementDate) {
   const time = measurementDate.format('YYYY-MM-DD') + '/' + measurementDate.format('YYYY-MM-DD');
-  return CDSE + '/ogc/wms/' + CDSE_INSTANCE + '?showLogo=false&service=WMS&request=GetMap&layers=' + layerId + '&styles=&format=image/jpeg&version=1.1.1&time=' + time + '&height=512&width=512&srs=EPSG:3857&bbox={bbox-epsg-3857}';
+  return CDSE + '/ogc/wms/' + CDSE_INSTANCE
+    + '?showLogo=false&service=WMS&request=GetMap&layers=' + layerId
+    + '&styles=&format=image/jpeg&version=1.1.1&time=' + time
+    + '&height=512&width=512&srs=EPSG:3857&bbox={bbox-epsg-3857}';
 }
 
-async function fetchEarthSearchTileUrl(measurementDate, waterbodyOutline) {
+async function fetchPcTileUrl(bands, measurementDate, waterbodyOutline) {
   const date = measurementDate.format('YYYY-MM-DD');
   const bounds = bbox(waterbodyOutline);
 
   let itemId;
   try {
-    const resp = await fetch(EARTH_SEARCH + '/search', {
+    const resp = await fetch(PC_STAC + '/search', {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -55,10 +63,11 @@ async function fetchEarthSearchTileUrl(measurementDate, waterbodyOutline) {
     return null;
   }
 
-  const itemUrl = encodeURIComponent(
-    EARTH_SEARCH + '/collections/landsat-c2-l2/items/' + itemId
-  );
-  return TITILER + '/stac/tiles/{z}/{x}/{y}?url=' + itemUrl + '&assets=red&assets=green&assets=blue&rescale=7272,11000&color_formula=gamma+RGB+3.5+saturation+1.7+sigmoidal+RGB+15+0.35';
+  const assetParams = bands.map(b => 'assets=' + b).join('&');
+  return PC_TITILER + '/item/tiles/{z}/{x}/{y}'
+    + '?collection=landsat-c2-l2&item=' + itemId
+    + '&' + assetParams
+    + '&rescale=7272,11000&color_formula=gamma+RGB+3.5+saturation+1.7+sigmoidal+RGB+15+0.35';
 }
 
 class WaterbodyMap extends React.PureComponent {
@@ -92,9 +101,10 @@ class WaterbodyMap extends React.PureComponent {
 
   refreshLandsatTile = async () => {
     const { sensor, measurementDate, waterbody } = this.props;
-    if (!EARTH_SEARCH_SENSORS.has(sensor) || !waterbody) return;
+    const bands = PC_SENSORS[sensor];
+    if (!bands || !waterbody) return;
     this.setState({ landsatTileUrl: ESRI_FALLBACK });
-    const url = await fetchEarthSearchTileUrl(measurementDate, waterbody.nominal_outline);
+    const url = await fetchPcTileUrl(bands, measurementDate, waterbody.nominal_outline);
     this.setState({ landsatTileUrl: url || ESRI_FALLBACK });
   };
 
@@ -141,7 +151,7 @@ class WaterbodyMap extends React.PureComponent {
     if (cdseLayer) {
       tileUrl = buildCdseUrl(cdseLayer, measurementDate);
       isCdseWms = true;
-    } else if (EARTH_SEARCH_SENSORS.has(sensor)) {
+    } else if (PC_SENSORS[sensor]) {
       tileUrl = landsatTileUrl || ESRI_FALLBACK;
       isCdseWms = false;
     } else {
