@@ -1,4 +1,3 @@
-cat > ~/git/qaraaoun-reservoir-observatory/src/WaterbodyMap.jsx << 'ENDOFFILE'
 import React, { createRef, Suspense} from 'react';
 import moment from 'moment';
 import bbox from '@turf/bbox';
