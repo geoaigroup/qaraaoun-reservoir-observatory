@@ -17,7 +17,6 @@ const CDSE_INSTANCE = "43e54b2d-9a03-42a3-ab9b-1b016057f54e";
 const PC_STAC    = "https://planetarycomputer.microsoft.com/api/stac/v1";
 const PC_TITILER = "https://planetarycomputer.microsoft.com/api/data/v1";
 
-// ESRI — static fallback for Landsat 1/2/3 (MSS sensor, not in Collection 2).
 const ESRI_FALLBACK =
   "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
 
@@ -28,12 +27,20 @@ const CDSE_LAYERS = {
   "LandSat8-9": "TRUE-COLOR-L89",
 };
 
-// Sensors served via PC STAC search + PC Titiler (async).
-// PC uses common asset names: red, green, blue (not band numbers).
-const PC_SENSORS = {
-  "LandSat-7": ["red", "green", "blue"],
-  "LandSat-5": ["red", "green", "blue"],
-  "LandSat-4": ["red", "green", "blue"],
+// Landsat 4/5/7 TM — Collection 2 Level-2 surface reflectance (PC common asset names).
+// Per-band rescale derived from p2–p98 of a Lebanon scene.
+const PC_L2_SENSORS = {
+  "LandSat-7": { bands: ["red", "green", "blue"], rescale: "8095%2C21758&rescale=8383%2C18787&rescale=8887%2C15410" },
+  "LandSat-5": { bands: ["red", "green", "blue"], rescale: "8095%2C21758&rescale=8383%2C18787&rescale=8887%2C15410" },
+  "LandSat-4": { bands: ["red", "green", "blue"], rescale: "8095%2C21758&rescale=8383%2C18787&rescale=8887%2C15410" },
+};
+
+// Landsat 1/2/3/5-MSS — Collection 2 Level-1 (no blue band; green reused for blue channel).
+// MSS DNs are 8-bit (0–255); rescale from p2–p98 of a Lebanon scene (Dec 1993, LM05).
+const PC_L1_SENSORS = {
+  "LandSat-3": { bands: ["red", "green", "green"], rescale: "20%2C200&rescale=32%2C220&rescale=32%2C220" },
+  "LandSat-2": { bands: ["red", "green", "green"], rescale: "20%2C200&rescale=32%2C220&rescale=32%2C220" },
+  "LandSat-1": { bands: ["red", "green", "green"], rescale: "20%2C200&rescale=32%2C220&rescale=32%2C220" },
 };
 
 function buildCdseUrl(layerId, measurementDate) {
@@ -44,7 +51,7 @@ function buildCdseUrl(layerId, measurementDate) {
     + '&height=512&width=512&srs=EPSG:3857&bbox={bbox-epsg-3857}';
 }
 
-async function fetchPcTileUrl(bands, measurementDate, waterbodyOutline) {
+async function fetchPcTileUrl(collection, bands, rescale, measurementDate, waterbodyOutline) {
   const date = measurementDate.format('YYYY-MM-DD');
   const bounds = bbox(waterbodyOutline);
 
@@ -54,7 +61,7 @@ async function fetchPcTileUrl(bands, measurementDate, waterbodyOutline) {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        collections: ["landsat-c2-l2"],
+        collections: [collection],
         datetime: date + 'T00:00:00Z/' + date + 'T23:59:59Z',
         bbox: bounds,
         limit: 1,
@@ -70,9 +77,9 @@ async function fetchPcTileUrl(bands, measurementDate, waterbodyOutline) {
 
   const assetParams = bands.map(b => 'assets=' + b).join('&');
   return PC_TITILER + '/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x'
-    + '?collection=landsat-c2-l2&item=' + itemId
+    + '?collection=' + collection + '&item=' + itemId
     + '&' + assetParams
-    + '&rescale=8095%2C21758&rescale=8383%2C18787&rescale=8887%2C15410&nodata=0';
+    + '&rescale=' + rescale + '&nodata=0';
 }
 
 class WaterbodyMap extends React.PureComponent {
@@ -106,10 +113,15 @@ class WaterbodyMap extends React.PureComponent {
 
   refreshLandsatTile = async () => {
     const { sensor, measurementDate, waterbody } = this.props;
-    const bands = PC_SENSORS[sensor];
-    if (!bands || !waterbody) return;
+    if (!waterbody) return;
+    const l2 = PC_L2_SENSORS[sensor];
+    const l1 = PC_L1_SENSORS[sensor];
+    if (!l2 && !l1) return;
     this.setState({ landsatTileUrl: ESRI_FALLBACK });
-    const url = await fetchPcTileUrl(bands, measurementDate, waterbody.nominal_outline);
+    const { bands, rescale, collection } = l2
+      ? { ...l2, collection: "landsat-c2-l2" }
+      : { ...l1, collection: "landsat-c2-l1" };
+    const url = await fetchPcTileUrl(collection, bands, rescale, measurementDate, waterbody.nominal_outline);
     this.setState({ landsatTileUrl: url || ESRI_FALLBACK });
   };
 
@@ -156,11 +168,10 @@ class WaterbodyMap extends React.PureComponent {
     if (cdseLayer) {
       tileUrl = buildCdseUrl(cdseLayer, measurementDate);
       isCdseWms = true;
-    } else if (PC_SENSORS[sensor]) {
+    } else if (PC_L2_SENSORS[sensor] || PC_L1_SENSORS[sensor]) {
       tileUrl = landsatTileUrl || ESRI_FALLBACK;
       isCdseWms = false;
     } else {
-      // Landsat 1/2/3: MSS sensor, no free per-scene tile service.
       tileUrl = ESRI_FALLBACK;
       isCdseWms = false;
     }
