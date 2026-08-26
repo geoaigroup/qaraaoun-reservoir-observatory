@@ -72,7 +72,7 @@ async function fetchPcTileUrl(bands, measurementDate, waterbodyOutline) {
   return PC_TITILER + '/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x'
     + '?collection=landsat-c2-l2&item=' + itemId
     + '&' + assetParams
-    + '&rescale=7272%2C22000&color_formula=gamma+RGB+3.5+saturation+1.7+sigmoidal+RGB+15+0.35';
+    + '&rescale=7272%2C22000&nodata=0&color_formula=gamma+RGB+3.5+saturation+1.7+sigmoidal+RGB+15+0.35';
 }
 
 class WaterbodyMap extends React.PureComponent {
@@ -186,6 +186,11 @@ class WaterbodyMap extends React.PureComponent {
           mapStyle={{
             version: 8,
             sources: {
+              'esri-base': {
+                type: 'raster',
+                tiles: [ESRI_FALLBACK],
+                tileSize: 256,
+              },
               'satellite-tiles': {
                 type: 'raster',
                 tiles: [tileUrl],
@@ -195,6 +200,7 @@ class WaterbodyMap extends React.PureComponent {
               'measurement-outline': { type: 'geojson', data: measurementOutline },
             },
             layers: [
+              { id: 'esri-base', type: 'raster', source: 'esri-base', minzoom: 0, maxzoom: 22 },
               { id: 'satellite-tiles', type: 'raster', source: 'satellite-tiles', minzoom: 0, maxzoom: 22 },
               { id: 'nominal-outline-layer', type: 'line', source: 'nominal-outline', layout: this.LINE_LAYOUT, paint: this.NOMINAL_OUTLINE_LINE_PAINT },
               measurementOutline && { id: 'measurement-outline-layer', type: 'line', source: 'measurement-outline', layout: this.LINE_LAYOUT, paint: this.MEASUREMENT_OUTLINE_LINE_PAINT },
