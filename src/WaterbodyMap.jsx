@@ -29,11 +29,11 @@ const CDSE_LAYERS = {
 };
 
 // Sensors served via PC STAC search + PC Titiler (async).
-// Landsat 4/5/7 TM — Red=SR_B3, Green=SR_B2, Blue=SR_B1
+// PC uses common asset names: red, green, blue (not band numbers).
 const PC_SENSORS = {
-  "LandSat-7": ["SR_B3", "SR_B2", "SR_B1"],
-  "LandSat-5": ["SR_B3", "SR_B2", "SR_B1"],
-  "LandSat-4": ["SR_B3", "SR_B2", "SR_B1"],
+  "LandSat-7": ["red", "green", "blue"],
+  "LandSat-5": ["red", "green", "blue"],
+  "LandSat-4": ["red", "green", "blue"],
 };
 
 function buildCdseUrl(layerId, measurementDate) {
@@ -68,9 +68,10 @@ async function fetchPcTileUrl(bands, measurementDate, waterbodyOutline) {
     return null;
   }
 
+  const itemUrl = encodeURIComponent(PC_STAC + '/collections/landsat-c2-l2/items/' + itemId);
   const assetParams = bands.map(b => 'assets=' + b).join('&');
   return PC_TITILER + '/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x'
-    + '?collection=landsat-c2-l2&item=' + itemId
+    + '?url=' + itemUrl
     + '&' + assetParams
     + '&rescale=7272%2C11000&color_formula=gamma+RGB+3.5+saturation+1.7+sigmoidal+RGB+15+0.35';
 }
