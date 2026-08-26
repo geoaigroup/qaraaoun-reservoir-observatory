@@ -144,4 +144,70 @@ class WaterbodyMap extends React.PureComponent {
     const hasPrev = !!this.getPrevMeasurement(measurementDate);
     const hasNext = !!this.getNextMeasurement(measurementDate);
 
-    // Determine tile URL and format (WMS uses bbox placeholder, XYZ uses z/x/
+    // Determine tile URL and format (WMS uses bbox placeholder, XYZ uses z/x/y).
+    const cdseLayer = CDSE_LAYERS[sensor];
+    let tileUrl, isCdseWms;
+    if (cdseLayer) {
+      tileUrl = buildCdseUrl(cdseLayer, measurementDate);
+      isCdseWms = true;
+    } else if (EARTH_SEARCH_SENSORS.has(sensor)) {
+      tileUrl = landsatTileUrl || ESRI_FALLBACK;
+      isCdseWms = false;
+    } else {
+      // Landsat 1/2/3: MSS sensor, no free per-scene tile service.
+      tileUrl = ESRI_FALLBACK;
+      isCdseWms = false;
+    }
+
+    const legend = document.getElementById('legend');
+    if (legend) {
+      legend.innerHTML = '<h4>Legend :</h4>' +
+        '<div><span style="background-color: #e8c26e"></span>Lake Contour</div>' +
+        '<div><span style="background-color: #26accc"></span>Water Borders</div>';
+    }
+
+    return (
+      <div className="waterbody-map">
+        <Suspense fallback={<div>Loading...</div>}>
+        <MapComponent
+          ref={this.mapRef}
+          initialViewState={{
+            longitude: waterbody.properties.long,
+            latitude: waterbody.properties.lat,
+            zoom: this.DEFAULT_ZOOM,
+          }}
+          style={this.MAP_CONTAINER_STYLE}
+          mapStyle={{
+            version: 8,
+            sources: {
+              'satellite-tiles': {
+                type: 'raster',
+                tiles: [tileUrl],
+                tileSize: isCdseWms ? 512 : 256,
+              },
+              'nominal-outline': { type: 'geojson', data: waterbody.nominal_outline },
+              'measurement-outline': { type: 'geojson', data: measurementOutline },
+            },
+            layers: [
+              { id: 'satellite-tiles', type: 'raster', source: 'satellite-tiles', minzoom: 0, maxzoom: 22 },
+              { id: 'nominal-outline-layer', type: 'line', source: 'nominal-outline', layout: this.LINE_LAYOUT, paint: this.NOMINAL_OUTLINE_LINE_PAINT },
+              measurementOutline && { id: 'measurement-outline-layer', type: 'line', source: 'measurement-outline', layout: this.LINE_LAYOUT, paint: this.MEASUREMENT_OUTLINE_LINE_PAINT },
+            ].filter(Boolean),
+          }}
+          onLoad={this.onMapLoad}
+        />
+        </Suspense>
+
+        <div className="go prev" onClick={this.goPrev}>
+          <img alt="Previous date" className={hasPrev ? '' : 'disabled'} src={IconAngleLeft} />
+        </div>
+        <div className="go next" onClick={this.goNext}>
+          <img alt="Next date" className={hasNext ? '' : 'disabled'} src={IconAngleRight} />
+        </div>
+        <div id="legend" className='legend'></div>
+      </div>
+    );
+  }
+}
+
+export default WaterbodyMap;
