@@ -110,7 +110,7 @@ class WaterbodyMap extends React.PureComponent {
     } else if (sensor === "LandSat-8") {
       instance_id = "43e54b2d-9a03-42a3-ab9b-1b016057f54e";
       layerID = "TRUE-COLOR-L89";
-      endpoint_url = "https://services-uswest2.sentinel-hub.com";
+      endpoint_url = "https://sh.dataspace.copernicus.eu";
     } else if (sensor === "LandSat-5") {
       instance_id = "66430348-ee9d-4dde-881d-9fe84c59679e";
       layerID = "TRUE-COLOR-L4-5";
